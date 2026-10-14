@@ -4,7 +4,7 @@
     "name": "Al Jazeera - MENA",
     "type": "rss",
     "url": "https://www.aljazeera.com/xml/rss/all.xml",
-    "category": "middle-east",
+    "category": "politics",
     "subcategory": "news",
     "enabled": true,
     "locales": ["zh", "en"]
@@ -14,8 +14,8 @@
     "name": "Al Arabiya - Business",
     "type": "rss",
     "url": "https://english.alarabiya.net/rss/business",
-    "category": "middle-east",
-    "subcategory": "business",
+    "category": "finance",
+    "subcategory": "news",
     "enabled": true,
     "locales": ["zh", "en"]
   },
@@ -24,8 +24,8 @@
     "name": "Arabian Business",
     "type": "rss",
     "url": "https://www.arabianbusiness.com/rss",
-    "category": "middle-east",
-    "subcategory": "business",
+    "category": "finance",
+    "subcategory": "news",
     "enabled": true,
     "locales": ["zh", "en"]
   },
@@ -34,7 +34,7 @@
     "name": "Enab Baladi (Syria)",
     "type": "rss",
     "url": "https://english.enabbaladi.net/feed/",
-    "category": "syria",
+    "category": "politics",
     "subcategory": "news",
     "enabled": true,
     "locales": ["zh", "en"]
