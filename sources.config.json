@@ -1,40 +1,44 @@
 {
-  "id": "aljazeera-mena",
-  "name": "Al Jazeera - MENA",
-  "type": "rss",
-  "url": "https://www.aljazeera.com/xml/rss/all.xml",
-  "category": "middle-east",
-  "subcategory": "news",
-  "enabled": true,
-  "locales": ["zh", "en"]
-},
-{
-  "id": "alarabiya-business",
-  "name": "Al Arabiya - Business",
-  "type": "rss",
-  "url": "https://english.alarabiya.net/rss/business",
-  "category": "middle-east",
-  "subcategory": "business",
-  "enabled": true,
-  "locales": ["zh", "en"]
-},
-{
-  "id": "arabian-business",
-  "name": "Arabian Business",
-  "type": "rss",
-  "url": "https://www.arabianbusiness.com/rss",
-  "category": "middle-east",
-  "subcategory": "business",
-  "enabled": true,
-  "locales": ["zh", "en"]
-},
-{
-  "id": "enab-baladi",
-  "name": "Enab Baladi (Syria)",
-  "type": "rss",
-  "url": "https://english.enabbaladi.net/feed/",
-  "category": "syria",
-  "subcategory": "news",
-  "enabled": true,
-  "locales": ["zh", "en"]
+  "sources": [
+    {
+      "id": "aljazeera-mena",
+      "name": "Al Jazeera - MENA",
+      "type": "rss",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "category": "middle-east",
+      "subcategory": "news",
+      "enabled": true,
+      "locales": ["zh", "en"]
+    },
+    {
+      "id": "alarabiya-business",
+      "name": "Al Arabiya - Business",
+      "type": "rss",
+      "url": "https://english.alarabiya.net/rss/business",
+      "category": "middle-east",
+      "subcategory": "business",
+      "enabled": true,
+      "locales": ["zh", "en"]
+    },
+    {
+      "id": "arabian-business",
+      "name": "Arabian Business",
+      "type": "rss",
+      "url": "https://www.arabianbusiness.com/rss",
+      "category": "middle-east",
+      "subcategory": "business",
+      "enabled": true,
+      "locales": ["zh", "en"]
+    },
+    {
+      "id": "enab-baladi",
+      "name": "Enab Baladi (Syria)",
+      "type": "rss",
+      "url": "https://english.enabbaladi.net/feed/",
+      "category": "syria",
+      "subcategory": "news",
+      "enabled": true,
+      "locales": ["zh", "en"]
+    }
+  ]
 }
