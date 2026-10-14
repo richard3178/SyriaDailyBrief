@@ -3,12 +3,43 @@
   "articles": [
     {
       "sourceId": "aljazeera-mena",
+      "title": "How do Iranians move money abroad to avoid US sanctions?",
+      "url": "https://www.aljazeera.com/news/2026/10/14/how-do-iranians-move-money-abroad-to-avoid-us-sanctions?traffic_source=rss",
+      "excerpt": "From currency brokers to crypto, Iranians find ways to circumvent sanctions, but each comes with its own problems.",
+      "publishedAt": "2026-10-14T08:24:02.000Z",
+      "category": "politics",
+      "source": "Al Jazeera - MENA",
+      "summary": "伊朗人通过货币经纪商和加密货币等渠道将资金转移出境以规避美国制裁，但每种方式都伴随着各自的问题。"
+    },
+    {
+      "sourceId": "aljazeera-mena",
+      "title": "Trump says oil, gas and mineral exploration to begin in Greenland",
+      "url": "https://www.aljazeera.com/news/2026/10/14/trump-says-oil-gas-and-mineral-exploration-to-begin-in-greenland?traffic_source=rss",
+      "excerpt": "The US president also praises the security advantages of last month's deal with Denmark and Greenland.",
+      "publishedAt": "2026-10-14T08:08:42.000Z",
+      "category": "politics",
+      "source": "Al Jazeera - MENA",
+      "summary": "特朗普表示，格陵兰将开始石油、天然气和矿产勘探，并称赞上月与丹麦和格陵兰达成的协议所带来的安全优势。"
+    },
+    {
+      "sourceId": "aljazeera-mena",
+      "title": "Tensions with teachers, pupils and Turkiye: Inside Azerbaijan’s hijab row",
+      "url": "https://www.aljazeera.com/news/2026/10/14/tensions-with-teachers-pupils-and-turkiye-inside-azerbaijans-hijab-row?traffic_source=rss",
+      "excerpt": "Teachers fear losing their livelihoods and students risk being excluded as Baku's close ally appears critical.",
+      "publishedAt": "2026-10-14T07:57:45.000Z",
+      "category": "politics",
+      "source": "Al Jazeera - MENA",
+      "summary": "阿塞拜疆头巾争议引发与教师、学生及土耳其的紧张关系。教师担心失去生计，学生面临被排除在外，而巴库的亲密盟友似乎对此持批评态度。"
+    },
+    {
+      "sourceId": "aljazeera-mena",
       "title": "Palestinians say Israel’s democracy ‘is a joke’",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/palestinians-say-israels-democracy-is-a?traffic_source=rss",
       "excerpt": "As Israelis prepare to vote, Palestinians in the occupied West Bank say they have little hope of change.",
       "publishedAt": "2026-10-14T07:41:20.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "在以色列人准备投票之际，约旦河西岸的巴勒斯坦人表示对以色列的民主不抱希望，称其「是个笑话」。"
     },
     {
       "sourceId": "aljazeera-mena",
@@ -17,7 +48,8 @@
       "excerpt": "Demolished homes, shifting military lines, stalled withdrawals leave Lebanese uncertain if they can return.",
       "publishedAt": "2026-10-14T07:38:09.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "以色列的「黄线」正在重塑黎巴嫩南部：房屋被拆、军事分界线变动、撤军停滞，黎巴嫩民众不确定能否返回家园。"
     },
     {
       "sourceId": "aljazeera-mena",
@@ -35,7 +67,8 @@
       "excerpt": "Kabila's move confirms numerous accusations from the government in Kinshasa of his ties to armed rebels.",
       "publishedAt": "2026-10-14T07:32:24.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "刚果（金）前总统卡比拉与M23叛军结盟，印证了金沙萨政府此前关于他与武装叛军存在联系的诸多指控。"
     },
     {
       "sourceId": "aljazeera-mena",
@@ -44,16 +77,18 @@
       "excerpt": "Several members and allies of once-powerful dynasty, including the wife of ex-President Mahinda Rajapaksa, are under arrest.",
       "publishedAt": "2026-10-14T07:31:34.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "斯里兰卡曾权倾一时的拉贾帕克萨家族多名成员及盟友因腐败和犯罪指控正被调查，包括前总统马欣达·拉贾帕克萨的妻子在内多人已被逮捕。"
     },
     {
       "sourceId": "aljazeera-mena",
-      "title": "‘Massive’ Russian attack on Ukraine kills at least six, cuts power in Kyiv",
+      "title": "‘Massive’ Russian attack on Ukraine kills at least six, damages power sites",
       "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv?traffic_source=rss",
-      "excerpt": "At least six people have been killed in overnight Russian attacks across Ukraine.",
+      "excerpt": "Volodymyr Zelenskyy says Ukraine's partners failed to warn of Russian ballistic missile attack on Kyiv.",
       "publishedAt": "2026-10-14T07:08:32.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "俄罗斯对乌克兰发动大规模袭击，造成至少6人死亡，基辅电力设施受损。泽连斯基称乌方伙伴未能就俄弹道导弹袭击发出预警。"
     },
     {
       "sourceId": "aljazeera-mena",
@@ -62,7 +97,8 @@
       "excerpt": "Palestinians in the occupied West Bank see little prospect Israel’s election will change their lives under occupation.",
       "publishedAt": "2026-10-14T07:05:31.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "约旦河西岸的巴勒斯坦人在以色列选举中没有投票权，他们认为此次选举不会改变其占领下的生活，称「仿佛我们不存在」。"
     },
     {
       "sourceId": "aljazeera-mena",
@@ -71,7 +107,8 @@
       "excerpt": "Protesters in Tirana throw bricks at the Education Ministry building as police respond with tear gas and water cannon.",
       "publishedAt": "2026-10-14T06:46:31.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "阿尔巴尼亚地拉那的学生抗议演变为与警方的暴力冲突，抗议者向教育部大楼投掷砖块，警方以催泪瓦斯和水炮回应。"
     },
     {
       "sourceId": "aljazeera-mena",
@@ -80,7 +117,8 @@
       "excerpt": "A new initiative faces serious questions about military influence, but its critics should not write it off prematurely.",
       "publishedAt": "2026-10-14T05:51:09.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "苏丹一项新的对话倡议面临有关军方影响力的严重质疑，但批评者不应过早将其否定。"
     },
     {
       "sourceId": "aljazeera-mena",
@@ -89,7 +127,8 @@
       "excerpt": "As a London borough moves to cut ties with Haifa, test your knowledge of the world's twin cities.",
       "publishedAt": "2026-10-14T05:40:18.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "在伦敦一个区决定切断与以色列海法的友好城市关系之际，该报道以问答形式考察读者对全球友好城市（双城）配对的了解，涉及从开罗到东京的多组城市。"
     },
     {
       "sourceId": "aljazeera-mena",
@@ -98,7 +137,8 @@
       "excerpt": "Enrique, a friend of former Man City boss Guardiola, hopes the club can avoid the sanction of losing its titles.",
       "publishedAt": "2026-10-14T05:39:48.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "巴黎圣日耳曼主帅路易斯·恩里克表示，尽管曼城面临指控，仍应保留其奖杯。作为前曼城主帅瓜迪奥拉的朋友，他希望曼城能避免被剥夺冠军头衔的处罚。"
     },
     {
       "sourceId": "aljazeera-mena",
@@ -107,7 +147,8 @@
       "excerpt": "Ukrainian drones struck the Saratov region. The regional governor reported one person was killed.",
       "publishedAt": "2026-10-14T05:07:55.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "乌克兰无人机深入俄罗斯境内逾100公里，袭击萨拉托夫地区，该州州长报告有1人死亡。"
     },
     {
       "sourceId": "aljazeera-mena",
@@ -116,7 +157,8 @@
       "excerpt": "The long-delayed bridge will formally open on Thursday, according to China's state-run Xinhua news agency.",
       "publishedAt": "2026-10-14T04:27:18.000Z",
       "category": "politics",
-      "source": "Al Jazeera - MENA"
+      "source": "Al Jazeera - MENA",
+      "summary": "据中国官媒新华社报道，长期拖延的中朝新鸭绿江大桥将于周四正式开通。"
     },
     {
       "sourceId": "aljazeera-mena",
@@ -196,33 +238,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/pakistan-khyber-pakhtunkhwa-protests-emergency-rule?traffic_source=rss",
       "excerpt": "Protesters in Pakistan’s Khyber Pakhtunkhwa province clashed with police over emergency and governor’s rule.",
       "publishedAt": "2026-10-14T01:56:23.000Z",
-      "category": "politics",
-      "source": "Al Jazeera - MENA"
-    },
-    {
-      "sourceId": "aljazeera-mena",
-      "title": "Jamaica accepts first flight of third-country deportations from US",
-      "url": "https://www.aljazeera.com/news/2026/10/14/jamaica-accepts-first-flight-of-third-country-deportations-from-us?traffic_source=rss",
-      "excerpt": "Opposition leaders in Jamaica question why the deportation deal with the Trump White House has not been made public.",
-      "publishedAt": "2026-10-14T01:44:09.000Z",
-      "category": "politics",
-      "source": "Al Jazeera - MENA"
-    },
-    {
-      "sourceId": "aljazeera-mena",
-      "title": "Colombia peace tribunal charges ex-FARC members with anti-Indigenous crimes",
-      "url": "https://www.aljazeera.com/news/2026/10/14/colombia-peace-tribunal-charges-ex-farc-members-with-anti-indigenous-crimes?traffic_source=rss",
-      "excerpt": "The former rebels are accused of abuses such as torture, murder and the displacement of Indigenous communities.",
-      "publishedAt": "2026-10-14T01:43:56.000Z",
-      "category": "politics",
-      "source": "Al Jazeera - MENA"
-    },
-    {
-      "sourceId": "aljazeera-mena",
-      "title": "US fines Bank of America $1.2bn for money laundering, sanctions violations",
-      "url": "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss",
-      "excerpt": "The second-largest US bank faces record penalties for failing to comply with money laundering and sanctions laws.",
-      "publishedAt": "2026-10-14T01:15:30.000Z",
       "category": "politics",
       "source": "Al Jazeera - MENA"
     },
