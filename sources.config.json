@@ -5,7 +5,7 @@
     "type": "rss",
     "url": "https://www.aljazeera.com/xml/rss/all.xml",
     "category": "politics",
-    "subcategory": "news",
+    "subcategory": "world",
     "enabled": true,
     "locales": ["zh", "en"]
   },
@@ -35,7 +35,7 @@
     "type": "rss",
     "url": "https://english.enabbaladi.net/feed/",
     "category": "politics",
-    "subcategory": "news",
+    "subcategory": "world",
     "enabled": true,
     "locales": ["zh", "en"]
   }
