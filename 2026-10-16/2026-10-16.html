@@ -1,0 +1,1113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>每日简报 · 2026-10-16</title>
+<style>
+  :root {
+    --bg: #fafaf9;
+    --bg-elevated: #ffffff;
+    --fg: #18181b;
+    --fg-soft: #3f3f46;
+    --muted: #71717a;
+    --rule: #e4e4e7;
+    --card: #f4f4f5;
+    --link: #1d4ed8;
+    --accent: #18181b;
+    --accent-fg: #fafaf9;
+    --rank-high-bg: #fee2e2;
+    --rank-high-fg: #991b1b;
+    --rank-mid-bg: #fef3c7;
+    --rank-mid-fg: #92400e;
+    --rank-low-bg: #e0e7ff;
+    --rank-low-fg: #3730a3;
+    --hero-grad-from: #fafaf9;
+    --hero-grad-to: #f4f4f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0a0a0a;
+      --bg-elevated: #18181b;
+      --fg: #fafafa;
+      --fg-soft: #d4d4d8;
+      --muted: #a1a1aa;
+      --rule: #27272a;
+      --card: #18181b;
+      --link: #93c5fd;
+      --accent: #fafafa;
+      --accent-fg: #0a0a0a;
+      --rank-high-bg: rgba(239,68,68,0.18);
+      --rank-high-fg: #fca5a5;
+      --rank-mid-bg: rgba(245,158,11,0.18);
+      --rank-mid-fg: #fcd34d;
+      --rank-low-bg: rgba(99,102,241,0.18);
+      --rank-low-fg: #a5b4fc;
+      --hero-grad-from: #18181b;
+      --hero-grad-to: #0a0a0a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 960px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+  /* ===== header ===== */
+  header.report-header { margin-bottom: 1.25rem; }
+  .eyebrow {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--muted);
+    font-weight: 500;
+  }
+  h1.report-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0.4rem 0 1.2rem;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+  .archive-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--rule);
+    padding-bottom: 1px;
+  }
+  .archive-link:hover { color: var(--accent); border-bottom-style: solid; }
+  .hero-card {
+    background: linear-gradient(135deg, var(--hero-grad-from) 0%, var(--hero-grad-to) 100%);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--accent);
+    padding: 1rem 1.4rem;
+    border-radius: 0.6rem;
+  }
+  .hero-eyebrow {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 500;
+  }
+  .hero-headline {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.35rem 0 0;
+    line-height: 1.45;
+    color: var(--fg);
+  }
+  .overview-card {
+    margin: 0.7rem 0 0;
+    padding: 0.7rem 1.1rem;
+    background: var(--card);
+    border-radius: 0.5rem;
+    border-left: 3px solid var(--muted);
+  }
+  .overview-card .eyebrow { display: block; margin-bottom: 0.3rem; }
+  .overview-text {
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: var(--fg-soft);
+  }
+
+  /* ===== primary tabs ===== */
+  .tabs {
+    display: flex;
+    gap: 0.25rem;
+    margin: 1.25rem 0 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    flex-wrap: wrap;
+  }
+  .tab {
+    background: none;
+    border: none;
+    padding: 0.7rem 1.1rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    font-family: inherit;
+    transition: color 0.15s;
+  }
+  .tab:hover { color: var(--fg); }
+  .tab.active {
+    color: var(--fg);
+    border-bottom-color: var(--accent);
+  }
+  .tab .count {
+    font-size: 0.72rem;
+    color: var(--muted);
+    margin-left: 0.4rem;
+    font-weight: 400;
+  }
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  /* ===== digest (AI 简报) — compact ===== */
+  .digest-category { margin-bottom: 1.1rem; }
+  .category-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    margin: 0 0 0.55rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .category-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--fg);
+    margin: 0;
+    letter-spacing: 0.05em;
+  }
+  .category-count {
+    font-size: 0.7rem;
+    color: var(--muted);
+    background: var(--card);
+    padding: 0.12rem 0.45rem;
+    border-radius: 999px;
+  }
+  .brief-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  @media (min-width: 720px) {
+    .brief-list { grid-template-columns: 1fr 1fr; }
+  }
+  .brief {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-radius: 0.5rem;
+    padding: 0.7rem 0.95rem;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .brief:hover {
+    border-color: var(--muted);
+    transform: translateY(-1px);
+  }
+  .brief-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+  .brief-source {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+  }
+  .brief-rank {
+    font-size: 0.7rem;
+    padding: 0.12rem 0.5rem;
+    border-radius: 999px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .brief-rank.high { background: var(--rank-high-bg); color: var(--rank-high-fg); }
+  .brief-rank.mid  { background: var(--rank-mid-bg);  color: var(--rank-mid-fg); }
+  .brief-rank.low  { background: var(--rank-low-bg);  color: var(--rank-low-fg); }
+  .brief-title {
+    font-size: 0.98rem;
+    font-weight: 600;
+    margin: 0 0 0.3rem;
+    line-height: 1.35;
+  }
+  .brief-title a { color: var(--fg); text-decoration: none; }
+  .brief-title a:hover { color: var(--link); text-decoration: underline; }
+  .brief-summary {
+    margin: 0;
+    color: var(--fg-soft);
+    font-size: 0.86rem;
+    line-height: 1.55;
+  }
+
+  .editor-card {
+    background: var(--card);
+    border-left: 3px solid var(--muted);
+    border-radius: 0.5rem;
+    padding: 1rem 1.3rem;
+    margin: 1.5rem 0 1.2rem;
+  }
+  .editor-card .eyebrow { display: block; margin-bottom: 0.4rem; }
+  .editor-text {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--fg);
+  }
+  .keywords { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 1.5rem; }
+  .keyword {
+    background: var(--card);
+    color: var(--fg-soft);
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+  }
+
+  /* ===== L2 sub-tabs ===== */
+  .sub-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 1rem 0;
+  }
+  .sub-tab {
+    background: var(--card);
+    border: 1px solid transparent;
+    padding: 0.5rem 1.05rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--fg-soft);
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .sub-tab:hover { border-color: var(--muted); color: var(--fg); }
+  .sub-tab.active {
+    background: var(--accent);
+    color: var(--accent-fg);
+  }
+  .sub-tab .count {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    margin-left: 0.4rem;
+    font-weight: 400;
+  }
+  .sub-content { display: none; }
+  .sub-content.active { display: block; }
+
+  /* ===== L3 source-tabs ===== */
+  .source-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0.9rem 0 1.3rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .source-tab {
+    background: none;
+    border: 1px solid var(--rule);
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    font-size: 0.83rem;
+    color: var(--fg-soft);
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .source-tab:hover { border-color: var(--muted); color: var(--fg); }
+  .source-tab.active {
+    background: var(--fg);
+    color: var(--bg);
+    border-color: var(--fg);
+  }
+  .source-tab .count {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    margin-left: 0.3rem;
+  }
+  .source-content { display: none; }
+  .source-content.active { display: block; }
+
+  /* ===== article cards in raw panels ===== */
+  .article {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .article:first-child { padding-top: 0; }
+  .article:last-child { border-bottom: none; }
+  .article-title {
+    font-size: 1rem;
+    margin: 0 0 0.3rem;
+    font-weight: 500;
+    line-height: 1.45;
+  }
+  .article-title a { color: var(--fg); text-decoration: none; }
+  .article-title a:hover { color: var(--link); text-decoration: underline; }
+  .article-meta { color: var(--muted); font-size: 0.76rem; margin: 0 0 0.35rem; }
+  .article-stats {
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin: 0 0 0.4rem;
+    font-feature-settings: "tnum";
+  }
+  .article-excerpt {
+    margin: 0;
+    color: var(--fg-soft);
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  .article-summary {
+    margin: 0.55rem 0 0;
+    padding: 0.6rem 0.85rem;
+    background: var(--card);
+    border-left: 2px solid var(--link);
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--fg);
+  }
+  .summary-label {
+    display: inline-block;
+    font-size: 0.68rem;
+    color: var(--link);
+    margin-right: 0.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .empty {
+    color: var(--muted);
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+  }
+
+  /* ===== trading panel ===== */
+  .crypto-widgets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.55rem;
+    margin: 0.4rem 0 1.2rem;
+  }
+  @media (min-width: 720px) {
+    .crypto-widgets { grid-template-columns: repeat(4, 1fr); }
+  }
+  .crypto-widget {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-radius: 0.5rem;
+    padding: 0.7rem 0.85rem;
+    text-align: center;
+  }
+  .widget-label {
+    font-size: 0.7rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.3rem;
+  }
+  .widget-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--fg);
+    line-height: 1.1;
+  }
+  .widget-sub {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 0.25rem;
+  }
+  .widget-sub.positive { color: #16a34a; }
+  .widget-sub.negative { color: #dc2626; }
+  @media (prefers-color-scheme: dark) {
+    .widget-sub.positive { color: #4ade80; }
+    .widget-sub.negative { color: #fca5a5; }
+  }
+  .crypto-widget.fg-fear-extreme { border-left: 4px solid #b91c1c; }
+  .crypto-widget.fg-fear-extreme .widget-value { color: #b91c1c; }
+  .crypto-widget.fg-fear { border-left: 4px solid #d97706; }
+  .crypto-widget.fg-fear .widget-value { color: #d97706; }
+  .crypto-widget.fg-neutral { border-left: 4px solid var(--muted); }
+  .crypto-widget.fg-greed { border-left: 4px solid #65a30d; }
+  .crypto-widget.fg-greed .widget-value { color: #65a30d; }
+  .crypto-widget.fg-greed-extreme { border-left: 4px solid #16a34a; }
+  .crypto-widget.fg-greed-extreme .widget-value { color: #16a34a; }
+  @media (prefers-color-scheme: dark) {
+    .crypto-widget.fg-fear-extreme .widget-value,
+    .crypto-widget.fg-fear .widget-value { color: #fca5a5; }
+    .crypto-widget.fg-greed .widget-value,
+    .crypto-widget.fg-greed-extreme .widget-value { color: #4ade80; }
+  }
+
+  .trading-overview-card {
+    margin: 0 0 1.5rem;
+    padding: 1rem 1.3rem;
+    background: var(--card);
+    border-radius: 0.5rem;
+    border-left: 3px solid var(--accent);
+  }
+  .trading-overview-card .eyebrow { display: block; margin-bottom: 0.4rem; }
+  .trading-overview-text { font-size: 0.92rem; line-height: 1.75; color: var(--fg-soft); margin: 0; }
+
+  .trading-section-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+    color: var(--fg);
+    letter-spacing: 0.05em;
+  }
+
+  /* picks (Sonnet's watchlist) */
+  .trading-picks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+  @media (min-width: 720px) {
+    .trading-picks { grid-template-columns: 1fr 1fr; }
+  }
+  .trading-pick {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--muted);
+    border-radius: 0.5rem;
+    padding: 0.8rem 1rem;
+  }
+  .trading-pick.stance-bull { border-left-color: #16a34a; }
+  .trading-pick.stance-bear { border-left-color: #dc2626; }
+  .trading-pick.stance-neutral { border-left-color: var(--muted); }
+  .pick-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    margin-bottom: 0.45rem;
+  }
+  .pick-symbol-block {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .pick-symbol { font-weight: 700; font-size: 1rem; color: var(--fg); }
+  .pick-name { color: var(--muted); font-size: 0.82rem; }
+  .pick-stance {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .pick-stance-bull { background: rgba(22,163,74,0.12); color: #16a34a; }
+  .pick-stance-bear { background: rgba(220,38,38,0.12); color: #dc2626; }
+  .pick-stance-neutral { background: var(--card); color: var(--muted); }
+  .pick-rationale { margin: 0; font-size: 0.88rem; line-height: 1.65; color: var(--fg-soft); }
+
+  /* asset-group tabs */
+  .trading-group-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.6rem 0 1.2rem;
+  }
+  .trading-group-tab {
+    background: var(--card);
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--fg-soft);
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .trading-group-tab:hover { border-color: var(--muted); color: var(--fg); }
+  .trading-group-tab.active {
+    background: var(--accent);
+    color: var(--accent-fg);
+  }
+  .trading-group-tab .count {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    margin-left: 0.4rem;
+    font-weight: 400;
+  }
+  .trading-group-content { display: none; }
+  .trading-group-content.active { display: block; }
+
+  /* ticker cards */
+  .ticker-card {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-radius: 0.55rem;
+    padding: 0.85rem 1.1rem;
+    margin-bottom: 0.7rem;
+  }
+  .ticker-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.65rem;
+  }
+  .ticker-id { min-width: 0; }
+  .ticker-symbol { margin: 0; font-size: 1rem; font-weight: 700; font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; }
+  .ticker-name { margin: 0.15rem 0 0; font-size: 0.82rem; color: var(--muted); }
+  .ticker-price-block { text-align: right; flex-shrink: 0; }
+  .ticker-price { display: block; font-size: 1.05rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ticker-pct { display: inline-block; font-size: 0.82rem; font-weight: 500; margin-top: 0.15rem; font-variant-numeric: tabular-nums; }
+  .ticker-pct.positive, .positive { color: #16a34a; }
+  .ticker-pct.negative, .negative { color: #dc2626; }
+
+  .ticker-indicators {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.35rem 0.9rem;
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--fg-soft);
+  }
+  @media (min-width: 720px) {
+    .ticker-indicators { grid-template-columns: repeat(3, 1fr); }
+  }
+  .ticker-indicators > div { display: flex; gap: 0.4rem; align-items: baseline; min-width: 0; }
+  .ticker-indicators dt { color: var(--muted); font-size: 0.74rem; margin: 0; white-space: nowrap; }
+  .ticker-indicators dd { margin: 0; font-variant-numeric: tabular-nums; font-weight: 500; color: var(--fg); }
+  .trend-bullish { color: #16a34a; }
+  .trend-bearish { color: #dc2626; }
+  .trend-neutral { color: var(--muted); }
+  .rsi-overbought { color: #d97706; }
+  .rsi-oversold { color: #2563eb; }
+
+  .ticker-signals {
+    margin-top: 0.65rem;
+    padding-top: 0.55rem;
+    border-top: 1px dashed var(--rule);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+  .signal-pill {
+    font-size: 0.72rem;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    font-weight: 500;
+  }
+  .signal-pill.tone-bull { background: rgba(22,163,74,0.13); color: #166534; }
+  .signal-pill.tone-bear { background: rgba(220,38,38,0.13); color: #991b1b; }
+  .signal-pill.tone-caution { background: rgba(217,119,6,0.15); color: #92400e; }
+  @media (prefers-color-scheme: dark) {
+    .signal-pill.tone-bull { color: #4ade80; }
+    .signal-pill.tone-bear { color: #fca5a5; }
+    .signal-pill.tone-caution { color: #fcd34d; }
+    .trend-bullish, .positive, .ticker-pct.positive { color: #4ade80; }
+    .trend-bearish, .negative, .ticker-pct.negative { color: #fca5a5; }
+    .rsi-overbought { color: #fcd34d; }
+    .rsi-oversold { color: #93c5fd; }
+    .trading-pick.stance-bull { border-left-color: #4ade80; }
+    .trading-pick.stance-bear { border-left-color: #fca5a5; }
+    .pick-stance-bull { background: rgba(74,222,128,0.15); color: #4ade80; }
+    .pick-stance-bear { background: rgba(252,165,165,0.15); color: #fca5a5; }
+  }
+  .signal-age { opacity: 0.7; font-weight: 400; }
+
+  .trading-risk {
+    margin: 1.5rem 0 0;
+    padding: 0.9rem 1.2rem;
+    background: var(--card);
+    border-radius: 0.45rem;
+    border-left: 3px solid #d97706;
+  }
+  .trading-risk .eyebrow { display: block; margin-bottom: 0.35rem; }
+  .trading-risk p { margin: 0; font-size: 0.82rem; line-height: 1.65; color: var(--fg-soft); }
+
+  footer {
+    margin-top: 2.5rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 1.1rem;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="report-header">
+    <span class="eyebrow">每日简报</span>
+    <h1 class="report-title">2026-10-16</h1>
+    <a class="archive-link" href="../archive.html">← 历史归档</a>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="politics">时政观察<span class="count">15</span></button>
+    <button class="tab" data-tab="finance">财经要点<span class="count">12</span></button>
+    <button class="tab" data-tab="investment">投资动态<span class="count">10</span></button>
+    <button class="tab" data-tab="china-syria">中叙合作<span class="count">15</span></button>
+  </nav>
+
+  <section class="panel active" data-panel="politics">
+    <div class="sub-content active" data-sub-content="world" data-cat="politics">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="world" data-cat="politics">
+    <article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/foreign-actors/after-netanyahu-claims-he-held-a-phone-call-with-sharaa-syria-says-it-thwarted-plans-to-destabilize-the-country.html" target="_blank" rel="noopener noreferrer">After Netanyahu Claims he Held a Phone Call with Sharaa, Syria Says it “Thwarted Plans” to Destabilize the Country</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/16 05:02</p>
+  <p class="article-excerpt">Damascus continues to work with the United States and Jordan on implementing the trilateral roadmap to reintegrate Suweida into the Syrian state, Syria TV writes. The post After Netanyahu Claims he Held a Phone Call with Sharaa, Syria Says it “Thwarted Plans” to Destabilize the Country first appeare</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 内塔尼亚胡称曾与沙拉通电话后，叙利亚表示已「挫败」破坏国家稳定的图谋。叙方称大马士革继续与美国、约旦合作，推进将苏韦达重新纳入叙利亚国家的三方路线图。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/syrian-actors/butcher-of-baniyas-arrested-mihrac-ural-captured-during-attempted-border-infiltration.html" target="_blank" rel="noopener noreferrer">‘Butcher of Baniyas’ Arrested: Mihraç Ural Captured During Attempted Border Infiltration</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/16 05:02</p>
+  <p class="article-excerpt">Ali Kayali, widely known by the alias Mihraç Ural, was arrested by the General Intelligence Directorate during an attempted border infiltration. The post ‘Butcher of Baniyas’ Arrested: Mihraç Ural Captured During Attempted Border Infiltration first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 化名米赫拉奇·乌拉的阿里·卡亚利，绰号「巴尼亚斯屠夫」，在试图越境时被叙利亚总情报局逮捕。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/society/syrian-petroleum-company-contracts-under-scrutiny-what-we-know-about-the-104-million-audit.html" target="_blank" rel="noopener noreferrer">Syrian Petroleum Company Contracts Under Scrutiny: What We Know About the $104 Million Audit</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/16 05:01</p>
+  <p class="article-excerpt">The debate began with reports of financial irregularities in multiple oil‑sector contracts. The post Syrian Petroleum Company Contracts Under Scrutiny: What We Know About the $104 Million Audit first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚石油公司多份石油行业合同被指存在财务违规，相关审计涉及金额1.04亿美元，引发外界关注与讨论。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/foreign-actors/syrian-foreign-minister-arrives-in-riyadh-for-official-visit-to-strengthen-bilateral-relations.html" target="_blank" rel="noopener noreferrer">Syrian Foreign Minister Arrives in Riyadh for Official Visit to Strengthen Bilateral Relations</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/16 05:00</p>
+  <p class="article-excerpt">Shibani’s trip comes shortly after President Ahmad al‑Sharaa’s visit to Riyadh on October 6. The post Syrian Foreign Minister Arrives in Riyadh for Official Visit to Strengthen Bilateral Relations first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚外长希巴尼抵达利雅得进行正式访问，旨在加强双边关系。此前总统艾哈迈德·沙拉曾于10月6日访问利雅得。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/refugees/syrian-swedish-talks-focus-on-supporting-the-stability-and-reintegration-of-voluntary-returnees.html" target="_blank" rel="noopener noreferrer">Syrian‑Swedish Talks Focus on Supporting the Stability and Reintegration of Voluntary Returnees</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/16 05:00</p>
+  <p class="article-excerpt">The delegation was led by Kjell Terje Torvik of the Swedish Migration Agency. The post Syrian‑Swedish Talks Focus on Supporting the Stability and Reintegration of Voluntary Returnees first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚与瑞典举行会谈，聚焦支持自愿返乡者的稳定与重新融入。瑞典代表团由瑞典移民局的谢尔·泰耶·托尔维克率领。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/youtube/syrian-court-sentences-two-to-death-over-2025-coastal-massacres.html" target="_blank" rel="noopener noreferrer">Syrian court sentences two to death over 2025 coastal massacres</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/16 04:39</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚法院就2025年沿海屠杀事件判处两人死刑。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/syrian-actors/syrian-defence-minister-and-opcw-chief-discuss-final-steps-to-close-chemical-weapons-file.html" target="_blank" rel="noopener noreferrer">Syrian Defence Minister and OPCW Chief Discuss Final Steps to Close Chemical Weapons File</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/15 05:01</p>
+  <p class="article-excerpt">The foreign minister stressed that closing the chemical weapons file requires more than technical compliance. The post Syrian Defence Minister and OPCW Chief Discuss Final Steps to Close Chemical Weapons File first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚国防部长与禁止化学武器组织负责人讨论关闭化武档案的最后步骤。叙外长强调，关闭该档案不止需要技术层面的合规。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/syrian-actors/tensions-rise-in-hassakeh-after-protests-demand-restoration-of-state-authority.html" target="_blank" rel="noopener noreferrer">Tensions Rise in Hassakeh After Protests Demand Restoration of State Authority</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/15 05:01</p>
+  <p class="article-excerpt">Ibrahim Haj Halabi, a journalist from Hassakeh, described the atmosphere as charged with public frustration following demonstrations demanding the return of Syrian state institutions. The post Tensions Rise in Hassakeh After Protests Demand Restoration of State Authority first appeared on The Syrian</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 哈塞克省爆发要求恢复国家机构的示威后，当地紧张局势升温。来自哈塞克的记者易卜拉欣·哈吉·哈拉比称，公众不满情绪高涨。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/foreign-actors/syria-steps-up-european-economic-engagement-with-ebrd-membership-bid-and-german-business-talks.html" target="_blank" rel="noopener noreferrer">Syria Steps Up European Economic Engagement with EBRD Membership Bid and German Business Talks</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/15 05:00</p>
+  <p class="article-excerpt">Syria is accelerating its re‑entry into the global financial system and expanding economic ties with Europe, advancing both a formal bid for multilateral development bank membership and targeted investment outreach in Germany. The post Syria Steps Up European Economic Engagement with EBRD Membership</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚加快推进重返全球金融体系，一方面正式申请加入欧洲复兴开发银行，一方面在德国开展定向投资洽谈，扩大与欧洲的经济联系。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/foreign-actors/why-syria-should-avoid-the-conflict-in-yemen.html" target="_blank" rel="noopener noreferrer">Why Syria Should Avoid the Conflict in Yemen</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/15 05:00</p>
+  <p class="article-excerpt">This analysis should not be interpreted as opposition to strengthening Syrian‑Saudi relations, Marwan Kabalan writes. The post Why Syria Should Avoid the Conflict in Yemen first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 分析人士马尔万·卡巴兰撰文主张叙利亚应避免卷入也门冲突，并称该观点不应被解读为反对加强叙利亚与沙特关系。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/syrian-actors/syria-denies-aleppo-attacks-after-deadly-patrol-ambush.html" target="_blank" rel="noopener noreferrer">Syria Denies Aleppo Attacks After Deadly Patrol Ambush</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/15 05:00</p>
+  <p class="article-excerpt">The Media Department of the Syrian Ministry of Interior issued a formal statement dismissing circulating reports of armed assaults on security and military positions in rural Aleppo. The post Syria Denies Aleppo Attacks After Deadly Patrol Ambush first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 在巡逻队遭致命伏击后，叙利亚内政部媒体部门发表正式声明，否认有关阿勒颇农村地区安全与军事阵地遭武装袭击的流传报道。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/syrian-actors/syrian-lawmakers-move-to-scrap-long-standing-ban-on-muslim-brotherhood.html" target="_blank" rel="noopener noreferrer">Syrian Lawmakers Move to Scrap Long‑Standing Ban on Muslim Brotherhood</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/15 05:00</p>
+  <p class="article-excerpt">Uncertainty also persists over whether Law No. 49 was effectively nullified when the “Victory Conference” announced the suspension of emergency and exceptional legislation on January 29, 2025. The post Syrian Lawmakers Move to Scrap Long‑Standing Ban on Muslim Brotherhood first appeared on The Syria</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚议员推动废除长期实施的对穆斯林兄弟会的禁令。至于第49号法律是否已随2025年1月29日「胜利会议」宣布暂停紧急与例外立法而失效，仍存疑问。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/society/property-hoarding-in-syria-why-has-land-become-more-attractive-than-factories.html" target="_blank" rel="noopener noreferrer">Property Hoarding in Syria: Why Has Land Become More Attractive Than Factories?</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/14 05:02</p>
+  <p class="article-excerpt">Decisions about where investment should go will help determine the kind of economy that emerges from reconstruction, Syria TV writes. The post Property Hoarding in Syria: Why Has Land Become More Attractive Than Factories? first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚出现囤地现象，土地比工厂更具投资吸引力。分析指出，投资流向何处将决定重建后形成何种经济形态。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/foreign-actors/syria-and-jordan-foreign-ministers-discuss-bilateral-ties-and-regional-developments.html" target="_blank" rel="noopener noreferrer">Syria and Jordan Foreign Ministers Discuss Bilateral Ties and Regional Developments</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/14 05:01</p>
+  <p class="article-excerpt">The conversation comes amid continued diplomatic engagement between Damascus and Amman aimed at harmonising positions on regional issues of mutual concern, al-Thawra writes. The post Syria and Jordan Foreign Ministers Discuss Bilateral Ties and Regional Developments first appeared on The Syrian Obse</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚与约旦外长讨论双边关系及地区局势发展。双方持续外交接触，旨在就共同关心的地区问题协调立场。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/refugees/germany-revokes-refugee-status-for-select-syrians-citing-post-conflict-return-possibilities.html" target="_blank" rel="noopener noreferrer">Germany Revokes Refugee Status for Select Syrians, Citing Post‑Conflict Return Possibilities</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 10/14 05:00</p>
+  <p class="article-excerpt">While acknowledging ongoing socio‑economic hardships in Syria — including food shortages, high living costs, and housing deficits — BAMF maintained that return is &quot;possible in principle.&quot; The post Germany Revokes Refugee Status for Select Syrians, Citing Post‑Conflict Return Possibilities first appe</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 德国以叙利亚战后具备返乡可能性为由，撤销部分叙利亚人的难民身份。联邦移民与难民局承认叙仍存在粮食短缺、生活成本高企和住房不足，但称返乡「原则上可行」。</p>
+</article>
+  </div>
+    </div>
+  </div>
+  </section>
+  <section class="panel" data-panel="finance">
+    <div class="sub-content active" data-sub-content="news" data-cat="finance">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="news" data-cat="finance">
+    <article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/syria-and-opcw-agree-on-roadmap-to-close-chemical-weapons-file" target="_blank" rel="noopener noreferrer">Syria and OPCW Agree on Roadmap to Close Chemical Weapons File</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/16 00:57</p>
+  <p class="article-excerpt">A series of high-level meetings between Syrian officials and the Organization for the Prohibition of Chemical Weapons ( OPCW ) recently concluded, marking what…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚官员与禁止化学武器组织（OPCW）近期结束一系列高层会议，双方就关闭叙利亚化学武器档案达成路线图。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/report-finds-acute-humanitarian-needs-across-syria" target="_blank" rel="noopener noreferrer">Report Finds Acute Humanitarian Needs Across Syria</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/15 03:15</p>
+  <p class="article-excerpt">A woman carries a bottle of water after filling it from a reservoir in a neighborhood in Hasakah City. July, 11 2023 (AFP) A new humanitarian assessment shows…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 一份新的人道主义评估报告显示，叙利亚全国各地人道需求严峻，哈塞克市居民需从公共蓄水池取水，生活条件艰难。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/reconstruction-deals-continue-raising-alarms-over-property-rights" target="_blank" rel="noopener noreferrer">Reconstruction Deals Continue Raising Alarms Over Property Rights</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/15 03:01</p>
+  <p class="article-excerpt">When Law No. 10 was passed by the Assad regime Nadeedah Hannawi and her husband Ahmad could not return to Damascus to prove ownership of their now destroyed…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 阿萨德政权时期通过的第10号法律使流离失所者难以返回大马士革证明其被毁房产的所有权，重建协议持续引发对产权的担忧。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/syria-and-germany-expand-cooperation-in-education-and-culture" target="_blank" rel="noopener noreferrer">Syria and Germany Expand Cooperation in Education and Culture</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/15 02:17</p>
+  <p class="article-excerpt">Syria and Germany opened a two-day conference in Damascus on Tuesday aimed at strengthening cooperation in education, scientific research and cultural…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚与德国在大马士革举行为期两天的会议，旨在加强双方在教育、科学研究及文化领域的合作，推动双边关系发展。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/rising-intimidation-fears-prompt-security-measures-in-hasakah" target="_blank" rel="noopener noreferrer">Intimidation, Abductions and Assaults Prompt Security Measures in Hasakah</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/14 00:51</p>
+  <p class="article-excerpt">Muhammad Hassan, who was kidnapped by the Revolutionary Youth Movement (Hasakah Media Directorate) Concerns over alleged assaults, abductions and intimidation…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 由于涉嫌袭击、绑架和恐吓事件不断增多，叙利亚哈塞克地区民众安全担忧上升，当地已就此采取相应安全措施。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/un-urges-world-to-turn-support-for-syria-into-action" target="_blank" rel="noopener noreferrer">UN Urges World to Turn Support for Syria Into Action</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/13 20:16</p>
+  <p class="article-excerpt">As Syria enters a new phase of recovery, UN officials urge the international community to translate expressions of goodwill and political support into tangible…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 随着叙利亚进入新的恢复阶段，联合国官员呼吁国际社会把对叙利亚的善意表态和政治支持转化为实际行动。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/syrias-sybots-win-silver-at-south-korea-robotics-olympics" target="_blank" rel="noopener noreferrer">Syria’s SyBots Win Silver at South Korea &#39;Robotics Olympics&#39;</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/13 19:05</p>
+  <p class="article-excerpt">Syrian Robotics team the &quot;SyBots&quot; at the FIRST Global Challenge, or &quot;Robotic Olympics&quot; in Incheon South Korea. October, 2026 (Courtesy of: Muhannad al-Khodari)…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚机器人团队SyBots在韩国仁川举行的FIRST Global Challenge（机器人奥运会）上获得银牌。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/inside-the-housing-crisis-in-damascus" target="_blank" rel="noopener noreferrer">Inside the Housing Crisis in Damascus</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/13 01:54</p>
+  <p class="article-excerpt">Abyat Hills, a $1.2 billion residential development in Qudsaya, sold out within two days of subscriptions opening on August 5, according to The Syria Report.…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 大马士革面临住房危机：位于库德萨亚、价值12亿美元的Abyat Hills住宅项目在8月5日开放认购后两天内售罄。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/aleppos-great-mosque-reopens-after-years-of-devastation" target="_blank" rel="noopener noreferrer">Aleppo’s Great Mosque Reopens After Years of Devastation</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/13 01:25</p>
+  <p class="article-excerpt">On Oct. 8, 2026, the historic Umayyad Mosque in Aleppo reopened its doors after more than a decade of closure, marking a significant moment for a city that has…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 2026年10月8日，阿勒颇历史悠久的倭马亚大清真寺在关闭十余年后重新开放，对该市具有重要象征意义。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/syrias-760-million-industrial-city-plan-relies-on-private-developers" target="_blank" rel="noopener noreferrer">Syria&#39;s $760 Million Industrial City Plan Relies on Private Developers</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/12 18:48</p>
+  <p class="article-excerpt">Syria is seeking private developers for three industrial cities in Daraa, Raqqa and Idlib. The Economy Ministry puts their cost at $760 million, its director…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚正为德拉、拉卡和伊德利卜三座工业城市寻找私人开发商，经济部将其成本估算为7.6亿美元。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/syrian-families-demand-release-of-hostages-as-abductions-continue" target="_blank" rel="noopener noreferrer">Syrian Families Demand Release of Hostages as Abductions Continue</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/12 03:10</p>
+  <p class="article-excerpt">Families of detainees from Quneitra and Daraa protest outside the United Nations building in Damascus, demanding the release of their relatives and disclosure…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 在绑架事件持续发生之际，来自库奈特拉和德拉的被拘留者家属在大马士革联合国大楼外抗议，要求释放亲属并披露相关信息。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/texpo-highlights-syrias-technology-and-innovation-sector" target="_blank" rel="noopener noreferrer">TEXPO Highlights Syria’s Technology and Innovation Sector</a></h3>
+  
+  <p class="article-meta">Levant24 · 10/11 21:11</p>
+  <p class="article-excerpt">Anas Chbib, Founder &amp; Group-CEO of AGT Advanced German Technology. Damascus October 8, 2026 (Levant24) The second TEXPO International Technology and Innovation…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 第二届TEXPO国际技术与创新博览会在大马士革举行，集中展示叙利亚科技与创新领域的发展成果。</p>
+</article>
+  </div>
+    </div>
+  </div>
+  </section>
+  <section class="panel" data-panel="investment">
+    <div class="sub-content active" data-sub-content="investment" data-cat="finance">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="investment" data-cat="finance">
+    <article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2350809/" target="_blank" rel="noopener noreferrer">Finance Ministry, Central Bank discuss project financing and investment with IFC</a></h3>
+  
+  <p class="article-meta">SANA 投资 · 10/15 05:24</p>
+  <p class="article-excerpt">Bangkok, Oct. 15 (SANA) Finance Minister Mohammed Yisr Barnieh and Central Bank of Syria Governor Safwat Raslan discussed ways to support projects and investment with the International Finance Corporation (IFC), in the presence of the World Bank’s Syria Country Manager, on the sidelines of the annua</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚财政部长Mohammed Yisr Barnieh与叙利亚中央银行行长Safwat Raslan同国际金融公司（IFC）会谈，讨论支持项目与投资的途径，世界银行叙利亚国别经理出席。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2350254/" target="_blank" rel="noopener noreferrer">Syrian officials, U.S. business delegation discuss investment opportunities in Damascus</a></h3>
+  
+  <p class="article-meta">SANA 投资 · 10/13 04:20</p>
+  <p class="article-excerpt">Damascus, Oct. 12 (SANA) Deputy Minister of Economy and Industry Basel Abdul Hannan met Monday in Damascus with representatives of American, regional, and international corporations during a trade visit organized by the Syrian American Business Council. Ways to strengthen economic cooperation and ex</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚经济与工业部副部长Basel Abdul Hannan在大马士革会见由叙利亚美国商业理事会组织的贸易访问团，成员包括美国、地区及国际企业代表，双方讨论加强经济合作的途径。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2350210/" target="_blank" rel="noopener noreferrer">Syria, Indonesia explore expanding commercial and investment partnerships</a></h3>
+  
+  <p class="article-meta">SANA 投资 · 10/13 01:22</p>
+  <p class="article-excerpt">Damascus, Oct. 12 (SANA) Syria and Indonesia discussed Monday ways to strengthen economic relations, expand trade exchange and open new avenues for investment, as the head of Syria’s Chambers of Commerce met Indonesia‘s ambassador in Damascus. Alaa al-Ali, chairman of the Federation of Syrian Chambe</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚商会联合会主席Alaa al-Ali在大马士革会见印度尼西亚驻叙大使，双方讨论加强经济关系、扩大贸易往来，并开辟新的投资渠道。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2349809/" target="_blank" rel="noopener noreferrer">Syrian investment authority discusses opportunities with US business delegation</a></h3>
+  
+  <p class="article-meta">SANA 投资 · 10/12 03:16</p>
+  <p class="article-excerpt">Damascus, Oct. 11 (SANA) Head of the Syrian Investment Authority Ahmad Rawad Ramadan discussed with a delegation from the US business community ways to strengthen economic cooperation and explore investment opportunities in the Syrian market. The delegation included 30 representatives from 22 Americ</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚投资署署长Ahmad Rawad Ramadan与美国商界代表团会谈，探讨加强经济合作及叙利亚市场投资机会，代表团包括30名代表。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/syria/2349128/" target="_blank" rel="noopener noreferrer">Syria, UK discuss support for agricultural development</a></h3>
+  
+  <p class="article-meta">SANA 投资 · 10/09 15:00</p>
+  <p class="article-excerpt">Damascus, Oct. 9 (SANA) Syria’s Agriculture Ministry and the UK’s Syria Office discussed ways to strengthen cooperation in agricultural development, support farmers and advance food security, with a focus on implementing the Syria Local Resilience Programme and its seed multiplication component. The</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚农业部与英国叙利亚办事处讨论加强农业发展合作、支持农民及推进粮食安全，重点为落实「叙利亚地方韧性计划」及其种子繁殖项目。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2349210/" target="_blank" rel="noopener noreferrer">TEXPO 2026 opens in Damascus with more than 120 local and international companies</a></h3>
+  
+  <p class="article-meta">SANA 投资 · 10/09 14:00</p>
+  <p class="article-excerpt">Damascus, Oct. 9 (SANA) The second TEXPO International Technology and Innovation Exhibition opened Thursday at the Damascus Fairgrounds, bringing together more than 120 local and international companies across 29 technology-related sectors. Organized by Glovent under the sponsorship of the Ministry </p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 第二届TEXPO国际技术与创新展在大马士革展览中心开幕，共有120多家本地和国际企业参展，覆盖29个技术相关领域，由Glovent组织。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2349073/" target="_blank" rel="noopener noreferrer">Syria-Saudi partnership opens investment opportunities to develop energy sector</a></h3>
+  
+  <p class="article-meta">SANA 投资 · 10/09 02:21</p>
+  <p class="article-excerpt">Damascus, Oct. 8 (SANA) Economic cooperation between Syria and Saudi Arabia is gaining fresh momentum, with the energy sector emerging as one of the key areas for investment and technical partnership following recent talks between President Ahmad al-Sharaa and Saudi Crown Prince Mohammed bin Salman </p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚与沙特的经济合作升温，能源领域成为投资与技术伙伴关系的重点方向，此前叙总统Ahmad al-Sharaa与沙特王储举行了会谈。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/investment/2348299/" target="_blank" rel="noopener noreferrer">In presence of President al-Sharaa, Syria signs deal with UAE’s Eagle Hills</a></h3>
+  
+  <p class="article-meta">SANA 投资 · 10/05 19:23</p>
+  <p class="article-excerpt">Damascus, Oct. 5 (SANA) In the presence of President Ahmad al-Sharaa, Syria signed a framework agreement with UAE-based real estate developer Eagle Hills on Monday to develop urban and tourism projects in Damascus and Latakia, with officials saying the projects could create tens of thousands of jobs</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 在叙利亚总统Ahmad al-Sharaa见证下，叙方与阿联酋房地产开发商Eagle Hills签署框架协议，在大马士革和拉塔基亚开发城市与旅游项目，官员称可创造数千个就业岗位。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/investment/2348281/" target="_blank" rel="noopener noreferrer">SIA, UNDP discuss investment and sustainable development priorities</a></h3>
+  
+  <p class="article-meta">SANA 投资 · 10/05 18:13</p>
+  <p class="article-excerpt">Damascus, Oct. 5 (SANA) Head of the Syria Investment Authority (SIA) Ahmad Rawad Ramadan discussed with UNDP Representative Melanie Hauenstein prospects for cooperation and coordination to support Syria’s development and investment priorities at the authority’s headquarters in Damascus. The meeting </p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚投资署署长Ahmad Rawad Ramadan与联合国开发计划署代表Melanie Hauenstein在大马士革会谈，讨论支持叙利亚发展与投资优先事项的合作与协调前景。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/investment/2347847/" target="_blank" rel="noopener noreferrer">Houran One development launched in Daraa with 18-story residential tower</a></h3>
+  
+  <p class="article-meta">SANA 投资 · 10/04 03:23</p>
+  <p class="article-excerpt">Daraa, Oct. 3 (SANA) Syrian businessman Muwafaq al-Qaddah launched the Houran One development in Daraa Saturday, marking the start of work on a mixed-use project combining housing, retail, medical and recreational facilities. Located near Panorama Roundabout, the project consists of an 18-story resi</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚商人Muwafaq al-Qaddah在德拉启动Houran One开发项目，包含一栋18层住宅塔楼，位于Panorama环岛附近，集住宅、零售、医疗与休闲设施于一体。</p>
+</article>
+  </div>
+    </div>
+  </div>
+  </section>
+  <section class="panel" data-panel="china-syria">
+    <div class="sub-content active" data-sub-content="china-syria" data-cat="finance">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="china-syria" data-cat="finance">
+    <article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/saudi-arabia/saudi-arabia-highlights-its-health-reforms-at-regional-world-health-organization-event-in-cairo-3006609" target="_blank" rel="noopener noreferrer">Saudi Arabia highlights its health reforms at regional World Health Organization event in Cairo</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 05:59</p>
+  <p class="article-excerpt">CAIRO: Saudi Arabia called for stronger regional cooperation on health-related issues, and greater investment in prevention, public health and primary care, during a three-day World Health Organization meeting that concluded on Thursday in Cairo. Health ministers and senior representatives from the </p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 沙特在开罗举行的为期三天的世界卫生组织区域会议上呼吁加强卫生领域区域合作，加大预防、公共卫生和初级保健投资，并介绍本国卫生改革进展。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/middle-east/hormuz-shipping-disruption-is-starting-to-hit-harvests-un-agency-says-3006614" target="_blank" rel="noopener noreferrer">Hormuz shipping disruption is starting to hit harvests, UN agency says</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 05:57</p>
+  <p class="article-excerpt">BANGKOK: The impact of ‌the disruption to shipping through the Strait of Hormuz is already becoming visible in agricultural harvests, threatening to lower farm yields and ​push up food prices, the head of a United Nations rural development agency said on Thursday. “The pass-through from the initial </p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 联合国一家农村发展机构负责人表示，霍尔木兹海峡航运中断的影响已开始显现于农业收成，可能压低农作物产量并推高粮食价格。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/middle-east/uk-strengthens-human-rights-related-sanctions-to-address-issue-of-israeli-settlements-3006607" target="_blank" rel="noopener noreferrer">UK strengthens human rights-related sanctions to address issue of Israeli settlements</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 05:27</p>
+  <p class="article-excerpt">LONDON: An expanded regime of human rights-related sanctions came into force in the UK on Thursday, which grants the government wider powers to take action in response to the expansion of illegal Israeli settlements in occupied Palestinian territory. When the foreign secretary, Ed Miliband, announce</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 英国扩大与侵犯人权相关的制裁机制，赋予政府更大权限以应对以色列在巴勒斯坦被占领土扩建非法定居点，该机制已于周四生效。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/football/2027-asian-cup-loc-says-preparations-on-track-amid-postponement-speculation-3006610" target="_blank" rel="noopener noreferrer">2027 Asian Cup LOC says preparations on track amid postponement speculation</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 05:10</p>
+  <p class="article-excerpt">DAMMAM: The Local Organizing Committee for the 2027 AFC Asian Cup said preparations for the tournament are continuing, following reports of a possible postponement and days after attacks targeting multiple cities and airports across Saudi Arabia. In a statement released on Oct. 15, the LOC said prep</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 2027年亚洲杯当地组委会表示赛事筹备工作仍在推进。此前有报道称赛事可能延期，且沙特多个城市和机场数日前遭到袭击。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/saudi-arabia/saudi-minister-outlines-military-localization-drive-in-lecture-at-national-guard-college-3006543" target="_blank" rel="noopener noreferrer">Saudi minister outlines military localization drive in lecture at National Guard college</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 05:08</p>
+  <p class="article-excerpt">Bandar Al-Khorayef, Saudi Arabia’s minister of state and acting governor of the General Authority for Military Industries, recently delivered a lecture at King Abdullah bin Abdulaziz Command and Staff College of the Ministry of National Guard on military industries, localization and building sustain</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 沙特国务大臣兼军事工业总局代理局长班达尔·胡拉耶夫近日在国民警卫队阿卜杜拉国王指挥与参谋学院发表演讲，阐述军事工业本地化推进计划。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/ksa-today/house-of-hype-3006613" target="_blank" rel="noopener noreferrer">House of Hype</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 04:59</p>
+  <p class="article-excerpt">Discover the Wonderverse, an immersive experience at the House of Hype where reality meets trippy worlds, outrageous style and wild games. You can find the theme park at Boulevard Riyadh City and learn more at riyadh.platinumlist.net.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 利雅得大道城的「House of Hype」推出沉浸式体验项目Wonderverse，融合虚拟场景、前卫造型与互动游戏，详情可在相关票务平台查询。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/ksa-today/board-games-3006612" target="_blank" rel="noopener noreferrer">Board games</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 04:53</p>
+  <p class="article-excerpt">Every Monday, Level Up social hub invites people to enjoy a night of board and card games, laughter and fun. Anyone attending alone will be grouped with new people, so there is no need to worry about flying solo. For more information, check out riyadh.platinumlist.net.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 利雅得Level Up社交空间每周一举办桌游与卡牌游戏之夜，供参与者娱乐社交；单独前往者会被安排加入新组，无需担心独自参加。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/ksa-today/horse-riding-3006611" target="_blank" rel="noopener noreferrer">Horse riding</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 04:52</p>
+  <p class="article-excerpt">Enjoy an exceptional Arabian equestrian experience with Abdulaziz Al-Hamimi in the Al-Muzahmiyya province near Riyadh on Saturday, Oct. 17. For booking and more details, check out experience.suplift.com.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 10月17日周六，骑手阿卜杜勒阿齐兹·哈米米在利雅得附近的穆扎赫米亚省提供阿拉伯马术体验活动，可通过指定平台预订并了解详情。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/ksa-today/cultural-activity-3006608" target="_blank" rel="noopener noreferrer">Cultural activity</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 04:50</p>
+  <p class="article-excerpt">A creative hands-on program will teach children to make a macrame inspired by Qatt Asiri, a traditional art from the Kingdom’s southern region. It takes place at the Children’s Museum in Ithra until Dec. 30. More details are available on the Ithra app.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 伊思拉儿童博物馆举办创意手工课程，教儿童制作源自沙特南部传统艺术「Qatt Asiri」的编织挂饰，活动持续至12月30日。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/books-gaming/book-review-uae-authors-book-is-a-tender-look-at-life-after-loss-3006334" target="_blank" rel="noopener noreferrer">Book Review: UAE author’s book is a tender look at life after loss</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 04:38</p>
+  <p class="article-excerpt">Saira Sheikh’s “Healing in the Shadow of Loss,” recently published by Liberty Books, is a memoir-style self-help book that emerged after months of journaling to cope with personal loss. Sheikh is a Pakistani writer who was raised in Alkhobar and now lives in the UAE, and her in-between upbringing in</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 阿联酋作家赛拉·谢赫的自助类回忆录《在失去的阴影中疗愈》由Liberty Books出版。作者为在沙特胡拜尔长大的巴基斯坦裔作家，现居阿联酋。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/the-space/pakistan-stands-shoulder-to-shoulder-with-saudi-arabia-3006501" target="_blank" rel="noopener noreferrer">Pakistan stands shoulder to shoulder with Saudi Arabia</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 04:31</p>
+  <p class="article-excerpt">The Kingdom of Saudi Arabia is confronting a grave assault on its security as the Houthi militia unleashes relentless missile and drone attacks on its cities, civilian infrastructure and vital economic facilities. Innocent lives have been lost, families placed in danger and daily life disrupted. The</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 一篇评论文章称，也门胡塞武装对沙特城市、民用设施和经济设施发动导弹与无人机袭击并造成平民伤亡，巴基斯坦在此问题上与沙特站在一起。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/middle-east/iraq-parliament-approves-remaining-cabinet-posts-pm-deputies-3006606" target="_blank" rel="noopener noreferrer">Iraq parliament approves remaining cabinet posts, PM deputies</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 04:29</p>
+  <p class="article-excerpt">BAGHDAD: Iraq’s parliament on Thursday approved the remainder of Prime Minister Ali Al-Zaidi’s cabinet, completing the formation of a government that took office five months ago with several key positions, lawmakers said. Lawmakers approved 11 portfolios, including Nayef Al-Shammari as defense minis</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 伊拉克议会周四批准总理阿里·扎伊迪内阁的剩余职位，包括11个部长职位及副总理人选，使五个月前就职的政府完成组阁。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/saudi-arabia/japans-foreign-minister-condemns-deadly-houthi-attacks-on-saudi-arabia-3006595" target="_blank" rel="noopener noreferrer">Japan’s foreign minister condemns deadly Houthi attacks on Saudi Arabia</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 04:18</p>
+  <p class="article-excerpt">Japan&#39;s Foreign Minister Toshimitsu Motegi expressed condolences to Saudi Arabia for the Houthi attacks that killed at least 12 people and injured over 300, calling such violence against civilians intolerable. He urged both the Houthis and Iran to exercise restraint and discussed enhancing coordinat</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 日本外相茂木敏充就胡塞武装袭击造成至少12人死亡、300余人受伤向沙特致哀，称针对平民的暴力不可容忍，并呼吁胡塞武装与伊朗保持克制。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/world/crucial-to-give-ukraine-all-means-needed-to-defend-population-infrastructure-says-macron-3006604" target="_blank" rel="noopener noreferrer">Crucial to give Ukraine all means needed to defend population, infrastructure, says Macron</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 04:13</p>
+  <p class="article-excerpt">BRUSSELS: French President Emmanuel Macron said on Thursday that it was crucial to give Ukraine all the means it needs to defend and protect its civilian ⁠population and its infrastructure, ⁠after he met in Brussels with Ukrainian President Volodymyr Zelensky. Zelensky, writing on Telegram, describe</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 法国总统马克龙在布鲁塞尔会见乌克兰总统泽连斯基后表示，必须向乌克兰提供自卫所需的一切手段，以保护其平民和基础设施。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.arabnews.com/world/bus-train-collision-in-channel-tunnel-leaves-19-injured-french-authorities-3006603" target="_blank" rel="noopener noreferrer">Bus, train collision in Channel tunnel leaves 19 injured — French authorities</a></h3>
+  
+  <p class="article-meta">Arab News · 10/16 04:01</p>
+  <p class="article-excerpt">PARIS: At least 19 people were injured on Thursday evening after a freight train and a coach collided near the Channel Tunnel in northern France, the local prefect’s office said. None of the ⁠injuries were life-threatening, ⁠the prefecture said in a statement, adding that ambulances, a helicopter an</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 法国当局称，周四晚间一列货运列车与一辆大巴在法国北部英吉利海峡隧道附近相撞，至少19人受伤，均无生命危险。</p>
+</article>
+  </div>
+    </div>
+  </div>
+  </section>
+
+  <footer>
+    内容均来自原媒体，本站仅作摘要整理与回链。
+  </footer>
+</main>
+<script>
+  document.querySelectorAll('.tabs > .tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var target = btn.dataset.tab;
+      document.querySelectorAll('.tabs > .tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      document.querySelectorAll('.panel').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.panel === target);
+      });
+    });
+  });
+  // Scope sub-tab / source-tab toggles to the parent .panel so two L1 panels
+  // can share the same data-cat (e.g. tech main + community both data-cat=tech)
+  // without stomping on each other's active state.
+  document.querySelectorAll('.sub-tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var panel = btn.closest('.panel');
+      if (!panel) return;
+      var sub = btn.dataset.sub;
+      panel.querySelectorAll('.sub-tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      panel.querySelectorAll('.sub-content').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.subContent === sub);
+      });
+    });
+  });
+  document.querySelectorAll('.source-tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var subContent = btn.closest('.sub-content');
+      if (!subContent) return;
+      var src = btn.dataset.source;
+      subContent.querySelectorAll('.source-tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      subContent.querySelectorAll('.source-content').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.sourceContent === src);
+      });
+    });
+  });
+  // Trading panel: asset-group sub-tabs (US/crypto/china/commodity)
+  document.querySelectorAll('.trading-group-tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var grp = btn.dataset.group;
+      document.querySelectorAll('.trading-group-tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      document.querySelectorAll('.trading-group-content').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.group === grp);
+      });
+    });
+  });
+</script>
+</body>
+</html>
