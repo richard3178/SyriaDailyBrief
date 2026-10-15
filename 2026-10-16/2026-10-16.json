@@ -1,141 +1,142 @@
 {
-  "hero_headline": "叙利亚与禁化武组织敲定化武档案收尾路线图",
-  "daily_overview": "今日线索集中于叙利亚的重建与重返国际体系。时政层面，叙方与禁化武组织就化武档案收尾达成路线图，外长访问利雅得，并与美、约推进苏韦达整合；以总理通话说法遭叙方淡化。财经层面，叙财政部与央行同国际金融公司洽谈项目融资，美国商界代表团赴大马士革对接投资，叙沙能源合作升温。科技与产业层面，大马士革 TEXPO 科技展汇聚 120 余家企业，叙利亚青年机器人队在国际赛事摘银。地区风险方面，霍尔木兹航运受阻已冲击农业收成与粮价。",
+  "hero_headline": "霍尔木兹航运受阻，叙利亚加快重返国际金融体系",
+  "daily_overview": "10月中旬，中东与叙利亚议题密集。经贸端，霍尔木兹海峡航运受阻开始压低农作物收成，联合国机构警告食品涨价；世贸组织总干事称中东战事与地缘政治将长期重塑全球贸易流向。叙利亚财政部与央行同国际金融公司磋商项目融资，并推进欧洲复兴开发银行成员资格，美德企业代表团先后赴大马士革谈投资，叙沙能源合作升温。时政上，叙与禁化武组织敲定关闭化武档案路线图，外长访问利雅得。技术上，大马士革 TEXPO 2026 开幕，叙机器人队「SyBots」在韩摘银。",
   "tech_briefs": [
     {
-      "title": "大马士革 TEXPO 2026 科技展开幕",
-      "url": "https://sana.sy/en/economic/2349210/",
-      "source": "SANA 投资",
-      "summary": "第二届 TEXPO 国际技术与创新展在大马士革展览中心开幕，120 余家本地与国际企业参展，重点展示信息技术、工业设备与创新产品，为叙本地企业对接外部技术合作提供平台。",
-      "importance": 5
-    },
-    {
-      "title": "叙利亚 SyBots 队获机器人奥运银牌",
+      "title": "叙利亚机器人队 SyBots 在韩国摘银",
       "url": "https://levant24.com/en/article/syrias-sybots-win-silver-at-south-korea-robotics-olympics",
       "source": "Levant24",
-      "summary": "叙利亚机器人队 SyBots 在韩国仁川举行的 FIRST Global Challenge（被称为机器人奥运会）中夺得银牌，参赛队伍由本国青年学生组成，反映战乱后科技教育活动的恢复。",
+      "summary": "叙利亚青年机器人队 SyBots 在韩国仁川 FIRST Global Challenge（被称为机器人奥运会）获得银牌，队员在资源受限条件下自行完成机器人搭建与编程，被视为该国科技教育复苏的信号。",
       "importance": 6
     },
     {
-      "title": "叙德启动教育科研合作会议",
-      "url": "https://levant24.com/en/article/syria-and-germany-expand-cooperation-in-education-and-culture",
-      "source": "Levant24",
-      "summary": "叙利亚与德国在大马士革举行为期两天的会议，讨论教育、科学研究与文化交流合作，涉及师资培训、高等教育对接与文化遗产保护等具体领域。",
+      "title": "大马士革 TEXPO 2026 科技展吸引 120 余家企业",
+      "url": "https://sana.sy/en/economic/2349210/",
+      "source": "SANA 投资",
+      "summary": "第二届 TEXPO 国际技术与创新展在大马士革展览中心开幕，汇聚 120 多家本地与国际企业，展品覆盖信息技术与工业设备，主办方希望借此对接重建需求、吸引外资与技术合作。",
+      "importance": 6
+    },
+    {
+      "title": "沙特在开罗世卫会议上强调卫生改革与区域合作",
+      "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-highlights-its-health-reforms-at-regional-world-health-organization-event-in-cairo-3006609",
+      "source": "Arab News",
+      "summary": "沙特在开罗举行的为期三天世界卫生组织区域会议上呼吁加强卫生领域区域合作，增加对预防、公共卫生和初级医疗的投入，并介绍本国卫生改革与数字化服务进展。",
       "importance": 5
     },
     {
-      "title": "利雅得开放沉浸式体验馆 House of Hype",
-      "url": "https://www.arabnews.com/ksa-today/house-of-hype-3006613",
+      "title": "沙特推进军工本地化，目标提升本土制造比例",
+      "url": "https://www.arabnews.com/saudi-arabia/saudi-minister-outlines-military-localization-drive-in-lecture-at-national-guard-college-3006543",
       "source": "Arab News",
-      "summary": "位于利雅得城市大道的沉浸式主题体验馆 House of Hype 对外运营，将虚拟现实场景与实体装置结合，主打互动游戏与视觉体验，属沙特娱乐产业数字化投资的落地项目之一。",
-      "importance": 4
+      "summary": "沙特国务大臣兼军事工业总局代理局长胡拉耶夫在国民警卫队指挥参谋学院演讲，介绍军工本地化路径，包括提高本土制造比例、扶持本地供应商与技术转移，以降低对外部装备依赖。",
+      "importance": 6
     }
   ],
   "finance_briefs": [
     {
-      "title": "叙财政部与央行同国际金融公司商讨融资",
-      "url": "https://sana.sy/en/economic/2350809/",
+      "title": "霍尔木兹航运受阻开始影响农作物收成",
+      "url": "https://www.arabnews.com/middle-east/hormuz-shipping-disruption-is-starting-to-hit-harvests-un-agency-says-3006614",
+      "source": "Arab News",
+      "summary": "联合国机构表示，霍尔木兹海峡航运中断的影响已显现于农业收成，可能压低单产并推高食品价格。该海峡同时承载大量能源与粮食运输，扰动外溢风险受到关注。",
+      "importance": 9
+    },
+    {
+      "title": "WTO 总干事：地缘冲突将长期重塑贸易流向",
+      "url": "https://www.arabnews.com/world/wto-chief-sees-lasting-impact-on-trade-from-middle-east-war-and-geopolitics-3006615",
+      "source": "Arab News",
+      "summary": "世贸组织总干事伊维拉表示，乌克兰与中东战事及地缘政治变化将长期影响全球贸易流向，企业正为未来冲击提前对冲，贸易格局可能持续分化重构。",
+      "importance": 9
+    },
+    {
+      "title": "美国企业代表团访叙洽谈投资机会",
+      "url": "https://sana.sy/en/economic/2350254/",
       "source": "SANA 投资",
-      "summary": "叙利亚财政部长巴尔尼耶与央行行长拉斯兰同国际金融公司（IFC）会谈，讨论项目融资与投资支持方式，重点涉及私营部门信贷渠道与重建资金安排。",
+      "summary": "美国及地区、国际企业代表访问大马士革，与叙经济与工业部副部长及叙利亚投资署负责人会谈，探讨在工业与重建领域的投资合作空间。（多家报道）",
       "importance": 7
     },
     {
-      "title": "霍尔木兹航运受阻开始冲击农业收成",
-      "url": "https://www.arabnews.com/middle-east/hormuz-shipping-disruption-is-starting-to-hit-harvests-un-agency-says-3006614",
-      "source": "Arab News",
-      "summary": "联合国机构表示，霍尔木兹海峡航运中断的影响已传导至农业收成，可能压低单产并推高食品价格，依赖进口的亚洲及中东市场成本压力上升。",
+      "title": "叙利亚同时推进 IFC 融资与 EBRD 成员资格",
+      "url": "https://sana.sy/en/economic/2350809/",
+      "source": "SANA 投资",
+      "summary": "叙财政部与央行同国际金融公司讨论项目融资与投资支持，同时叙方推进加入欧洲复兴开发银行的申请并与德国商界接触，加快重返国际金融体系。（多家报道）",
       "importance": 8
     },
     {
-      "title": "叙沙能源合作升温，投资与技术并行",
+      "title": "叙沙能源合作升温，投资与技术伙伴关系受关注",
       "url": "https://sana.sy/en/economic/2349073/",
       "source": "SANA 投资",
-      "summary": "叙利亚与沙特经济合作升温，能源被列为重点投资领域，双方探讨电力与油气项目的投资、技术合作机会，被视为叙重返地区经济体系的一环。",
-      "importance": 6
-    },
-    {
-      "title": "美国商界代表团访叙洽谈投资机会",
-      "url": "https://sana.sy/en/economic/2350254/",
-      "source": "SANA 投资",
-      "summary": "美国及地区企业代表在大马士革与叙经济与工业部副部长、叙投资署负责人会面，探讨投资机会与经济合作路径（多家报道）。",
-      "importance": 6
-    },
-    {
-      "title": "沙特在世卫组织区域会议介绍卫生改革",
-      "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-highlights-its-health-reforms-at-regional-world-health-organization-event-in-cairo-3006609",
-      "source": "Arab News",
-      "summary": "沙特在开罗举行的世界卫生组织区域会议上介绍卫生体系改革进展，呼吁加大预防、公共卫生与基层医疗投入，并推动区域卫生合作。",
-      "importance": 5
+      "summary": "叙利亚与沙特经济合作提速，能源领域成为投资与技术合作重点，双方拟在电力、油气及相关基础设施项目上推进对接，具体安排仍在磋商。",
+      "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "以总理称与沙拉通话，叙方称挫败破坏图谋",
-      "url": "https://syrianobserver.com/foreign-actors/after-netanyahu-claims-he-held-a-phone-call-with-sharaa-syria-says-it-thwarted-plans-to-destabilize-the-country.html",
-      "source": "Syrian Observer",
-      "summary": "内塔尼亚胡称与叙总统沙拉通电话，叙方未予确认，并称已挫败旨在破坏国家稳定的图谋，同时继续与美国、约旦推进苏韦达重新纳入国家机构的三方路线图。",
-      "importance": 8
-    },
-    {
-      "title": "叙与禁化武组织就化武档案收尾达成路线图",
+      "title": "叙利亚与禁化武组织就关闭化武档案达成路线图",
       "url": "https://levant24.com/en/article/syria-and-opcw-agree-on-roadmap-to-close-chemical-weapons-file",
       "source": "Levant24",
-      "summary": "叙国防部长与禁化武组织总干事磋商关闭化武档案的最后步骤，双方就核查安排达成路线图；叙外长强调收尾不止于技术合规（多家报道）。",
+      "summary": "叙官员与禁化武组织经多轮高层会谈，就关闭化学武器档案形成路线图；叙外长强调该进程不限于技术合规，还涉及政治与法律层面的安排。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "以总理称与沙拉阿通话，叙方称挫败破坏图谋",
+      "url": "https://syrianobserver.com/foreign-actors/after-netanyahu-claims-he-held-a-phone-call-with-sharaa-syria-says-it-thwarted-plans-to-destabilize-the-country.html",
+      "source": "Syrian Observer",
+      "summary": "内塔尼亚胡称曾与叙总统沙拉阿通电话，叙方回应称已挫败旨在破坏国家稳定的计划，并继续与美国、约旦推进使苏韦达重新纳入国家架构的三方路线图。",
       "importance": 8
     },
     {
-      "title": "叙利亚外长抵利雅得进行正式访问",
+      "title": "叙利亚外长访问利雅得，推进双边关系",
       "url": "https://syrianobserver.com/foreign-actors/syrian-foreign-minister-arrives-in-riyadh-for-official-visit-to-strengthen-bilateral-relations.html",
       "source": "Syrian Observer",
-      "summary": "叙外长希巴尼抵达利雅得展开正式访问，目标是加强双边关系与经贸协调，此行紧随总统沙拉 10 月 6 日访沙之后。",
-      "importance": 6
+      "summary": "叙外长希巴尼抵达利雅得进行正式访问，此行距叙总统沙拉阿 10 月 6 日访沙不久，双方重点讨论加强双边关系与经济合作的具体步骤。",
+      "importance": 7
     }
   ],
-  "editor_note": "当日主线是叙利亚重返国际体系：化武档案、外资洽谈与地区外交同步推进，成色最终取决于执行与安全局势。",
+  "editor_note": "今日线索集中在两条主线上：中东航运与地缘风险外溢至粮食与贸易，以及叙利亚加快重返国际金融与外交体系。重建合同与产权争议等隐忧仍需观察。",
   "keywords": [
+    "霍尔木兹海峡",
     "叙利亚重建",
-    "化武档案",
-    "霍尔木兹航运",
-    "IFC 融资",
-    "TEXPO 科技展",
-    "叙沙能源合作",
-    "苏韦达整合"
+    "禁化武组织",
+    "EBRD 成员资格",
+    "WTO 贸易流向",
+    "军工本地化",
+    "食品价格",
+    "TEXPO 2026"
   ],
   "trading": {
-    "market_overview": "美股方面，SPY 报 771.79、距 52 周高仅 -1.26%，但 MACD 2.675 已下穿信号 2.6966 出现死叉；QQQ 收 728、5 日 -2.62%，RSI14 44.1，同样为死叉状态，两大宽基指数呈高位钝化。个股分化明显：AAPL、MSFT 维持多头排列且贴近 52 周高（-1.77%、-2.58%），NVDA 则 5 日 -5.75%、RSI14 40.2 走弱。加密方面，恐慌贪婪指数 53 属中性，总市值 2.79 万亿美元、24 小时 -1.95%，BTC 主导率 59.3%、ETH 10.8%；BTC 82345 仍守 SMA50 81231 与 SMA200 72286，RSI14 49.4，但距 52 周高 -29.18%，ETH 2460.23 的 MACD -31.45 低于信号 -1.46。中概整体偏弱，京东出现 SMA50 下穿 SMA200 的死叉、腾讯 417.8 空头排列且接近 52 周低，仅 PDD、BABA 5 日分别 +5.32%、+5.14% 录得短线反弹。商品外汇中，WTI 原油 96.12 多头排列且 MACD 金叉，黄金 4192.5 虽 MACD 金叉但仍处空头排列；美元兑人民币 RSI14 26.9 超卖，DXY 102 接近 52 周高，10Y 美债收益率 5.09 多头排列，VIX 16.46 多空信号交织。",
+    "market_overview": "美股：SPY 771.79 日内 +0.28%，站上 SMA20 771.11 / SMA50 768.61 / SMA200 724.63，但 MACD 2.675 略低于信号线 2.6966 形成死叉，RSI14 51.8 中性；QQQ 728 日内 -0.13%、5 日 -2.62%，RSI14 44.1，MACD 4.3349 对信号线 7.3273 死叉开口偏大，纳指技术面弱于标普。个股分化明显：MSFT（RSI 65、距离 52 周高 -2.58%）、AAPL（MACD 4.0307 金叉）维持多头排列；NVDA 5 日 -5.75%、RSI 40.2、跌破 SMA20 228.58 且 MACD 死叉；TSLA 362.44 仍处 SMA200 388.49 下方。加密：恐慌贪婪指数 53（中性），总市值 2.79T USD、24 小时 -1.89%，BTC 主导率 59.3%、ETH 10.7%；BTC 82367.86 位于 SMA20 83718 之下、MACD 354.84 低于信号 878.52，ETH RSI 41.5、MACD -31.76 深度为负，SOL 5 日 -3.85%。中概分化：BABA 5 日 +5.14% 且 MACD 金叉，但 SMA20<50<200 空头排列；PDD 5 日 +5.32% 重回 SMA20 上方；JD 触发死叉（SMA50↓SMA200），腾讯空头排列、距 52 周高 -37.08%。商品外汇：WTI 原油 96.13 多头排列且 MACD 金叉最强；黄金虽 MACD 金叉但空头排列、RSI 44.2；美元指数接近 52 周高、RSI 58.7；美元兑人民币 RSI 26.9 超卖；10Y 美债收益率 5.09% 多头排列；VIX 16.46、MACD 金叉。",
     "watchlist": [
-      {
-        "symbol": "AAPL",
-        "display_name": "苹果 (AAPL)",
-        "stance": "偏上行",
-        "rationale": "现价 342，1 日 -0.28%、5 日 +0.46%，波动温和。MACD 4.0307 高于信号线 3.8867，呈金叉状态；RSI14 60.6 位于中性偏强区间但未触超买。价格站上 SMA20 337.06、SMA50 325.08、SMA200 292.11，呈多头排列，距 52 周高仅 -1.77%。指标组合显示当前技术结构偏上行。"
-      },
       {
         "symbol": "MSFT",
         "display_name": "微软 (MSFT)",
         "stance": "偏上行",
-        "rationale": "现价 539.44，1 日 +1.08%、5 日 +3.22%，为候选美股中短期涨幅较强者。RSI14 65 已接近超买阈值但仍属正常区间；MACD 12.1216 高于信号 10.8571，红柱延续。价格位于 SMA20 518.46、SMA50 504.95、SMA200 435.04 之上，均线多头排列，距 52 周高 -2.58%，动量结构偏上行。"
+        "rationale": "现价 539.44，日内 +1.08%、5 日 +3.22%，距 52 周高仅 -2.58%。SMA20 518.46、SMA50 504.95、SMA200 435.04 依次上排构成多头排列，MACD 12.1216 高于信号线 10.8571，RSI14 65 位于中性偏强区间但未触及超买，动量与趋势指标同步向上。"
       },
       {
-        "symbol": "NVDA",
-        "display_name": "英伟达 (NVDA)",
-        "stance": "偏下行",
-        "rationale": "现价 217.23，1 日 -1.84%、5 日 -5.75%，为候选美股中回撤最深者。MACD 0.9142 明显低于信号 2.7704，处死叉状态且柱状值为负；RSI14 40.2 偏弱。价格同时跌破 SMA20 228.58 与 SMA50 223.17，仅高于 SMA200 202.84，距 52 周高 -10.74%，趋势标签已转为中性，短期指标偏下行。"
+        "symbol": "CL=F",
+        "display_name": "WTI 原油期货 (CL=F)",
+        "stance": "偏上行",
+        "rationale": "现价 96.13，日内 +1.09%、5 日 +5.07%。SMA20 92.79、SMA50 90.46、SMA200 83.96 呈多头排列，价格站上全部均线；MACD 0.5697 高于信号线 0.3545 维持金叉，RSI14 58.3 未达超买，距 52 周高 -19.54%，趋势与动量读数同向。"
       },
       {
         "symbol": "USDCNY=X",
         "display_name": "美元 / 人民币 (USDCNY=X)",
         "stance": "偏下行",
-        "rationale": "现价 6.69，1 日 -0.03%、5 日 -0.17% 连续走低。RSI14 26.9 已进入超卖区；MACD -0.0066 低于信号 -0.0061，维持死叉。价格压于 SMA20 6.70、SMA50 6.71、SMA200 6.81 之下，呈空头排列，并贴近 52 周区间低端（距 52 周低 0%），指标状态偏下行。"
+        "rationale": "现价 6.69，日内 -0.03%、5 日 -0.17%。RSI14 26.9 已进入超卖区，MACD -0.0066 低于信号线 -0.0061 维持死叉；SMA20 6.70、SMA50 6.71、SMA200 6.81 呈空头排列，价格贴近 52 周低位（距高点 -6.96%），趋势与动能指标同步偏弱。"
+      },
+      {
+        "symbol": "0700.HK",
+        "display_name": "腾讯控股 (0700.HK)",
+        "stance": "偏下行",
+        "rationale": "现价 417.80，日内 -1.32%。MACD -5.1532 低于信号线 -4.9965 维持死叉，SMA20 428.34、SMA50 439.35、SMA200 490.65 构成空头排列，RSI14 42 位于中性偏弱一侧，距 52 周高 -37.08%、仅高出 52 周低 1.65%，反弹动能不足。"
       },
       {
         "symbol": "^VIX",
         "display_name": "VIX 恐慌指数 (^VIX)",
         "stance": "中性",
-        "rationale": "现价 16.46，1 日 -2.43% 与 5 日 +6.81% 方向相反，短线信号交织。MACD 0.0486 上穿信号 -0.0619，形成金叉；RSI14 54.9 居中，无超买超卖。价格高于 SMA20 15.47、SMA50 15.50，却低于 SMA200 18.10，距 52 周高 -53.37%，多空读数互不占优，故判为中性。"
+        "rationale": "现价 16.46，日内 -2.43% 但 5 日 +6.81%，波动呈双向拉扯。MACD 0.0486 上穿信号线 -0.0619 形成金叉，RSI14 54.9 居中；价格 16.46 高于 SMA20 15.47 与 SMA50 15.50、低于 SMA200 18.10，趋势标签为中性，指标未给出方向性一致信号。"
       }
     ],
-    "risk_caveat": "以上内容均为公开行情数据所对应技术指标的客观读数复述，过去走势不代表未来表现，金叉、死叉、超买超卖及均线排列等形态不构成任何买卖依据；本报告仅供技术指标解读参考，请读者独立判断并自行承担风险。",
+    "risk_caveat": "本报告仅基于公开行情数据计算出的技术指标读数进行客观复述，不构成任何投资建议或买卖依据；过去走势不代表未来表现，指标信号亦可能失效。仅供技术指标解读参考。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -393,18 +394,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 82345,
-        "pct1Day": 0.9593966436203681,
-        "pct5Day": -0.6841289711022528,
-        "pct52WeekHigh": -29.179791991816522,
-        "pct52WeekLow": 42.59426070265644,
-        "sma20": 83716.862109375,
-        "sma50": 81231.0646875,
-        "sma200": 72286.9175,
-        "rsi14": 49.40723028987642,
-        "macd": 353.0137784794206,
-        "macdSignal": 878.159881299273,
-        "macdHistogram": -525.1461028198524,
+        "currentPrice": 82367.86,
+        "pct1Day": 0.9874242325119003,
+        "pct5Day": -0.6565576454392417,
+        "pct52WeekHigh": -29.160131417949653,
+        "pct52WeekLow": 42.63384664958294,
+        "sma20": 83718.005078125,
+        "sma50": 81231.521875,
+        "sma200": 72287.031796875,
+        "rsi14": 49.48582444517308,
+        "macd": 354.8373183654621,
+        "macdSignal": 878.5245892764813,
+        "macdHistogram": -523.6872709110191,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -420,18 +421,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2460.23,
-        "pct1Day": 1.737773821965849,
-        "pct5Day": -1.7490952564900801,
-        "pct52WeekHigh": -42.121359691530984,
-        "pct52WeekLow": 63.30704888803276,
-        "sma20": 2600.8168090820313,
-        "sma50": 2554.653251953125,
-        "sma200": 2142.8356353759764,
-        "rsi14": 41.90181934968148,
-        "macd": -31.44883568666137,
-        "macdSignal": -1.4635589001948546,
-        "macdHistogram": -29.985276786466514,
+        "currentPrice": 2456.27,
+        "pct1Day": 1.5740161308820932,
+        "pct5Day": -1.907240463557835,
+        "pct52WeekHigh": -42.21452147543799,
+        "pct52WeekLow": 63.04418894664654,
+        "sma20": 2600.6188110351563,
+        "sma50": 2554.574052734375,
+        "sma200": 2142.815835571289,
+        "rsi14": 41.52950159980193,
+        "macd": -31.764730006461832,
+        "macdSignal": -1.526737764154947,
+        "macdHistogram": -30.237992242306884,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -442,18 +443,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 106.01,
-        "pct1Day": 1.8597767388697535,
-        "pct5Day": -3.657081864638019,
-        "pct52WeekHigh": -48.292862088366476,
-        "pct52WeekLow": 75.47048136613064,
-        "sma20": 114.87738571166992,
-        "sma50": 109.4777717590332,
-        "sma200": 87.25278785705567,
-        "rsi14": 41.30447041157028,
-        "macd": -1.1096244305044394,
-        "macdSignal": 0.9362539969918249,
-        "macdHistogram": -2.0458784274962643,
+        "currentPrice": 105.8,
+        "pct1Day": 1.6579981036922846,
+        "pct5Day": -3.84793190527972,
+        "pct52WeekHigh": -48.39529109470025,
+        "pct52WeekLow": 75.12288395940591,
+        "sma20": 114.86688575744628,
+        "sma50": 109.47357177734375,
+        "sma200": 87.2517378616333,
+        "rsi14": 40.91150560326895,
+        "macd": -1.1263764942230665,
+        "macdSignal": 0.9329035842480994,
+        "macdHistogram": -2.059280078471166,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -586,18 +587,18 @@
         "group": "commodity-fx",
         "currency": "USD",
         "exchangeName": "CMX",
-        "currentPrice": 4192.5,
-        "pct1Day": 2.059448858721744,
-        "pct5Day": 0.8539812364686072,
-        "pct52WeekHigh": -24.948981418495574,
-        "pct52WeekLow": 7.464178607130951,
-        "sma20": 4227.419970703125,
-        "sma50": 4377.231982421875,
-        "sma200": 4541.835499267578,
-        "rsi14": 44.52475768344724,
-        "macd": -57.8929944368474,
-        "macdSignal": -59.281974507765526,
-        "macdHistogram": 1.388980070918123,
+        "currentPrice": 4188.8,
+        "pct1Day": 1.9693785043324177,
+        "pct5Day": 0.7649747414000525,
+        "pct52WeekHigh": -25.015216068167977,
+        "pct52WeekLow": 7.369338425652987,
+        "sma20": 4227.2349609375,
+        "sma50": 4377.157978515625,
+        "sma200": 4541.816998291016,
+        "rsi14": 44.16656543345377,
+        "macd": -58.188166712488055,
+        "macdSignal": -59.34100896289366,
+        "macdHistogram": 1.1528422504056053,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -618,18 +619,18 @@
         "group": "commodity-fx",
         "currency": "USD",
         "exchangeName": "NYM",
-        "currentPrice": 96.12,
-        "pct1Day": 1.083188244586095,
-        "pct5Day": 5.0606648205683,
-        "pct52WeekHigh": -19.551389353866753,
-        "pct52WeekLow": 74.8272098945071,
-        "sma20": 92.79049987792969,
-        "sma50": 90.46320053100585,
-        "sma200": 83.96454999923706,
-        "rsi14": 58.30710566562912,
-        "macd": 0.56892895712609,
-        "macdSignal": 0.3543390980246536,
-        "macdHistogram": 0.21458985910143646,
+        "currentPrice": 96.13,
+        "pct1Day": 1.0937045979198958,
+        "pct5Day": 5.071594977124736,
+        "pct52WeekHigh": -19.5430197522598,
+        "pct52WeekLow": 74.84539832666425,
+        "sma20": 92.79099960327149,
+        "sma50": 90.46340042114258,
+        "sma200": 83.96459997177124,
+        "rsi14": 58.325240779487075,
+        "macd": 0.5697262397226837,
+        "macdSignal": 0.3544985545439723,
+        "macdHistogram": 0.21522768517871138,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -778,13 +779,13 @@
       "timestamp": "2026-10-15T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2787996108425.608,
-      "total24hVolumeUsd": 32608820457701.043,
-      "marketCapChangePct24h": -1.9456712137882595,
-      "btcDominance": 59.27015197506942,
-      "ethDominance": 10.752301932567496,
+      "totalMarketCapUsd": 2788239742112.674,
+      "total24hVolumeUsd": 34971289863582.156,
+      "marketCapChangePct24h": -1.8865940152609353,
+      "btcDominance": 59.29022927946188,
+      "ethDominance": 10.74727103095987,
       "activeCryptocurrencies": 22296
     },
-    "generated_at": "2026-10-15T22:09:50.351Z"
+    "generated_at": "2026-10-15T22:41:20.133Z"
   }
 }
