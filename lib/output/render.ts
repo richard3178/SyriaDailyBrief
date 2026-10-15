@@ -171,10 +171,9 @@ const SUBCATEGORY_ORDER: Partial<Record<Category, string[]>> = {
   // Locale filtering at registry level decides which actually appears:
   // zh mode keeps cn-community (V2EX / LinuxDo); en mode keeps
   // overseas-community (Hacker News / r/stocks).
-  tech: ["github-trending", "trending-papers", "x-viral", "ai-news", "cn-community", "overseas-community"],
-  finance: ["news"],
   politics: ["world"],
-};
+  finance: ["news", "investment", "china-syria"],
+  };
 
 const TECH_MAIN_SUBS = new Set(["github-trending", "trending-papers", "x-viral", "ai-news"]);
 const TECH_COMMUNITY_SUBS = new Set(["cn-community", "overseas-community"]);
@@ -189,6 +188,8 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
   "blog-weekly": STR.subBlogWeekly,
   news: STR.subFinanceNews,
   world: STR.subWorld,
+  investment: "投资动态",
+  "china-syria": "中叙合作",
 };
 
 /**
@@ -241,6 +242,8 @@ function displayLimitFor(
 export const MERGED_SUBGROUP_LIMITS: Record<string, number> = {
   "tech:ai-news": 15,
   "finance:news": 12,
+  "finance:investment": 10,
+  "finance:china-syria": 15,
   "politics:world": 15,
 };
 
@@ -532,25 +535,17 @@ export function renderHtml(
   raw: RawByCategory,
   date: string,
 ): string {
-  const trading = report.trading;
-
-  // Split tech raw subgroups: "tech" L1 panel (github-trending + ai-news)
-  // vs. "community" L1 panel (cn-community). Keeps the registry simple
-  // (V2EX/LinuxDo still live under category=tech) while exposing the
-  // forums as their own top-level tab per UX preference.
-  const techMainSubs = raw.tech.filter((s) => TECH_MAIN_SUBS.has(s.id));
-  const techCommunitySubs = raw.tech.filter((s) => TECH_COMMUNITY_SUBS.has(s.id));
-
-  const sumItems = (subs: SubGroup[]) =>
+ const sumItems = (subs: SubGroup[]) =>
     subs.reduce(
       (n, sg) => n + sg.sources.reduce((m, s) => m + s.items.length, 0),
       0,
     );
+  const subById = (id: string) => raw.finance.filter((s) => s.id === id);
   const counts = {
-    tech: sumItems(techMainSubs),
-    finance: sumItems(raw.finance),
     politics: sumItems(raw.politics),
-    community: sumItems(techCommunitySubs),
+    finance: sumItems(subById("news")),
+    investment: sumItems(subById("investment")),
+    chinaSyria: sumItems(subById("china-syria")),
   };
 
   return `<!doctype html>
@@ -1199,26 +1194,24 @@ export function renderHtml(
   </header>
 
   <nav class="tabs" role="tablist">
-    <button class="tab active" data-tab="tech">${CATEGORY_LABELS.tech}<span class="count">${counts.tech}</span></button>
-    ${trading ? `<button class="tab" data-tab="trading">${STR.catTrading}<span class="count">${trading.tickers.length}</span></button>` : ""}
-    <button class="tab" data-tab="politics">${CATEGORY_LABELS.politics}<span class="count">${counts.politics}</span></button>
+    <button class="tab active" data-tab="politics">${CATEGORY_LABELS.politics}<span class="count">${counts.politics}</span></button>
     <button class="tab" data-tab="finance">${CATEGORY_LABELS.finance}<span class="count">${counts.finance}</span></button>
-    ${techCommunitySubs.length > 0 ? `<button class="tab" data-tab="community">${STR.catCommunity}<span class="count">${counts.community}</span></button>` : ""}
+    <button class="tab" data-tab="investment">${SUBCATEGORY_LABELS.investment}<span class="count">${counts.investment}</span></button>
+    <button class="tab" data-tab="china-syria">${SUBCATEGORY_LABELS["china-syria"]}<span class="count">${counts.chinaSyria}</span></button>
   </nav>
 
-  <section class="panel active" data-panel="tech">
-    ${renderRawCategoryPanel("tech", techMainSubs)}
-  </section>
-  ${trading ? `<section class="panel" data-panel="trading">${renderTradingPanel(trading)}</section>` : ""}
-  <section class="panel" data-panel="politics">
+  <section class="panel active" data-panel="politics">
     ${renderRawCategoryPanel("politics", raw.politics)}
   </section>
   <section class="panel" data-panel="finance">
-    ${renderRawCategoryPanel("finance", raw.finance)}
+    ${renderRawCategoryPanel("finance", subById("news"))}
   </section>
-  ${techCommunitySubs.length > 0 ? `<section class="panel" data-panel="community">
-    ${renderRawCategoryPanel("tech", techCommunitySubs)}
-  </section>` : ""}
+  <section class="panel" data-panel="investment">
+    ${renderRawCategoryPanel("finance", subById("investment"))}
+  </section>
+  <section class="panel" data-panel="china-syria">
+    ${renderRawCategoryPanel("finance", subById("china-syria"))}
+  </section>
 
   <footer>
     ${STR.footer}
