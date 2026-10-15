@@ -2,6 +2,7 @@
   {
     "id": "sana-investment",
     "name": "SANA Investment",
+    "type": "rss",
     "category": "finance",
     "subcategory": "news",
     "url": "https://sana.sy/en/investment/feed/",
@@ -11,6 +12,7 @@
   {
     "id": "sana-economy",
     "name": "SANA Economy",
+    "type": "rss",
     "category": "finance",
     "subcategory": "news",
     "url": "https://sana.sy/en/economic/feed/",
@@ -20,6 +22,7 @@
   {
     "id": "enab-baladi-en",
     "name": "Enab Baladi English",
+    "type": "rss",
     "category": "finance",
     "subcategory": "news",
     "url": "https://english.enabbaladi.net/feed/",
@@ -29,6 +32,7 @@
   {
     "id": "levant24",
     "name": "Levant24",
+    "type": "rss",
     "category": "finance",
     "subcategory": "news",
     "url": "https://levant24.com/feed/",
@@ -38,6 +42,7 @@
   {
     "id": "syrian-observer",
     "name": "The Syrian Observer",
+    "type": "rss",
     "category": "politics",
     "subcategory": "world",
     "url": "https://syrianobserver.com/feed",
@@ -47,6 +52,7 @@
   {
     "id": "syria-direct",
     "name": "Syria Direct",
+    "type": "rss",
     "category": "politics",
     "subcategory": "world",
     "url": "https://syriadirect.org/feed/",
