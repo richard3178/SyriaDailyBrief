@@ -1,42 +1,56 @@
 [
   {
-    "id": "aljazeera-mena",
-    "name": "Al Jazeera - MENA",
-    "type": "rss",
-    "url": "https://www.aljazeera.com/xml/rss/all.xml",
-    "category": "politics",
-    "subcategory": "world",
-    "enabled": true,
-    "locales": ["zh", "en"]
-  },
-  {
-    "id": "alarabiya-business",
-    "name": "Al Arabiya - Business",
-    "type": "rss",
-    "url": "https://english.alarabiya.net/rss/business",
+    "id": "sana-investment",
+    "name": "SANA Investment",
     "category": "finance",
     "subcategory": "news",
+    "url": "https://sana.sy/en/investment/feed/",
     "enabled": true,
-    "locales": ["zh", "en"]
+    "limit": 10
   },
   {
-    "id": "arabian-business",
-    "name": "Arabian Business",
-    "type": "rss",
-    "url": "https://www.arabianbusiness.com/rss",
+    "id": "sana-economy",
+    "name": "SANA Economy",
     "category": "finance",
     "subcategory": "news",
+    "url": "https://sana.sy/en/economic/feed/",
     "enabled": true,
-    "locales": ["zh", "en"]
+    "limit": 12
   },
   {
-    "id": "enab-baladi",
-    "name": "Enab Baladi (Syria)",
-    "type": "rss",
+    "id": "enab-baladi-en",
+    "name": "Enab Baladi English",
+    "category": "finance",
+    "subcategory": "news",
     "url": "https://english.enabbaladi.net/feed/",
+    "enabled": true,
+    "limit": 15
+  },
+  {
+    "id": "levant24",
+    "name": "Levant24",
+    "category": "finance",
+    "subcategory": "news",
+    "url": "https://levant24.com/feed/",
+    "enabled": true,
+    "limit": 15
+  },
+  {
+    "id": "syrian-observer",
+    "name": "The Syrian Observer",
     "category": "politics",
     "subcategory": "world",
+    "url": "https://syrianobserver.com/feed",
     "enabled": true,
-    "locales": ["zh", "en"]
+    "limit": 15
+  },
+  {
+    "id": "syria-direct",
+    "name": "Syria Direct",
+    "category": "politics",
+    "subcategory": "world",
+    "url": "https://syriadirect.org/feed/",
+    "enabled": true,
+    "limit": 8
   }
 ]
