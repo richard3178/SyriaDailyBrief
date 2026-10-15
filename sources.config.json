@@ -1,63 +1,76 @@
 [
   {
-    "id": "sana-investment",
-    "name": "SANA Investment",
-    "type": "rss",
-    "category": "finance",
-    "subcategory": "news",
-    "url": "https://sana.sy/en/investment/feed/",
-    "enabled": true,
-    "limit": 10
-  },
-  {
-    "id": "sana-economy",
-    "name": "SANA Economy",
-    "type": "rss",
-    "category": "finance",
-    "subcategory": "news",
-    "url": "https://sana.sy/en/economic/feed/",
-    "enabled": true,
-    "limit": 12
-  },
-  {
-    "id": "enab-baladi-en",
-    "name": "Enab Baladi English",
-    "type": "rss",
-    "category": "finance",
-    "subcategory": "news",
-    "url": "https://english.enabbaladi.net/feed/",
-    "enabled": true,
-    "limit": 15,
-    "useCurl": true
-  },
-  {
-    "id": "levant24",
-    "name": "Levant24",
-    "type": "rss",
-    "category": "finance",
-    "subcategory": "news",
-    "url": "https://levant24.com/feed/",
-    "enabled": true,
-    "limit": 15
-  },
-  {
     "id": "syrian-observer",
-    "name": "The Syrian Observer",
+    "name": "Syrian Observer",
+    "url": "https://syrianobserver.com/feed",
     "type": "rss",
     "category": "politics",
     "subcategory": "world",
-    "url": "https://syrianobserver.com/feed",
-    "enabled": true,
     "limit": 15
   },
   {
     "id": "syria-direct",
     "name": "Syria Direct",
+    "url": "https://syriadirect.org/feed/",
     "type": "rss",
     "category": "politics",
     "subcategory": "world",
-    "url": "https://syriadirect.org/feed/",
-    "enabled": true,
     "limit": 8
+  },
+  {
+    "id": "sana-economy",
+    "name": "SANA 经济",
+    "url": "https://sana.sy/en/economic/feed/",
+    "type": "rss",
+    "category": "finance",
+    "subcategory": "news",
+    "limit": 12
+  },
+  {
+    "id": "levant24",
+    "name": "Levant24",
+    "url": "https://levant24.com/feed/",
+    "type": "rss",
+    "category": "finance",
+    "subcategory": "news",
+    "useCurl": true,
+    "limit": 15
+  },
+  {
+    "id": "sana-investment",
+    "name": "SANA 投资",
+    "url": "https://sana.sy/en/investment/feed/",
+    "type": "rss",
+    "category": "finance",
+    "subcategory": "investment",
+    "limit": 10
+  },
+  {
+    "id": "enab-baladi-en",
+    "name": "Enab Baladi EN",
+    "url": "https://english.enabbaladi.net/feed/",
+    "type": "rss",
+    "category": "finance",
+    "subcategory": "investment",
+    "useCurl": true,
+    "limit": 15
+  },
+  {
+    "id": "sana-en",
+    "name": "SANA 主站",
+    "url": "https://sana.sy/en/feed/",
+    "type": "rss",
+    "category": "finance",
+    "subcategory": "china-syria",
+    "limit": 15
+  },
+  {
+    "id": "arabnews",
+    "name": "Arab News",
+    "url": "https://www.arabnews.com/rss.xml",
+    "type": "rss",
+    "category": "finance",
+    "subcategory": "china-syria",
+    "limit": 15
   }
 ]
