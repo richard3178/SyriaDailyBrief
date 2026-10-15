@@ -103,7 +103,7 @@ export async function runOpenAICompat(
       },
       { timeout: timeoutMs },
     );
-    const text = (resp.choices[0]?.message?.content ?? "").trim();
+    const text = (resp.choices?.[0]?.message?.content ?? "").trim();
     const durationMs = Date.now() - started;
     logLlmCall({
       ts: new Date(started).toISOString(),
