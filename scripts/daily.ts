@@ -79,7 +79,20 @@ async function enrichFinanceNews(articles: ArticleInput[]): Promise<void> {
 async function enrichPolitics(articles: ArticleInput[]): Promise<void> {
   await enrichMergedSubgroup(articles, "politics", "world");
 }
-
+/**
+ * finance:investment is rendered as a merged time-sorted list. Enrich
+ * exactly the items that will be displayed (see MERGED_SUBGROUP_LIMITS).
+ */
+async function enrichFinanceInvestment(articles: ArticleInput[]): Promise<void> {
+  await enrichMergedSubgroup(articles, "finance", "investment");
+}
+/**
+ * finance:china-syria is rendered as a merged time-sorted list. Enrich
+ * exactly the items that will be displayed (see MERGED_SUBGROUP_LIMITS).
+ */
+async function enrichFinanceChinaSyria(articles: ArticleInput[]): Promise<void> {
+  await enrichMergedSubgroup(articles, "finance", "china-syria");
+}
 async function enrichAiNews(articles: ArticleInput[]): Promise<void> {
   await enrichMergedSubgroup(articles, "tech", "ai-news");
 }
@@ -255,6 +268,8 @@ async function main() {
   await enrichGhTrending(articles);
   await enrichTrendingPapers(articles);
   await enrichFinanceNews(articles);
+  await enrichFinanceInvestment(articles);
+  await enrichFinanceChinaSyria(articles);
   await enrichPolitics(articles);
   await enrichAiNews(articles);
   await enrichXViral(articles);
