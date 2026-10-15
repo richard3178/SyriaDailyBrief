@@ -28,6 +28,7 @@
     "url": "https://english.enabbaladi.net/feed/",
     "enabled": true,
     "limit": 15
+     "useCurl": true
   },
   {
     "id": "levant24",
