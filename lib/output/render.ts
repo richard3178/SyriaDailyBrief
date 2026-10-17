@@ -8,7 +8,6 @@ import type { WatchlistPick } from "../ai/trading-commentary";
 import { REPORT_LOCALE } from "../sources/registry";
 import { getReportTz } from "../utils";
 import type { Category, SourceDef } from "../sources/types";
-import { V2EX_OFF_TOPIC_RE } from "../sources/v2ex";
 import type { TickerAnalysis } from "../trading/signals";
 import {
   getAssetGroupLabels,
@@ -305,11 +304,6 @@ export function groupRaw(
   for (const a of articles) {
     if (!enabledIds.has(a.sourceId)) continue;
     if (a.category === "politics" && isSportsArticle(a.title)) continue;
-    if (
-      (a.sourceId === "v2ex-hot" || a.sourceId === "linuxdo") &&
-      V2EX_OFF_TOPIC_RE.test(a.title)
-    )
-      continue;
     const map = buckets[a.category];
     let b = map.get(a.sourceId);
     if (!b) {
