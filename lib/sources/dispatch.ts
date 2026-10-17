@@ -13,12 +13,6 @@ import type { RawArticle, SourceDef } from "./types";
  * Add a new branch here when introducing a non-RSS fetcher.
  */
 export async function fetchSource(source: SourceDef): Promise<RawArticle[]> {
-  if (source.id === "hackernews") return fetchHackerNews(source.id);
-  if (source.id === "github-trending") return fetchGithubTrending(source.id);
-  if (source.id === "v2ex-hot") return fetchV2ex(source.id);
-  if (source.id === "linuxdo") return fetchLinuxDo(source.id);
-  if (source.id === "attentionvc-ai") return fetchAttentionVc(source.id);
-  if (source.id === "huggingface-papers") return fetchHuggingfacePapers(source.id, source.keywords);
   if (source.id === "sana-investment") return fetchSanaPage(source.id);
   if (source.id === "china-syria") return fetchSanaPage(source.id);
   return fetchRss(source.id, source.url, source.category, {
