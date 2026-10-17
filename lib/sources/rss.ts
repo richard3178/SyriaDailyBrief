@@ -33,7 +33,7 @@ export async function fetchRss(
   if (options.useCurl) {
     const xml = await curlFetch(url, CURL_HEADERS);
     const safe = xml.replace(/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)/g, "&amp;");
-    feed = await parser.parseString(xml);
+    feed = await parser.parseString(safe);
   } else {
     feed = await parser.parseURL(url);
   }
