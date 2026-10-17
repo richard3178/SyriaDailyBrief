@@ -17,12 +17,12 @@ const CONFIG: Record<
 > = {
   "sana-investment": {
     url: "https://sana.sy/en/investment/",
-    maxAgeDays: 7,
+    maxAgeDays: 2,
     allowPaths: ["/en/investment/", "/en/economic/"], // 只留投资/经济文
   },
   "china-syria": {
     url: "https://sana.sy/en/tag/china/",
-    maxAgeDays: 7,
+    maxAgeDays: 2,
     skipPath: "/en/international/", // 剔纯中国新闻
   },
 };
