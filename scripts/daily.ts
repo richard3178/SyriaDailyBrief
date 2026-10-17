@@ -306,7 +306,6 @@ async function main() {
   const date = todayKey();
   console.log(`[daily] ${date} — fetching sources…\n`);
   const articles = await fetchAll();
-  const articles = await fetchAll();
 
 // ══ 新增：跨天去重——昨天出现过的 url 今天剔除（旧闻不复用） ══
 {
