@@ -306,6 +306,36 @@ async function main() {
   const date = todayKey();
   console.log(`[daily] ${date} — fetching sources…\n`);
   const articles = await fetchAll();
+  const articles = await fetchAll();
+
+// ══ 新增：跨天去重——昨天出现过的 url 今天剔除（旧闻不复用） ══
+{
+  const yesterdayKey = todayKey(new Date(Date.now() - 24 * 60 * 60 * 1000));
+  const yPath = path.join(OUTPUT_DIR, yesterdayKey, `${yesterdayKey}-articles.json`);
+  const stale = new Set<string>();
+  try {
+    if (fs.existsSync(yPath)) {
+      const prev = JSON.parse(fs.readFileSync(yPath, "utf8"));
+      for (const a of prev.articles ?? []) stale.add(a.url);
+      console.log(`[daily] dedup: loaded ${stale.size} yesterday urls (${yesterdayKey})`);
+    } else {
+      console.log(`[daily] dedup: no ${yPath} — skip dedup`);
+    }
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[daily] dedup: could not read ${yPath} — ${msg}`);
+  }
+  if (stale.size > 0) {
+    const before = articles.length;
+    const kept = articles.filter((a) => !stale.has(a.url));
+    articles.length = 0;
+    articles.push(...kept);
+    console.log(`[daily] dedup: removed ${before - kept.length}/${before} stale items`);
+  }
+}
+// ══ 新增结束 ══
+
+console.log(`\n[daily] total articles: ${articles.length}`);
   console.log(`\n[daily] total articles: ${articles.length}`);
   if (articles.length === 0) {
     throw new Error("no articles fetched — aborting");
