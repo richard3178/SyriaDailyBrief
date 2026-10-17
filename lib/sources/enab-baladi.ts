@@ -14,10 +14,17 @@ const HEADERS: Record<string, string> = {
 
 export async function fetchEnabBaladi(sourceId: string): Promise<RawArticle[]> {
   const text = await curlFetch(API_URL, HEADERS);
+  // 诊断日志：看 Actions 里 curl 实际拿到的内容
+  const raw = typeof text === "string" ? text : String(text);
+  console.log(
+    `[enab-baladi] len=${raw.length} head=${raw.slice(0, 150).replace(/\n/g, " ")}`
+  );
+
   let posts: unknown[];
   try {
-    posts = JSON.parse(text);
-  } catch {
+    posts = JSON.parse(raw);
+  } catch (e) {
+    console.log(`[enab-baladi] JSON.parse failed: ${String(e).slice(0, 120)}`);
     return [];
   }
   if (!Array.isArray(posts)) return [];
@@ -27,7 +34,6 @@ export async function fetchEnabBaladi(sourceId: string): Promise<RawArticle[]> {
 
   for (const p of posts) {
     const post = p as Record<string, any>;
-    // 优先标准 WP REST 字段，回退到自定义字段
     const rawTitle = post?.title?.rendered ?? post?.title;
     const link = post?.link ?? post?.url;
     const rawExcerpt = post?.excerpt?.rendered ?? post?.excerpt;
@@ -39,7 +45,6 @@ export async function fetchEnabBaladi(sourceId: string): Promise<RawArticle[]> {
     if (seen.has(link)) continue;
     seen.add(link);
 
-    // cheerio 清理 HTML 实体与标签（&#8217; → ' 等）
     const title = load(rawTitle).text().trim();
     const excerpt = rawExcerpt
       ? load(String(rawExcerpt)).text().trim().slice(0, 300)
