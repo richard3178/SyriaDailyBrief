@@ -366,3 +366,50 @@ export async function enrichTrendingPapersSummaries(
   }));
   return runEnrichment(payload, PROMPTS.papers, "papers summaries");
 }
+/** 主题过滤：判断一批候选文章是否属于目标 tab 主题，返回应保留的 url 集合 */
+const THEME_FILTER_SYSTEM_PROMPT = `You are a news curation editor. For each item you receive {url, title, source, excerpt}. Decide whether it belongs to the target theme described in the user prompt. Be strict: drop anything ambiguous, do NOT pad to a target count. Output STRICTLY a JSON object, no markdown: {"keep": [<urls to keep>, ...]}. Copy each kept url EXACTLY as given. If nothing matches, output {"keep": []}.`;
+
+export async function filterByTheme(
+  items: EnrichInput[],
+  themeRule: string,
+): Promise<Set<string>> {
+  if (items.length === 0) return new Set();
+
+  const payload = items.map((it) => ({
+    url: it.url,
+    title: it.title,
+    source: it.source ?? "",
+    excerpt: (it.excerpt ?? "").slice(0, 280),
+  }));
+
+  const userPrompt = [
+    `目标主题：${themeRule}`,
+    "",
+    "以下候选条目中，只保留明确符合该主题的 url，其余全部剔除（宁缺毋滥，不要为凑数量保留模糊项）：",
+    "",
+    JSON.stringify(payload),
+    "",
+    '输出 {"keep": [<匹配的 url>]}，url 必须精确复制输入值。',
+  ].join("\n");
+
+  const kept = new Set<string>();
+  try {
+    const { text } = await runLlm({
+      systemPrompt: THEME_FILTER_SYSTEM_PROMPT,
+      userPrompt,
+      timeoutMs: 240_000,
+    });
+    const cleaned = extractJson(text);
+    let parsed: { keep?: string[] };
+    try {
+      parsed = JSON.parse(cleaned);
+    } catch {
+      parsed = JSON.parse(jsonrepair(cleaned));
+    }
+    for (const u of parsed.keep ?? []) kept.add(u);
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[enrich] theme filter failed: ${msg}`);
+  }
+  return kept;
+}
