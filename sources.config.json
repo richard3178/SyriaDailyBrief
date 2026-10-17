@@ -64,13 +64,4 @@
     "subcategory": "china-syria",
     "limit": 15
   },
-  {
-    "id": "arabnews",
-    "name": "Arab News",
-    "url": "https://www.arabnews.com/rss.xml",
-    "type": "rss",
-    "category": "finance",
-    "subcategory": "china-syria",
-    "limit": 15
-  }
-]
+ ]
