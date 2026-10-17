@@ -46,16 +46,6 @@
     "limit": 10
   },
   {
-    "id": "enab-baladi-en",
-    "name": "Enab Baladi EN",
-    "url": "https://english.enabbaladi.net/feed/",
-    "type": "rss",
-    "category": "finance",
-    "subcategory": "investment",
-    "useCurl": true,
-    "limit": 15
-  },
-  {
     "id": "sana-en",
     "name": "SANA 主站",
     "url": "https://sana.sy/en/feed/",
