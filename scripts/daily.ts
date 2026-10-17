@@ -15,6 +15,7 @@ import {
   enrichGithubTrendingSummaries,
   enrichTrendingPapersSummaries,
   enrichXViralSummaries,
+  filterByTheme,
 } from "../lib/ai/enrich";
 import {
   groupRaw,
@@ -210,7 +211,53 @@ async function enrichMergedSubgroup(
     `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${summaries.size}/${toEnrich.length}`,
   );
 }
+/**
+ * finance 各 tab：先按现有逻辑截断到上限，再做主题过滤（宁缺毋滥），
+ * 最后对保留项做中文摘要。返回被剔除的 url，供 main() 从分桶中排除。
+ */
+async function enrichMergedSubgroupFiltered(
+  articles: ArticleInput[],
+  category: "finance",
+  subcategory: string,
+  themeRule: string,
+): Promise<Set<string>> {
+  const subSources = sources.filter(
+    (s) =>
+      s.category === category &&
+      s.subcategory === subcategory &&
+      s.enabled !== false,
+  );
+  const enabledIds = new Set(subSources.map((s) => s.id));
+  const sameLocaleIds = new Set(
+    subSources.filter((s) => (s.lang ?? "en") === REPORT_LOCALE).map((s) => s.id),
+  );
+  const limit = MERGED_SUBGROUP_LIMITS[`${category}:${subcategory}`] ?? 12;
 
+  const top = articles
+    .filter((a) => enabledIds.has(a.sourceId))
+    .sort(
+      (a, b) =>
+        (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0),
+    )
+    .slice(0, limit);
+
+  const kept = await filterByTheme(
+    top.map((a) => ({ url: a.url, title: a.title, excerpt: a.excerpt, source: a.source })),
+    themeRule,
+  );
+
+  const filteredTop = top.filter((a) => kept.has(a.url));
+  const toEnrich = filteredTop.filter((a) => !sameLocaleIds.has(a.sourceId));
+  if (toEnrich.length > 0) {
+    const summaries = await enrichFinanceNewsSummaries(toEnrich);
+    for (const a of toEnrich) {
+      const s = summaries.get(a.url);
+      if (s) a.summary = s;
+    }
+  }
+
+  return new Set(top.filter((a) => !kept.has(a.url)).map((a) => a.url));
+}
 /**
  * Pull daily OHLCV from Yahoo for every ticker in the watchlist, compute
  * indicators + signals, then ask Sonnet for a market overview + a
@@ -265,6 +312,27 @@ async function main() {
   }
 
   // Enrich GH Trending, papers, finance news, and politics with summaries.
+  // ══ 新增：finance 三 tab 先做主题过滤（宁缺毋滥），收集被剔除的 url ══
+const droppedNews = await enrichMergedSubgroupFiltered(
+  articles, "finance", "news",
+  "与叙利亚相关的经济、财政、金融、贸易、重建、投资、民生经济新闻（剔除中美关税、美债、全球油价、英国柴油、黄金等纯全球市场行情，以及不涉及叙利亚经济的报道）",
+);
+const droppedInvestment = await enrichMergedSubgroupFiltered(
+  articles, "finance", "investment",
+  "叙利亚境内的财经新闻，包括但不限于投资、重建项目、企业、招商引资、外资进入叙利亚、工业园区开发",
+);
+const droppedChina = await enrichMergedSubgroupFiltered(
+  articles, "finance", "china-syria",
+  "必须同时涉及叙利亚与中国（含中国企业、中国资金、中叙双边合作/投资/贸易/外交/技术项目）；只涉及叙利亚与第三方、或只涉及中国但不涉及叙利亚、或与中叙经贸往来无关的一律剔除",
+);
+
+// 把被剔除的 url 从 articles 里移除，后续 generateDailyReport / groupRaw 不再包含它们
+const droppedAll = new Set([...droppedNews, ...droppedInvestment, ...droppedChina]);
+const filteredArticles = articles.filter((a) => !droppedAll.has(a.url));
+articles.length = 0;
+articles.push(...filteredArticles);
+
+// ══ 原有调用原样保留，一行不动 ══
   await enrichGhTrending(articles);
   await enrichTrendingPapers(articles);
   await enrichFinanceNews(articles);
