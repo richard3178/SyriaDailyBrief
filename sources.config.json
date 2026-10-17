@@ -51,7 +51,16 @@
     "url": "https://sana.sy/en/feed/",
     "type": "rss",
     "category": "finance",
+    "subcategory": "news",
+    "limit": 15
+  }
+  {
+    "id": "china-syria",
+    "name": "SANA 中国标签",
+    "url": "https://sana.sy/en/tag/china/",
+    "type": "scrape",
+    "category": "finance",
     "subcategory": "china-syria",
     "limit": 15
   }
- ]
+]
