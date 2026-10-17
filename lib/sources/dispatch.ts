@@ -1,3 +1,4 @@
+import { fetchSanaPage } from "./sana-pages";
 import { fetchAttentionVc } from "./attentionvc";
 import { fetchGithubTrending } from "./github-trending";
 import { fetchHackerNews } from "./hackernews";
@@ -20,6 +21,8 @@ export async function fetchSource(source: SourceDef): Promise<RawArticle[]> {
   if (source.id === "attentionvc-ai") return fetchAttentionVc(source.id);
   if (source.id === "huggingface-papers") return fetchHuggingfacePapers(source.id, source.keywords);
   if (source.id === "enab-baladi-en") return fetchEnabBaladi(source.id);
+  if (source.id === "sana-investment") return fetchSanaPage(source.id);
+  if (source.id === "china-syria") return fetchSanaPage(source.id);
   return fetchRss(source.id, source.url, source.category, {
     useCurl: source.useCurl,
   });
