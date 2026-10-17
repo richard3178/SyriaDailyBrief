@@ -1,135 +1,135 @@
 {
-  "hero_headline": "叙利亚加速重返国际金融体系，能源与外交同步推进",
-  "daily_overview": "叙利亚重建进程明显加速：财政与央行同国际金融公司磋商项目融资，并推进欧洲复兴开发银行成员资格申请；石油公司逾亿美元合同审计则凸显治理与透明度考验。能源领域叙沙合作升温，但油田与出口设施接连遇袭，安全风险未消。外交层面，大马士革接待美国商界代表团、外长访问利雅得，同时与禁化武组织敲定关闭化武档案路线图，并否认以方所称的通话与破坏图谋。技术与产业侧，大马士革国际科技展吸引逾百家企业参展，海湾的生态与媒体项目也在探索数据验证路径。",
+  "hero_headline": "叙利亚重建引资提速 地区安全与技术风险并存",
+  "daily_overview": "当日资讯高度集中于叙利亚战后重建与对外经济再融入：大马士革与阿联酋 Eagle Hills 签署城市与旅游开发框架协议，经济部以 7.6 亿美元推出三座工业城并引入私人开发商，同时推进欧洲复兴开发银行成员资格申请；美国企业代表团与叙投资署洽谈投资机会，油气设施安全与石油合同审计受关注。外交上，叙外长访问利雅得，大马士革否认内塔尼亚胡所称通话并称挫败破坏图谋，议会动议废除穆兄会禁令。技术侧信号偏弱，TEXPO 科技展与黑海无人机袭船是少数可追踪线索。",
   "tech_briefs": [
     {
-      "title": "大马士革国际科技展开幕 逾120家企业参展",
-      "url": "https://sana.sy/en/economic/2349210/",
-      "source": "SANA 投资",
-      "summary": "第二届TEXPO国际技术与创新展在大马士革国际会展中心开幕，逾120家本地与国际企业参展，聚焦技术引进、创新产品展示与产业对接合作。",
+      "title": "TEXPO 展会聚焦叙利亚科技与创新领域",
+      "url": "https://levant24.com/en/article/texpo-highlights-syrias-technology-and-innovation-sector",
+      "source": "Levant24",
+      "summary": "第二届 TEXPO 国际技术与创新展在大马士革举行，本地与外资企业集中展示工业技术、数字化与工程解决方案，被视为叙利亚科技产业对外招商与本地创业生态对接的窗口。",
       "importance": 5
     },
     {
-      "title": "红海全球拟以监测数据证明2040年生态净增益30%",
-      "url": "https://www.arabnews.com/green-blue/how-red-sea-global-plans-to-prove-a-30-net-conservation-gain-by-2040-3006287",
+      "title": "黑海多艘货船遭无人机袭击 北约成员国警惕",
+      "url": "https://www.arabnews.com/world/drone-strikes-in-the-black-sea-raise-fears-of-russian-escalation-to-test-natos-response-3006791",
       "source": "Arab News",
-      "summary": "红海全球提出到2040年实现30%净保护增益，并尝试以可核查的长期监测数据证明开发后自然状况优于基线，为旅游业的可持续承诺建立第三方可验证的路径。",
-      "importance": 5
+      "summary": "本月罗马尼亚、保加利亚近海至少七艘货船遭无人机袭击，北约成员关注俄方是否借此测试联盟反应；低成本的无人机远程打击正在推高黑海航运与保险成本。",
+      "importance": 7
     },
     {
-      "title": "CNN将在多哈举办旗舰活动 聚焦海湾技术变革",
-      "url": "https://www.arabnews.com/media/cnn-brings-global-perspectives-to-doha-to-explore-the-invisible-world-shaping-the-gulf-3006747",
-      "source": "Arab News",
-      "summary": "CNN将其旗舰直播活动Global Perspectives落地多哈，议题涵盖海湾地区技术变革、外交动向与社会转型，试图解读塑造该区域的「隐形力量」。",
-      "importance": 4
+      "title": "叙防长与禁化武组织讨论化武档案收尾",
+      "url": "https://syrianobserver.com/syrian-actors/syrian-defence-minister-and-opcw-chief-discuss-final-steps-to-close-chemical-weapons-file.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚国防部长与 OPCW 总干事讨论关闭化学武器档案的最终技术步骤，叙外长表示收尾不止于技术合规，还需配套的政治与法律安排。",
+      "importance": 6
     }
   ],
   "finance_briefs": [
     {
-      "title": "叙财政部与央行同国际金融公司磋商项目融资",
-      "url": "https://sana.sy/en/economic/2350809/",
+      "title": "叙利亚与阿联酋 Eagle Hills 签署开发框架协议",
+      "url": "https://sana.sy/en/investment/2348299/",
       "source": "SANA 投资",
-      "summary": "叙利亚财政部长与央行行长同国际金融公司讨论项目融资与投资支持途径，重点涉及私营部门信贷、重建项目资金安排与投资环境改善。",
-      "importance": 7
+      "summary": "在总统沙拉阿见证下，叙利亚与阿联酋开发商 Eagle Hills 签署框架协议，开发城市与旅游项目，被视为海湾资本进入叙房地产与基建领域的首批重大安排。",
+      "importance": 9
     },
     {
-      "title": "美国商界代表团访叙 洽谈投资与合作机会",
-      "url": "https://sana.sy/en/economic/2350254/",
-      "source": "SANA 投资",
-      "summary": "叙利亚投资署与经济和工业部官员在大马士革会见美国、地区及国际企业代表，讨论加强经济合作、扩大贸易与投资机会，涉及产业与基础设施领域。",
-      "importance": 6
-    },
-    {
-      "title": "叙沙能源合作升温 投资与技术合作并重",
-      "url": "https://sana.sy/en/economic/2349073/",
-      "source": "SANA 投资",
-      "summary": "叙利亚与沙特的经济合作提速，能源被列为重点投资与技术合作领域，双方寻求在电力、油气及配套基础设施上建立长期伙伴关系。",
-      "importance": 7
-    },
-    {
-      "title": "叙利亚石油公司合同接受1.04亿美元审计",
-      "url": "https://syrianobserver.com/society/syrian-petroleum-company-contracts-under-scrutiny-what-we-know-about-the-104-million-audit.html",
-      "source": "Syrian Observer",
-      "summary": "围绕叙利亚石油公司多份合同的财务违规指控引发关注，审计涉及金额约1.04亿美元，争议集中在合同授予程序与资金流向的透明度。",
+      "title": "叙经济部以 7.6 亿美元推出三座工业城",
+      "url": "https://levant24.com/en/article/syrias-760-million-industrial-city-plan-relies-on-private-developers",
+      "source": "Levant24",
+      "summary": "叙利亚拟在德拉、拉卡和伊德利卜建设三座工业城，经济部估算总投入约 7.6 亿美元，主要依靠私人开发商出资，目标是恢复产能与就业。",
       "importance": 8
     },
     {
       "title": "叙利亚申请加入欧洲复兴开发银行并接触德企",
       "url": "https://syrianobserver.com/foreign-actors/syria-steps-up-european-economic-engagement-with-ebrd-membership-bid-and-german-business-talks.html",
       "source": "Syrian Observer",
-      "summary": "叙利亚推进加入多边开发银行的正式申请，同时与德国企业就能源和重建投资展开接触，加快重返全球金融体系与欧洲市场的步伐。",
+      "summary": "叙利亚推进加入欧洲复兴开发银行的成员资格申请，并与德国商界举行投资洽谈，试图借此加快重返全球金融体系、拓宽重建融资渠道。",
       "importance": 8
+    },
+    {
+      "title": "叙官员与美国企业代表团洽谈投资机会",
+      "url": "https://sana.sy/en/economic/2350254/",
+      "source": "SANA 投资",
+      "summary": "叙经济与工业部副部长及叙投资署分别会见美国、地区和国际企业代表，讨论在叙投资机会、营商环境与项目对接；叙官方媒体对两场会见均有报道。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙东部油气设施连遭袭击 能源安全受关注",
+      "url": "https://levant24.com/en/article/string-of-attacks-raises-concerns-over-syrian-energy-security",
+      "source": "Levant24",
+      "summary": "叙利亚面积与产量最大的奥马尔油田等能源设施近期发生多起爆炸和袭击，安全部队加强警戒，外界担忧产量恢复与外资进入节奏受挫。",
+      "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "以方称与沙拉通话 叙方称挫败破坏图谋",
+      "title": "以总理称与沙拉阿通话 叙方称挫败破坏图谋",
       "url": "https://syrianobserver.com/foreign-actors/after-netanyahu-claims-he-held-a-phone-call-with-sharaa-syria-says-it-thwarted-plans-to-destabilize-the-country.html",
       "source": "Syrian Observer",
-      "summary": "内塔尼亚胡称与叙利亚总统沙拉通电话后，叙方表示已挫败旨在破坏国家稳定的图谋，并继续与美国、约旦推进苏韦达重新纳入国家机构的三方路线图。",
-      "importance": 8
+      "summary": "内塔尼亚胡称曾与叙总统沙拉阿通电话，叙方否认并称已挫败破坏国家稳定的计划；大马士革继续与美、约合作推进苏韦达重新纳入国家架构的三方路线图。",
+      "importance": 9
     },
     {
-      "title": "叙利亚外长访问利雅得 推动双边关系",
+      "title": "叙外长访问利雅得 推进双边关系",
       "url": "https://syrianobserver.com/foreign-actors/syrian-foreign-minister-arrives-in-riyadh-for-official-visit-to-strengthen-bilateral-relations.html",
       "source": "Syrian Observer",
-      "summary": "叙利亚外长希巴尼抵达利雅得进行正式访问，此行紧随总统沙拉10月6日访问沙特之后，重点在于巩固双边关系与地区协调。",
+      "summary": "叙利亚外长希巴尼抵达利雅得展开正式访问，此行紧随沙拉阿 10 月 6 日访沙之后，议题涉及经贸合作、安全协调与地区关系重整。",
       "importance": 7
     },
     {
-      "title": "叙利亚与禁化武组织就关闭化武档案达成路线图",
-      "url": "https://levant24.com/en/article/syria-and-opcw-agree-on-roadmap-to-close-chemical-weapons-file",
-      "source": "Levant24",
-      "summary": "叙利亚官员与禁化武组织经多轮高层会晤，就关闭化武档案制定路线图；叙国防部长与外长强调，结案不只要求技术层面的合规，还涉及更广泛的政治与信任条件。（多家报道）",
-      "importance": 8
+      "title": "叙议会动议废除穆兄会禁令",
+      "url": "https://syrianobserver.com/syrian-actors/syrian-lawmakers-move-to-scrap-long-standing-ban-on-muslim-brotherhood.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚议员推动废除长期实施的穆斯林兄弟会禁令，并讨论第 49 号法律在 2025 年 1 月「胜利会议」宣布暂停紧急法与特别立法后是否已实际失效。",
+      "importance": 7
     }
   ],
-  "editor_note": "今日叙利亚议题集中于「重返」二字：重返金融体系、重返区域外交；但能源设施安全与合同透明度仍是硬约束。",
+  "editor_note": "本批信源集中于叙利亚及其周边，重建资金、外资准入与安全风险三条线索交织；科技类条目偏少，读者需留意单一信源视角。",
   "keywords": [
     "叙利亚重建",
-    "国际金融公司",
+    "外资准入",
     "欧洲复兴开发银行",
-    "能源安全",
-    "禁止化学武器组织",
-    "叙沙合作",
-    "石油合同审计",
-    "大马士革科技展"
+    "工业城",
+    "苏韦达路线图",
+    "无人机袭击",
+    "化学武器档案",
+    "穆兄会禁令"
   ],
   "trading": {
-    "market_overview": "美股方面，SPY 报 763.25、单日 -1.11%，处于 SMA20(771.18) 与 SMA50(768.5) 下方并现 MACD 死叉，RSI 43.8；QQQ 单日 -2.5%、5 日 -5.52%，RSI 35 逼近超卖，MACD 同样死叉。NVDA、GOOGL、TSLA 均触发 MACD 死叉，TSLA 为空头排列、距 52 周高 -28.89%；仅 AAPL（RSI 62.1、MACD 金叉、接近 52 周高）与 MSFT 保持多头排列，整体偏弱且动能分化。\n\n加密方面，加密总市值 2.76 万亿美元、24 小时 -3.42%，恐慌贪婪指数 63 属「贪婪」，BTC 主导率 59.4%、ETH 10.7%。BTC 报 81606.19、RSI 46.8，跌破 SMA20(83566.67) 但守住 SMA50/200 的多头排列；ETH 2413.92、RSI 38.2，MACD -39.0344 低于信号线 -9.2298；SOL RSI 38.5，二者动能偏空。\n\n中概方面，BABA、PDD、JD 全为空头排列，JD 现 SMA50 下穿 SMA200 死叉，0700.HK 报 417.8、接近 52 周低并伴 MACD 死叉，板块普遍受均线压制。\n\n商品外汇与宏观方面，WTI 原油 99.04、5 日 +7.83%，MACD 金叉加多头排列、RSI 63.1；黄金 4186.7 虽有 MACD 金叉但空头排列、RSI 44.1；美元指数 101.78 多头排列而 MACD 死叉；USDCNY 6.68 的 RSI 18.6 进入超卖并接近 52 周低；VIX 19.99、单日 +21.45%、5 日 +34.7% 并现 MACD 金叉，避险需求升温；10Y 美债收益率 5.1% 维持多头排列。",
+    "market_overview": "美股技术面呈指数与权重股分化：SPY 报 763.25，跌破 SMA20(771.18) 与 SMA50(768.5)，MACD 死叉、RSI 43.8；QQQ 单日 -2.5%、5 日 -5.52%，RSI 35 逼近超卖并同现 MACD 死叉；NVDA 5 日 -6.61%、RSI 37.5、MACD 转负。但 AAPL(RSI 62.1、MACD 金叉、距 52 周高仅 -1.35%)、MSFT 与 META 仍维持多头排列，指数承压而龙头个股结构未破。VIX 单日 +21.45% 至 19.99、5 日 +34.7%，MACD 金叉，波动率显著抬升。加密方面，恐慌贪婪指数 55（贪婪），但总市值 2.77 万亿美元、24 小时 -3.4%，BTC 主导率 59.3%、ETH 10.7%；BTC 报 81593.74、RSI 46.9，位于 SMA20(83418) 下方但远高于 SMA200(72426)；ETH RSI 39.9、MACD 柱状为负、距 52 周高 -42.79%；SOL RSI 40.2，山寨整体弱于龙头。中概整体偏空：BABA、PDD、JD、0700.HK 全部位于 SMA200 下方呈空头排列，0700.HK MACD 死叉且接近 52 周低。商品外汇方面，WTI 原油 RSI 66.4、5 日 +7.81%、MACD 金叉且多头排列；黄金虽 MACD 金叉但仍空头排列、RSI 43.5；美元指数 101.78 多头排列但 MACD 死叉；USDCNY 6.69 的 RSI 23.6 进入超卖。整体为股市高位震荡、波动率抬升、加密与中概偏弱、商品分化的格局。",
     "watchlist": [
       {
         "symbol": "^VIX",
         "display_name": "VIX 恐慌指数 (^VIX)",
         "stance": "偏上行",
-        "rationale": "VIX 报 19.99，单日 +21.45%、5 日 +34.7%，已明显站上 SMA20(15.73) 与 SMA200(18.13)；RSI 68.8 逼近超买区，MACD 0.3852 高于信号线 0.0275 并触发金叉，动能显著向上。虽距 52 周高仍 -43.37%，但短期波动率指标呈快速抬升状态。"
+        "rationale": "现价 19.99，单日 +21.45%、5 日 +34.7%，已站上 SMA20(15.73)、SMA50(15.6) 与 SMA200(18.13)，RSI 68.8 逼近超买区。MACD 0.3852 上穿信号线 0.0275 形成金叉，红柱扩张指向波动率动量持续走强，是全场趋势与动量最为一致的上行结构。"
       },
       {
         "symbol": "CL=F",
         "display_name": "WTI 原油期货 (CL=F)",
         "stance": "偏上行",
-        "rationale": "WTI 原油报 99.04，5 日 +7.83%，同时站上 SMA20(92.82)、SMA50(90.94)、SMA200(84.18) 呈多头排列，MACD 1.1057 高于信号线 0.5282 并现金叉，RSI 63.1 偏强但尚未超买，距 52 周高 -17.11%。趋势与动量指标同向向上。"
-      },
-      {
-        "symbol": "META",
-        "display_name": "Meta (META)",
-        "stance": "中性",
-        "rationale": "META 报 709.33，单日 -3.72%，已跌破 SMA20(735.77)，但仍远高于 SMA50(655.24) 与 SMA200(631.98)，并保有 SMA50 上穿 SMA200 的金叉与多头排列；RSI 50.2 居中，MACD 19.3873 低于信号线 25.4612，动量转弱，方向暂不明朗。"
+        "rationale": "现价 99.02，单日 +1.07%、5 日 +7.81%，位于 SMA20(92.94)、SMA50(90.98)、SMA200(84.19) 之上呈多头排列。RSI 66.4 偏高但未进入超买，MACD 1.2947 高于信号 0.566 维持金叉，距 52 周高仅 -17.12%，趋势与动量同向。"
       },
       {
         "symbol": "QQQ",
         "display_name": "Nasdaq 100 ETF (QQQ)",
         "stance": "偏下行",
-        "rationale": "QQQ 报 709.8，单日 -2.5%、5 日 -5.52%，位于 SMA20(742.52) 下方，RSI 35 逼近超卖，MACD 1.5248 明显低于信号线 6.1668 并现死叉，短期动量偏空；不过价格仍在 SMA200(674.91) 上方，距 52 周低 +27.75%。"
+        "rationale": "现价 709.8，单日 -2.5%、5 日 -5.52%，已跌破 SMA20(742.52) 与 SMA50(726.77)，距 52 周高 -6.96%。RSI 35 逼近超卖，MACD 1.5248 低于信号 6.1668、柱状为负，死叉格局延续，短周期动量明显偏弱。"
       },
       {
-        "symbol": "0700.HK",
-        "display_name": "腾讯控股 (0700.HK)",
+        "symbol": "USDCNY=X",
+        "display_name": "美元/人民币 (USDCNY=X)",
         "stance": "偏下行",
-        "rationale": "腾讯报 417.8，5 日 -1.65%，低于 SMA20(427.93)、SMA50(438.12)、SMA200(489.67) 呈空头排列，MACD -5.3053 低于信号线 -5.0583 并现死叉，RSI 42。价格接近 52 周低（距该低点仅 +1.65%），距 52 周高 -37.08%，技术面全面偏弱。"
+        "rationale": "现价 6.69，位于 SMA20(6.7)、SMA50(6.71)、SMA200(6.81) 下方呈空头排列，距 52 周低仅 0.14%。RSI 23.6 已进入超卖，MACD -0.007 低于信号 -0.0063 维持死叉，趋势、动量与位置三项读数一致指向下行，惟需注意超卖后的技术性反抽风险。"
+      },
+      {
+        "symbol": "DX-Y.NYB",
+        "display_name": "美元指数 DXY (DX-Y.NYB)",
+        "stance": "中性",
+        "rationale": "现价 101.78，仍站在 SMA20(101.71)、SMA50(100.35)、SMA200(99.47) 之上并保持多头排列，距 52 周高 -1.14%，RSI 56.3 居中；但 MACD 0.5498 已下穿信号 0.5943 形成死叉，趋势与动量出现分歧，方向读数中性。"
       }
     ],
-    "risk_caveat": "本报告仅基于公开行情数据计算的技术指标读数，不构成任何投资建议。过去走势不代表未来表现，指标信号亦可能快速反转；仅供技术指标解读参考，请自行评估风险。",
+    "risk_caveat": "本报告仅基于公开行情计算出的 SMA、RSI、MACD 等指标读数做客观复述，不构成任何投资建议或方向预测；过去走势不代表未来表现，指标亦存在滞后与失效情形，仅供技术指标解读参考。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -353,13 +353,13 @@
         "pct5Day": -1.3003162971013438,
         "pct52WeekHigh": -9.039906645123233,
         "pct52WeekLow": 36.34048360435168,
-        "sma20": 735.7747467041015,
-        "sma50": 655.2400964355469,
-        "sma200": 631.9770721435547,
-        "rsi14": 50.228765640869696,
-        "macd": 19.387339647867407,
-        "macdSignal": 25.461183451442146,
-        "macdHistogram": -6.073843803574739,
+        "sma20": 735.7749969482422,
+        "sma50": 655.2401965332032,
+        "sma200": 631.9770971679687,
+        "rsi14": 50.2299754351422,
+        "macd": 19.38773889777849,
+        "macdSignal": 25.461263301424363,
+        "macdHistogram": -6.073524403645873,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -380,18 +380,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 81606.19,
-        "pct1Day": -0.6516452609812674,
-        "pct5Day": -2.4776432988528,
-        "pct52WeekHigh": -29.815200066120074,
-        "pct52WeekLow": 41.31488653604366,
-        "sma20": 83566.671875,
-        "sma50": 81253.966875,
-        "sma200": 72360.473515625,
-        "rsi14": 46.83318505207785,
-        "macd": 208.64028284199594,
-        "macdSignal": 741.6580841150234,
-        "macdHistogram": -533.0178012730274,
+        "currentPrice": 81593.74,
+        "pct1Day": 0.11402993241152498,
+        "pct5Day": -0.20647897379683366,
+        "pct52WeekHigh": -29.82590759650688,
+        "pct52WeekLow": 41.29332726048658,
+        "sma20": 83418.185546875,
+        "sma50": 81327.12828125,
+        "sma200": 72426.74875,
+        "rsi14": 46.86036947330986,
+        "macd": 98.38720734049275,
+        "macdSignal": 611.658851779093,
+        "macdHistogram": -513.2716444386002,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -407,18 +407,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2413.92,
-        "pct1Day": -1.088309704701961,
-        "pct5Day": -4.765031600458014,
-        "pct52WeekHigh": -43.21083499777682,
-        "pct52WeekLow": 60.2330159986087,
-        "sma20": 2585.7646484375,
-        "sma50": 2552.328447265625,
-        "sma200": 2144.688910522461,
-        "rsi14": 38.18245962099234,
-        "macd": -39.034433758644354,
-        "macdSignal": -9.229813643968505,
-        "macdHistogram": -29.80462011467585,
+        "currentPrice": 2432,
+        "pct1Day": 0.5055306699872985,
+        "pct5Day": -0.5055488924987475,
+        "pct52WeekHigh": -42.785490287413516,
+        "pct52WeekLow": 61.433176124059806,
+        "sma20": 2573.310681152344,
+        "sma50": 2552.234677734375,
+        "sma200": 2146.354606323242,
+        "rsi14": 39.932208745067804,
+        "macd": -41.495934379634946,
+        "macdSignal": -15.608404155107653,
+        "macdHistogram": -25.887530224527293,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -429,18 +429,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 104.19,
-        "pct1Day": -1.0828589826516095,
-        "pct5Day": -6.338712873222428,
-        "pct52WeekHigh": -49.180580143259164,
-        "pct52WeekLow": 72.45797050784974,
-        "sma20": 113.98163261413575,
-        "sma50": 109.36381851196289,
-        "sma200": 87.35812049865723,
-        "rsi14": 38.48385639852951,
-        "macd": -1.5397494717270774,
-        "macdSignal": 0.4323814978035178,
-        "macdHistogram": -1.9721309695305953,
+        "currentPrice": 105.01,
+        "pct1Day": 0.6839662715786088,
+        "pct5Day": -0.5204316285841464,
+        "pct52WeekHigh": -48.78061926138443,
+        "pct52WeekLow": 73.81525561982245,
+        "sma20": 113.13452987670898,
+        "sma50": 109.38361236572266,
+        "sma200": 87.46817142486572,
+        "rsi14": 40.168290106012115,
+        "macd": -1.744750279333843,
+        "macdSignal": -0.0016837075659545953,
+        "macdHistogram": -1.7430665717678884,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -573,18 +573,18 @@
         "group": "commodity-fx",
         "currency": "USD",
         "exchangeName": "CMX",
-        "currentPrice": 4186.7,
-        "pct1Day": 0.3980696375389064,
-        "pct5Day": -0.7020327315100411,
-        "pct52WeekHigh": -25.05280870717124,
-        "pct52WeekLow": 7.315510214543861,
-        "sma20": 4214.389990234375,
-        "sma50": 4374.525986328125,
-        "sma200": 4540.725501708985,
-        "rsi14": 44.08629744793727,
-        "macd": -55.26340514057665,
-        "macdSignal": -58.76416242203743,
-        "macdHistogram": 3.5007572814607784,
+        "currentPrice": 4181.1,
+        "pct1Day": 0.26378029510449197,
+        "pct5Day": -0.8348506111535526,
+        "pct52WeekHigh": -25.15305574451326,
+        "pct52WeekLow": 7.171968318252894,
+        "sma20": 4214.1099853515625,
+        "sma50": 4374.413984375,
+        "sma200": 4540.697501220703,
+        "rsi14": 43.490750583096684,
+        "macd": -55.71013634008068,
+        "macdSignal": -58.8535083602202,
+        "macdHistogram": 3.143372020139516,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -605,18 +605,18 @@
         "group": "commodity-fx",
         "currency": "USD",
         "exchangeName": "NYM",
-        "currentPrice": 99.04,
-        "pct1Day": 1.0921698131721245,
-        "pct5Day": 7.827982194147459,
-        "pct52WeekHigh": -17.107465684633407,
-        "pct52WeekLow": 80.13823208439435,
-        "sma20": 92.81999969482422,
-        "sma50": 90.93520050048828,
-        "sma200": 84.1792499923706,
-        "rsi14": 63.127114934500334,
-        "macd": 1.1056687107281107,
-        "macdSignal": 0.5282175339800419,
-        "macdHistogram": 0.5774511767480688,
+        "currentPrice": 99.02,
+        "pct1Day": 1.0717554008511987,
+        "pct5Day": 7.806207561232636,
+        "pct52WeekHigh": -17.124204887847345,
+        "pct52WeekLow": 80.10185522008003,
+        "sma20": 92.93849983215333,
+        "sma50": 90.98260055541992,
+        "sma200": 84.19110000610351,
+        "rsi14": 66.42669396187355,
+        "macd": 1.2947287543991592,
+        "macdSignal": 0.5660295370101406,
+        "macdHistogram": 0.7286992173890187,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -637,18 +637,18 @@
         "group": "commodity-fx",
         "currency": "CNY",
         "exchangeName": "CCY",
-        "currentPrice": 6.6768,
-        "pct1Day": -0.21073172900990603,
-        "pct5Day": -0.22713557174607163,
-        "pct52WeekHigh": -7.149313715946544,
-        "pct52WeekLow": 0.03146208818374511,
-        "sma20": 6.7004300355911255,
-        "sma50": 6.713396005630493,
-        "sma200": 6.809045984745025,
-        "rsi14": 18.614962348898132,
-        "macd": -0.00772904314286027,
-        "macdSignal": -0.0064315785476786345,
-        "macdHistogram": -0.0012974645951816357,
+        "currentPrice": 6.6862,
+        "pct1Day": -0.07024240452102865,
+        "pct5Day": -0.08666934157209362,
+        "pct52WeekHigh": -7.018592943859596,
+        "pct52WeekLow": 0.140786005271991,
+        "sma20": 6.700900053977966,
+        "sma50": 6.71358401298523,
+        "sma200": 6.8090929865837095,
+        "rsi14": 23.617278025187602,
+        "macd": -0.006979156257871821,
+        "macdSignal": -0.006281601170680945,
+        "macdHistogram": -0.0006975550871908768,
         "trend": "bearish",
         "rsiState": "oversold",
         "signals": [
@@ -709,7 +709,7 @@
         "pct1Day": 0.17684760335695326,
         "pct5Day": -2.784133470758946,
         "pct52WeekHigh": -4.958985831469053,
-        "pct52WeekLow": 29.16138839625031,
+        "pct52WeekLow": 0,
         "sma20": 5.192949986457824,
         "sma50": 4.944059972763061,
         "sma200": 4.504064979553223,
@@ -720,6 +720,10 @@
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
+          {
+            "type": "near-52w-low",
+            "label": "接近 52 周低"
+          },
           {
             "type": "above-sma50-sma200",
             "label": "多头排列"
@@ -737,13 +741,13 @@
         "pct5Day": -0.4216799611909356,
         "pct52WeekHigh": -1.1374453618261355,
         "pct52WeekLow": 6.519099947671375,
-        "sma20": 101.7059497833252,
-        "sma50": 100.34517974853516,
-        "sma200": 99.47174507141114,
-        "rsi14": 55.41978210727248,
-        "macd": 0.5449254859626507,
-        "macdSignal": 0.5932955947613288,
-        "macdHistogram": -0.04837010879867809,
+        "sma20": 101.70899963378906,
+        "sma50": 100.34639968872071,
+        "sma200": 99.47205005645752,
+        "rsi14": 56.281404775597345,
+        "macd": 0.5497913440122915,
+        "macdSignal": 0.5942687660659538,
+        "macdHistogram": -0.04447742205366234,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -764,19 +768,19 @@
       }
     ],
     "crypto_fear_greed": {
-      "value": 63,
+      "value": 55,
       "classification": "Greed",
       "classificationCn": "贪婪",
-      "timestamp": "2026-10-16T00:00:00.000Z"
+      "timestamp": "2026-10-17T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2759176697033.8955,
-      "total24hVolumeUsd": 130264982317573.39,
-      "marketCapChangePct24h": -3.4176838220216985,
-      "btcDominance": 59.39190884841542,
-      "ethDominance": 10.68448190336397,
-      "activeCryptocurrencies": 22314
+      "totalMarketCapUsd": 2765039936516.9155,
+      "total24hVolumeUsd": 157977750379459.66,
+      "marketCapChangePct24h": -3.396008519818349,
+      "btcDominance": 59.316564572329334,
+      "ethDominance": 10.745517938056508,
+      "activeCryptocurrencies": 22318
     },
-    "generated_at": "2026-10-16T21:41:50.493Z"
+    "generated_at": "2026-10-17T07:38:22.163Z"
   }
 }
