@@ -4,6 +4,7 @@ import { fetchHackerNews } from "./hackernews";
 import { fetchHuggingfacePapers } from "./huggingface-papers";
 import { fetchLinuxDo } from "./linuxdo";
 import { fetchRss } from "./rss";
+import { fetchEnabBaladi } from "./enab-baladi";
 import { fetchV2ex } from "./v2ex";
 import type { RawArticle, SourceDef } from "./types";
 
