@@ -9,7 +9,7 @@
       "publishedAt": "2026-10-16T07:52:10.000Z",
       "category": "politics",
       "source": "Syria Direct",
-      "summary": "叙利亚直击（Syria Direct）专访记者兼作家阿南德·戈帕尔，回顾叙利亚未完成的革命、当地的民主实验，以及该国新领导层面临的挑战。"
+      "summary": "叙利亚直击网站专访记者兼作家阿南德·戈帕尔，回顾叙利亚尚未完成的革命、当地此前的民主实验，以及叙新领导层当前面临的各项挑战。"
     },
     {
       "sourceId": "levant24",
@@ -19,7 +19,7 @@
       "publishedAt": "2026-10-16T18:56:00.000Z",
       "category": "finance",
       "source": "Levant24",
-      "summary": "叙利亚境内接连发生爆炸与袭击事件，引发对该国能源安全的担忧。叙安全部队在奥马尔油田加强警戒，该油田按面积和产量计为叙利亚最大油田。"
+      "summary": "叙利亚最大油田奥马尔油田由安全部队守卫，近期该国发生一连串爆炸袭击事件，引发外界对叙利亚能源安全的担忧。报道未披露袭击的具体地点、伤亡及产能影响细节。"
     },
     {
       "sourceId": "sana-investment",
@@ -28,7 +28,7 @@
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "category": "finance",
       "source": "SANA 投资",
-      "summary": "叙利亚与意大利就金融合作及债务解决方案进行讨论。报道未披露会谈具体金额、债务规模或达成协议的细节。"
+      "summary": "据叙利亚国家通讯社报道，叙利亚与意大利就金融领域合作以及债务问题解决方案进行了讨论。报道未披露会谈参与方、具体金额或时间安排等细节。"
     },
     {
       "sourceId": "sana-investment",
@@ -37,16 +37,7 @@
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "category": "finance",
       "source": "SANA 投资",
-      "summary": "叙利亚投资管理局与叙商人沙拉巴提（Sharabati）就新投资项目进行讨论，涉及具体项目内容尚未披露。"
-    },
-    {
-      "sourceId": "sana-investment",
-      "title": "China to launch ninth import expo in Shanghai, with Syria participating",
-      "url": "https://sana.sy/en/economic/2351385/",
-      "publishedAt": "2026-10-17T00:00:00.000Z",
-      "category": "finance",
-      "source": "SANA 投资",
-      "summary": "据叙利亚阿拉伯通讯社报道，中国将在上海举办第九届进口博览会，叙利亚将参展。报道未披露展会具体日期与规模。"
+      "summary": "据叙利亚国家通讯社报道，叙利亚投资局与叙利亚商人沙拉巴提就新的投资项目进行了讨论。报道未透露项目所属行业、投资规模以及推进时间等具体信息。"
     },
     {
       "sourceId": "china-syria",
@@ -55,7 +46,7 @@
       "publishedAt": "2026-10-11T00:00:00.000Z",
       "category": "finance",
       "source": "SANA 中国标签",
-      "summary": "据叙利亚国家通讯社报道，叙利亚方面与一家中国公司就玻璃行业投资事宜进行了讨论，双方就相关投资合作交换意见。报道未披露具体投资金额、项目规模及时间表。"
+      "summary": "叙利亚方面与中国一家公司就玻璃行业投资事宜进行商讨，相关投资规模与项目细节未在报道中说明。"
     }
   ]
 }
