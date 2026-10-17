@@ -344,11 +344,11 @@ console.log(`\n[daily] total articles: ${articles.length}`);
   // ══ 新增：finance 三 tab 先做主题过滤（宁缺毋滥），收集被剔除的 url ══
 const droppedNews = await enrichMergedSubgroupFiltered(
   articles, "finance", "news",
-  "与叙利亚相关的经济、财政、金融、贸易、重建、投资、民生经济新闻（剔除中美关税、美债、全球油价、英国柴油、黄金等纯全球市场行情，以及不涉及叙利亚经济的报道）",
+  "与叙利亚相关的经济、财政、金融、贸易、重建、投资、民生经济新闻；凡涉及叙利亚经济的报道均保留（剔除纯全球市场行情：中美关税、美债、国际油价、黄金、英国/欧洲内部经济等与叙利亚无关的内容）。本 tab 应尽量多保留叙利亚财经内容，不要因主题不够典型而误删",
 );
 const droppedInvestment = await enrichMergedSubgroupFiltered(
   articles, "finance", "investment",
-  "叙利亚境内的财经新闻，包括但不限于投资、重建项目、企业、招商引资、外资进入叙利亚、工业园区开发",
+  "叙利亚的投资与经济动态：凡涉及叙利亚的投资、重建项目、招商引资、外资进入叙利亚、工业园区、企业/公司动态、贸易、进出口、基建项目、能源、农业、工业生产的报道均保留；这些主题对叙利亚而言即是投资/经济相关内容，不必同时提及中国，也不必是纯投资主题——只要主题涉及叙利亚经济与投资即可",
 );
 const droppedChina = await enrichMergedSubgroupFiltered(
   articles, "finance", "china-syria",
