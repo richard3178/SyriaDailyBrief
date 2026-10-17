@@ -361,20 +361,10 @@ articles.push(...filteredArticles);
   await enrichAiNews(articles);
   await enrichXViral(articles);
 
-  // Trading signals: Yahoo fetch + indicators + commentary. Non-fatal —
-  // if it errors, we still ship the news digest.
-  let trading: TradingSection | null = null;
-  try {
-    trading = await runTrading();
-  } catch (e) {
-    const msg = e instanceof Error ? e.message : String(e);
-    console.warn(`[daily] trading section failed: ${msg}`);
-  }
-
+ 
   console.log(`[daily] generating digest with ${getModelTag()}…`);
   const t0 = Date.now();
   const { report } = await generateDailyReport(articles);
-  if (trading) report.trading = trading;
   console.log(`[daily] digest ready in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
 
   const dateDir = path.join(OUTPUT_DIR, date);
