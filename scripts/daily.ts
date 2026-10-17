@@ -352,13 +352,10 @@ articles.length = 0;
 articles.push(...filteredArticles);
 
 // ══ 原有调用原样保留，一行不动 ══
-  await enrichGhTrending(articles);
-  await enrichTrendingPapers(articles);
   await enrichFinanceNews(articles);
   await enrichFinanceInvestment(articles);
   await enrichFinanceChinaSyria(articles);
   await enrichPolitics(articles);
-  await enrichAiNews(articles);
   await enrichXViral(articles);
 
  
