@@ -12,8 +12,6 @@ import {
 import { getModelTag, validateBackendCredentials } from "../lib/ai/llm";
 import {
   enrichFinanceNewsSummaries,
-  enrichGithubTrendingSummaries,
-  enrichTrendingPapersSummaries,
   enrichXViralSummaries,
   filterByTheme,
 } from "../lib/ai/enrich";
@@ -24,11 +22,6 @@ import {
   renderHtml,
   renderMarkdown,
 } from "../lib/output/render";
-import { analyzeWatchlist } from "../lib/trading/runner";
-import { fetchCryptoFearGreed } from "../lib/trading/fear-greed";
-import { fetchCryptoGlobal } from "../lib/trading/coingecko";
-import { generateTradingCommentary } from "../lib/ai/trading-commentary";
-import type { TradingSection } from "../lib/ai/pipeline";
 import { todayKey } from "../lib/utils";
 
 const OUTPUT_DIR = "daily_reports";
@@ -93,9 +86,6 @@ async function enrichFinanceInvestment(articles: ArticleInput[]): Promise<void> 
  */
 async function enrichFinanceChinaSyria(articles: ArticleInput[]): Promise<void> {
   await enrichMergedSubgroup(articles, "finance", "china-syria");
-}
-async function enrichAiNews(articles: ArticleInput[]): Promise<void> {
-  await enrichMergedSubgroup(articles, "tech", "ai-news");
 }
 
 /**
