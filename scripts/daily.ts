@@ -14,6 +14,7 @@ import {
   enrichFinanceNewsSummaries,
   enrichXViralSummaries,
   filterByTheme,
+  classifySyriaArticles,
 } from "../lib/ai/enrich";
 import {
   groupRaw,
@@ -23,6 +24,30 @@ import {
   renderMarkdown,
 } from "../lib/output/render";
 import { todayKey } from "../lib/utils";
+// ══ 新增：中叙合作关键词（命中即强制归"中叙合作" tab，不进其他 tab） ══
+// 标准：必须命中两国往来/合作/交往（政经人文均可）；泛涉中或泛涉叙的新闻不算
+const CHINA_SYRIA_KEYWORDS = {
+  // 明确的中叙双边表述，单独命中即归位
+  strong: [
+    "中叙", "叙中", "中国和叙利亚", "叙利亚和中国", "中叙两国",
+    "china-syria", "syria-china", "china and syria", "syria and china",
+    "sino-syrian", "sino-syria", "syrian-chinese", "china-syrian",
+  ],
+  // 中国实体词，需与下方合作词同时命中才算
+  china: ["china", "chinese", "beijing", "中国", "中方", "北京"],
+  // 两国往来/合作/交往词（政经人文）
+  coop: [
+    "cooperat", "partnership", "memorandum", "mou", "agreement", "deal", "ties",
+    "bilateral", "joint", "visit", "talks", "meeting", "forum", "exchange",
+    "delegation", "ambassador", "embassy", "consul", "trade", "investment",
+    "aid", "assistance", "project", "cultural", "humanitarian", "scholarship",
+    "heritage", "discuss",
+    "合作", "往来", "会谈", "会晤", "访问", "协议", "协定", "贸易", "投资",
+    "交流", "代表团", "大使", "使馆", "双边", "共建", "援助", "人文", "文化",
+    "奖学金", "留学", "文物",
+  ],
+};
+// ══ 新增结束 ══
 
 const OUTPUT_DIR = "daily_reports";
 
@@ -340,7 +365,6 @@ async function main() {
 }
 // ══ 新增结束 ══
 
-console.log(`\n[daily] total articles: ${articles.length}`);
   console.log(`\n[daily] total articles: ${articles.length}`);
   if (articles.length === 0) {
     throw new Error("no articles fetched — aborting");
@@ -361,16 +385,20 @@ console.log(`\n[daily] total articles: ${articles.length}`);
   }
 
   // ══ 新增：中叙关键词强制归 tab（零 LLM 成本；命中即进中叙合作，不进其他 tab） ══
-  let chinaUrls = new Set<string>();
+    let chinaUrls = new Set<string>();
   for (const a of articles) {
-    const hay = `${a.title ?? ""} ${a.url ?? ""} ${a.excerpt ?? ""}`.toLowerCase();
-    if (CHINA_SYRIA_KEYWORDS.some((k) => hay.includes(k))) {
+    const hay = `${a.title ?? ""} ${a.excerpt ?? ""}`.toLowerCase();
+    const hit =
+      CHINA_SYRIA_KEYWORDS.strong.some((k) => hay.includes(k)) ||
+      (CHINA_SYRIA_KEYWORDS.china.some((k) => hay.includes(k)) &&
+        CHINA_SYRIA_KEYWORDS.coop.some((k) => hay.includes(k)));
+    if (hit) {
       chinaUrls.add(a.url);
       a.category = "finance";
       a.subcategory = "china-syria";
     }
   }
-  console.log(`[daily] classify: keyword=${chinaUrls.size} 命中中叙关键词强制归位`);
+  console.log(`[daily] classify: keyword=${chinaUrls.size} 命中中叙合作关键词强制归位`);
 
   // ══ 新增：LLM 单次批量分类（未命中关键词的剩余文章一次调用；未返回的 url 视为丢弃） ══
   {
