@@ -413,3 +413,64 @@ export async function filterByTheme(
   }
   return kept;
 }
+/** 4-tab 批量分类：一次调用返回每篇归属，未返回的 url 视为丢弃 */
+const CLASSIFY_SYSTEM_PROMPT = `You are a news curator for a Syria daily brief. For each item you receive {url, title, excerpt, source}, decide its tab. Output STRICTLY a JSON array, no markdown: [{"url":"...","tab":"politics|finance|investment|china-syria|drop"}]. Copy each url EXACTLY as given. Rules: one item gets exactly one tab; when ambiguous prefer the more specific: china-syria > investment > finance > politics. Drop pure sports/entertainment/culture, pure international news not about Syria, and anything unrelated to all four tabs.`;
+
+export async function classifySyriaArticles(
+  items: { url: string; title?: string; excerpt?: string; source?: string }[],
+): Promise<Map<string, { category: "politics" | "finance"; subcategory: string }>> {
+  const result = new Map<string, { category: "politics" | "finance"; subcategory: string }>();
+  if (items.length === 0) return result;
+
+  const payload = items.map((it) => ({
+    url: it.url,
+    title: it.title ?? "",
+    source: it.source ?? "",
+    excerpt: (it.excerpt ?? "").slice(0, 280),
+  }));
+
+  const userPrompt = [
+    "叙利亚每日简报文章分类。对每篇仅输出 JSON 数组：",
+    '[{"url":"…","tab":"politics|finance|investment|china-syria|drop"}]',
+    "- politics（时政观察）：叙利亚政治、外交、安全、政府、议会、社会民生、国际关系（叙利亚为当事方）",
+    "- finance（财经要点）：叙利亚经济、财政、金融、货币、银行、贸易、进出口、物价、民生经济、重建融资",
+    "- investment（投资动态）：叙利亚投资、招商引资、重建/基建项目、能源、石油、农业、工业、企业公司动态",
+    "- china-syria（中叙合作）：同时涉及叙利亚与中国（企业/资金/双边合作/投资/贸易/外交/访问/技术）",
+    "规则：一条只归一类；模糊时按 中叙 > 投资 > 财经 > 时政 的优先级取更具体者；",
+    "纯体育/娱乐/文化、纯国际新闻（与叙利亚无关）、与四类均无关 → drop",
+    "",
+    JSON.stringify(payload),
+    "",
+    "输出数组的 url 必须精确复制输入值。",
+  ].join("\n");
+
+  try {
+    const { text } = await runLlm({
+      systemPrompt: CLASSIFY_SYSTEM_PROMPT,
+      userPrompt,
+      timeoutMs: 240_000,
+    });
+    const cleaned = extractJson(text);
+    let parsed: { url?: string; tab?: string }[];
+    try {
+      parsed = JSON.parse(cleaned);
+    } catch {
+      parsed = JSON.parse(jsonrepair(cleaned));
+    }
+    const TAB_MAP: Record<string, { category: "politics" | "finance"; subcategory: string }> = {
+      politics: { category: "politics", subcategory: "world" },
+      finance: { category: "finance", subcategory: "news" },
+      investment: { category: "finance", subcategory: "investment" },
+      "china-syria": { category: "finance", subcategory: "china-syria" },
+    };
+    for (const entry of Array.isArray(parsed) ? parsed : []) {
+      if (!entry || typeof entry.url !== "string") continue;
+      const mapped = TAB_MAP[entry.tab ?? ""];
+      if (mapped) result.set(entry.url, mapped);
+    }
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[daily] classifySyriaArticles failed — ${msg}`);
+  }
+  return result;
+}
