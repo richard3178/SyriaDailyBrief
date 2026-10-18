@@ -17,26 +17,26 @@ const CONFIG: Record<
 > = {
   "sana-investment": {
     url: "https://sana.sy/en/investment/",
-    maxAgeDays: 2,
+    maxAgeDays: 3,
     allowPaths: ["/en/investment/", "/en/economic/"], // 只留投资/经济文
   },
   "china-syria": {
     url: "https://sana.sy/en/tag/china/",
-    maxAgeDays: 2,
+    maxAgeDays: 3,
     skipPath: "/en/international/", // 剔纯中国新闻
   },
-      "sana-economy": {
-      maxAgeDays: 3,
-      limit: 12,
-    },
+    "sana-economy": {
+    url: "https://sana.sy/en/economic/",
+    maxAgeDays: 3,
+  },
     "sana-en": {
-      maxAgeDays: 3,
-      limit: 15,
-    },
-    "sana-syria": {
-      maxAgeDays: 3,
-      limit: 15,
-    },
+    url: "https://sana.sy/en/",
+    maxAgeDays: 3,
+  },
+     "sana-syria": {
+    url: "https://sana.sy/en/syria/",
+    maxAgeDays: 3,
+  },
 };
 
 function extractDate($: any, el: any): Date | undefined {
