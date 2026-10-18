@@ -1,76 +1,76 @@
 {
-  "hero_headline": "叙利亚加快国际金融整合，IMF与世界银行磋商推进",
-  "daily_overview": "今日候选信源高度集中于叙利亚重建议题。财经方面，大马士革同步对接国际货币基金组织与世界银行，推动税制改革、公共支出审查和全球金融整合，并借中国国际进口博览会与中资商会拓展出口渠道；石油公司1.04亿美元合同审计争议则提示治理与透明度风险。时政方面，叙方回应以方所称通话并称挫败破坏图谋，苏韦达危机仍待对话化解；外长赴利雅得巩固地区关系，叙土联合抓捕2013年巴尼亚斯案嫌疑人。今日候选信源中无科技类条目，科技简报暂缺。",
+  "hero_headline": "叙利亚多线推进重建：油气合同审计与多边融资并行",
+  "daily_overview": "今日资讯集中于叙利亚战后重建的三个面向。财经方面，叙利亚石油公司约1.04亿美元的石油合同进入审计程序，财政部在曼谷推进全球金融接入，并与世界银行、国际货币基金组织及卡塔尔、挪威、阿拉伯社会发展基金洽谈税制改革、公共支出与复苏项目融资；叙中商务理事会与第九届中国国际进口博览会成为扩大出口的抓手。时政方面，苏韦达危机持续，大马士革与美国、约旦推进三方路线图；外长访问利雅得，叙方称挫败破坏图谋，并在反毒与遣返议题上加强对外协作。科技领域当日候选信源无相关条目，本期暂缺。",
   "tech_briefs": [],
   "finance_briefs": [
     {
-      "title": "叙利亚与IMF磋商税制改革与公共支出",
-      "url": "https://sana.sy/en/economic/2351286/",
-      "source": "SANA 经济",
-      "summary": "叙方与国际货币基金组织就税收制度改革、公共支出结构与财政纪律展开磋商，属战后财政重建的组成部分，具体方案与时间表尚未公布。",
+      "title": "叙利亚石油公司1.04亿美元合同接受审计",
+      "url": "https://syrianobserver.com/society/syrian-petroleum-company-contracts-under-scrutiny-what-we-know-about-the-104-million-audit.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚石油公司多份石油领域合同被指存在财务违规，涉及金额约1.04亿美元，审计聚焦合同授予程序与资金流向，责任认定尚未公布。",
       "importance": 8
     },
     {
-      "title": "叙利亚呼吁世界银行扩大复苏支持",
-      "url": "https://sana.sy/en/economic/2351420/",
-      "source": "SANA 经济",
-      "summary": "叙方向世界银行提出扩大资金与技术支持，用于基础设施修复和经济恢复项目，以缓解重建资金缺口，具体规模未披露。",
-      "importance": 7
-    },
-    {
-      "title": "叙石油公司1.04亿美元合同审计引争议",
-      "url": "https://syrianobserver.com/society/syrian-petroleum-company-contracts-under-scrutiny-what-we-know-about-the-104-million-audit.html",
-      "source": "Syrian Observer",
-      "summary": "围绕石油行业多份合同的财务违规报告引发讨论，审计金额约1.04亿美元，涉及问责机制与合同透明度，官方尚未公布完整结论。",
-      "importance": 7
-    },
-    {
-      "title": "叙财长在曼谷推进全球金融整合",
+      "title": "叙财政部在曼谷推进全球金融接入",
       "url": "https://sana.sy/en/economic/2351478/",
       "source": "SANA 经济",
-      "summary": "叙财政部长在曼谷会谈中介绍对接国际金融体系、恢复跨境结算与信用的步骤，寻求放宽金融限制并吸引外部资金。",
+      "summary": "叙利亚财政部长在曼谷会谈中推动本国与全球金融体系对接，讨论跨境支付、债务安排与投资准入等议题，具体成果未披露。",
+      "importance": 7
+    },
+    {
+      "title": "叙呼吁世行扩大支持并与IMF谈税改",
+      "url": "https://sana.sy/en/economic/2351420/",
+      "source": "SANA 经济",
+      "summary": "叙方呼吁世界银行扩大对经济复苏的支持，并与国际货币基金组织就税制改革与公共支出结构举行磋商，融资规模未公开。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙中商务理事会促投资 叙方将参展进博会",
+      "url": "https://sana.sy/en/economic/2351504/",
+      "source": "SANA 经济",
+      "summary": "叙利亚—中国商务理事会致力于吸引中方投资并扩大叙方出口，叙方同时确认参加在上海举行的第九届中国国际进口博览会。（多家报道）",
       "importance": 6
     },
     {
-      "title": "第九届进博会将在上海举办，叙利亚参展",
-      "url": "https://sana.sy/en/economic/2351385/",
+      "title": "叙与卡塔尔、挪威及AGFUND谈复苏项目",
+      "url": "https://sana.sy/en/economic/2351334/",
       "source": "SANA 经济",
-      "summary": "第九届中国国际进口博览会将在上海举行，叙方确认参展，期望扩大农产品与手工艺品对华出口并吸引投资。",
+      "summary": "叙利亚与卡塔尔、挪威方面讨论复苏与发展项目，并与阿拉伯社会发展基金就民生项目融资交换意见，涉及农业与基础设施领域。（多家报道）",
       "importance": 6
     }
   ],
   "politics_briefs": [
     {
-      "title": "以方称与沙拉通话，叙方称挫败破坏图谋",
+      "title": "内塔尼亚胡称与沙拉通话 叙称挫败破坏图谋",
       "url": "https://syrianobserver.com/foreign-actors/after-netanyahu-claims-he-held-a-phone-call-with-sharaa-syria-says-it-thwarted-plans-to-destabilize-the-country.html",
       "source": "Syrian Observer",
-      "summary": "内塔尼亚胡称与叙总统沙拉通电话，叙方未确认相关说法，并表示已挫败外部破坏计划；叙美约三方仍在推进苏韦达回归国家的路线图。",
+      "summary": "内塔尼亚胡称曾与叙利亚总统沙拉通电话，叙方表示已挫败破坏国家稳定的图谋；大马士革同时与美国、约旦推进将苏韦达纳入国家架构的三方路线图。",
+      "importance": 9
+    },
+    {
+      "title": "涉2013年巴尼亚斯屠杀嫌犯被捕",
+      "url": "https://levant24.com/en/article/syrian-authorities-arrest-ali-kayali-2013-baniyas-massacres-suspect",
+      "source": "Levant24",
+      "summary": "叙情报部门在叙土联合行动中抓获别名米赫拉奇·乌拉尔的阿里·卡亚利，其被指涉及2013年巴尼亚斯屠杀，抓捕发生于其试图越境时。（多家报道）",
       "importance": 8
     },
     {
-      "title": "叙土联合行动抓获巴尼亚斯案嫌疑人",
-      "url": "https://syrianobserver.com/syrian-actors/butcher-of-baniyas-arrested-mihrac-ural-captured-during-attempted-border-infiltration.html",
-      "source": "Syrian Observer",
-      "summary": "叙情报总局在边境拦截行动中逮捕化名米赫拉奇·乌拉的阿里·卡亚利，其为2013年巴尼亚斯屠杀案嫌疑人，行动系叙土联合实施。（多家报道）",
-      "importance": 8
-    },
-    {
-      "title": "叙外长访问利雅得并阐述重建优先事项",
+      "title": "叙利亚外长访问利雅得强化双边关系",
       "url": "https://syrianobserver.com/foreign-actors/syrian-foreign-minister-arrives-in-riyadh-for-official-visit-to-strengthen-bilateral-relations.html",
       "source": "Syrian Observer",
-      "summary": "叙外长希巴尼抵达利雅得展开正式访问，此前沙拉于10月6日访沙；他同时阐述主权与重建优先事项，寻求阿拉伯国家支持。（多家报道）",
+      "summary": "叙利亚外长希巴尼抵达利雅得展开正式访问，旨在加强双边关系，此行紧随沙拉总统10月6日访问沙特之后，重点涉及经济与地区协调。",
       "importance": 7
     }
   ],
-  "editor_note": "候选信源以叙利亚官方媒体为主，视角相对单一；涉及多源印证处已标注，建议读者交叉核对后再作判断。",
+  "editor_note": "本期信源高度集中于叙利亚，财经与时政信号密集但视角单一，科技条目缺失；审计结论与安全行动细节仍有待后续核实。",
   "keywords": [
     "叙利亚重建",
-    "IMF税改磋商",
-    "世界银行融资",
     "石油合同审计",
-    "苏韦达局势",
-    "利雅得外交",
-    "巴尼亚斯案",
-    "中国进博会"
+    "世界银行",
+    "IMF税改",
+    "苏韦达",
+    "叙中经贸",
+    "进博会",
+    "反毒行动"
   ]
 }
