@@ -1,62 +1,76 @@
 {
-  "hero_headline": "叙利亚多线推进：油气审计、金融整合与安全整肃",
-  "daily_overview": "今日资讯高度集中于叙利亚战后重建与对外关系。财经层面，叙利亚石油公司逾1亿美元合同审计引发争议，叙中商务理事会着力吸引投资、扩大出口，财长在曼谷推动金融体系与国际接轨。时政层面，苏韦达危机持续发酵，美方斡旋的三方路线图仍在推进；大马士革宣布挫败外部破坏图谋，并与禁化武组织就关闭化武档案达成路线图。科技领域当日无独立重磅条目，数字与能源基建合作仍是后续观察窗口。",
+  "hero_headline": "叙利亚多线推进金融融入与地区外交",
+  "daily_overview": "今日候选资讯高度集中于叙利亚。财经方面，大马士革多线推进对外金融合作：财政部长赴曼谷谈全球金融融入，并呼吁世界银行扩大对叙经济复苏的支持；同时与国际货币基金组织磋商税制与公共支出改革，并借中国国际进口博览会、叙中商务理事会等渠道吸引投资。不过，叙利亚石油公司1.04亿美元合同审计争议显示，内部治理仍待厘清。时政方面，苏韦达危机持续发酵，叙方称已挫败破坏稳定的图谋；外长访问利雅得以巩固地区关系；2013年巴尼亚斯事件嫌疑人被捕。当日候选信源中没有科技类题材，科技板块本期留空，不做填充。",
   "tech_briefs": [],
   "finance_briefs": [
     {
-      "title": "叙利亚石油公司1.04亿美元合同审计引争议",
-      "url": "https://syrianobserver.com/society/syrian-petroleum-company-contracts-under-scrutiny-what-we-know-about-the-104-million-audit.html",
-      "source": "Syrian Observer",
-      "summary": "围绕石油行业多份合同的财务违规举报引发争论，审计涉及金额约1.04亿美元，相关合同责任与资金流向仍待披露。",
+      "title": "叙财长赴曼谷会谈，寻求世行扩大支持",
+      "url": "https://sana.sy/en/economic/2351478/",
+      "source": "SANA 经济",
+      "summary": "叙利亚财政部长在曼谷会谈中推进全球金融融入，并与世界银行磋商扩大对叙经济复苏的支持，议题涉及融资与对外经济接轨。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚与IMF磋商税制与公共支出改革",
+      "url": "https://sana.sy/en/economic/2351286/",
+      "source": "SANA 经济",
+      "summary": "叙方与国际货币基金组织就税制改革和公共支出管理举行讨论，相关议题被列为经济恢复议程的组成部分。",
       "importance": 7
     },
     {
-      "title": "叙中商务理事会推动引资与扩大出口",
+      "title": "叙石油公司1.04亿美元合同审计引争议",
+      "url": "https://syrianobserver.com/society/syrian-petroleum-company-contracts-under-scrutiny-what-we-know-about-the-104-million-audit.html",
+      "source": "Syrian Observer",
+      "summary": "围绕叙利亚石油公司多份石油行业合同的财务违规报告引发审计争议，涉及金额约1.04亿美元，外界关注后续问责与合同审查进展。",
+      "importance": 7
+    },
+    {
+      "title": "叙中商务理事会招商，叙利亚参与第九届进博会",
       "url": "https://sana.sy/en/economic/2351504/",
-      "source": "SANA 投资",
-      "summary": "叙利亚-中国商务理事会表示将着力吸引中方投资、扩大叙利亚产品出口，报道未披露具体项目规模与时间表。",
+      "source": "SANA 经济",
+      "summary": "叙利亚—中国商务理事会着力吸引投资、扩大出口；中国将在上海举办第九届进口博览会，叙方确认参与。（多家报道）",
       "importance": 6
     },
     {
-      "title": "叙财长曼谷会谈推进金融国际接轨",
-      "url": "https://sana.sy/en/economic/2351478/",
-      "source": "SANA 投资",
-      "summary": "叙利亚财政部长在曼谷与多方举行会谈，讨论推动本国金融体系接入国际渠道、恢复银行往来与外部融资的路径。",
+      "title": "叙利亚与卡塔尔、挪威等磋商复苏项目",
+      "url": "https://sana.sy/en/economic/2351368/",
+      "source": "SANA 经济",
+      "summary": "叙利亚分别与卡塔尔、挪威以及阿拉伯海湾发展基金会（AGFUND）就复苏与发展项目举行会谈，寻求外部资金与技术支持。（多家报道）",
       "importance": 6
     }
   ],
   "politics_briefs": [
     {
-      "title": "苏韦达危机延宕，三方路线图推进受阻",
+      "title": "苏韦达危机加深，叙称挫败破坏稳定图谋",
       "url": "https://levant24.com/en/article/suwayda-crisis-deepens-as-calls-for-dialogue-grow",
       "source": "Levant24",
-      "summary": "苏韦达局势持续紧张，外界呼吁对话；叙方称正与美国、约旦落实三方路线图以恢复国家对当地控制，并称已挫败外部破坏图谋。内塔尼亚胡此前称与沙拉通话。（多家报道）",
+      "summary": "苏韦达局势持续紧张，多方呼吁对话；叙方表示已挫败破坏国家稳定的计划，并与美国、约旦推进三方路线图以恢复当地治理。（多家报道）",
       "importance": 8
     },
     {
-      "title": "叙利亚逮捕巴尼亚斯事件嫌疑人乌拉尔",
-      "url": "https://levant24.com/en/article/syrian-authorities-arrest-ali-kayali-2013-baniyas-massacres-suspect",
-      "source": "Levant24",
-      "summary": "叙利亚情报部门在联合行动中逮捕别名米赫拉奇·乌拉的阿里·卡亚利，其被指涉2013年巴尼亚斯屠杀，叙方称其在试图越境时落网。（多家报道）",
+      "title": "巴尼亚斯事件嫌疑人乌拉尔被捕",
+      "url": "https://syrianobserver.com/syrian-actors/butcher-of-baniyas-arrested-mihrac-ural-captured-during-attempted-border-infiltration.html",
+      "source": "Syrian Observer",
+      "summary": "叙情报部门在联合行动中抓获别名米赫拉奇·乌拉尔的阿里·卡亚利，其被指涉2013年巴尼亚斯事件，被捕时正试图越境。（多家报道）",
       "importance": 7
     },
     {
-      "title": "叙利亚与禁化武组织就关闭化武档案达路线图",
-      "url": "https://levant24.com/en/article/syria-and-opcw-agree-on-roadmap-to-close-chemical-weapons-file",
-      "source": "Levant24",
-      "summary": "叙利亚官员与禁化武组织经多轮高层会晤后，就关闭化武档案达成路线图，涉及申报核查与后续机制的落实安排。",
-      "importance": 8
+      "title": "叙外长访利雅得，推进双边关系",
+      "url": "https://syrianobserver.com/foreign-actors/syrian-foreign-minister-arrives-in-riyadh-for-official-visit-to-strengthen-bilateral-relations.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚外长希巴尼抵达利雅得进行正式访问，此前叙总统沙拉阿已于10月6日访沙；叙方同时呼吁支持主权与经济恢复进程。（多家报道）",
+      "importance": 7
     }
   ],
-  "editor_note": "当日信源几乎全部指向叙利亚，地域集中度偏高；涉及金额、司法进展与协议细节的数字宜交叉核实后再引用。",
+  "editor_note": "候选信源几乎全部来自叙利亚官方与本地媒体，视角偏单一；已按主题合并同类报道，科技板块因无素材留空而非凑数。",
   "keywords": [
-    "叙利亚重建",
+    "叙利亚",
+    "经济重建",
+    "世界银行",
+    "苏韦达",
     "石油合同审计",
-    "叙中经贸",
-    "金融接轨",
-    "苏韦达危机",
-    "化武档案",
-    "安全整肃",
-    "难民回归"
+    "中国进博会",
+    "地区外交",
+    "反毒行动"
   ]
 }

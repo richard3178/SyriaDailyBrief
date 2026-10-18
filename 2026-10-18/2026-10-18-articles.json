@@ -10,7 +10,7 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "内塔尼亚胡称曾与沙拉通电话后，叙利亚表示已挫败破坏国家稳定的计划。据叙利亚电视台报道，大马士革继续与美国和约旦合作，落实将苏韦达重新纳入叙利亚国家框架的三方路线图。"
+      "summary": "内塔尼亚胡称与沙拉通电话后，叙方表示已挫败破坏国家稳定的图谋。大马士革继续与美国、约旦合作落实三方路线图，推动苏韦达重新纳入叙利亚国家体系。"
     },
     {
       "sourceId": "syrian-observer",
@@ -21,7 +21,7 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "绰号「巴尼亚斯屠夫」的阿里·卡亚利（化名米赫拉奇·乌拉尔）在试图越境渗透时被叙利亚总情报局逮捕。"
+      "summary": "被称为「巴尼亚斯屠夫」的阿里·卡亚利（化名米赫拉奇·乌拉尔）在试图越境时被叙利亚情报总局逮捕。"
     },
     {
       "sourceId": "syrian-observer",
@@ -31,8 +31,8 @@
       "publishedAt": "2026-10-15T21:01:53.000Z",
       "category": "finance",
       "source": "Syrian Observer",
-      "subcategory": "investment",
-      "summary": "叙利亚石油公司多份石油行业合同被指存在财务违规，相关争议由此引发，涉及金额达1.04亿美元的审计由此展开。"
+      "subcategory": "news",
+      "summary": "叙利亚石油公司多份石油行业合同被指存在财务违规，相关审计金额达1.04亿美元，引发舆论关注。"
     },
     {
       "sourceId": "syrian-observer",
@@ -43,7 +43,7 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "叙利亚外长希巴尼抵达利雅得进行正式访问，旨在加强双边关系。此访紧随总统艾哈迈德·沙拉10月6日访问利雅得之后。"
+      "summary": "叙利亚外长希巴尼抵达利雅得进行正式访问，旨在加强双边关系。此访距总统沙拉10月6日访问利雅得不久。"
     },
     {
       "sourceId": "syrian-observer",
@@ -54,7 +54,7 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "叙利亚与瑞典举行会谈，重点讨论支持自愿返乡者的稳定与重新融入。瑞方代表团由瑞典移民局的谢尔·泰耶·托尔维克率领。"
+      "summary": "叙利亚与瑞典举行会谈，重点讨论支持自愿返回者的稳定与重新融入。瑞典代表团由瑞典移民局的谢尔·特尔耶·托尔维克率领。"
     },
     {
       "sourceId": "syrian-observer",
@@ -65,7 +65,113 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "叙利亚法院就2025年沿海地区屠杀事件判处两人死刑。"
+      "summary": "叙利亚一家法院就2025年沿海地区屠杀事件判处两人死刑。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Syrian-Chinese Business Council works to attract investment, boost exports",
+      "url": "https://sana.sy/en/economic/2351504/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "china-syria",
+      "summary": "叙利亚-中国商业理事会致力于吸引投资、促进出口。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Finance minister advances Syria’s global financial integration in Bangkok talks",
+      "url": "https://sana.sy/en/economic/2351478/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news",
+      "summary": "叙利亚财政部长在曼谷会谈中推进叙利亚的全球金融接轨。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Syria calls for expanded World Bank support for economic recovery",
+      "url": "https://sana.sy/en/economic/2351420/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news",
+      "summary": "叙利亚呼吁世界银行扩大对叙经济复苏的支持。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "China to launch ninth import expo in Shanghai, with Syria participating",
+      "url": "https://sana.sy/en/economic/2351385/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "china-syria",
+      "summary": "中国将在上海举办第九届进口博览会，叙利亚将参与其中。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Syrian, AGFUND talks to support recovery and development projects",
+      "url": "https://sana.sy/en/economic/2351368/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news",
+      "summary": "叙利亚与阿拉伯海湾开发计划署（AGFUND）会谈，讨论支持复苏与发展项目。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Syria discusses development and recovery projects with Qatar and Norway",
+      "url": "https://sana.sy/en/economic/2351334/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "investment",
+      "summary": "叙利亚与卡塔尔、挪威商讨发展与复苏项目。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Darkush pomegranate farmers squeezed by rising costs, weak demand",
+      "url": "https://sana.sy/en/economic/2351311/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news",
+      "summary": "达库什石榴种植户受成本上升与需求疲弱双重挤压。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Olabi emphasizes translating political progress into economic achievements",
+      "url": "https://sana.sy/en/syria/2351294/",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Syria, IMF discuss tax reform and public spending",
+      "url": "https://sana.sy/en/economic/2351286/",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Syria seeks to cut seed imports and lower farming costs",
+      "url": "https://sana.sy/en/economic/2351247/",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "investment"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Syria, Lebanon to form joint team on financial cooperation",
+      "url": "https://sana.sy/en/economic/2351236/",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news"
     },
     {
       "sourceId": "levant24",
@@ -76,7 +182,7 @@
       "category": "politics",
       "source": "Levant24",
       "subcategory": "world",
-      "summary": "叙利亚问题研究机构ACW的报告指出，叙利亚关闭境内营地的计划引发人道担忧。叙土边境难民营遭暴雪侵袭，居民在恶劣条件下清理帐篷积雪，人道状况严峻。"
+      "summary": "据ACW报告，叙利亚难民营关闭计划引发人道担忧。叙土边境难民营遭大雪覆盖，居民在灾难性人道状况下艰难清除帐篷积雪。"
     },
     {
       "sourceId": "levant24",
@@ -87,7 +193,7 @@
       "category": "politics",
       "source": "Levant24",
       "subcategory": "world",
-      "summary": "叙利亚苏韦达危机持续加深，要求对话的呼声上升。叙政府在美国斡旋下达成停火，以阻止以色列进一步军事干预，苏韦达市郊仍有武装人员活动。"
+      "summary": "苏韦达危机加深，要求对话的呼声上升。叙政府在美国斡旋下下令停火，以避免以色列进一步军事干预，苏韦达市郊有武装人员活动。"
     },
     {
       "sourceId": "levant24",
@@ -98,7 +204,7 @@
       "category": "politics",
       "source": "Levant24",
       "subcategory": "world",
-      "summary": "叙利亚扩大禁毒行动，在边境查获走私毒品。叙禁毒部门挫败一起毒品走私企图，并摧毁一个从黎巴嫩向叙供应毒品的国际网络。"
+      "summary": "叙利亚扩大禁毒打击力度并加强边境查缉。叙禁毒部门挫败一起毒品走私企图，捣毁一个从黎巴嫩供应毒品的国际网络。"
     },
     {
       "sourceId": "levant24",
@@ -108,8 +214,7 @@
       "publishedAt": "2026-10-16T18:42:00.000Z",
       "category": "politics",
       "source": "Levant24",
-      "subcategory": "world",
-      "summary": "叙利亚情报部门在叙土联合行动中逮捕阿里·卡亚利（又名米赫拉奇·乌拉尔），他涉嫌参与2013年巴尼亚斯屠杀事件。"
+      "subcategory": "world"
     },
     {
       "sourceId": "levant24",
@@ -119,8 +224,7 @@
       "publishedAt": "2026-10-16T18:32:00.000Z",
       "category": "politics",
       "source": "Levant24",
-      "subcategory": "world",
-      "summary": "一项联合调查揭示叙利亚被拐儿童问题仍存诸多未解疑问。例如莱拉和拉扬·格贝斯姐妹2015年分别为8岁和4岁时被带离母亲，送入SOS机构。"
+      "subcategory": "world"
     },
     {
       "sourceId": "levant24",
@@ -130,28 +234,133 @@
       "publishedAt": "2026-10-15T16:57:00.000Z",
       "category": "politics",
       "source": "Levant24",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Italian ambassador visits education and heritage projects supported by Italy in Idlib",
+      "url": "https://sana.sy/en/syria/2351572/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
       "subcategory": "world",
-      "summary": "叙利亚官员与禁止化学武器组织（OPCW）近期举行一系列高层会晤，双方就关闭叙化学武器档案达成路线图。"
+      "summary": "意大利大使访问伊德利卜由意大利支持的教育与文化遗产项目。"
     },
     {
-      "sourceId": "sana-investment",
-      "title": "Syrian-Chinese Business Council works to attract investment, boost exports",
-      "url": "https://sana.sy/en/economic/2351504/",
+      "sourceId": "sana-en",
+      "title": "Tartous, WFP agree to rehabilitate citrus and olive seedling center",
+      "url": "https://sana.sy/en/syria/2351553/",
       "publishedAt": "2026-10-17T00:00:00.000Z",
       "category": "finance",
-      "source": "SANA 投资",
-      "subcategory": "china-syria",
-      "summary": "据叙利亚国家通讯社报道，叙利亚-中国商务理事会正着手推动吸引投资、扩大出口相关工作，以促进双边经贸往来。报道未披露具体投资规模或时间表。"
+      "source": "SANA 主站",
+      "subcategory": "investment",
+      "summary": "塔尔图斯与世界粮食计划署（WFP）就修复柑橘和橄榄苗木中心达成一致。"
     },
     {
-      "sourceId": "sana-investment",
-      "title": "Finance minister advances Syria’s global financial integration in Bangkok talks",
-      "url": "https://sana.sy/en/economic/2351478/",
+      "sourceId": "sana-en",
+      "title": "Interior Minister meets with Latakia representatives in the People’s Assembly",
+      "url": "https://sana.sy/en/syria/2351544/",
       "publishedAt": "2026-10-17T00:00:00.000Z",
-      "category": "finance",
-      "source": "SANA 投资",
-      "subcategory": "news",
-      "summary": "叙利亚财政部长在曼谷会谈中推进该国与全球金融体系的融合进程。报道未披露会谈具体参与方、涉及金额或达成的具体安排。"
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Syrian Interior Minister holds coordination meeting in Latakia",
+      "url": "https://sana.sy/en/syria/2351495/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Al-Shaibani meets Iraqi prime minister to discuss bilateral ties",
+      "url": "https://sana.sy/en/politics/2351472/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Israeli occupation forces detain four in Quneitra incursions",
+      "url": "https://sana.sy/en/syria/2351467/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Al-Shaibani outlines Syria’s priorities, calls for support for sovereignty and recovery",
+      "url": "https://sana.sy/en/syria/2351477/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "叙利亚外交部长希巴尼阐述叙方优先事项，呼吁国际社会支持叙利亚主权与国家恢复。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Five arrested in Aleppo drug bust, 140,000 Captagon pills seized",
+      "url": "https://sana.sy/en/syria/2351463/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "叙利亚阿勒颇开展缉毒行动，逮捕5名嫌疑人，缴获14万粒芬乃他林（Captagon）药片。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Syrian army engineer martyred, another seriously wounded in Tanf",
+      "url": "https://sana.sy/en/syria/2351460/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "叙利亚一名军方工程兵在坦夫地区身亡，另有一人重伤。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Al-Shaibani meets Iraqi President to discuss bilateral ties",
+      "url": "https://sana.sy/en/politics/2351441/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "叙利亚外长希巴尼会见伊拉克总统，双方就双边关系及合作议题进行讨论。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Syria and Egypt discuss enhancing bilateral relations in Baghdad",
+      "url": "https://sana.sy/en/politics/2351429/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "叙利亚与埃及在巴格达举行会谈，讨论加强双边关系。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Israeli occupation forces advance into Wadi al-Raqad, western Daraa countryside",
+      "url": "https://sana.sy/en/syria/2351417/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "以色列占领军向德拉省西部乡村的瓦迪拉卡德地区推进。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Two killed, 29 injured in traffic accidents and fires across Syria in past 24 hours",
+      "url": "https://sana.sy/en/syria/2351386/",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "过去24小时内，叙利亚各地交通事故和火灾共造成2人死亡、29人受伤。"
     }
   ]
 }
