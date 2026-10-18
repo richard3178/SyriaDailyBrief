@@ -15,7 +15,7 @@ import type { Category, SourceDef } from "../sources/types";
  * this object so adding a third locale = adding one more table.
  */
 const TEXTS_ZH = {
-  siteTitle: "每日简报",
+  siteTitle: "Syria Daily Brief 叙利亚每日新闻简报",
   catTech: "技术动态",
   catFinance: "财经要点",
   catPolitics: "时政观察",
@@ -607,11 +607,15 @@ export function renderHtml(
     color: var(--muted);
     font-weight: 500;
   }
+  /* 只放大顶部眉线，其余页面眉线保持原样 */
+header.report-header .eyebrow {
+    font-size: 1.5rem;
+  }
   h1.report-title {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     font-weight: 700;
     margin: 0.4rem 0 1.2rem;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1.1;
   }
   .archive-link {
@@ -1177,8 +1181,8 @@ export function renderHtml(
 <body>
 <main>
   <header class="report-header">
-    <span class="eyebrow">${STR.siteTitle}</span>
-    <h1 class="report-title">${date}</h1>
+    <span class="eyebrow">${date}</span>
+    <h1 class="report-title">${STR.siteTitle}</h1>
     ${process.env.WEB_MODE === "true" ? `<a class="archive-link" href="../archive.html">${STR.archiveLink}</a>` : ""}
   </header>
 
