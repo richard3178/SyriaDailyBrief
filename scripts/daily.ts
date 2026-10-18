@@ -296,7 +296,23 @@ async function main() {
   const date = todayKey();
   console.log(`[daily] ${date} — fetching sources…\n`);
   const articles = await fetchAll();
-
+// ══ 新增：当日 URL 去重（同一天不同源抓到同一 URL 只留一条） ══
+{
+  const seen = new Set<string>();
+  const before = articles.length;
+  const kept = articles.filter((a) => {
+    if (seen.has(a.url)) return false;
+    seen.add(a.url);
+    return true;
+  });
+  if (kept.length !== before) {
+    console.log(`[daily] same-day dedup: removed ${before - kept.length}/${before} duplicate urls`);
+  }
+  articles.length = 0;
+  articles.push(...kept);
+}
+// ══ 新增结束 ══
+  
 // ══ 新增：跨天去重——昨天出现过的 url 今天剔除（旧闻不复用） ══
 {
   const yesterdayKey = todayKey(new Date(Date.now() - 24 * 60 * 60 * 1000));
@@ -330,26 +346,51 @@ console.log(`\n[daily] total articles: ${articles.length}`);
     throw new Error("no articles fetched — aborting");
   }
 
-  // Enrich GH Trending, papers, finance news, and politics with summaries.
-  // ══ 新增：finance 三 tab 先做主题过滤（宁缺毋滥），收集被剔除的 url ══
-const droppedNews = await enrichMergedSubgroupFiltered(
-  articles, "finance", "news",
-  "与叙利亚相关的经济、财政、金融、贸易、重建、投资、民生经济新闻；凡涉及叙利亚经济的报道均保留（剔除纯全球市场行情：中美关税、美债、国际油价、黄金、英国/欧洲内部经济等与叙利亚无关的内容）。本 tab 应尽量多保留叙利亚财经内容，不要因主题不够典型而误删",
-);
-const droppedInvestment = await enrichMergedSubgroupFiltered(
-  articles, "finance", "investment",
-  "叙利亚的投资与经济动态：凡涉及叙利亚的投资、重建项目、招商引资、外资进入叙利亚、工业园区、企业/公司动态、贸易、进出口、基建项目、能源、农业、工业生产的报道均保留；这些主题对叙利亚而言即是投资/经济相关内容，不必同时提及中国，也不必是纯投资主题——只要主题涉及叙利亚经济与投资即可",
-);
-const droppedChina = await enrichMergedSubgroupFiltered(
-  articles, "finance", "china-syria",
-  "必须同时涉及叙利亚与中国（含中国企业、中国资金、中叙双边合作/投资/贸易/外交/技术项目）；只涉及叙利亚与第三方、或只涉及中国但不涉及叙利亚、或与中叙经贸往来无关的一律剔除",
-);
+  // ══ 新增：统一时间窗口（RSS 与页面源都生效） ══
+  const MAX_AGE_DAYS = 3; // 要 2 天就改这个数；不要窗口就删下面 {} 整块
+  {
+    const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+    const before = articles.length;
+    const kept = articles.filter((a) => {
+      const t = a.publishedAt ? new Date(a.publishedAt).getTime() : Number.POSITIVE_INFINITY;
+      return t >= cutoff;
+    });
+    articles.length = 0;
+    articles.push(...kept);
+    console.log(`[daily] window: dropped ${before - kept.length}/${before} older than ${MAX_AGE_DAYS}d`);
+  }
 
-// 把被剔除的 url 从 articles 里移除，后续 generateDailyReport / groupRaw 不再包含它们
-const droppedAll = new Set([...droppedNews, ...droppedInvestment, ...droppedChina]);
-const filteredArticles = articles.filter((a) => !droppedAll.has(a.url));
-articles.length = 0;
-articles.push(...filteredArticles);
+  // ══ 新增：中叙关键词强制归 tab（零 LLM 成本；命中即进中叙合作，不进其他 tab） ══
+  let chinaUrls = new Set<string>();
+  for (const a of articles) {
+    const hay = `${a.title ?? ""} ${a.url ?? ""} ${a.excerpt ?? ""}`.toLowerCase();
+    if (CHINA_SYRIA_KEYWORDS.some((k) => hay.includes(k))) {
+      chinaUrls.add(a.url);
+      a.category = "finance";
+      a.subcategory = "china-syria";
+    }
+  }
+  console.log(`[daily] classify: keyword=${chinaUrls.size} 命中中叙关键词强制归位`);
+
+  // ══ 新增：LLM 单次批量分类（未命中关键词的剩余文章一次调用；未返回的 url 视为丢弃） ══
+  {
+    const pending = articles.filter((a) => !chinaUrls.has(a.url));
+    const classMap = await classifySyriaArticles(
+      pending.map((a) => ({ url: a.url, title: a.title, excerpt: a.excerpt, source: a.source })),
+    );
+    const dropped = new Set<string>();
+    for (const a of pending) {
+      const cls = classMap.get(a.url);
+      if (!cls) { dropped.add(a.url); continue; }
+      a.category = cls.category;
+      a.subcategory = cls.subcategory;
+    }
+    const keptArticles = articles.filter((a) => !dropped.has(a.url));
+    const droppedCount = articles.length - keptArticles.length;
+    articles.length = 0;
+    articles.push(...keptArticles);
+    console.log(`[daily] classify: keyword=${chinaUrls.size} kept=${keptArticles.length} dropped=${droppedCount}`);
+  }
 
 // ══ 原有调用原样保留，一行不动 ══
   await enrichFinanceNews(articles);
