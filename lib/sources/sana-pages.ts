@@ -25,6 +25,18 @@ const CONFIG: Record<
     maxAgeDays: 2,
     skipPath: "/en/international/", // 剔纯中国新闻
   },
+      "sana-economy": {
+      maxAgeDays: 3,
+      limit: 12,
+    },
+    "sana-en": {
+      maxAgeDays: 3,
+      limit: 15,
+    },
+    "sana-syria": {
+      maxAgeDays: 3,
+      limit: 15,
+    },
 };
 
 function extractDate($: any, el: any): Date | undefined {
