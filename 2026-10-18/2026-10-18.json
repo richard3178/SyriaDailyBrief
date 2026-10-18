@@ -1,61 +1,62 @@
 {
-  "hero_headline": "叙利亚推进金融国际接轨，苏韦达局势与安全清剿并行",
-  "daily_overview": "本期候选资讯高度集中于叙利亚，科技领域没有新增条目，简报因此聚焦财经与时政两条主线。财经方面，叙利亚石油公司1.04亿美元合同审计引发对石油行业财务违规的追问；叙中商务理事会着手吸引投资、扩大出口；财政部长在曼谷会谈中推进全球金融接轨。时政方面，苏韦达危机持续，叙方称挫败破坏稳定的图谋，并与美国、约旦推进三方路线图；安全部门联合土耳其抓获2013年巴尼亚斯惨案嫌疑人米赫拉奇·乌拉尔，同时扩大边境禁毒缉查；叙利亚与禁化武组织就关闭化武档案达成路线图，难民营关闭计划引发人道关切。",
+  "hero_headline": "叙利亚多线推进：油气审计、金融整合与安全整肃",
+  "daily_overview": "今日资讯高度集中于叙利亚战后重建与对外关系。财经层面，叙利亚石油公司逾1亿美元合同审计引发争议，叙中商务理事会着力吸引投资、扩大出口，财长在曼谷推动金融体系与国际接轨。时政层面，苏韦达危机持续发酵，美方斡旋的三方路线图仍在推进；大马士革宣布挫败外部破坏图谋，并与禁化武组织就关闭化武档案达成路线图。科技领域当日无独立重磅条目，数字与能源基建合作仍是后续观察窗口。",
   "tech_briefs": [],
   "finance_briefs": [
     {
-      "title": "叙利亚石油公司1.04亿美元合同审计引发追问",
+      "title": "叙利亚石油公司1.04亿美元合同审计引争议",
       "url": "https://syrianobserver.com/society/syrian-petroleum-company-contracts-under-scrutiny-what-we-know-about-the-104-million-audit.html",
       "source": "Syrian Observer",
-      "summary": "叙利亚石油公司多份石油行业合同被指存在财务违规，涉及金额1.04亿美元的审计结果引发对合同授予程序与资金流向的追问。",
+      "summary": "围绕石油行业多份合同的财务违规举报引发争论，审计涉及金额约1.04亿美元，相关合同责任与资金流向仍待披露。",
       "importance": 7
     },
     {
       "title": "叙中商务理事会推动引资与扩大出口",
       "url": "https://sana.sy/en/economic/2351504/",
       "source": "SANA 投资",
-      "summary": "叙利亚-中国商务理事会推进吸引中方投资、扩大叙利亚产品出口的相关工作，报道未披露具体项目清单与投资规模。",
+      "summary": "叙利亚-中国商务理事会表示将着力吸引中方投资、扩大叙利亚产品出口，报道未披露具体项目规模与时间表。",
       "importance": 6
     },
     {
-      "title": "叙财政部长在曼谷会谈推进金融国际接轨",
+      "title": "叙财长曼谷会谈推进金融国际接轨",
       "url": "https://sana.sy/en/economic/2351478/",
       "source": "SANA 投资",
-      "summary": "叙利亚财政部长在曼谷会谈中推动该国与全球金融体系对接，议题涉及跨境结算、合规安排与重建融资渠道。",
+      "summary": "叙利亚财政部长在曼谷与多方举行会谈，讨论推动本国金融体系接入国际渠道、恢复银行往来与外部融资的路径。",
       "importance": 6
     }
   ],
   "politics_briefs": [
     {
-      "title": "苏韦达危机加深，叙方称挫败破坏稳定图谋",
-      "url": "https://syrianobserver.com/foreign-actors/after-netanyahu-claims-he-held-a-phone-call-with-sharaa-syria-says-it-thwarted-plans-to-destabilize-the-country.html",
-      "source": "Syrian Observer",
-      "summary": "叙利亚表示已挫败破坏国家稳定的图谋，同时与美国、约旦推进三方路线图，推动苏韦达重新纳入国家治理；当地要求对话的呼声上升。（多家报道）",
+      "title": "苏韦达危机延宕，三方路线图推进受阻",
+      "url": "https://levant24.com/en/article/suwayda-crisis-deepens-as-calls-for-dialogue-grow",
+      "source": "Levant24",
+      "summary": "苏韦达局势持续紧张，外界呼吁对话；叙方称正与美国、约旦落实三方路线图以恢复国家对当地控制，并称已挫败外部破坏图谋。内塔尼亚胡此前称与沙拉通话。（多家报道）",
       "importance": 8
     },
     {
-      "title": "叙土联合行动抓获巴尼亚斯惨案嫌疑人",
-      "url": "https://syrianobserver.com/syrian-actors/butcher-of-baniyas-arrested-mihrac-ural-captured-during-attempted-border-infiltration.html",
-      "source": "Syrian Observer",
-      "summary": "叙利亚情报部门在联合行动中抓获化名米赫拉奇·乌拉尔的阿里·卡亚利，其被指涉及2013年巴尼亚斯屠杀，被捕时正试图越境。（多家报道）",
+      "title": "叙利亚逮捕巴尼亚斯事件嫌疑人乌拉尔",
+      "url": "https://levant24.com/en/article/syrian-authorities-arrest-ali-kayali-2013-baniyas-massacres-suspect",
+      "source": "Levant24",
+      "summary": "叙利亚情报部门在联合行动中逮捕别名米赫拉奇·乌拉的阿里·卡亚利，其被指涉2013年巴尼亚斯屠杀，叙方称其在试图越境时落网。（多家报道）",
       "importance": 7
     },
     {
       "title": "叙利亚与禁化武组织就关闭化武档案达路线图",
       "url": "https://levant24.com/en/article/syria-and-opcw-agree-on-roadmap-to-close-chemical-weapons-file",
       "source": "Levant24",
-      "summary": "叙利亚官员与禁止化学武器组织在系列高级别会谈后达成路线图，目标是解决并关闭持续多年的化学武器档案。",
-      "importance": 7
+      "summary": "叙利亚官员与禁化武组织经多轮高层会晤后，就关闭化武档案达成路线图，涉及申报核查与后续机制的落实安排。",
+      "importance": 8
     }
   ],
-  "editor_note": "候选信源高度集中于叙利亚，科技类条目缺位；跨境安全合作与金融接轨同步推进，后续需观察外部协议能否落地。",
+  "editor_note": "当日信源几乎全部指向叙利亚，地域集中度偏高；涉及金额、司法进展与协议细节的数字宜交叉核实后再引用。",
   "keywords": [
-    "叙利亚",
-    "苏韦达",
+    "叙利亚重建",
     "石油合同审计",
-    "金融国际接轨",
-    "禁毒缉私",
-    "禁化武组织",
-    "外资合作"
+    "叙中经贸",
+    "金融接轨",
+    "苏韦达危机",
+    "化武档案",
+    "安全整肃",
+    "难民回归"
   ]
 }
