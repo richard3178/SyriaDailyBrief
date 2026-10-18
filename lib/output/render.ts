@@ -287,8 +287,11 @@ export function groupRaw(
   // whether the other forum even exists.
   for (const s of registry) {
     if (s.enabled === false) continue;
-    if (!buckets[s.category].has(s.id)) {
-      buckets[s.category].set(s.id, { sourceName: s.name, items: [] });
+    if (!buckets[s.category].has(s.subcategory)) {
+      buckets[s.category].set(s.subcategory, {
+        sourceName: SUBCATEGORY_LABELS[s.subcategory] ?? s.subcategory,
+        items: [],
+      });
     }
   }
 
@@ -296,10 +299,11 @@ export function groupRaw(
     if (!enabledIds.has(a.sourceId)) continue;
     if (a.category === "politics" && isSportsArticle(a.title)) continue;
     const map = buckets[a.category];
-    let b = map.get(a.sourceId);
+    const subKey = a.subcategory ?? "misc";
+    let b = map.get(subKey);
     if (!b) {
       b = { sourceName: a.source, items: [] };
-      map.set(a.sourceId, b);
+      map.set(subKey, b);
     }
     b.items.push(a);
   }
@@ -359,7 +363,7 @@ export function groupRaw(
         // the renderer can label them.
         const flat: ArticleInput[] = [];
         for (const [id, b] of buckets[cat].entries()) {
-          if (subcatOf.get(id) === subId) flat.push(...b.items);
+          if (id === subId) flat.push(...b.items);
         }
         if (flat.length === 0) continue;
         flat.sort(
