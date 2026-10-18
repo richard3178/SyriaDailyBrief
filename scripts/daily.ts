@@ -189,29 +189,20 @@ async function enrichMergedSubgroup(
   category: "tech" | "finance" | "politics",
   subcategory: string,
 ): Promise<void> {
-  const subSources = sources.filter(
-    (s) =>
-      s.category === category &&
-      s.subcategory === subcategory &&
-      s.enabled !== false,
-  );
-  const enabledIds = new Set(subSources.map((s) => s.id));
-  const sameLocaleIds = new Set(
-    subSources.filter((s) => (s.lang ?? "en") === REPORT_LOCALE).map((s) => s.id),
-  );
+  // 按文章自身的分类字段取数（不再按信源配置归属）
   const limit = MERGED_SUBGROUP_LIMITS[`${category}:${subcategory}`] ?? 12;
   // Top-N respects all enabled sources (so we don't reshape the merged
   // timeline). Enrichment only targets items NOT already in the target
   // language within that slice.
   const top = articles
-    .filter((a) => enabledIds.has(a.sourceId))
+    .filter((a) => a.category === category && a.subcategory === subcategory)
     .filter((a) => category !== "politics" || !isSportsArticle(a.title))
     .sort(
       (a, b) =>
         (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0),
     )
     .slice(0, limit);
-  const toEnrich = top.filter((a) => !sameLocaleIds.has(a.sourceId));
+  const toEnrich = top;
   if (toEnrich.length === 0) return;
   console.log(
     `[daily] enriching ${toEnrich.length}/${top.length} ${category}:${subcategory} items with ${REPORT_LOCALE} summaries…`,
