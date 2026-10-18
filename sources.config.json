@@ -20,8 +20,8 @@
   {
     "id": "sana-economy",
     "name": "SANA 经济",
-    "url": "https://sana.sy/en/economic/feed/",
-    "type": "rss",
+    "url": "https://sana.sy/en/economic/",
+    "type": "scrape",
     "category": "finance",
     "subcategory": "news",
     "limit": 12
@@ -39,8 +39,8 @@
   {
     "id": "sana-investment",
     "name": "SANA 投资",
-    "url": "https://sana.sy/en/investment/feed/",
-    "type": "rss",
+    "url": "https://sana.sy/en/investment/",
+    "type": "scrape",
     "category": "finance",
     "subcategory": "investment",
     "limit": 10
@@ -48,8 +48,8 @@
   {
     "id": "sana-en",
     "name": "SANA 主站",
-    "url": "https://sana.sy/en/feed/",
-    "type": "rss",
+    "url": "https://sana.sy/en/",
+    "type": "scrape",
     "category": "finance",
     "subcategory": "news",
     "limit": 15
@@ -61,6 +61,15 @@
     "type": "scrape",
     "category": "finance",
     "subcategory": "china-syria",
+    "limit": 15
+  }，
+    {
+    "id": "sana-syria",
+    "name": "SANA 时政",
+    "url": "https://sana.sy/en/syria/",
+    "type": "scrape",
+    "category": "politics",
+    "subcategory": "world",
     "limit": 15
   }
 ]
