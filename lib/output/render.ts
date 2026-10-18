@@ -609,7 +609,9 @@ export function renderHtml(
   }
   /* 只放大顶部眉线，其余页面眉线保持原样 */
 header.report-header .eyebrow {
+    display: block;
     font-size: 1.5rem;
+    margin: 0 0 1.2rem;
   }
   h1.report-title {
     font-size: 2.0rem;
@@ -1181,8 +1183,8 @@ header.report-header .eyebrow {
 <body>
 <main>
   <header class="report-header">
-    <span class="eyebrow">${date}</span>
     <h1 class="report-title">${STR.siteTitle}</h1>
+    <span class="eyebrow">${date}</span>
     ${process.env.WEB_MODE === "true" ? `<a class="archive-link" href="../archive.html">${STR.archiveLink}</a>` : ""}
   </header>
 
