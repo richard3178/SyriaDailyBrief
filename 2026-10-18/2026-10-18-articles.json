@@ -9,7 +9,8 @@
       "publishedAt": "2026-10-15T21:02:37.000Z",
       "category": "politics",
       "source": "Syrian Observer",
-      "summary": "以色列总理内塔尼亚胡称曾与叙利亚总统沙拉阿通电话，叙方随后表示已挫败破坏国家稳定的图谋。大马士革继续与美国、约旦合作，推进将苏韦达重新纳入叙利亚国家的三方路线图。"
+      "subcategory": "world",
+      "summary": "叙利亚表示已挫败破坏该国稳定的图谋；此前以色列总理内塔尼亚胡称与沙拉通过电话。据叙利亚电视台报道，大马士革继续与美国和约旦合作，落实将苏韦达重新纳入叙利亚国家架构的三方路线图。"
     },
     {
       "sourceId": "syrian-observer",
@@ -19,7 +20,8 @@
       "publishedAt": "2026-10-15T21:02:32.000Z",
       "category": "politics",
       "source": "Syrian Observer",
-      "summary": "绰号「巴尼亚斯屠夫」的阿里·卡亚利（化名米赫拉奇·乌拉尔）在试图越境时被叙利亚情报总局逮捕。他因叙利亚沿海地区相关杀戮事件而广为人知。"
+      "subcategory": "world",
+      "summary": "据叙利亚观察者网报道，绰号「巴尼亚斯屠夫」的阿里·卡亚利（化名米赫拉奇·乌拉尔）在试图越境时被叙利亚情报总局逮捕。"
     },
     {
       "sourceId": "syrian-observer",
@@ -27,9 +29,10 @@
       "url": "https://syrianobserver.com/society/syrian-petroleum-company-contracts-under-scrutiny-what-we-know-about-the-104-million-audit.html",
       "excerpt": "The debate began with reports of financial irregularities in multiple oil‑sector contracts. The post Syrian Petroleum Company Contracts Under Scrutiny: What We Know About the $104 Million Audit first appeared on The Syrian Observer.",
       "publishedAt": "2026-10-15T21:01:53.000Z",
-      "category": "politics",
+      "category": "finance",
       "source": "Syrian Observer",
-      "summary": "叙利亚石油公司多份石油行业合同被指存在财务违规，相关审计涉及金额达1.04亿美元，引发外界对合同签署与资金流向的关注与争议。"
+      "subcategory": "investment",
+      "summary": "叙利亚石油公司多份石油行业合同被指存在财务违规，引发争议；相关审计金额达1.04亿美元，目前外界关注审计的具体内容与结论。"
     },
     {
       "sourceId": "syrian-observer",
@@ -39,7 +42,8 @@
       "publishedAt": "2026-10-15T21:00:57.000Z",
       "category": "politics",
       "source": "Syrian Observer",
-      "summary": "叙利亚外长希巴尼抵达利雅得进行正式访问，旨在加强双边关系。此访紧随叙利亚总统沙拉阿10月6日访问利雅得之后。"
+      "subcategory": "world",
+      "summary": "叙利亚外长希巴尼抵达利雅得进行正式访问，旨在加强双边关系。此访距叙利亚总统艾哈迈德·沙拉10月6日访问利雅得不久。"
     },
     {
       "sourceId": "syrian-observer",
@@ -49,7 +53,8 @@
       "publishedAt": "2026-10-15T21:00:05.000Z",
       "category": "politics",
       "source": "Syrian Observer",
-      "summary": "叙利亚与瑞典举行会谈，重点讨论支持自愿返乡者的稳定与重新融入。瑞典代表团由瑞典移民局的谢尔·特尔耶·托尔维克率领。"
+      "subcategory": "world",
+      "summary": "叙利亚与瑞典举行会谈，重点讨论支持自愿返回叙利亚的难民实现稳定与重新融入。瑞典代表团由瑞典移民局的谢尔·特尔耶·托尔维克率领。"
     },
     {
       "sourceId": "syrian-observer",
@@ -59,403 +64,74 @@
       "publishedAt": "2026-10-15T20:39:56.000Z",
       "category": "politics",
       "source": "Syrian Observer",
+      "subcategory": "world",
       "summary": "叙利亚一家法院就2025年沿海地区屠杀事件作出判决，判处两人死刑。"
     },
     {
-      "sourceId": "syrian-observer",
-      "title": "Syrian Defence Minister and OPCW Chief Discuss Final Steps to Close Chemical Weapons File",
-      "url": "https://syrianobserver.com/syrian-actors/syrian-defence-minister-and-opcw-chief-discuss-final-steps-to-close-chemical-weapons-file.html",
-      "excerpt": "The foreign minister stressed that closing the chemical weapons file requires more than technical compliance. The post Syrian Defence Minister and OPCW Chief Discuss Final Steps to Close Chemical Weapons File first appeared on The Syrian Observer.",
-      "publishedAt": "2026-10-14T21:01:55.000Z",
+      "sourceId": "levant24",
+      "title": "ACW Report: Syria’s Camp Closure Plan Raises Humanitarian Concerns",
+      "url": "https://levant24.com/en/article/acw-report-syrias-camp-closure-plan-raises-humanitarian-concerns",
+      "excerpt": "Heavy snowfall covers refugee camps scattered near the Syrian-Turkish border. Residents struggle to remove snow from their tents amid catastrophic humanitarian…",
+      "publishedAt": "2026-10-17T20:14:00.000Z",
       "category": "politics",
-      "source": "Syrian Observer",
-      "summary": "叙利亚国防部长与禁止化学武器组织总干事讨论完成化学武器档案的最终步骤。叙外长强调，了结该档案所需的不止技术层面的合规。"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Tensions Rise in Hassakeh After Protests Demand Restoration of State Authority",
-      "url": "https://syrianobserver.com/syrian-actors/tensions-rise-in-hassakeh-after-protests-demand-restoration-of-state-authority.html",
-      "excerpt": "Ibrahim Haj Halabi, a journalist from Hassakeh, described the atmosphere as charged with public frustration following demonstrations demanding the return of Syrian state institutions. The post Tensions Rise in Hassakeh After Protests Demand Restoration of State Authority first appeared on The Syrian",
-      "publishedAt": "2026-10-14T21:01:37.000Z",
-      "category": "politics",
-      "source": "Syrian Observer",
-      "summary": "哈塞克省爆发示威，要求恢复国家机构与政府权威，当地紧张局势升级。哈塞克记者易卜拉欣·哈吉·哈拉比称，现场弥漫着民众的不满情绪。"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Syria Steps Up European Economic Engagement with EBRD Membership Bid and German Business Talks",
-      "url": "https://syrianobserver.com/foreign-actors/syria-steps-up-european-economic-engagement-with-ebrd-membership-bid-and-german-business-talks.html",
-      "excerpt": "Syria is accelerating its re‑entry into the global financial system and expanding economic ties with Europe, advancing both a formal bid for multilateral development bank membership and targeted investment outreach in Germany. The post Syria Steps Up European Economic Engagement with EBRD Membership",
-      "publishedAt": "2026-10-14T21:00:58.000Z",
-      "category": "politics",
-      "source": "Syrian Observer",
-      "summary": "叙利亚加快重返全球金融体系，正式申请加入欧洲复兴开发银行，并在德国开展投资洽谈，以扩大与欧洲的经济联系。"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Why Syria Should Avoid the Conflict in Yemen",
-      "url": "https://syrianobserver.com/foreign-actors/why-syria-should-avoid-the-conflict-in-yemen.html",
-      "excerpt": "This analysis should not be interpreted as opposition to strengthening Syrian‑Saudi relations, Marwan Kabalan writes. The post Why Syria Should Avoid the Conflict in Yemen first appeared on The Syrian Observer.",
-      "publishedAt": "2026-10-14T21:00:50.000Z",
-      "category": "politics",
-      "source": "Syrian Observer",
-      "summary": "分析人士马尔万·卡巴兰撰文认为，叙利亚应避免卷入也门冲突。文章称，这一观点并不代表反对加强叙利亚与沙特的关系。"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Syria Denies Aleppo Attacks After Deadly Patrol Ambush",
-      "url": "https://syrianobserver.com/syrian-actors/syria-denies-aleppo-attacks-after-deadly-patrol-ambush.html",
-      "excerpt": "The Media Department of the Syrian Ministry of Interior issued a formal statement dismissing circulating reports of armed assaults on security and military positions in rural Aleppo. The post Syria Denies Aleppo Attacks After Deadly Patrol Ambush first appeared on The Syrian Observer.",
-      "publishedAt": "2026-10-14T21:00:49.000Z",
-      "category": "politics",
-      "source": "Syrian Observer",
-      "summary": "在发生致命巡逻队遇袭事件后，叙利亚内政部媒体部门发表正式声明，否认有关阿勒颇农村地区安全和军事阵地遭武装袭击的流传报道。"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Syrian Lawmakers Move to Scrap Long‑Standing Ban on Muslim Brotherhood",
-      "url": "https://syrianobserver.com/syrian-actors/syrian-lawmakers-move-to-scrap-long-standing-ban-on-muslim-brotherhood.html",
-      "excerpt": "Uncertainty also persists over whether Law No. 49 was effectively nullified when the “Victory Conference” announced the suspension of emergency and exceptional legislation on January 29, 2025. The post Syrian Lawmakers Move to Scrap Long‑Standing Ban on Muslim Brotherhood first appeared on The Syria",
-      "publishedAt": "2026-10-14T21:00:47.000Z",
-      "category": "politics",
-      "source": "Syrian Observer",
-      "summary": "叙利亚议员推动废除长期实施的穆斯林兄弟会禁令。2025年1月29日「胜利会议」宣布暂停紧急与例外立法后，第49号法律是否已实际失效仍存不确定性。"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Property Hoarding in Syria: Why Has Land Become More Attractive Than Factories?",
-      "url": "https://syrianobserver.com/society/property-hoarding-in-syria-why-has-land-become-more-attractive-than-factories.html",
-      "excerpt": "Decisions about where investment should go will help determine the kind of economy that emerges from reconstruction, Syria TV writes. The post Property Hoarding in Syria: Why Has Land Become More Attractive Than Factories? first appeared on The Syrian Observer.",
-      "publishedAt": "2026-10-13T21:02:45.000Z",
-      "category": "politics",
-      "source": "Syrian Observer",
-      "summary": "叙利亚出现囤地现象，土地比建厂更具投资吸引力。叙利亚电视台指出，投资流向何处的选择将决定重建后形成何种经济结构。"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Syria and Jordan Foreign Ministers Discuss Bilateral Ties and Regional Developments",
-      "url": "https://syrianobserver.com/foreign-actors/syria-and-jordan-foreign-ministers-discuss-bilateral-ties-and-regional-developments.html",
-      "excerpt": "The conversation comes amid continued diplomatic engagement between Damascus and Amman aimed at harmonising positions on regional issues of mutual concern, al-Thawra writes. The post Syria and Jordan Foreign Ministers Discuss Bilateral Ties and Regional Developments first appeared on The Syrian Obse",
-      "publishedAt": "2026-10-13T21:01:34.000Z",
-      "category": "politics",
-      "source": "Syrian Observer",
-      "summary": "叙利亚与约旦外长讨论双边关系及地区局势发展。双方持续开展外交接触，以期就共同关心的地区问题协调立场。"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Germany Revokes Refugee Status for Select Syrians, Citing Post‑Conflict Return Possibilities",
-      "url": "https://syrianobserver.com/refugees/germany-revokes-refugee-status-for-select-syrians-citing-post-conflict-return-possibilities.html",
-      "excerpt": "While acknowledging ongoing socio‑economic hardships in Syria — including food shortages, high living costs, and housing deficits — BAMF maintained that return is \"possible in principle.\" The post Germany Revokes Refugee Status for Select Syrians, Citing Post‑Conflict Return Possibilities first appe",
-      "publishedAt": "2026-10-13T21:00:51.000Z",
-      "category": "politics",
-      "source": "Syrian Observer",
-      "summary": "德国以叙利亚战后具备返乡可能性为由，撤销部分叙利亚人的难民身份。德国联邦移民与难民局承认叙存在食品短缺、生活成本高企与住房不足，但认为返乡「原则上可行」。"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Levant Christians Face Peril of Extinction Amid Century-Long Demographic Decline",
-      "url": "https://syrianobserver.com/society/levant-christians-face-peril-of-extinction-amid-century-long-demographic-decline.html",
-      "excerpt": "While local authorities reported the return of nearly 90 percent of residents to Christian villages in rural Idlib (approximately 450 families), community memory remains scarred by years of forced displacement. The post Levant Christians Face Peril of Extinction Amid Century-Long Demographic Decline",
-      "publishedAt": "2026-10-13T20:15:42.000Z",
-      "category": "politics",
-      "source": "Syrian Observer"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Damascus Hosts Syrian‑German Conference to Advance Educational, Scientific, and Cultural Cooperation",
-      "url": "https://syrianobserver.com/foreign-actors/damascus-hosts-syrian-german-conference-to-advance-educational-scientific-and-cultural-cooperation.html",
-      "excerpt": "The conference brings together officials, academics, and specialists to explore avenues for strengthening bilateral cooperation, al-Thawra writes. The post Damascus Hosts Syrian‑German Conference to Advance Educational, Scientific, and Cultural Cooperation first appeared on The Syrian Observer.",
-      "publishedAt": "2026-10-12T21:00:34.000Z",
-      "category": "politics",
-      "source": "Syrian Observer"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Reconciliation Councils Expand Across Syria: How Are They Handling Disputes Left by the War?",
-      "url": "https://syrianobserver.com/syrian-actors/reconciliation-councils-expand-across-syria-how-are-they-handling-disputes-left-by-the-war.html",
-      "excerpt": "Local reconciliation councils are expanding in several parts of Syria to address social, financial and property disputes that have accumulated since the war years, Syria TV reports. The post Reconciliation Councils Expand Across Syria: How Are They Handling Disputes Left by the War? first appeared o",
-      "publishedAt": "2026-10-11T21:00:59.000Z",
-      "category": "politics",
-      "source": "Syrian Observer"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Syria Studying Military Support for Saudi Arabia in Yemen War",
-      "url": "https://syrianobserver.com/foreign-actors/syria-studying-military-support-for-saudi-arabia-in-yemen-war.html",
-      "excerpt": "So far, neither Damascus nor Riyadh has officially announced an agreement on sending Syrian forces, al-Modon writes. The post Syria Studying Military Support for Saudi Arabia in Yemen War first appeared on The Syrian Observer.",
-      "publishedAt": "2026-10-08T21:02:11.000Z",
-      "category": "politics",
-      "source": "Syrian Observer"
-    },
-    {
-      "sourceId": "syrian-observer",
-      "title": "Investigation Reveals US Protection for Assad Regime Officer in Lebanon",
-      "url": "https://syrianobserver.com/foreign-actors/investigation-reveals-us-protection-for-assad-regime-officer-in-lebanon.html",
-      "excerpt": "An investigation by the BBC revealed that Bassam al-Hassan, a former major general in the Assad regime's army, is receiving funding and protection from US and Lebanese authorities. The post Investigation Reveals US Protection for Assad Regime Officer in Lebanon first appeared on The Syrian Observer.",
-      "publishedAt": "2026-10-08T21:01:46.000Z",
-      "category": "politics",
-      "source": "Syrian Observer"
-    },
-    {
-      "sourceId": "syria-direct",
-      "title": "The Damascus oud maker fighting to keep a generations-old craft alive",
-      "url": "https://syriadirect.org/the-damascus-oud-maker-fighting-to-keep-a-generations-old-craft-alive/",
-      "excerpt": "Damascus oud maker Antoun “Tony” al-Tawil has weathered war, displacement and economic crisis, relying on his community to keep alive a craft passed down through generations. The post The Damascus oud maker fighting to keep a generations-old craft alive appeared first on Syria Direct.",
-      "publishedAt": "2026-10-12T04:29:12.000Z",
-      "category": "politics",
-      "source": "Syria Direct"
-    },
-    {
-      "sourceId": "syria-direct",
-      "title": "A terrible beauty is born: Syria after Assad",
-      "url": "https://syriadirect.org/a-terrible-beauty-is-born-syria-after-assad/",
-      "excerpt": "Ten years after Burning Country, Robin Yassin-Kassab examines post-Assad Syria, capturing the possibilities of revolution alongside the violence, communal tensions and external threats confronting the country’s fragile political transition. The post A terrible beauty is born: Syria after Assad appea",
-      "publishedAt": "2026-10-05T10:18:50.000Z",
-      "category": "politics",
-      "source": "Syria Direct"
-    },
-    {
-      "sourceId": "syria-direct",
-      "title": "Syria’s Muslim Brotherhood fights for its future",
-      "url": "https://syriadirect.org/syrias-muslim-brotherhood-fights-for-its-future/",
-      "excerpt": "Under mounting regional pressure and facing deep internal divisions, Syria’s Muslim Brotherhood is weighing its political future as the country’s uncertain transition raises questions over political parties and pluralism. The post Syria’s Muslim Brotherhood fights for its future appeared first on Sy",
-      "publishedAt": "2026-10-02T11:44:56.000Z",
-      "category": "politics",
-      "source": "Syria Direct"
-    },
-    {
-      "sourceId": "syria-direct",
-      "title": "Syria is rising, al-Sharaa tells UN—but challenges remain at home",
-      "url": "https://syriadirect.org/syria-is-rising-al-sharaa-tells-un-but-challenges-remain-at-home/",
-      "excerpt": "Syria’s diplomatic rehabilitation has moved at breakneck speed. Now, al-Sharaa faces a harder challenge: turning international acceptance into economic progress, stronger institutions and restored sovereignty for Syrians at home. The post Syria is rising, al-Sharaa tells UN—but challenges remain at ",
-      "publishedAt": "2026-09-30T11:34:19.000Z",
-      "category": "politics",
-      "source": "Syria Direct"
-    },
-    {
-      "sourceId": "syria-direct",
-      "title": "Bad gas: Trouble at Syria’s al-Tabiyah plant leaves a bad smell",
-      "url": "https://syriadirect.org/bad-gas-trouble-at-syrias-al-tabiyah-plant-leaves-a-bad-smell/",
-      "excerpt": "Winter is coming and Deir ez-Zor’s Conoco gas plant restarts production amid allegations of mismanagement and shoddy repairs The post Bad gas: Trouble at Syria’s al-Tabiyah plant leaves a bad smell appeared first on Syria Direct.",
-      "publishedAt": "2026-09-23T10:31:46.000Z",
-      "category": "politics",
-      "source": "Syria Direct"
-    },
-    {
-      "sourceId": "syria-direct",
-      "title": "Fuel anger erupts in the government’s Idlib heartland",
-      "url": "https://syriadirect.org/fuel-anger-erupts-in-the-governments-idlib-heartland/",
-      "excerpt": "Fuel price hikes have sparked widespread protests across Syria, with anger reaching Idlib’s Maarat al-Numan, where residents say rising costs threaten livelihoods, reconstruction and the country’s agricultural sector. The post Fuel anger erupts in the government’s Idlib heartland appeared first on S",
-      "publishedAt": "2026-09-17T10:37:12.000Z",
-      "category": "politics",
-      "source": "Syria Direct"
-    },
-    {
-      "sourceId": "syria-direct",
-      "title": "The road to Mecca: Soldiers, spies and the new Syria-Pakistan relationship",
-      "url": "https://syriadirect.org/the-road-to-mecca-soldiers-spies-and-the-new-syria-pakistan-relationship/",
-      "excerpt": "Pakistan’s historic military and intelligence ties with Syria could help Damascus rebuild its security institutions. The post The road to Mecca: Soldiers, spies and the new Syria-Pakistan relationship appeared first on Syria Direct.",
-      "publishedAt": "2026-09-16T09:57:08.000Z",
-      "category": "politics",
-      "source": "Syria Direct"
-    },
-    {
-      "sourceId": "syria-direct",
-      "title": "Oil flows, fuel runs dry: Syria’s paradox as a new energy corridor",
-      "url": "https://syriadirect.org/oil-flows-fuel-runs-dry-syrias-paradox-as-a-new-energy-corridor/",
-      "excerpt": "Iraq’s oil tankers are turning Syria into a vital energy corridor, but as exports flow through Baniyas, Syrians face fuel shortages and hours-long waits at gas stations. The post Oil flows, fuel runs dry: Syria’s paradox as a new energy corridor appeared first on Syria Direct.",
-      "publishedAt": "2026-09-14T09:35:30.000Z",
-      "category": "politics",
-      "source": "Syria Direct"
-    },
-    {
-      "sourceId": "syria-direct",
-      "title": "9/11 through Syrian eyes",
-      "url": "https://syriadirect.org/9-11-through-syrian-eyes/",
-      "excerpt": "Twenty-five years after 9/11, its consequences still shape Syria, from Assad’s manipulation of jihadism and the War on Terror to the rise of Ahmad al-Sharaa and a transformed regional order. The post 9/11 through Syrian eyes appeared first on Syria Direct.",
-      "publishedAt": "2026-09-11T11:00:15.000Z",
-      "category": "politics",
-      "source": "Syria Direct"
-    },
-    {
-      "sourceId": "sana-economy",
-      "title": "China, U.S. agree tariff cuts on $30 billion in imports each",
-      "url": "https://sana.sy/en/economic/2346641/",
-      "excerpt": "Beijing, Sept. 28 (SANA) China and the United States have agreed on reciprocal tariff reductions covering about $30 billion worth of imports from each side, China’s Commerce Ministry said Monday, following their latest economic and trade talks. Tariffs on around 90% of the products covered would ret",
-      "publishedAt": "2026-09-28T14:26:33.000Z",
-      "category": "finance",
-      "source": "SANA 经济"
-    },
-    {
-      "sourceId": "sana-economy",
-      "title": "U.S. Treasury yield curve nears inversion as rate expectations rise",
-      "url": "https://sana.sy/en/economic/2346626/",
-      "excerpt": "New York, Sept. 28 (SANA) The closely watched gap between two-year and 10-year U.S. Treasury yields is moving closer to inversion, a development historically associated with economic slowdowns, as investors bet on further Federal Reserve rate hikes, Bloomberg reported Monday. The gap narrowed to 17 ",
-      "publishedAt": "2026-09-28T13:19:36.000Z",
-      "category": "finance",
-      "source": "SANA 经济"
-    },
-    {
-      "sourceId": "sana-economy",
-      "title": "Syria orders spending curbs, exempts wages and basic services",
-      "url": "https://sana.sy/en/economic/2346614/",
-      "excerpt": "Damascus, Sept. 28 (SANA) Syria’s General Secretariat of the Presidency directed public bodies on Monday to cut nonessential spending and review investment projects while protecting wages and essential services, as higher energy and transport costs put pressure on state finances, the finance ministe",
-      "publishedAt": "2026-09-28T13:13:30.000Z",
-      "category": "finance",
-      "source": "SANA 经济"
-    },
-    {
-      "sourceId": "sana-economy",
-      "title": "UK diesel prices hit record high as Trump weighs U.S. export curbs",
-      "url": "https://sana.sy/en/economic/2346616/",
-      "excerpt": "London, Sept. 28 (SANA) British diesel prices rose to an all-time high on Monday, adding pressure on households and businesses as U.S. President Donald Trump considers restrictions on American diesel exports that could further tighten European supplies. The average price of diesel reached 199.18 pen",
-      "publishedAt": "2026-09-28T13:06:14.000Z",
-      "category": "finance",
-      "source": "SANA 经济"
-    },
-    {
-      "sourceId": "sana-economy",
-      "title": "Gold drops 3 percent globally as Syrian market prices decline",
-      "url": "https://sana.sy/en/economic/2346606/",
-      "excerpt": "London /Damascus, Sept. 28 (SANA) Gold fell 3 percent to a more than seven-week low on global markets Monday as higher oil prices fueled inflation concerns and expectations of higher U.S. interest rates, while the price of 21-carat gold in Syria fell by 400 Syrian pounds per gram. Spot gold dropped ",
-      "publishedAt": "2026-09-28T12:06:28.000Z",
-      "category": "finance",
-      "source": "SANA 经济"
-    },
-    {
-      "sourceId": "sana-economy",
-      "title": "Qatar-linked LNG tanker traffic through Strait of Hormuz picks up",
-      "url": "https://sana.sy/en/economic/2346603/",
-      "excerpt": "Singapore, Sept. 28 (SANA) Qatar-linked liquefied natural gas tankers are increasingly moving through the Strait of Hormuz after traffic largely disappeared in August amid the U.S.-Iran conflict, according to shipping data cited by Reuters. Both laden and empty LNG carriers linked to QatarEnergy hav",
-      "publishedAt": "2026-09-28T11:59:19.000Z",
-      "category": "finance",
-      "source": "SANA 经济"
-    },
-    {
-      "sourceId": "sana-economy",
-      "title": "Syria launches $175 million farm project backed by World Bank",
-      "url": "https://sana.sy/en/economic/2346591/",
-      "excerpt": "Damascus, Sept. 28 (SANA) Syria has launched a six-year, $175 million agricultural project funded by a World Bank grant to raise farm output, improve food security and modernize services through stronger value chains and digital records. The STAR project will support crop and livestock production, a",
-      "publishedAt": "2026-09-28T11:32:20.000Z",
-      "category": "finance",
-      "source": "SANA 经济"
-    },
-    {
-      "sourceId": "sana-economy",
-      "title": "Syria presents fiscal challenges and reforms at Abu Dhabi Arab finance talks",
-      "url": "https://sana.sy/en/economic/2346587/",
-      "excerpt": "Abu Dhabi, Sept. 28 (SANA) Syrian Finance Minister Mohammed Yisr Barnieh outlined Syria’s fiscal challenges, development needs and ongoing reforms Monday at the 17th regular session of the Council of Arab Finance Ministers in Abu Dhabi. According to Syria’s Ministry of Finance, Barnieh made several ",
-      "publishedAt": "2026-09-28T11:13:48.000Z",
-      "category": "finance",
-      "source": "SANA 经济"
-    },
-    {
-      "sourceId": "sana-economy",
-      "title": "Syria’s Latakia Port adds 16 forklifts as cargo operations expand",
-      "url": "https://sana.sy/en/economic/2346556/",
-      "excerpt": "Latakia, Sept. 28 (SANA) Latakia Port received 16 new forklifts on Monday as part of efforts to expand cargo-handling capacity and modernize operations, the General Authority for Borders and Customs said in a statement on its Telegram channel. Each forklift can lift up to 3 tons and will join the po",
-      "publishedAt": "2026-09-28T10:09:53.000Z",
-      "category": "finance",
-      "source": "SANA 经济"
-    },
-    {
-      "sourceId": "sana-economy",
-      "title": "Middle East oil exports rebound as Saudi shipments rise in September",
-      "url": "https://sana.sy/en/economic/2346528/",
-      "excerpt": "Singapore, Sept. 28 (SANA) Crude oil exports from major Middle Eastern producers rebounded to about 12.8 million barrels per day in September, their highest level since the U.S.-Israeli conflict with Iran began in February, as Saudi Arabia and the United Arab Emirates increased shipments and flows t",
-      "publishedAt": "2026-09-28T08:50:51.000Z",
-      "category": "finance",
-      "source": "SANA 经济"
+      "source": "Levant24",
+      "subcategory": "world",
+      "summary": "据ACW报告，叙利亚关闭境内营地的计划引发人道关切。叙土边境附近的难民营遭大雪覆盖，居民在灾难性的人道处境中艰难清除帐篷积雪。"
     },
     {
       "sourceId": "levant24",
-      "title": "Reconstruction Deals Continue Raising Alarms Over Property Rights",
-      "url": "https://levant24.com/en/article/reconstruction-deals-continue-raising-alarms-over-property-rights",
-      "excerpt": "When Law No. 10 was passed by the Assad regime Nadeedah Hannawi and her husband Ahmad could not return to Damascus to prove ownership of their now destroyed…",
-      "publishedAt": "2026-10-14T19:01:00.000Z",
-      "category": "finance",
+      "title": "Suwayda Crisis Deepens as Calls for Dialogue Grow",
+      "url": "https://levant24.com/en/article/suwayda-crisis-deepens-as-calls-for-dialogue-grow",
+      "excerpt": "Fighters on the outskirts of Suwayda City during a US-brokered ceasefire ordered by the Syrian government to avert further Israeli military intervention. July…",
+      "publishedAt": "2026-10-17T18:29:00.000Z",
+      "category": "politics",
       "source": "Levant24",
-      "summary": "叙利亚重建交易持续引发财产权担忧。阿萨德时期通过的第10号法律使业主难以证明产权，Nadeedah Hannawi与丈夫Ahmad无法返回大马士革，主张其已被毁房产的所有权。"
+      "subcategory": "world",
+      "summary": "苏韦达危机加深，要求对话的呼声上升。叙政府在美国斡旋下下令停火，以避免以色列进一步军事干预，停火期间苏韦达市郊出现武装人员。"
     },
     {
       "sourceId": "levant24",
-      "title": "Inside the Housing Crisis in Damascus",
-      "url": "https://levant24.com/en/article/inside-the-housing-crisis-in-damascus",
-      "excerpt": "Abyat Hills, a $1.2 billion residential development in Qudsaya, sold out within two days of subscriptions opening on August 5, according to The Syria Report.…",
-      "publishedAt": "2026-10-12T17:54:00.000Z",
-      "category": "finance",
+      "title": "Syria Expands Anti-Narcotics Crackdown With Border Seizures",
+      "url": "https://levant24.com/en/article/syria-expands-anti-narcotics-crackdown-with-border-seizures",
+      "excerpt": "Narcotics Control Department successfully thwarted an attempt to smuggle drugs and dismantled an international network involved in supplying drugs from Lebanon…",
+      "publishedAt": "2026-10-17T17:07:00.000Z",
+      "category": "politics",
       "source": "Levant24",
-      "summary": "大马士革住房危机加剧。据The Syria Report报道，位于库德萨亚、投资额12亿美元的住宅项目Abyat Hills于8月5日开放认购后两天内即售罄。"
+      "subcategory": "world",
+      "summary": "叙利亚扩大禁毒行动并在边境查获毒品。叙禁毒部门挫败一起毒品走私企图，捣毁一个从黎巴嫩供应毒品的国际网络。"
     },
     {
       "sourceId": "levant24",
-      "title": "Aleppo’s Great Mosque Reopens After Years of Devastation",
-      "url": "https://levant24.com/en/article/aleppos-great-mosque-reopens-after-years-of-devastation",
-      "excerpt": "On Oct. 8, 2026, the historic Umayyad Mosque in Aleppo reopened its doors after more than a decade of closure, marking a significant moment for a city that has…",
-      "publishedAt": "2026-10-12T17:25:00.000Z",
-      "category": "finance",
+      "title": "Syrian Authorities Arrest Ali Kayali: 2013 Baniyas Massacres Suspect",
+      "url": "https://levant24.com/en/article/syrian-authorities-arrest-ali-kayali-2013-baniyas-massacres-suspect",
+      "excerpt": "Ali Kayali, Mihrac Ural, was arrested in a joint Syrian-Turkish operation. (Social Media) Syrian intelligence officials arrested Ali Kayali, also known as…",
+      "publishedAt": "2026-10-16T18:42:00.000Z",
+      "category": "politics",
       "source": "Levant24",
-      "summary": "2026年10月8日，阿勒颇历史悠久的伍麦叶大清真寺在关闭十余年后重新开放，被视为这座历经战火城市的重要时刻。"
+      "subcategory": "world",
+      "summary": "叙利亚当局在叙土联合行动中逮捕阿里·卡亚利（又名米赫拉奇·乌拉尔），其为2013年巴尼亚斯屠杀案的嫌疑人，叙情报部门实施了抓捕。"
     },
     {
       "sourceId": "levant24",
-      "title": "Syria's $760 Million Industrial City Plan Relies on Private Developers",
-      "url": "https://levant24.com/en/article/syrias-760-million-industrial-city-plan-relies-on-private-developers",
-      "excerpt": "Syria is seeking private developers for three industrial cities in Daraa, Raqqa and Idlib. The Economy Ministry puts their cost at $760 million, its director…",
-      "publishedAt": "2026-10-12T10:48:00.000Z",
-      "category": "finance",
+      "title": "Investigation Exposes Unanswered Questions Over Syria’s Stolen Children",
+      "url": "https://levant24.com/en/article/investigation-exposes-unanswered-questions-over-syrias-stolen-children",
+      "excerpt": "Sisters Layla and Layan Ghbeis were eight and four when they were taken from their mother, Omama, and brought to SOS in 2015. (Ghbeis Family/BBC) A joint…",
+      "publishedAt": "2026-10-16T18:32:00.000Z",
+      "category": "politics",
       "source": "Levant24",
-      "summary": "叙利亚为德拉、拉卡和伊德利卜三座工业城寻求私人开发商，经济部估算总成本为7.6亿美元。"
+      "subcategory": "world",
+      "summary": "一项联合调查揭示叙利亚被带走儿童问题仍存诸多未解疑问。2015年，年仅8岁和4岁的姐妹莱拉与拉扬·格贝斯被从母亲奥玛玛身边带走，送入SOS机构。"
     },
     {
       "sourceId": "levant24",
-      "title": "Syrian Families Demand Release of Hostages as Abductions Continue",
-      "url": "https://levant24.com/en/article/syrian-families-demand-release-of-hostages-as-abductions-continue",
-      "excerpt": "Families of detainees from Quneitra and Daraa protest outside the United Nations building in Damascus, demanding the release of their relatives and disclosure…",
-      "publishedAt": "2026-10-11T19:10:00.000Z",
-      "category": "finance",
+      "title": "Syria and OPCW Agree on Roadmap to Close Chemical Weapons File",
+      "url": "https://levant24.com/en/article/syria-and-opcw-agree-on-roadmap-to-close-chemical-weapons-file",
+      "excerpt": "A series of high-level meetings between Syrian officials and the Organization for the Prohibition of Chemical Weapons ( OPCW ) recently concluded, marking what…",
+      "publishedAt": "2026-10-15T16:57:00.000Z",
+      "category": "politics",
       "source": "Levant24",
-      "summary": "来自库奈特拉和德拉的被拘者家属在大马士革联合国办公楼外抗议，要求释放亲属并公布其下落；绑架事件仍在持续。"
-    },
-    {
-      "sourceId": "levant24",
-      "title": "TEXPO Highlights Syria’s Technology and Innovation Sector",
-      "url": "https://levant24.com/en/article/texpo-highlights-syrias-technology-and-innovation-sector",
-      "excerpt": "Anas Chbib, Founder & Group-CEO of AGT Advanced German Technology. Damascus October 8, 2026 (Levant24) The second TEXPO International Technology and Innovation…",
-      "publishedAt": "2026-10-11T13:11:00.000Z",
-      "category": "finance",
-      "source": "Levant24",
-      "summary": "第二届TEXPO国际技术与创新展于2026年10月8日在大马士革举行，AGT先进德国技术公司创始人兼集团首席执行官Anas Chbib等业界人士出席，聚焦叙利亚科技与创新领域。"
-    },
-    {
-      "sourceId": "levant24",
-      "title": "Syria Continues Pursuit of Assad-Era War Crimes Suspects",
-      "url": "https://levant24.com/en/article/syria-continues-pursuit-of-assad-era-war-crimes-suspects",
-      "excerpt": "Syria’s internal security forces continue their campaign apprehending former Assad regime operatives accused of war crimes and serious abuses against…",
-      "publishedAt": "2026-10-11T09:22:00.000Z",
-      "category": "finance",
-      "source": "Levant24",
-      "summary": "叙利亚内安全部队持续开展行动，逮捕被控犯有战争罪及严重侵权行为的阿萨德政权前人员。"
-    },
-    {
-      "sourceId": "levant24",
-      "title": "Syria Seeks Private Developers for $760 Million Industrial City Plan",
-      "url": "https://levant24.com/en/article/syria-seeks-private-developers-for-760-million-industrial-city-plan",
-      "excerpt": "Syria’s Ministry of Economy and Industry estimates the cost of three planned industrial cities at a combined $760 million and expects private developers to…",
-      "publishedAt": "2026-10-10T11:31:00.000Z",
-      "category": "finance",
-      "source": "Levant24",
-      "summary": "叙利亚经济与工业部估算三座拟建工业城总成本为7.6亿美元，期望由私人开发商承担建设。"
-    },
-    {
-      "sourceId": "levant24",
-      "title": "Israeli Occupation Kills Two Syrians as Concerns of Violations Increase",
-      "url": "https://levant24.com/en/article/israeli-occupation-kills-two-syrians-as-concerns-of-violations-increase",
-      "excerpt": "Abu Ali Shahada, the uncle of Muhammad Ayman al-Dabbour, killled by Israeli troops, displays a picture of his nephew emphasizing he was an unarmed civilian…",
-      "publishedAt": "2026-10-10T08:46:00.000Z",
-      "category": "finance",
-      "source": "Levant24",
-      "summary": "以色列军队打死两名叙利亚人，外界对侵权行为的担忧上升。遇难者Muhammad Ayman al-Dabbour的叔父Abu Ali Shahada出示照片，强调其侄子为手无寸铁的平民。"
+      "subcategory": "world",
+      "summary": "叙利亚与禁止化学武器组织（OPCW）就结案路线图达成一致。双方近期举行一系列高层会晤，涉及叙利亚化学武器档案的收尾工作。"
     },
     {
       "sourceId": "sana-investment",
@@ -464,7 +140,8 @@
       "publishedAt": "2026-10-17T00:00:00.000Z",
       "category": "finance",
       "source": "SANA 投资",
-      "summary": "据叙利亚国家通讯社SANA报道，叙利亚-中国商业理事会正致力于吸引投资并推动出口增长，以促进双边经贸合作。"
+      "subcategory": "china-syria",
+      "summary": "叙利亚—中国商业委员会表示，其工作重点是吸引投资并推动叙利亚出口增长，以促进双边经贸往来。"
     },
     {
       "sourceId": "sana-investment",
@@ -473,109 +150,8 @@
       "publishedAt": "2026-10-17T00:00:00.000Z",
       "category": "finance",
       "source": "SANA 投资",
-      "summary": "据叙利亚国家通讯社SANA报道，叙利亚财政部长在曼谷举行会谈，推进叙利亚与全球金融体系的融合进程。"
-    },
-    {
-      "sourceId": "sana-en",
-      "title": "Erdogan says Turkey’s financial system insulated from investment fund turmoil",
-      "url": "https://sana.sy/en/international/2346749/",
-      "excerpt": "Ankara, Sept. 29 (SANA) Turkish President Recep Tayyip Erdogan said Monday that problems affecting part of the country’s investment fund market posed no broader threat to the financial system, as authorities investigate suspected market abuses and liquidate more than 100 funds. “The Turkish financia",
-      "publishedAt": "2026-09-29T08:23:18.000Z",
-      "category": "finance",
-      "source": "SANA 主站",
-      "summary": "土耳其总统埃尔多安9月29日表示，本国投资基金的局部问题不会威胁整体金融体系；当局正调查涉嫌市场操纵行为，并已清算逾100只基金。"
-    },
-    {
-      "sourceId": "sana-en",
-      "title": "Syria reopens 35 damaged schools in Homs under Saudi-funded project",
-      "url": "https://sana.sy/en/education/2346742/",
-      "excerpt": "Homs, Sept. 29 (SANA) Thirty-five damaged schools in Syria’s central Homs province have been brought back into service under a Saudi-funded rehabilitation project, providing classroom space for about 18,000 students, local education officials said Monday. Two of the schools — Omar al-Mukhtar School ",
-      "publishedAt": "2026-09-29T08:06:00.000Z",
-      "category": "finance",
-      "source": "SANA 主站",
-      "summary": "叙利亚中部霍姆斯省35所受损学校在沙特资助的修复项目下复课，可容纳约1.8万名学生，当地教育官员于9月29日公布上述消息。"
-    },
-    {
-      "sourceId": "sana-en",
-      "title": "Syria assumes chairmanship of Arab statistics institute board",
-      "url": "https://sana.sy/en/syria/2346737/",
-      "excerpt": "Jeddah, Sept. 28 (SANA) Syria assumed the chairmanship of the Board of Trustees of the Arab Institute for Training and Research in Statistics for its 51st session, succeeding Sudan, during a meeting in Jeddah focused on developing statistical capabilities across Arab countries. Anas Salim, head of S",
-      "publishedAt": "2026-09-29T07:59:54.000Z",
-      "category": "finance",
-      "source": "SANA 主站",
-      "summary": "叙利亚在吉达举行的会议上接替苏丹，担任阿拉伯统计培训与研究机构理事会第51届会议主席，会议聚焦提升阿拉伯国家统计能力。"
-    },
-    {
-      "sourceId": "sana-en",
-      "title": "UNESCO-listed Deir Samaan Citadel in northern Syria reopens to visitors",
-      "url": "https://sana.sy/en/photos/2346726/",
-      "excerpt": "R.D/ABD",
-      "publishedAt": "2026-09-29T07:41:00.000Z",
-      "category": "finance",
-      "source": "SANA 主站"
-    },
-    {
-      "sourceId": "sana-en",
-      "title": "UNESCO-listed Deir Samaan Citadel in northern Syria reopens to visitors",
-      "url": "https://sana.sy/en/culture-and-arts/2346698/",
-      "excerpt": "Aleppo, Sept. 28 (SANA) Deir Samaan Citadel, a centuries-old religious complex in northern Syria associated with St. Simeon the Stylite, reopened to visitors Monday after restoration and safety work, marking World Tourism Day. The site in Aleppo countryside underwent cleaning and landscaping, repair",
-      "publishedAt": "2026-09-29T07:24:21.000Z",
-      "category": "finance",
-      "source": "SANA 主站"
-    },
-    {
-      "sourceId": "sana-en",
-      "title": "Oil prices rise amid concerns over Middle East supply disruptions",
-      "url": "https://sana.sy/en/economic/2346715/",
-      "excerpt": "London, Sept. 29 (SANA) Oil prices rose for a second straight session on Tuesday as persistent concerns over potential supply disruptions from the Middle East outweighed signs of a recovery in the region’s crude exports. Reuters reported that Brent crude futures rose 63 cents, or 0.6 percent, to $10",
-      "publishedAt": "2026-09-29T07:16:42.000Z",
-      "category": "finance",
-      "source": "SANA 主站"
-    },
-    {
-      "sourceId": "sana-en",
-      "title": "Pentagon awards Raytheon $20.7 billion AMRAAM contract",
-      "url": "https://sana.sy/en/international/2346711/",
-      "excerpt": "Washington, Sept. 29 (SANA)The Pentagon awarded RTX’s Raytheon a provisional multiyear contract worth up to $20.7 billion to accelerate production of AMRAAM missiles as the U.S. military seeks to replenish weapons stockpiles depleted by conflicts in the Middle East and Ukraine, Reuters reported. RTX",
-      "publishedAt": "2026-09-29T07:09:09.000Z",
-      "category": "finance",
-      "source": "SANA 主站"
-    },
-    {
-      "sourceId": "sana-en",
-      "title": "Young performers take center stage in Tartous tourism program",
-      "url": "https://sana.sy/en/culture-and-arts/2346707/",
-      "excerpt": "Tartous, Sept. 28 (SANA) Children and young performers took part in theater, music and art events at the Arab Cultural Center in Tartous on Monday as part of the “Tartous Summer 2026” tourism season program, which brings cultural and educational institutions into activities promoting the province’s ",
-      "publishedAt": "2026-09-29T06:51:24.000Z",
-      "category": "finance",
-      "source": "SANA 主站"
-    },
-    {
-      "sourceId": "sana-en",
-      "title": "UAE President, Turkish foreign minister discuss Middle East stability and peace",
-      "url": "https://sana.sy/en/international/2346704/",
-      "excerpt": "Abu Dhabi, Sept. 29 (SANA) UAE President Sheikh Mohamed bin Zayed Al Nahyan and Turkish Foreign Minister Hakan Fidan discussed regional developments and efforts to strengthen security and stability in the Middle East and advance lasting peace during talks in Abu Dhabi on Monday. The Emirates News Ag",
-      "publishedAt": "2026-09-29T06:39:59.000Z",
-      "category": "finance",
-      "source": "SANA 主站"
-    },
-    {
-      "sourceId": "sana-en",
-      "title": "Syria, UNODC discuss expanding cooperation on crime prevention",
-      "url": "https://sana.sy/en/syria/2346688/",
-      "excerpt": "Abu Dhabi, Sept. 29 (SANA) Syria and the U.N. Office on Drugs and Crime (UNODC) discussed expanding cooperation on combating emerging forms of crime, financial investigations and transnational criminal networks during talks in Abu Dhabi. Brig. Gen. Abdul Rahim Jabara, director of the International C",
-      "publishedAt": "2026-09-28T21:21:14.000Z",
-      "category": "finance",
-      "source": "SANA 主站"
-    },
-    {
-      "sourceId": "china-syria",
-      "title": "Syrian-Chinese Business Council works to attract investment, boost exports",
-      "url": "https://sana.sy/en/economic/2351504/",
-      "publishedAt": "2026-10-17T00:00:00.000Z",
-      "category": "finance",
-      "source": "SANA 中国标签",
-      "summary": "叙利亚-中国企业理事会正致力于吸引投资并推动出口增长。报道未披露具体投资金额、目标行业或时间安排等信息。"
+      "subcategory": "news",
+      "summary": "叙利亚财政部长在曼谷举行会谈，推进叙利亚与全球金融体系的对接与融合。"
     }
   ]
 }

@@ -1,98 +1,61 @@
 {
-  "hero_headline": "叙利亚加速重返国际金融体系，安全与和解议题并行",
-  "daily_overview": "技术与产业层面，大马士革 TEXPO 科技与创新展登场，叙中商务理事会推动引资与扩大出口；经济部拟以 7.6 亿美元在德拉、拉卡与伊德利卜建设三座工业城，并寄望私营开发商接盘。财经层面，财政部长赴曼谷推进全球金融融入，叙利亚同步申请欧洲复兴开发银行成员资格并接触德国商界；大马士革住房矛盾突出，12 亿美元的 Abyat Hills 项目两天售罄，石油公司 1.04 亿美元合同审计与重建产权争议同样受到关注。时政层面，叙方称挫败破坏稳定的图谋，外长访问利雅得巩固地区关系，并与禁化武组织磋商化武档案收尾。",
-  "tech_briefs": [
+  "hero_headline": "叙利亚推进金融国际接轨，苏韦达局势与安全清剿并行",
+  "daily_overview": "本期候选资讯高度集中于叙利亚，科技领域没有新增条目，简报因此聚焦财经与时政两条主线。财经方面，叙利亚石油公司1.04亿美元合同审计引发对石油行业财务违规的追问；叙中商务理事会着手吸引投资、扩大出口；财政部长在曼谷会谈中推进全球金融接轨。时政方面，苏韦达危机持续，叙方称挫败破坏稳定的图谋，并与美国、约旦推进三方路线图；安全部门联合土耳其抓获2013年巴尼亚斯惨案嫌疑人米赫拉奇·乌拉尔，同时扩大边境禁毒缉查；叙利亚与禁化武组织就关闭化武档案达成路线图，难民营关闭计划引发人道关切。",
+  "tech_briefs": [],
+  "finance_briefs": [
     {
-      "title": "TEXPO 科技展聚焦叙利亚创新板块",
-      "url": "https://levant24.com/en/article/texpo-highlights-syrias-technology-and-innovation-sector",
-      "source": "Levant24",
-      "summary": "第二届 TEXPO 国际科技与创新展在大马士革举行，本地技术企业集中亮相，展会意在为初创公司与工业技术项目对接投资和市场渠道。",
-      "importance": 6
-    },
-    {
-      "title": "7.6 亿美元工业城计划寻求私人开发商",
-      "url": "https://levant24.com/en/article/syrias-760-million-industrial-city-plan-relies-on-private-developers",
-      "source": "Levant24",
-      "summary": "经济与工业部估算在德拉、拉卡与伊德利卜建设三座工业城共需 7.6 亿美元，希望由私人开发商承担建设与运营，以缓解工业用地和产能不足。（多家报道）",
+      "title": "叙利亚石油公司1.04亿美元合同审计引发追问",
+      "url": "https://syrianobserver.com/society/syrian-petroleum-company-contracts-under-scrutiny-what-we-know-about-the-104-million-audit.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚石油公司多份石油行业合同被指存在财务违规，涉及金额1.04亿美元的审计结果引发对合同授予程序与资金流向的追问。",
       "importance": 7
     },
     {
       "title": "叙中商务理事会推动引资与扩大出口",
       "url": "https://sana.sy/en/economic/2351504/",
       "source": "SANA 投资",
-      "summary": "叙利亚-中国商务理事会讨论吸引中方投资、扩大叙利亚出口的具体途径，重点围绕重建所需建材、设备与工业配套。（多家报道）",
+      "summary": "叙利亚-中国商务理事会推进吸引中方投资、扩大叙利亚产品出口的相关工作，报道未披露具体项目清单与投资规模。",
       "importance": 6
-    }
-  ],
-  "finance_briefs": [
+    },
     {
-      "title": "叙财政部长赴曼谷推进全球金融融入",
+      "title": "叙财政部长在曼谷会谈推进金融国际接轨",
       "url": "https://sana.sy/en/economic/2351478/",
       "source": "SANA 投资",
-      "summary": "叙利亚财政部长在曼谷会谈中讨论重返国际金融体系的路径，涉及恢复银行往来、结算安排与债务处理等议题。",
-      "importance": 7
-    },
-    {
-      "title": "叙利亚申请欧洲复兴开发银行成员资格",
-      "url": "https://syrianobserver.com/foreign-actors/syria-steps-up-european-economic-engagement-with-ebrd-membership-bid-and-german-business-talks.html",
-      "source": "Syrian Observer",
-      "summary": "叙利亚推进加入欧洲复兴开发银行的正式申请，并与德国商界接触，试图扩大对欧经济联系、引入重建资金与技术。",
-      "importance": 7
-    },
-    {
-      "title": "大马士革住房危机：12 亿美元项目两日售罄",
-      "url": "https://levant24.com/en/article/inside-the-housing-crisis-in-damascus",
-      "source": "Levant24",
-      "summary": "位于库德赛亚、总投资 12 亿美元的 Abyat Hills 住宅项目 8 月 5 日开放认购后两天内售罄，反映战后大马士革住房供需与购买力分化。",
-      "importance": 6
-    },
-    {
-      "title": "叙利亚石油公司 1.04 亿美元合同接受审计",
-      "url": "https://syrianobserver.com/society/syrian-petroleum-company-contracts-under-scrutiny-what-we-know-about-the-104-million-audit.html",
-      "source": "Syrian Observer",
-      "summary": "在石油行业多份合同被指存在财务违规后，涉资约 1.04 亿美元的合同进入审计程序，引发对重建期公共采购透明度的讨论。",
-      "importance": 7
-    },
-    {
-      "title": "重建交易引发产权担忧，业主难以举证",
-      "url": "https://levant24.com/en/article/reconstruction-deals-continue-raising-alarms-over-property-rights",
-      "source": "Levant24",
-      "summary": "第 10 号法律遗留的产权登记问题，使部分流离失所业主难以证明房产归属，多个重建与开发交易因此引发产权争议。",
+      "summary": "叙利亚财政部长在曼谷会谈中推动该国与全球金融体系对接，议题涉及跨境结算、合规安排与重建融资渠道。",
       "importance": 6
     }
   ],
   "politics_briefs": [
     {
-      "title": "内塔尼亚胡称与沙拉通话，叙方称挫败破坏图谋",
+      "title": "苏韦达危机加深，叙方称挫败破坏稳定图谋",
       "url": "https://syrianobserver.com/foreign-actors/after-netanyahu-claims-he-held-a-phone-call-with-sharaa-syria-says-it-thwarted-plans-to-destabilize-the-country.html",
       "source": "Syrian Observer",
-      "summary": "以色列方面称总理与叙利亚总统沙拉通电话；叙方表示已挫败破坏国家稳定的计划，并继续与美、约推进苏韦达整合的三方路线图。",
+      "summary": "叙利亚表示已挫败破坏国家稳定的图谋，同时与美国、约旦推进三方路线图，推动苏韦达重新纳入国家治理；当地要求对话的呼声上升。（多家报道）",
       "importance": 8
     },
     {
-      "title": "叙利亚外长访问利雅得，强化双边关系",
-      "url": "https://syrianobserver.com/foreign-actors/syrian-foreign-minister-arrives-in-riyadh-for-official-visit-to-strengthen-bilateral-relations.html",
+      "title": "叙土联合行动抓获巴尼亚斯惨案嫌疑人",
+      "url": "https://syrianobserver.com/syrian-actors/butcher-of-baniyas-arrested-mihrac-ural-captured-during-attempted-border-infiltration.html",
       "source": "Syrian Observer",
-      "summary": "叙外长希巴尼抵达利雅得展开正式访问，此行紧接总统沙拉 10 月 6 日访沙之后，重点在经贸合作与地区协调。",
+      "summary": "叙利亚情报部门在联合行动中抓获化名米赫拉奇·乌拉尔的阿里·卡亚利，其被指涉及2013年巴尼亚斯屠杀，被捕时正试图越境。（多家报道）",
       "importance": 7
     },
     {
-      "title": "叙国防部长与禁化武组织磋商化武档案收尾",
-      "url": "https://syrianobserver.com/syrian-actors/syrian-defence-minister-and-opcw-chief-discuss-final-steps-to-close-chemical-weapons-file.html",
-      "source": "Syrian Observer",
-      "summary": "叙国防部长与禁化武组织总干事讨论关闭化武档案的最后步骤，叙外长强调该进程不止于技术层面的合规。",
+      "title": "叙利亚与禁化武组织就关闭化武档案达路线图",
+      "url": "https://levant24.com/en/article/syria-and-opcw-agree-on-roadmap-to-close-chemical-weapons-file",
+      "source": "Levant24",
+      "summary": "叙利亚官员与禁止化学武器组织在系列高级别会谈后达成路线图，目标是解决并关闭持续多年的化学武器档案。",
       "importance": 7
     }
   ],
-  "editor_note": "重建叙事正从宏大计划转向具体合同与产权纠纷，能否把外部融资转化为可执行规则，是观察叙利亚经济走向的关键。",
+  "editor_note": "候选信源高度集中于叙利亚，科技类条目缺位；跨境安全合作与金融接轨同步推进，后续需观察外部协议能否落地。",
   "keywords": [
-    "叙利亚重建",
-    "工业城计划",
-    "EBRD 成员资格",
-    "TEXPO",
-    "住房危机",
-    "化武档案",
-    "利雅得访问",
-    "产权争议"
+    "叙利亚",
+    "苏韦达",
+    "石油合同审计",
+    "金融国际接轨",
+    "禁毒缉私",
+    "禁化武组织",
+    "外资合作"
   ]
 }
