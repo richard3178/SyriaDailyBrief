@@ -1,0 +1,97 @@
+{
+  "hero_headline": "叙改组油气与主权基金，推进世行重建基金",
+  "daily_overview": "10月18日，叙利亚重建进入密集推进期：总统沙拉连发两道总统令，改组石油公司与主权财富基金领导层；叙方与世界银行磋商多边捐助信托基金及主权债券发行，并与意大利、泰国接触寻求债务解决方案。能源设施接连遇袭、库奈特拉方向以军行动不断，构成重建的外部变量。科技侧，叙农业部与中国企业讨论土地整治与盐渍化治理，叙方参加 IPCC 第65次会议并与联合国排雷行动处协调。政治上，苏韦达再呼对话，215分局受害者听证推进过渡司法。",
+  "tech_briefs": [
+    {
+      "title": "叙农业部与中国企业商讨盐碱地治理",
+      "url": "https://sana.sy/en/syria/2351962/",
+      "source": "SANA 经济",
+      "summary": "叙利亚农业部与中国企业就土地复垦、土壤盐渍化治理进行磋商，涉及改良技术引进与农田修复合作，属战后农业恢复议题。",
+      "importance": 5
+    },
+    {
+      "title": "叙与联合国排雷处商讨排雷协作",
+      "url": "https://sana.sy/en/syria/2351857/",
+      "source": "SANA 时政",
+      "summary": "叙利亚与联合国地雷行动处（UNMAS）就排雷协调展开磋商，涉及雷区清理与爆炸物风险处置，直接关系农田和基础设施的恢复进度。",
+      "importance": 5
+    },
+    {
+      "title": "叙派代表参加 IPCC 第65次会议",
+      "url": "https://sana.sy/en/syria/2351953/",
+      "source": "SANA 主站",
+      "summary": "叙利亚派代表出席在亚的斯亚贝巴举行的政府间气候变化专门委员会（IPCC）第65届会议，参与气候评估相关议程。",
+      "importance": 4
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "叙总统令改组石油公司与主权基金领导层",
+      "url": "https://syrianobserver.com/society/two-presidential-decrees-reshuffle-leadership-of-syrias-petroleum-corporation-and-sovereign-wealth-fund.html",
+      "source": "Syrian Observer",
+      "summary": "沙拉签署第190、191号总统令，任命叙利亚石油公司与主权财富基金新负责人，并任命奥马尔·哈拉比为总统经济事务顾问及主权基金董事会主席（多家报道）。",
+      "importance": 7
+    },
+    {
+      "title": "叙与世行推进多边重建信托基金",
+      "url": "https://syrianobserver.com/society/syria-explores-sovereign-bond-issuance-and-launch-of-infrastructure-recovery-fund.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚与世界银行就设立多边捐助信托基金推进磋商，用于早期恢复与基础设施修复，政府同时研究发行主权债券并设立基础设施重建基金（多家报道）。",
+      "importance": 8
+    },
+    {
+      "title": "叙油田等能源设施连遭袭击引安全担忧",
+      "url": "https://levant24.com/en/article/string-of-attacks-raises-concerns-over-syrian-energy-security",
+      "source": "Levant24",
+      "summary": "奥马尔油田等能源设施近期发生多起爆炸与袭击，安全部队加强守卫，外界担忧能源安全状况影响油气生产与重建进度。",
+      "importance": 7
+    },
+    {
+      "title": "叙与意大利、泰国磋商债务与经济重返",
+      "url": "https://sana.sy/en/economic/2351853/",
+      "source": "SANA 经济",
+      "summary": "叙方称曼谷系列会议是迈向全球经济重返的一步，同时与意大利方面讨论金融合作与债务处理方案（多家报道）。",
+      "importance": 6
+    },
+    {
+      "title": "叙国内21K金价升至每克16450叙镑",
+      "url": "https://sana.sy/en/economic/2351820/",
+      "source": "SANA 经济",
+      "summary": "叙利亚国内市场金价上涨，21K金每克报16450叙利亚镑；当地居民常以黄金保值，价格随本币汇率与市场供需波动。",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙要求以色列撤军并回到1974年线",
+      "url": "https://syrianobserver.com/foreign-actors/syrias-shibani-demands-israeli-withdrawal-and-return-to-1974-disengagement-lines.html",
+      "source": "Syrian Observer",
+      "summary": "外长希巴尼要求以色列撤出叙领土、恢复1974年脱离接触线；叙方同时谴责以军对库奈特拉、德拉的入侵，并要求联合国部队记录违规行为（多家报道）。",
+      "importance": 8
+    },
+    {
+      "title": "苏韦达再呼对话，政治解决仍待观察",
+      "url": "https://syrianobserver.com/syrian-actors/renewed-calls-for-dialogue-in-suweida-is-a-political-settlement-within-reach.html",
+      "source": "Syrian Observer",
+      "summary": "苏韦达省长穆斯塔法·巴库尔再次呼吁叙政府与该省居民开展严肃、包容的对话，外界关注能否由此走向政治解决。",
+      "importance": 6
+    },
+    {
+      "title": "215分局受害者在大马士革听证作证",
+      "url": "https://sana.sy/en/syria/2351829/",
+      "source": "SANA 时政",
+      "summary": "大马士革举行听证会，多名幸存者就原军事情报215分局的侵害行为作证，属叙利亚过渡司法与追责进程的组成部分。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "本日资讯高度集中于叙利亚战后重建，单一信源占比较高，人事任命与援助金额等细节仍需后续核实。",
+  "keywords": [
+    "叙利亚重建",
+    "世界银行信托基金",
+    "主权债券",
+    "能源安全",
+    "以叙边境",
+    "过渡司法",
+    "土壤盐渍化"
+  ]
+}
