@@ -56,7 +56,7 @@ const archiveHtml = `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>daily-brief — archive</title>
+<title>Syria Daily Brief 叙利亚每日新闻简报 — Archive 历史合集</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root { color-scheme: light dark; }
@@ -66,6 +66,7 @@ const archiveHtml = `<!doctype html>
     margin: 3rem auto;
     padding: 0 1.5rem;
     line-height: 1.5;
+    text-align: center;
   }
   h1 { margin-bottom: 0.2rem; font-size: 1.5rem; }
   .meta { color: #888; font-size: 0.9rem; margin-bottom: 1.5rem; }
@@ -95,7 +96,7 @@ const archiveHtml = `<!doctype html>
 </style>
 </head>
 <body>
-  <h1>daily-brief — archive</h1>
+  <h1>Syria Daily Brief 叙利亚每日新闻简报 — Archive 历史合集</h1>
   <p class="meta">${dates.length} report${dates.length === 1 ? "" : "s"} · newest first · generated ${new Date().toISOString().slice(0, 10)}</p>
   <div class="top">
     <a href="./index.html">→ Latest report (${latest})</a>
