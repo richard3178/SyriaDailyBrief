@@ -331,6 +331,31 @@ async function main() {
   
 // ══ 新增：跨天去重——昨天出现过的 url 今天剔除（旧闻不复用） ══
 {
+  // 读全历史已见 URL 清单（首次运行不存在则用最近 7 天报告播种）
+  const seenPath = path.join(OUTPUT_DIR, "seen-urls.json");
+  const seen = new Set<string>();
+  try {
+    if (fs.existsSync(seenPath)) {
+      const seenData = JSON.parse(fs.readFileSync(seenPath, "utf8"));
+      for (const u of seenData.urls ?? []) seen.add(u);
+      console.log(`[daily] dedup: loaded ${seen.size} seen urls from history`);
+    } else {
+      for (let i = 1; i <= 7; i++) {
+        const k = todayKey(new Date(Date.now() - i * 24 * 60 * 60 * 1000));
+        const p = path.join(OUTPUT_DIR, k, `${k}-articles.json`);
+        try {
+          if (fs.existsSync(p)) {
+            const d = JSON.parse(fs.readFileSync(p, "utf8"));
+            for (const a of d.articles ?? []) seen.add(a.url);
+          }
+        } catch {}
+      }
+      console.log(`[daily] dedup: no seen-urls.json — seeded ${seen.size} urls from recent 7 days`);
+    }
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[daily] dedup: could not read ${seenPath} — ${msg}`);
+  }
   const yesterdayKey = todayKey(new Date(Date.now() - 24 * 60 * 60 * 1000));
   const yPath = path.join(OUTPUT_DIR, yesterdayKey, `${yesterdayKey}-articles.json`);
   const stale = new Set<string>();
@@ -346,6 +371,7 @@ async function main() {
     const msg = e instanceof Error ? e.message : String(e);
     console.warn(`[daily] dedup: could not read ${yPath} — ${msg}`);
   }
+  for (const u of seen) stale.add(u);
   if (stale.size > 0) {
     const before = articles.length;
     const kept = articles.filter((a) => !stale.has(a.url));
@@ -354,6 +380,21 @@ async function main() {
     console.log(`[daily] dedup: removed ${before - kept.length}/${before} stale items`);
   }
 }
+    // 把今天通过的 URL 追加进历史清单并写回
+  let addedCount = 0;
+  for (const a of articles) {
+    if (!seen.has(a.url)) {
+      seen.add(a.url);
+      addedCount++;
+    }
+  }
+  try {
+    fs.writeFileSync(seenPath, JSON.stringify({ urls: [...seen] }, null, 2));
+    console.log(`[daily] dedup: history now ${seen.size} urls (+${addedCount})`);
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[daily] dedup: could not write ${seenPath} — ${msg}`);
+  }
 // ══ 新增结束 ══
 
   console.log(`\n[daily] total articles: ${articles.length}`);
