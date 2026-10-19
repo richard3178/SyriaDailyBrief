@@ -379,7 +379,6 @@ async function main() {
     articles.push(...kept);
     console.log(`[daily] dedup: removed ${before - kept.length}/${before} stale items`);
   }
-}
     // 把今天通过的 URL 追加进历史清单并写回
   let addedCount = 0;
   for (const a of articles) {
@@ -395,7 +394,8 @@ async function main() {
     const msg = e instanceof Error ? e.message : String(e);
     console.warn(`[daily] dedup: could not write ${seenPath} — ${msg}`);
   }
-// ══ 新增结束 ══
+}
+   // ══ 新增结束 ══
 
   console.log(`\n[daily] total articles: ${articles.length}`);
   if (articles.length === 0) {
