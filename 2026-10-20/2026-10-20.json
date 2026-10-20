@@ -1,0 +1,91 @@
+{
+  "hero_headline": "叙利亚分拆工业部，南部安全局势同步升温",
+  "daily_overview": "10 月 19 日，叙利亚议题呈现战后重建与安全风险并行的格局。政务上，大马士革把工业部从经济部分拆并任命新工业部长，为停滞的制造业单设一个主管部门；南部苏韦达、库奈特拉一带以军行动与武装团体问题交织，东北部库尔德语教学争议凸显族群信任缺口。经济上，国家石油公司换帅、霍姆斯过夜游客同比增四成、金价随国际行情走高，能源、旅游与避险资产同受关注。技术侧动作有限，集中于与韩国的数字基础设施合作探讨、再生农业改善土壤与气候韧性，以及德拉省十万株级苗木的再造林计划。",
+  "tech_briefs": [
+    {
+      "title": "叙利亚与韩国探讨数字基础设施合作",
+      "url": "https://sana.sy/en/economic/2352168/",
+      "source": "SANA 经济",
+      "summary": "叙韩双方就数字基础设施合作展开探讨，方向涉及通信网络与信息化建设，具体项目与时间表尚未公布，被视为重建期引入外部技术与资金的尝试。",
+      "importance": 6
+    },
+    {
+      "title": "再生农业在叙推广以改善土壤与气候韧性",
+      "url": "https://sana.sy/en/economic/2352200/",
+      "source": "SANA 经济",
+      "summary": "叙利亚推动再生农业，通过少耕、覆盖作物与轮作恢复退化土壤、提升抗旱能力，目标是在长期干旱与冲突压力下稳定农业产出，属于低成本、易推广的农技路径。",
+      "importance": 5
+    },
+    {
+      "title": "德拉省苗圃计划培育 10.1 万株苗木再造林",
+      "url": "https://sana.sy/en/syria/2352255/",
+      "source": "SANA 主站",
+      "summary": "德拉省一处苗圃设定 10.1 万株苗木培育目标，用于再造林与生态修复，配套育苗与灌溉管理，反映当地林木资源大幅减少后的恢复努力。",
+      "importance": 4
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "叙利亚任命马希尔·哈桑执掌国家石油公司",
+      "url": "https://levant24.com/en/article/syria-names-maher-hassan-to-lead-state-petroleum-company",
+      "source": "Levant24",
+      "summary": "叙总统沙拉任命马希尔·哈桑为国家石油公司首席执行官，负责原油生产与炼化运营。该公司经多年冲突与制裁后设备老化、产能受限，此次人事调整被视为能源部门重组的一步。",
+      "importance": 7
+    },
+    {
+      "title": "霍姆斯夏季过夜游客同比增长四成",
+      "url": "https://sana.sy/en/economic/2352271/",
+      "source": "SANA 经济",
+      "summary": "霍姆斯省夏季过夜游客同比增长 40%，国内出行回升带动当地旅游业复苏；住宿、交通接待能力与安全预期仍是制约进一步增长的主要因素。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚金价随国际行情走高",
+      "url": "https://sana.sy/en/economic/2352220/",
+      "source": "SANA 经济",
+      "summary": "受国际金价上涨与油价下跌影响，叙利亚本地黄金价格上行，民众与商户将其作为对冲本币波动和通胀的保值手段，市场交易随之活跃。",
+      "importance": 5
+    },
+    {
+      "title": "阿勒颇与塔尔图斯两处学校建筑群修复复课",
+      "url": "https://sana.sy/en/syria/2352095/",
+      "source": "SANA 时政",
+      "summary": "阿勒颇与塔尔图斯各有一处学校建筑群完成修复并重新开放，可接收更多学生复课，属战后教育设施重建与公共支出投入的一部分。",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙利亚分拆工业部并任命新工业部长",
+      "url": "https://syrianobserver.com/society/syria-splits-industry-from-economy-ministry-in-latest-government-shake-up.html",
+      "source": "Syrian Observer",
+      "summary": "叙政府将工业部从经济部分拆为独立部门，总统沙拉同时任命新任工业部长，意在集中推动制造业复产与吸引投资；调整发生在工业基础薄弱、外部资本流入有限的背景下。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙南部以军行动升级，武装冲突风险上升",
+      "url": "https://levant24.com/en/article/israeli-incursions-escalate-in-southern-syria-amid-calls-for-action",
+      "source": "Levant24",
+      "summary": "以军近期在库奈特拉与苏韦达方向行动增多，并发生拘留平民事件；叙军方消息人士称，以方可能在 10 月 27 日议会选举前进一步施压，苏韦达地方官员则指武装团体阻碍危机化解。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙库尔德人就阿拉伯语授课政策抗议",
+      "url": "https://syriadirect.org/syrias-kurds-fight-to-keep-their-language-alive-in-the-classroom/",
+      "source": "Syria Direct",
+      "summary": "叙东北部库尔德人抗议当地学校转用阿拉伯语授课，担心学业受损与库尔德身份弱化；争议反映大马士革与库尔德方面在教育及自治安排上的互信不足。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "本日信源以叙官方媒体与本地观察机构为主，立场差异明显；涉及安全动向与人事任免的消息多为单一来源，宜与后续报道交叉核对。",
+  "keywords": [
+    "叙利亚重建",
+    "工业部分拆",
+    "国家石油公司",
+    "南部局势",
+    "库尔德语教育",
+    "数字基础设施",
+    "再生农业",
+    "黄金价格"
+  ]
+}
