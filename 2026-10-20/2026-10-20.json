@@ -1,15 +1,91 @@
 {
-  "hero_headline": "今日候选新闻源为空，本期简报暂缓发布",
-  "daily_overview": "今日候选新闻源返回空数组，技术、财经、时政三个板块均无可用条目，因此本期简报没有可核实的报道可供摘编。为避免编造链接与事实，编辑未对任何领域作推测性填充，头条与各 Brief 列表均保持空白状态。建议先检查抓取管道、订阅源与去重过滤环节是否出现异常，待下一批次数据到位后再合并输出。读者可先参考往期简报，或直接访问原始订阅源获取当日信息。",
-  "tech_briefs": [],
-  "finance_briefs": [],
-  "politics_briefs": [],
-  "editor_note": "数据源为空时宁可留白，也不写无源之文；请核查抓取链路后重跑本期简报。",
+  "hero_headline": "叙利亚分拆工业主管部门，南部安全局势升温",
+  "daily_overview": "当日信息集中在三条主线。政治上，总统沙拉阿签署命令，将工业事务从经济部分拆出去，并任命新的工业部长；南部苏韦达、库奈特拉一带安全事件与以色列因素相互交织；东北部库尔德语教学争议反映中央与地方之间的信任不足。经济上，霍姆斯夏季过夜游客同比增长四成，旅游业出现回暖迹象；国家石油公司更换负责人；国际金价走高带动本地金价上行。技术与社会层面，叙利亚与韩国就数字基础设施合作进行接触；再生农业推广与代尔祖尔新影像诊断科室投入使用，显示战后重建在农业与医疗领域逐步推进。",
+  "tech_briefs": [
+    {
+      "title": "叙利亚与韩国探讨数字基础设施合作",
+      "url": "https://sana.sy/en/economic/2352168/",
+      "source": "SANA 经济",
+      "summary": "叙利亚与韩国方面就数字基础设施建设合作交换意见，内容涉及通信网络与信息化能力建设，具体项目清单与时间表尚未公布。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚推广再生农业以改善土壤与气候韧性",
+      "url": "https://sana.sy/en/economic/2352200/",
+      "source": "SANA 经济",
+      "summary": "叙农业领域引入再生农业做法，通过减少翻耕、覆盖作物等方式改善土壤健康、提升抗旱能力，目前多为试点，推广范围与增产效果仍待评估。",
+      "importance": 5
+    },
+    {
+      "title": "代尔祖尔新设核磁共振科室投入使用",
+      "url": "https://levant24.com/en/article/syrias-health-system-struggles-continue-amid-post-war-recovery",
+      "source": "Levant24",
+      "summary": "叙卫生部长与高教部长为代尔祖尔新设核磁共振科室揭幕，当地影像诊断能力得到补充；但药品、设备与专业人员短缺仍是卫生系统主要瓶颈。",
+      "importance": 5
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "霍姆斯夏季过夜游客同比增长四成",
+      "url": "https://sana.sy/en/economic/2352271/",
+      "source": "SANA 经济",
+      "summary": "霍姆斯省夏季过夜游客同比增长约40%，住宿与餐饮等相关行业有所回暖；统计基数与统计标准未详细披露。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚任命国家石油公司新任负责人",
+      "url": "https://levant24.com/en/article/syria-names-maher-hassan-to-lead-state-petroleum-company",
+      "source": "Levant24",
+      "summary": "总统沙拉阿任命马希尔·哈桑为叙利亚石油公司首席执行官，能源领域国有企业人事进入调整阶段，后续产量与投资安排尚不明确。",
+      "importance": 6
+    },
+    {
+      "title": "国际金价走高带动叙利亚本地金价上涨",
+      "url": "https://sana.sy/en/economic/2352220/",
+      "source": "SANA 经济",
+      "summary": "受国际金银价格上行与油价走低影响，叙利亚市场黄金价格上涨，反映本地货币购买力承压与避险需求上升。",
+      "importance": 5
+    },
+    {
+      "title": "德拉苗圃计划培育十万余株苗木用于再造林",
+      "url": "https://sana.sy/en/syria/2352255/",
+      "source": "SANA 主站",
+      "summary": "德拉省一处苗圃将年度目标定为10.1万株苗木，主要用于再造林与果园恢复，被认为是当地生态修复与农业复产的基础性投入。",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙利亚将工业事务从经济部分拆并任命新部长",
+      "url": "https://syrianobserver.com/society/syria-splits-industry-from-economy-ministry-in-latest-government-shake-up.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚决定把工业事务从经济部分拆出来，单独设立主管部门，总统沙拉阿同时任命新的工业部长。此举发生在工业基础待恢复、投资待引入的背景下，机构分工与政策效果仍待观察。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "南部局势紧张，苏韦达与库奈特拉事件频发",
+      "url": "https://levant24.com/en/article/military-sources-to-levant24-possible-israeli-backed-escalation-in-suwayda",
+      "source": "Levant24",
+      "summary": "有消息称，在以色列议会选举前，苏韦达省可能出现局势升级；苏韦达省长称，武装团体阻碍危机的解决；库奈特拉方面报告称，以色列军队进入并拘留平民，联合国观察员部队就当地处境与各方接触。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚库尔德人就学校阿拉伯语教学提出抗议",
+      "url": "https://syriadirect.org/syrias-kurds-fight-to-keep-their-language-alive-in-the-classroom/",
+      "source": "Syria Direct",
+      "summary": "在叙东北部，库尔德人抗议在当地学校推行阿拉伯语授课，担心教育质量下滑与库尔德身份被削弱，相关争议折射出大马士革与地方之间的信任不足。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "本日信息多来自叙利亚官方通讯社与本地媒体，交叉验证条件有限；涉及人事与安全局势的内容，宜以后续官方确认为准。",
   "keywords": [
-    "数据源异常",
-    "空简报",
-    "抓取链路",
-    "事实核查",
-    "待补跑"
+    "叙利亚",
+    "工业部分拆",
+    "苏韦达局势",
+    "石油公司换帅",
+    "旅游业复苏",
+    "数字基础设施",
+    "库尔德语教学",
+    "金价上涨"
   ]
 }

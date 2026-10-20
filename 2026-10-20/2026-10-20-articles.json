@@ -1,4 +1,298 @@
 {
   "date": "2026-10-20",
-  "articles": []
+  "articles": [
+    {
+      "sourceId": "syrian-observer",
+      "title": "Syria Splits Industry from Economy Ministry in Latest Government Shake‑Up",
+      "url": "https://syrianobserver.com/society/syria-splits-industry-from-economy-ministry-in-latest-government-shake-up.html",
+      "excerpt": "The decision comes at a moment when Syria is struggling to revive its industrial base, attract capital and restore economic activity after years of conflict, sanctions and widespread destruction. The post Syria Splits Industry from Economy Ministry in Latest Government Shake‑Up first appeared on The",
+      "publishedAt": "2026-10-19T21:02:22.000Z",
+      "category": "politics",
+      "source": "Syrian Observer",
+      "subcategory": "world",
+      "summary": "叙利亚政府改组中，将工业部门从经济部中拆分出来。此举正值叙利亚战后努力重振工业基础、吸引资本并恢复经济活动之际。"
+    },
+    {
+      "sourceId": "syrian-observer",
+      "title": "Former “Hurras al‑Din” Commander Arrested in Idlib",
+      "url": "https://syrianobserver.com/syrian-actors/former-hurras-al-din-commander-arrested-in-idlib.html",
+      "excerpt": "Clashes broke out along the Sheikh Idris road, resulting in the deaths of two members of the group. The post Former “Hurras al‑Din” Commander Arrested in Idlib first appeared on The Syrian Observer.",
+      "publishedAt": "2026-10-19T21:01:45.000Z",
+      "category": "politics",
+      "source": "Syrian Observer",
+      "subcategory": "world",
+      "summary": "叙利亚伊德利卜抓获「宗教守护者」组织前指挥官，抓捕行动在谢赫伊德里斯路引发冲突，造成该组织两名成员死亡。"
+    },
+    {
+      "sourceId": "syrian-observer",
+      "title": "Syria’s Coastal Massacres: Justice Reaches the Killers, but Will It Reach Their Commanders?",
+      "url": "https://syrianobserver.com/syrian-actors/syrias-coastal-massacres-justice-reaches-the-killers-but-will-it-reach-their-commanders.html",
+      "excerpt": "As Syrian courts begin handing down sentences, a larger question remains: will accountability extend to the military leadership responsible for the forces involved? The post Syria’s Coastal Massacres: Justice Reaches the Killers, but Will It Reach Their Commanders? first appeared on The Syrian Obser",
+      "publishedAt": "2026-10-19T21:00:46.000Z",
+      "category": "politics",
+      "source": "Syrian Observer",
+      "subcategory": "world",
+      "summary": "叙利亚沿海屠杀案：法院已开始对行凶者判刑，但外界关注问责是否会延伸至涉事部队的军方指挥官。"
+    },
+    {
+      "sourceId": "syrian-observer",
+      "title": "Three Scenarios: How Might Israel’s Syria Policy Shift After the Elections?",
+      "url": "https://syrianobserver.com/foreign-actors/three-scenarios-how-might-israels-syria-policy-shift-after-the-elections.html",
+      "excerpt": "Three broad scenarios emerge when assessing how Israel’s policy toward Syria could evolve following the Knesset elections, Iyad al-Jaafari writes for Syria TV. The post Three Scenarios: How Might Israel’s Syria Policy Shift After the Elections? first appeared on The Syrian Observer.",
+      "publishedAt": "2026-10-19T21:00:43.000Z",
+      "category": "politics",
+      "source": "Syrian Observer",
+      "subcategory": "world",
+      "summary": "分析人士伊亚德·贾法里为叙利亚电视台撰文，提出以色列议会选举后其对叙利亚政策可能演变的三种情景。"
+    },
+    {
+      "sourceId": "syria-direct",
+      "title": "Syria’s Kurds fight to keep their language alive in the classroom",
+      "url": "https://syriadirect.org/syrias-kurds-fight-to-keep-their-language-alive-in-the-classroom/",
+      "excerpt": "Syrian Kurds protest the introduction of Arabic-language instruction in northeastern schools, fearing educational setbacks and the erosion of Kurdish identity amid growing distrust between Damascus and Kurdish communities. The post Syria’s Kurds fight to keep their language alive in the classroom ap",
+      "publishedAt": "2026-10-19T08:56:49.000Z",
+      "category": "politics",
+      "source": "Syria Direct",
+      "subcategory": "world",
+      "summary": "叙利亚库尔德人抗议东北部学校推行阿拉伯语教学，担心教育受损及库尔德身份认同被侵蚀；此事反映大马士革与库尔德社区间不信任加剧。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Homs summer tourism sees 40% rise in overnight visitors",
+      "url": "https://sana.sy/en/economic/2352271/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news",
+      "summary": "霍姆斯夏季旅游过夜游客人数同比增长40%，显示当地夏季旅游接待量有所上升。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Gold rises in Syria as global bullion gains on lower oil prices",
+      "url": "https://sana.sy/en/economic/2352220/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news",
+      "summary": "叙利亚金价上涨，受全球金价因油价下跌而走高带动，当地市场金价随国际走势上行。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Regenerative agriculture in Syria aims to improve soil health and climate resilience",
+      "url": "https://sana.sy/en/economic/2352200/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "investment",
+      "summary": "据叙利亚官方通讯社SANA报道，叙利亚推动再生农业，目标是改善土壤健康并提升应对气候变化的能力。报道未提供具体项目规模或资金数据。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Syria, South Korea explore digital infrastructure cooperation",
+      "url": "https://sana.sy/en/economic/2352168/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "investment",
+      "summary": "据叙利亚官方通讯社SANA报道，叙利亚与韩国就数字基础设施领域的合作展开探讨。报道未披露具体的合作项目、投资金额或时间表。"
+    },
+    {
+      "sourceId": "levant24",
+      "title": "Military Sources to Levant24: Possible Israeli-backed Escalation in Suwayda",
+      "url": "https://levant24.com/en/article/military-sources-to-levant24-possible-israeli-backed-escalation-in-suwayda",
+      "excerpt": "Sources in Syrian military circles have informed Levant24 of a possible escalation in southern Syria’s Suwayda province ahead of Israel’s Oct. 27 elections,…",
+      "publishedAt": "2026-10-19T21:49:00.000Z",
+      "category": "politics",
+      "source": "Levant24",
+      "subcategory": "world",
+      "summary": "据黎凡特24网站援引叙利亚军方消息，在以色列10月27日选举前，叙南部苏韦达省可能出现局势升级，并有以色列支持背景。"
+    },
+    {
+      "sourceId": "levant24",
+      "title": "Syria Names Maher Hassan to Lead State Petroleum Company",
+      "url": "https://levant24.com/en/article/syria-names-maher-hassan-to-lead-state-petroleum-company",
+      "excerpt": "The newly-appointed SPC chief Maher Khalil Hassan. (SANA) Syrian President Ahmad Sharaa appointed Maher Hassan as CEO of the Syrian Petroleum Company ( SPC ),…",
+      "publishedAt": "2026-10-19T12:38:00.000Z",
+      "category": "finance",
+      "source": "Levant24",
+      "subcategory": "investment",
+      "summary": "叙利亚总统艾哈迈德·沙拉阿任命马希尔·哈桑（Maher Khalil Hassan）为叙利亚石油公司（SPC）首席执行官。叙官方通讯社SANA发布了这一任命消息，但未披露更多细节。"
+    },
+    {
+      "sourceId": "levant24",
+      "title": "Suwayda Governor Says Armed Groups Obstruct Crisis Solutions",
+      "url": "https://levant24.com/en/article/suwayda-governor-says-armed-groups-obstruct-crisis-solutions",
+      "excerpt": "Suwayda Governor Mustafa al-Bakour said residents of the province are suffering from economic hardship and security chaos under the control of outlaw groups .…",
+      "publishedAt": "2026-10-19T12:33:00.000Z",
+      "category": "politics",
+      "source": "Levant24",
+      "subcategory": "world",
+      "summary": "苏韦达省长穆斯塔法·巴库尔表示，该省居民在经济困难和治安混乱中受苦，并称局势受非法武装团体控制，阻碍危机解决。"
+    },
+    {
+      "sourceId": "levant24",
+      "title": "Israeli Incursions Escalate in Southern Syria Amid Calls for Action",
+      "url": "https://levant24.com/en/article/israeli-incursions-escalate-in-southern-syria-amid-calls-for-action",
+      "excerpt": "Mr Lacroix exchanged with community members in Quneitra and discussed how UNDOF can continue supporting them in challenging times. (UNDOF) Israeli occupation…",
+      "publishedAt": "2026-10-19T10:03:00.000Z",
+      "category": "politics",
+      "source": "Levant24",
+      "subcategory": "world",
+      "summary": "叙南部以色列军事行动升级、当地呼吁采取行动之际，联合国脱离接触观察员部队负责人拉克鲁瓦在库奈特拉与社区成员会面，讨论继续提供支持。"
+    },
+    {
+      "sourceId": "levant24",
+      "title": "Syria’s Health System Struggles Continue Amid Post-War Recovery",
+      "url": "https://levant24.com/en/article/syrias-health-system-struggles-continue-amid-post-war-recovery",
+      "excerpt": "Health Minister Dr. M'sab al-Ali and Minister of Higher Education and Scientific Research Dr. Marwan al-Halabi inaugurated the new MRI department at Deir Ezzor…",
+      "publishedAt": "2026-10-18T18:47:00.000Z",
+      "category": "politics",
+      "source": "Levant24",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "levant24",
+      "title": "Shaibani Outlines Syria’s Priorities at OIC Foreign Ministers’ Session",
+      "url": "https://levant24.com/en/article/shaibani-outlines-syrias-priorities-at-oic-foreign-ministers-session",
+      "excerpt": "Foreign Minister Asaad al-Shaibani participated Saturday, Oct. 17, in the opening of the 52nd session of the Council of Foreign Ministers of the Organization…",
+      "publishedAt": "2026-10-18T18:43:00.000Z",
+      "category": "politics",
+      "source": "Levant24",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Israeli occupation forces detain civilian during Quneitra incursion",
+      "url": "https://sana.sy/en/syria/2352313/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "据叙利亚国家通讯社报道，以色列占领军在库奈特拉地区的一次入侵行动中拘留一名平民。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Mrs. Latifa al-Droubi receives Lebanese social affairs minister in Damascus",
+      "url": "https://sana.sy/en/syria/2352302/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "据叙利亚国家通讯社报道，拉蒂法·德鲁比女士在大马士革接待黎巴嫩社会事务部长。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Drug trafficking cell dismantled in Tartous countryside, eight arrested",
+      "url": "https://sana.sy/en/syria/2352301/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "据叙利亚国家通讯社报道，塔尔图斯乡村地区一个毒品贩运团伙被捣毁，8人被捕。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Daraa nursery targets 101,000 seedlings for reforestation",
+      "url": "https://sana.sy/en/syria/2352255/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 主站",
+      "subcategory": "investment",
+      "summary": "据叙利亚官方通讯社SANA报道，德拉省一处苗圃计划培育10.1万株树苗，用于当地重新造林。报道未说明树种、实施周期或资金来源。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Syria, Lebanon discuss refugee returns, child protection and social welfare",
+      "url": "https://sana.sy/en/syria/2352204/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "据叙利亚国家通讯社报道，叙利亚与黎巴嫩讨论难民返乡、儿童保护和社会福利等议题。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "King of Jordan reaffirms support for Syria, Lebanon’s sovereignty and security",
+      "url": "https://sana.sy/en/politics/2352282/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "据叙利亚国家通讯社报道，约旦国王重申支持叙利亚和黎巴嫩的主权与安全。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Erdogan welcomes positive developments in Syria,warns of Israeli attempts of disruption",
+      "url": "https://sana.sy/en/politics/2352279/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "据叙利亚国家通讯社报道，土耳其总统埃尔多安欢迎叙利亚的积极进展，同时警告以色列试图进行破坏。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Minister of Emergency discusses international cooperation at Doha Global Security Forum",
+      "url": "https://sana.sy/en/syria/2352327/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "据叙利亚国家通讯社报道，叙利亚紧急事务部长在多哈全球安全论坛上讨论国际合作。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "President al-Sharaa appoints new industry minister",
+      "url": "https://sana.sy/en/presidency/2352178/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Syrian delegation attends UN conference on transnational organized crime",
+      "url": "https://sana.sy/en/politics/2352182/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Five dead, 31 injured in road accidents across Syria in 24 hours",
+      "url": "https://sana.sy/en/syria/2352174/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Aleppo records 4,523 breast cancer screenings, but access barriers persist",
+      "url": "https://sana.sy/en/syria/2352084/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Two school complexes reopen in Aleppo and Tartous after rehabilitation",
+      "url": "https://sana.sy/en/syria/2352095/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Sweida governor says Damascus remains open to dialogue amid security concerns",
+      "url": "https://sana.sy/en/syria/2352013/",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world"
+    }
+  ]
 }
