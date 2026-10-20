@@ -70,6 +70,7 @@
     "type": "rss",
     "category": "finance",
     "subcategory": "news",
+    "useCurl": true,
     "limit": 10
   },
     {
