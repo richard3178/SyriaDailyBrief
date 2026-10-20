@@ -63,6 +63,15 @@
     "subcategory": "china-syria",
     "limit": 15
   },
+  {
+    "id": "ifp-info",
+    "name": "IFP Info 贸易",
+    "url": "https://www.ifpinfo.com/category/trade/feed/",
+    "type": "rss",
+    "category": "finance",
+    "subcategory": "news",
+    "limit": 10
+  },
     {
     "id": "sana-syria",
     "name": "SANA 时政",
