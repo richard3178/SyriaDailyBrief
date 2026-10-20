@@ -356,6 +356,24 @@ async function main() {
     const msg = e instanceof Error ? e.message : String(e);
     console.warn(`[daily] dedup: could not read ${seenPath} — ${msg}`);
   }
+    // 当日暂存清单：昨天及更早的 URL 归档进永久清单，当天的不拦（当天可重复运行验证）
+  const todaySeenPath = path.join(OUTPUT_DIR, "today-seen.json");
+  let todaySeenUrls = new Set<string>();
+  try {
+    if (fs.existsSync(todaySeenPath)) {
+      const td = JSON.parse(fs.readFileSync(todaySeenPath, "utf8"));
+      if (td.date !== todayKey(new Date())) {
+        for (const u of td.urls ?? []) seen.add(u);
+        fs.writeFileSync(seenPath, JSON.stringify({ urls: [...seen] }, null, 2));
+        console.log(`[daily] dedup: archived ${(td.urls ?? []).length} urls from ${td.date} — history now ${seen.size}`);
+      } else {
+        for (const u of td.urls ?? []) todaySeenUrls.add(u);
+      }
+    }
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[daily] dedup: could not read ${todaySeenPath} — ${msg}`);
+  }
   const yesterdayKey = todayKey(new Date(Date.now() - 24 * 60 * 60 * 1000));
   const yPath = path.join(OUTPUT_DIR, yesterdayKey, `${yesterdayKey}-articles.json`);
   const stale = new Set<string>();
@@ -378,21 +396,6 @@ async function main() {
     articles.length = 0;
     articles.push(...kept);
     console.log(`[daily] dedup: removed ${before - kept.length}/${before} stale items`);
-  }
-    // 把今天通过的 URL 追加进历史清单并写回
-  let addedCount = 0;
-  for (const a of articles) {
-    if (!seen.has(a.url)) {
-      seen.add(a.url);
-      addedCount++;
-    }
-  }
-  try {
-    fs.writeFileSync(seenPath, JSON.stringify({ urls: [...seen] }, null, 2));
-    console.log(`[daily] dedup: history now ${seen.size} urls (+${addedCount})`);
-  } catch (e) {
-    const msg = e instanceof Error ? e.message : String(e);
-    console.warn(`[daily] dedup: could not write ${seenPath} — ${msg}`);
   }
 }
    // ══ 新增结束 ══
