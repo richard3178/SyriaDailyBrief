@@ -74,6 +74,16 @@
     "limit": 10
   },
     {
+    "id": "enab-baladi-en",
+    "name": "Enab Baladi EN",
+    "url": "https://english.enabbaladi.net/wp-json/wp/v2/posts?per_page=15",
+    "type": "wpjson",
+    "category": "finance",
+    "subcategory": "investment",
+    "useCurl": true,
+    "limit": 15
+  },
+  {
     "id": "sana-syria",
     "name": "SANA 时政",
     "url": "https://sana.sy/en/syria/",
