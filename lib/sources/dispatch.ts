@@ -1,5 +1,6 @@
 import { fetchSanaPage } from "./sana-pages";
 import { fetchRss } from "./rss";
+import { fetchWpJson } from "./enab-baladi";
 import type { RawArticle, SourceDef } from "./types";
 
 /**
