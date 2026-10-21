@@ -1,6 +1,6 @@
 import { load } from "cheerio";
 import { curlFetch } from "./curl-fetch";
-import type { RawArticle } from "./types";
+import type { RawArticle, Category } from "./types";
 
 const HEADERS: Record<string, string> = {
   "User-Agent":
@@ -17,7 +17,7 @@ interface WpPost {
 export async function fetchWpJson(
   sourceId: string,
   url: string,
-  category: string
+  category: Category
 ): Promise<RawArticle[]> {
   const text = await curlFetch(url, HEADERS);
   console.log(
