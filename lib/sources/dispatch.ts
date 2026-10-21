@@ -9,7 +9,7 @@ import type { RawArticle, SourceDef } from "./types";
  */
 export async function fetchSource(source: SourceDef): Promise<RawArticle[]> {
   if (source.type === "scrape") return fetchSanaPage(source.id);
-  if (source.type === "wpjson") return fetchWpJson(source.id, source.url, source.category);
+  if (source.type === "api") return fetchWpJson(source.id, source.url, source.category);
   return fetchRss(source.id, source.url, source.category, {
     useCurl: source.useCurl,
   });
