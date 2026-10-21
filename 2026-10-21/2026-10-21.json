@@ -1,0 +1,75 @@
+{
+  "hero_headline": "叙利亚重建引资提速，美方追加1.07亿美元支持",
+  "daily_overview": "10月20日，叙利亚重建议题占据当日信源主流。财经方面，沙特阿美首船柴油抵达巴尼亚斯油港，大马士革举办IREX 2026投资论坛，叙沙磋商房地产与投资合作，纺织业寻求500万欧元项目支持；农业与粮食安全也已在粮农组织会议上提上议程。时政方面，叙利亚总统改组经济班子，任命新的工业与内贸部长；美方第二笔1.07亿美元支持方案进入磋商；人民议会废除两部法律，并推迟处理边界财产议题。当日信源中没有科技类条目，因此科技简报暂缺。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "沙特阿美首船柴油抵达叙利亚巴尼亚斯油港",
+      "url": "https://sana.sy/en/economic/2352481/",
+      "source": "SANA 经济",
+      "summary": "沙特阿美向叙利亚运送的首批柴油抵达巴尼亚斯石油码头，为叙方燃料供应再添来源；报道未披露具体数量与后续批次安排。",
+      "importance": 8
+    },
+    {
+      "title": "大马士革举办IREX 2026论坛，聚焦重建投资",
+      "url": "https://sana.sy/en/investment/2352408/",
+      "source": "SANA 投资",
+      "summary": "IREX 2026投资论坛在大马士革举行，叙方借机推介重建项目并寻求外部资金，官方称论坛为投资方与项目方提供对接平台。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚与沙特磋商投资合作与房地产伙伴关系",
+      "url": "https://sana.sy/en/economic/2352570/",
+      "source": "SANA 经济",
+      "summary": "叙沙双方就投资合作及房地产领域伙伴关系举行会谈，并讨论便利两国公民往来的措施；具体协议内容与时间表尚未公布。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚纺织业寻求500万欧元项目国际支持",
+      "url": "https://sana.sy/en/economic/2352404/",
+      "source": "SANA 经济",
+      "summary": "叙方提出总额500万欧元的纺织业振兴项目，寻求国际资金与技术支持以恢复产能和出口，项目执行安排尚未明确。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚在粮农组织会议呼吁加强粮食安全",
+      "url": "https://sana.sy/en/syria/2352337/",
+      "source": "SANA 时政",
+      "summary": "叙方在联合国粮农组织会议上呼吁加强粮食安全并推动农业恢复，寻求国际援助以弥补生产与供应缺口。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙利亚改组经济班子，任命工业与内贸部长",
+      "url": "https://levant24.com/en/article/syria-reshuffles-economic-leadership-with-latest-appointment",
+      "source": "Levant24",
+      "summary": "叙利亚总统艾哈迈德·沙拉任命巴西勒·阿卜杜勒哈南为工业与内贸部长，这是近期一系列经济领域人事调整中的最新一项。",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚磋商美方第二笔1.07亿美元支持方案",
+      "url": "https://sana.sy/en/politics/2352532/",
+      "source": "SANA 主站",
+      "summary": "叙方就美方第二笔价值1.07亿美元的支持方案展开讨论，涉及领域、拨付方式与执行机制未在报道中详列。",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚人民议会废除两部法律，推迟边界财产议题",
+      "url": "https://levant24.com/en/article/peoples-assembly-repeals-two-laws-defers-border-property-file",
+      "source": "Levant24",
+      "summary": "人民议会10月19日会议一致通过两项法律草案，废除此前立法，同时将边界财产相关议题延后处理。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "当日信源高度集中于叙利亚重建与对外融资，视角较为单一；科技板块无可用条目，后续宜补充多元来源。",
+  "keywords": [
+    "叙利亚重建",
+    "沙特阿美",
+    "IREX 2026",
+    "内阁改组",
+    "美国援助",
+    "粮食安全",
+    "纺织业"
+  ]
+}
