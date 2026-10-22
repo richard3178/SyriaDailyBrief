@@ -77,7 +77,7 @@
     "id": "enab-baladi-en",
     "name": "Enab Baladi EN",
     "url": "https://english.enabbaladi.net/wp-json/wp/v2/posts?per_page=15",
-    "type": "api",
+    "type": "rss",
     "category": "finance",
     "subcategory": "investment",
     "useCurl": true,
