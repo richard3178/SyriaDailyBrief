@@ -32,7 +32,8 @@ export async function fetchRss(
   let feed;
   if (options.useCurl) {
     const xml = await curlFetch(url, CURL_HEADERS);
-    const safe = xml.replace(/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)/g, "&amp;");
+    const amp  = xml.replace(/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)/g, "&amp;");
+    const safe = amp.replace(/<([A-Za-z][\w:.-]*)\s+([A-Za-z][\w:.-]*)(?=\s|\/?>)/g, "<$1 $2=\"\"");
     feed = await parser.parseString(safe);
   } else {
     feed = await parser.parseURL(url);
