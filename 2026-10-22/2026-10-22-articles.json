@@ -10,7 +10,7 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "叙利亚总统沙拉在人民宫会见美国特使巴拉克，外交部长陪同出席。总统府称，双方讨论旨在推进共同利益，并加强安全与稳定。"
+      "summary": "叙利亚总统沙拉在人民宫会见美国特使巴拉克，外长亦出席。总统府称会谈旨在推进双方共同利益，并加强安全与稳定。"
     },
     {
       "sourceId": "syrian-observer",
@@ -21,7 +21,7 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "叙利亚人民议会推进立法改革，涉及就业、刑法、财产和国家安全等领域，目标是废除歧视性法规、推动法律框架现代化。相关报道来自《革命报》。"
+      "summary": "叙利亚人民议会推进立法改革，涉及就业、刑法、财产与国家安全四大领域，目标是废除歧视性法规并推动本国法律体系现代化。"
     },
     {
       "sourceId": "syrian-observer",
@@ -32,7 +32,7 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "叙利亚哈马司法机构拘押六名前政权官员，其中包括准将阿卜杜勒·哈基姆·万努斯。司法官员表示，相关审讯正在进行中。"
+      "summary": "叙利亚哈马司法机构拘留六名前政权官员，其中包括准将阿卜杜勒·哈基姆·万努斯。司法官员表示相关审讯正在进行中。"
     },
     {
       "sourceId": "syrian-observer",
@@ -43,7 +43,7 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "周三凌晨，苏韦达省西部乡村一处内部安全部队哨所遭无人机袭击。此次袭击被归因于谢赫·希克马特·希吉里领导的「国民警卫队」下属民兵派别，地区局势正趋紧张。"
+      "summary": "周三凌晨，叙利亚苏韦达省西部乡村一处内安全部队哨所遭无人机袭击。有消息将袭击归因于谢赫希克马特·希吉里领导的「国民警卫队」所属民兵派系。"
     },
     {
       "sourceId": "sana-economy",
@@ -53,7 +53,7 @@
       "category": "finance",
       "source": "SANA 经济",
       "subcategory": "investment",
-      "summary": "叙利亚拉塔基亚港接收六台现代化龙门起重机，港口装卸能力有望提升。报道未披露设备来源、投资金额及交付时间等细节。"
+      "summary": "叙利亚拉塔基亚港接收六台现代化门式起重机，用于提升港口装卸能力。"
     },
     {
       "sourceId": "sana-economy",
@@ -63,7 +63,7 @@
       "category": "finance",
       "source": "SANA 经济",
       "subcategory": "investment",
-      "summary": "报道分析阿拉伯国家投资如何推动叙利亚经济复苏，聚焦投资在重建与恢复中的潜在作用。原文未提供具体投资金额或项目清单。"
+      "summary": "报道分析阿拉伯国家对叙投资如何推动叙利亚经济复苏，聚焦投资渠道与重建需求。"
     },
     {
       "sourceId": "sana-economy",
@@ -73,7 +73,7 @@
       "category": "finance",
       "source": "SANA 经济",
       "subcategory": "investment",
-      "summary": "叙利亚一个畜牧项目获国际农业发展基金（IFAD）奖项，表彰其在妇女赋权方面的成效。报道未说明项目规模、受益人数及奖励形式。"
+      "summary": "叙利亚一个畜牧项目获国际农业发展基金（IFAD）奖项，表彰其在妇女赋权方面的成效。"
     },
     {
       "sourceId": "sana-economy",
@@ -83,7 +83,7 @@
       "category": "finance",
       "source": "SANA 经济",
       "subcategory": "investment",
-      "summary": "叙利亚阿勒颇石榴收成好于往年，但销售环节面临障碍。报道未披露具体产量、价格及滞销规模等数据。"
+      "summary": "阿勒颇石榴本季产量提升，但销售与流通环节存在障碍，农户面临营销难题。"
     },
     {
       "sourceId": "sana-economy",
@@ -93,7 +93,7 @@
       "category": "finance",
       "source": "SANA 经济",
       "subcategory": "investment",
-      "summary": "叙利亚代尔祖尔西瓜籽种植因成本上升而承压，种植户利润受挤压。原文未给出成本涨幅或种植面积等具体数字。"
+      "summary": "代尔祖尔西瓜籽种植因成本上升而承压，种植收益受到挤压。"
     },
     {
       "sourceId": "sana-economy",
@@ -103,7 +103,7 @@
       "category": "finance",
       "source": "SANA 经济",
       "subcategory": "investment",
-      "summary": "叙利亚拉塔基亚橄榄丰收，但出油率下降且成本上升，影响种植户收益。报道未提供产量、油价等具体数据。"
+      "summary": "拉塔基亚橄榄本季丰收，但出油率下降且成本上升，影响橄榄油产出与收益。"
     },
     {
       "sourceId": "sana-economy",
@@ -113,7 +113,7 @@
       "category": "finance",
       "source": "SANA 经济",
       "subcategory": "news",
-      "summary": "在全球金价下跌的背景下，叙利亚市场黄金价格保持稳定，未随国际市场同步走低。"
+      "summary": "据SANA经济频道报道，尽管全球金价下跌，叙利亚国内黄金价格仍保持稳定。"
     },
     {
       "sourceId": "sana-economy",
@@ -123,7 +123,7 @@
       "category": "finance",
       "source": "SANA 经济",
       "subcategory": "news",
-      "summary": "在叙利亚迈斯亚夫地区，家庭沿用传统工艺制作石榴糖浆，这一产业成为当地家庭的重要收入来源之一。"
+      "summary": "据SANA经济频道报道，叙利亚迈斯亚夫地区家庭延续传统石榴糖浆制作，并以此获得收入来源。"
     },
     {
       "sourceId": "levant24",
@@ -134,7 +134,7 @@
       "category": "politics",
       "source": "Levant24",
       "subcategory": "world",
-      "summary": "据报道，苏韦达地区与「国民警卫队」有关联的武装团体袭击升级，当地德鲁兹民兵配备美制M-16和AR-15型步枪，报道称这些团体获得以色列支持。"
+      "summary": "据Levant24报道，苏韦达地区与「国民警卫队」有关联的武装团体升级袭击活动，报道称这些团体获以色列支持，其成员配备美制M-16和AR-15型步枪。"
     },
     {
       "sourceId": "levant24",
@@ -145,7 +145,7 @@
       "category": "politics",
       "source": "Levant24",
       "subcategory": "world",
-      "summary": "土耳其总统埃尔多安重申支持叙利亚，表示政府将继续努力避免土耳其被卷入不断扩大的地区冲突，并警告以色列意图扩大冲突范围。"
+      "summary": "土耳其总统埃尔多安重申对叙利亚的支持，称政府将继续努力避免土耳其被卷入不断扩大的地区冲突，并警告以色列意图扩散冲突。"
     },
     {
       "sourceId": "levant24",
@@ -156,7 +156,7 @@
       "category": "politics",
       "source": "Levant24",
       "subcategory": "world",
-      "summary": "一架不明飞机疑似对苏韦达一处毒品网络发动空袭，外界认为由约旦实施。报道并提及约旦国王阿卜杜拉此前视察叙利亚边境附近的部队。"
+      "summary": "一架身份不明的飞机对叙利亚苏韦达一处毒品网络目标实施空袭，外界怀疑为约旦方面所为。约旦国王阿卜杜拉此前曾视察叙约边境部队。"
     },
     {
       "sourceId": "sana-en",
@@ -166,17 +166,17 @@
       "category": "politics",
       "source": "SANA 主站",
       "subcategory": "world",
-      "summary": "叙利亚与韩国就数字化转型和人工智能领域的合作进行讨论。"
+      "summary": "叙利亚与韩国就数字化转型和人工智能领域合作举行讨论。"
     },
     {
       "sourceId": "sana-en",
       "title": "Emergency Ministry: 1,518 projects prepared to support displaced people’s return",
       "url": "https://sana.sy/en/syria/2352775/",
       "publishedAt": "2026-10-21T00:00:00.000Z",
-      "category": "finance",
+      "category": "politics",
       "source": "SANA 主站",
-      "subcategory": "investment",
-      "summary": "叙利亚紧急事务部表示，已筹备1518个项目，用于支持流离失所者返乡，涉及安置与重建等配套。报道未说明项目资金来源与实施时间表。"
+      "subcategory": "world",
+      "summary": "叙利亚紧急事务部表示，已筹备1518个项目，用于支持流离失所者返回家园。"
     },
     {
       "sourceId": "sana-en",
@@ -196,7 +196,7 @@
       "category": "politics",
       "source": "SANA 主站",
       "subcategory": "world",
-      "summary": "叙利亚教育部长哈拉比与叙利亚美国委员会讨论高等教育支持事宜。"
+      "summary": "哈拉比与叙利亚美国委员会就高等教育领域的支持事宜进行讨论。"
     },
     {
       "sourceId": "sana-en",
@@ -216,7 +216,7 @@
       "category": "politics",
       "source": "SANA 主站",
       "subcategory": "world",
-      "summary": "叙利亚哈拉斯塔举办乳腺癌宣传活动，推动早发现、早筛查。"
+      "summary": "叙利亚哈赖斯塔举办乳腺癌宣传活动，推广早发现、早筛查意识。"
     },
     {
       "sourceId": "sana-en",
@@ -226,7 +226,7 @@
       "category": "politics",
       "source": "SANA 主站",
       "subcategory": "world",
-      "summary": "第六批返乡车队已将645个流离失所家庭运送至叙利亚拉斯艾因地区。"
+      "summary": "第六批返乡车队将645个流离失所家庭送往叙利亚拉斯艾因地区。"
     },
     {
       "sourceId": "sana-en",
@@ -245,8 +245,7 @@
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "category": "politics",
       "source": "SANA 主站",
-      "subcategory": "world",
-      "summary": "美国特使巴拉克表示，叙利亚在实现持久和平方面发挥关键作用。"
+      "subcategory": "world"
     },
     {
       "sourceId": "sana-en",
@@ -306,15 +305,6 @@
       "sourceId": "sana-syria",
       "title": "Syria, Japan discusses cooperation and mutual support in international organizations",
       "url": "https://sana.sy/en/syria/2352632/",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "category": "politics",
-      "source": "SANA 时政",
-      "subcategory": "world"
-    },
-    {
-      "sourceId": "sana-syria",
-      "title": "Syrian students reach Zayed Sustainability Prize finals with environmental project",
-      "url": "https://sana.sy/en/education/2352613/",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "category": "politics",
       "source": "SANA 时政",
