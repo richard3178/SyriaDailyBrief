@@ -1,0 +1,62 @@
+{
+  "hero_headline": "叙利亚重返全球金融体系 民生与安全挑战并存",
+  "daily_overview": "今日资讯高度集中于叙利亚。财经层面，叙利亚正重新接入全球金融体系，财政部长与沙特方面磋商金融经济合作，第二届 IREX 2026 房地产论坛在大马士革举行，但物价与生活成本压力仍压在普通民众身上。时政层面，叙方向国际禁化武组织提交相关设施信息；以色列部队在库奈特拉乡村持续推进并封路，叙多地集会抗议；兰库斯反 ISIS 行动后居民要求公开细节，过渡司法进程同步推进。技术与科技领域本日无可用信源，暂缺。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "叙利亚重返全球金融 民生改善仍滞后",
+      "url": "https://syriadirect.org/syria-reconnects-to-global-finance-but-ordinary-syrians-are-still-struggling/",
+      "source": "Syria Direct",
+      "summary": "叙利亚重新接入全球金融渠道，但生活成本上升、物价压力未解，经济改革何时转化为普通民众可感知的改善仍存疑问。",
+      "importance": 8
+    },
+    {
+      "title": "叙财政部长与沙特大使商讨财经合作",
+      "url": "https://sana.sy/en/economic/2353158/",
+      "source": "SANA 经济",
+      "summary": "叙利亚财政部长与沙特驻叙大使举行会谈，讨论双边金融与经济合作路径，涉及投资与资金往来等议题。",
+      "importance": 6
+    },
+    {
+      "title": "IREX 2026 房地产论坛在大马士革举行",
+      "url": "https://levant24.com/en/article/syrian-real-estate-sector-expands-as-irex-2026-showcases-projects",
+      "source": "Levant24",
+      "summary": "第二届 IREX 2026 国际房地产开发、工程与建设论坛在大马士革闭幕，集中展示叙重建相关项目，反映房地产业务扩张。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙方称已向禁化武组织提交设施信息",
+      "url": "https://syrianobserver.com/youtube/syrian-fm-says-country-has-handed-over-chemical-weapons-sites-information-to-international-watchdog.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚外长表示，叙方已向国际禁止化学武器组织提交境内相关化武设施信息，配合国际核查工作。",
+      "importance": 8
+    },
+    {
+      "title": "以军持续推进库奈特拉 叙多地集会抗议",
+      "url": "https://sana.sy/en/syria/2353107/",
+      "source": "SANA 时政",
+      "summary": "叙方称以色列部队在库奈特拉乡村推进、封闭道路并逮捕一名男子；叙多地举行集会谴责越境行动，呼吁维护国家主权。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "兰库斯反 ISIS 行动后居民要求公开细节",
+      "url": "https://levant24.com/en/article/rankous-residents-demand-answers-after-anti-isis-raid",
+      "source": "Levant24",
+      "summary": "大马士革乡村省兰库斯反 ISIS 安全行动后，当地居民抗议并要求公布行动细节，叙当局表示已就相关冲突展开调查。（多家报道）",
+      "importance": 6
+    }
+  ],
+  "editor_note": "当日信源高度集中于叙利亚一地，样本结构偏单一；金融重连与安全压力并行，是观察叙过渡期的两条主线。",
+  "keywords": [
+    "叙利亚",
+    "重返全球金融",
+    "沙特财经合作",
+    "IREX 2026",
+    "以色列越境",
+    "库奈特拉",
+    "化学武器核查",
+    "兰库斯行动"
+  ]
+}
