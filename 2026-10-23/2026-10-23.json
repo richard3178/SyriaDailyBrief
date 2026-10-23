@@ -1,0 +1,90 @@
+{
+  "hero_headline": "叙利亚重建提速：外资入场与南部安全压力并存",
+  "daily_overview": "10月22日资讯围绕叙利亚重建与安全两条主线。财经层面，流动性紧缩仍是最大掣肘，专家追问巨额资金去向；卡塔尔、法国、德国及伊斯兰合作组织人道基金相继就投资与重建磋商，外部融资渠道重新打开。技术层面，拉塔基亚港引入混合动力电动轮胎吊，叙利亚首次以成员身份出席国际可再生能源署理事会，IREX 2026把住房与工程建设推上重建议程。时政层面，叙外长访约旦并谴责以军南部袭击，美国特使巴拉克在叙会见沙拉，安全部队在兰库斯展开反恐行动，南部安全压力上升。",
+  "tech_briefs": [
+    {
+      "title": "拉塔基亚港启用混合动力电动轮胎吊",
+      "url": "https://sana.sy/en/syria/2352941/",
+      "source": "SANA 经济",
+      "summary": "拉塔基亚港集装箱码头引进混合动力电动轮胎吊（E-RTG），以油电混合驱动替代传统柴油机组，降低装卸环节油耗与排放，是其提升集装箱处理能力与港口绿色化的一部分。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚首次出席国际可再生能源署理事会",
+      "url": "https://sana.sy/en/economic/2352884/",
+      "source": "SANA 经济",
+      "summary": "叙利亚以成员国身份首次参加国际可再生能源署（IRENA）理事会会议，议题涉及可再生能源政策协调与项目合作对接，为其电力系统修复与重建开辟多边技术渠道。",
+      "importance": 6
+    },
+    {
+      "title": "IREX 2026 在大马士革聚焦住房重建",
+      "url": "https://levant24.com/en/article/irex-2026-shifts-syrias-housing-sector-toward-reconstruction",
+      "source": "Levant24",
+      "summary": "第二届国际房地产开发、工程与建设论坛（IREX 2026）10月20日在大马士革举行，议题由新建开发转向战后住房与重建工程，为建筑企业、建材与工程承包方搭建对接平台。",
+      "importance": 5
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "叙利亚流动性紧缩，专家追问资金去向",
+      "url": "https://syrianobserver.com/society/where-has-the-liquidity-gone-who-is-withholding-billions-from-the-syrian-economy.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚市场流动性持续收紧，经济专家乔治·胡扎姆公开质疑本应用于经济复苏的巨额资金去向，认为资金滞留加剧了本币与交易结算压力。",
+      "importance": 7
+    },
+    {
+      "title": "卡塔尔与法国表态支持叙利亚经济复苏",
+      "url": "https://sana.sy/en/economic/2352827/",
+      "source": "SANA 经济",
+      "summary": "卡塔尔与法国方面表示愿支持叙利亚稳定与经济复苏，涉及投资和重建合作意向，具体承诺金额与时间表尚未公布。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚与德国官员磋商投资合作",
+      "url": "https://sana.sy/en/economic/2352959/",
+      "source": "SANA 经济",
+      "summary": "叙利亚外交官与德国官员就投资合作举行会谈，重点涉及重建项目对接与双边经贸渠道恢复，暂未披露具体金额与项目清单。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚与伊斯兰合作组织、卡塔尔红新月谈人道合作",
+      "url": "https://sana.sy/en/politics/2352902/",
+      "source": "SANA 主站",
+      "summary": "叙利亚与伊斯兰合作组织人道基金、卡塔尔红新月会分别讨论扩大人道援助与恢复重建合作，涉及物资、医疗与早期恢复项目。（多家报道）",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙外长访约旦，谴责以军南部袭击",
+      "url": "https://syrianobserver.com/foreign-actors/shibani-meets-king-abdallah-reaffirms-commitment-to-suweida-roadmap-condemns-israeli-strikes-in-southern-syria.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚外长希巴尼会见约旦国王阿卜杜拉二世，重申落实苏韦达路线图，并谴责以色列在叙南部的军事行动；叙约两国外长同时强调领土完整，此前德拉省一残疾平民在以军行动中死亡。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "美国特使巴拉克在大马士革会见沙拉",
+      "url": "https://levant24.com/en/article/barrack-sharaa-meet-in-damascus-amid-regional-tensions",
+      "source": "Levant24",
+      "summary": "美国驻土耳其大使兼叙利亚与伊拉克问题特使汤姆·巴拉克在大马士革会见叙利亚总统沙拉及外长希巴尼，会谈在地区紧张升温背景下举行。",
+      "importance": 7
+    },
+    {
+      "title": "安全部队在兰库斯打击 ISIS 小组",
+      "url": "https://syrianobserver.com/security/security-forces-launch-counter-terror-operation-against-isis-cell-in-rankous-fatalities-reported.html",
+      "source": "Syrian Observer",
+      "summary": "安全部队在兰库斯对一 ISIS 小组展开反恐行动，交火中有两名军官死亡、五人受伤，具体伤亡总数与行动结果尚待官方通报。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "重建资金与南部安全是观察叙利亚的两把标尺：外资表态明显增多，但流动性紧张与边境摩擦仍需实质缓解。",
+  "keywords": [
+    "叙利亚重建",
+    "流动性紧缩",
+    "拉塔基亚港",
+    "可再生能源",
+    "苏韦达路线图",
+    "反恐行动",
+    "外资合作"
+  ]
+}
