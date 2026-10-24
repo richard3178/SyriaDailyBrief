@@ -1,0 +1,68 @@
+{
+  "hero_headline": "叙利亚南部局势紧张 以军行动与苏韦达危机叠加",
+  "daily_overview": "10 月 24 日资讯主要集中在叙利亚及其周边地区。财经方面，中方反对美方扩大投资限制；叙利亚投资机构与沙特方面磋商粮食安全大型合作项目；本地金价单日回落 250 叙镑；用火山岩制作可持续建材的提议也进入讨论。时政方面，叙南部安全形势仍是焦点：苏韦达至大马士革的公路被武装团体封堵，美方特使对当地武装行动表示关切；以色列军队在库奈特拉一带的行动与拘押事件引发多地抗议，被扣人员家属呼吁披露亲属下落。此外，流离失所者安置期限临近，叙方呼吁国际支持。科技领域今日候选资讯中没有可用条目。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "中方反对美方扩大投资限制",
+      "url": "https://sana.sy/en/economic/2353351/",
+      "source": "SANA 经济",
+      "summary": "据叙通社经济版报道，中国方面对美方扩大投资限制表示反对，认为此类措施干扰正常投资与经贸往来，影响企业预期。",
+      "importance": 7
+    },
+    {
+      "title": "叙沙磋商粮食安全大型合作项目",
+      "url": "https://sana.sy/en/economic/2353345/",
+      "source": "SANA 经济",
+      "summary": "叙利亚投资署与沙特驻叙大使就一项粮食安全大型联合项目举行磋商，内容涉及农业投入、食品供应与相关投资安排。",
+      "importance": 6
+    },
+    {
+      "title": "叙本地市场金价单日下跌 250 叙镑",
+      "url": "https://sana.sy/en/economic/2353262/",
+      "source": "SANA 经济",
+      "summary": "叙利亚本地市场黄金价格单日下跌 250 叙利亚镑，本地贵金属报价随汇率、进口成本与需求变化持续调整。",
+      "importance": 5
+    },
+    {
+      "title": "沙特专家建议以火山岩作重建建材",
+      "url": "https://sana.sy/en/economic/2353222/",
+      "source": "SANA 经济",
+      "summary": "沙特专家提出，火山岩可用于叙利亚的可持续建筑，作为本地化建材替代方案，以降低重建过程中的材料与运输成本。",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "苏韦达局势升温 大马士革公路被封",
+      "url": "https://levant24.com/en/article/suwayda-crisis-deepens-amid-continued-concerns-of-foreign-interference",
+      "source": "Levant24",
+      "summary": "苏韦达至大马士革公路被武装团体完全封闭，当地紧张态势持续；美国特使对苏韦达武装团体的行动表示关切，外界对可能存在的外部介入保持警惕。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "以军在库奈特拉行动引发叙多地抗议",
+      "url": "https://levant24.com/en/article/israeli-military-activity-in-southern-syria-sparks-outrage-and-protests",
+      "source": "Levant24",
+      "summary": "以色列军队在库奈特拉北部行动并拘押三人，叙南部与多地出现抗议；被扣人员家属呼吁披露亲属下落，另有一名青年死于集束弹药爆炸。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙方呼吁国际支持流离失所者安置",
+      "url": "https://levant24.com/en/article/olabi-calls-for-international-support-on-syrian-displacement-crisis",
+      "source": "Levant24",
+      "summary": "叙方官员奥拉比呼吁国际社会支持应对流离失所危机，「无营地叙利亚」计划期限临近，营地内大量民众的返乡与安置仍待落实。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "当日信源高度集中于叙利亚本地媒体，单一来源比例偏高；涉及军事行动与伤亡的具体数字仍待独立核实。",
+  "keywords": [
+    "叙利亚南部局势",
+    "苏韦达",
+    "库奈特拉",
+    "投资限制",
+    "粮食安全",
+    "金价回落",
+    "流离失所"
+  ]
+}
