@@ -1,0 +1,98 @@
+{
+  "hero_headline": "叙利亚推进金融改革与数字合作，南部安全局势升温",
+  "daily_overview": "10月25日，叙利亚多线并进。财经上，大马士革推进金融改革，整治未持牌外汇兑换并为反洗钱互评做准备；同时与沙特谈海关物流、与阿曼谈客车制造，并向阿勒颇、伊德利卜增派250辆柴油罐车缓解燃料短缺。数字治理方面，叙方与联合国商讨设立国际合作数字平台，FORTIX 2026 安全安防展在大马士革开幕，针对异见者的协同网络攻击仍在持续。时政上，美特使涉叙南部言论引发美以政策分歧讨论，以军在库奈特拉加强越境作业；叙外长访巴林，双方同意重启联合委员会。",
+  "tech_briefs": [
+    {
+      "title": "叙利亚与联合国商讨共建国际合作数字平台",
+      "url": "https://sana.sy/en/syria/2353550/",
+      "source": "SANA 主站",
+      "summary": "叙方与联合国方面就建立国际合作数字平台进行磋商，议题涉及通过线上渠道对接援助与项目信息，具体上线时间与技术方案尚未公布。",
+      "importance": 6
+    },
+    {
+      "title": "调查指协同网络攻击针对叙异见者与女活动人士",
+      "url": "https://syrianobserver.com/uncategorized/coordinated-online-campaigns-target-syrian-dissidents-and-female-activists.html",
+      "source": "Syrian Observer",
+      "summary": "阿拉伯调查记者组织与「Women Who Won the War」平台联合调查称，针对叙利亚异见人士及女性活动者的协同网络攻击呈模式化特征，涉及多平台账号联动。",
+      "importance": 6
+    },
+    {
+      "title": "FORTIX 2026 安全安防展在大马士革开幕",
+      "url": "https://sana.sy/en/syria/2353532/",
+      "source": "SANA 主站",
+      "summary": "FORTIX 2026 安全与安防展在大马士革开幕，聚焦安防装备、消防与应急处置等产品展示，为本地机构与外国厂商提供对接渠道。",
+      "importance": 5
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "叙利亚整治未持牌外汇兑换，推进反洗钱准备",
+      "url": "https://levant24.com/en/article/syria-targets-illegal-exchange-houses-in-financial-reform-push",
+      "source": "Levant24",
+      "summary": "叙反洗钱与反恐融资委员会针对未持牌外汇兑换机构开展整治，并为律师举办专项培训，为叙利亚参加国际互评估做准备。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚与沙特磋商海关物流领域合作",
+      "url": "https://sana.sy/en/economic/2353539/",
+      "source": "SANA 经济",
+      "summary": "叙沙双方就经济、海关与物流领域合作举行磋商，涉及通关便利化与货运通道对接，具体协议内容尚未披露。",
+      "importance": 6
+    },
+    {
+      "title": "国家石油公司向阿勒颇、伊德利卜增派250辆柴油罐车",
+      "url": "https://sana.sy/en/economic/2353450/",
+      "source": "SANA 经济",
+      "summary": "国家石油公司向阿勒颇、伊德利卜派出250辆柴油罐车，以缓解当地燃料短缺，具体配给与价格安排未予说明。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚与阿曼探讨客车制造与运输服务合作",
+      "url": "https://sana.sy/en/economic/2353394/",
+      "source": "SANA 经济",
+      "summary": "双方讨论客车制造与运输服务领域合作，涉及本地组装与车队更新的可能性，未公布时间表。",
+      "importance": 5
+    },
+    {
+      "title": "叙能源部长在开罗与ICARDA讨论水资源管理",
+      "url": "https://sana.sy/en/economic/2353567/",
+      "source": "SANA 经济",
+      "summary": "叙能源部长在开罗与国际干旱地区农业研究中心就水资源管理合作交换意见，涉及农业用水效率与旱情应对。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "美特使涉叙南部言论引发美以政策分歧讨论",
+      "url": "https://levant24.com/en/article/suwayda-crisis-exposes-rift-between-us-and-israeli-policies",
+      "source": "Levant24",
+      "summary": "美国叙利亚问题特使巴拉克涉苏韦达的言论引发对美方南部叙利亚政策的讨论，多家媒体认为美以在叙南部问题上的立场出现落差。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "以军加强叙南部越境行动并在库奈特拉推土作业",
+      "url": "https://levant24.com/en/article/israeli-forces-intensify-incursions-across-southern-syria",
+      "source": "Levant24",
+      "summary": "近几日以军在叙南部多地加强地面越境、炮击与抓捕，并在库奈特拉推进、推平农田，当地局势明显升级。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙外长访问巴林，双方同意重启联合委员会",
+      "url": "https://sana.sy/en/syria/2353507/",
+      "source": "SANA 主站",
+      "summary": "叙外长希巴尼访问巴林，会见巴林国王并与外交大臣会谈，双方同意重启联合委员会、加强双边合作。（多家报道）",
+      "importance": 7
+    }
+  ],
+  "editor_note": "多条线索指向同一节奏：经济重建靠外部合作与内部监管补课，南部安全议题仍牵动外部博弈，短期难有定论。",
+  "keywords": [
+    "叙利亚",
+    "金融改革",
+    "反洗钱",
+    "柴油短缺",
+    "库奈特拉",
+    "网络攻击",
+    "巴林",
+    "数字平台"
+  ]
+}
