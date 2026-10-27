@@ -1,0 +1,75 @@
+{
+  "hero_headline": "叙利亚多线外交提速，南部空袭与燃油短缺并存",
+  "daily_overview": "10月26日，叙利亚对外经济与外交节奏明显加快：大马士革与巴林推进银行结算和贸易合作，与卡塔尔在多哈洽谈投资，并签下1.47亿美元公路协议以打通对伊拉克通道；国际民航组织解除实施13年的领空警告，大马士革至柏林直航定于11月10日开通。但北部省份柴油短缺持续，黑市价格走高，暴露供应链脆弱。安全层面，约旦对德拉乡村空袭致5名平民死亡，叙政府发表声明；以军行动在选举前升温，被指借安全议题争取选票。科技领域当日无重要新增，可关注后续航空与能源基建项目落地。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "叙利亚签1.47亿美元公路协议连通伊拉克",
+      "url": "https://sana.sy/en/economic/2353681/",
+      "source": "SANA 经济",
+      "summary": "叙利亚与卡塔尔企业签署1.47亿美元公路建设协议，用于改善通往伊拉克的陆路运输；叙方表示，此举旨在提升过境贸易与货运效率。",
+      "importance": 8
+    },
+    {
+      "title": "国际民航组织解除对叙领空13年警告",
+      "url": "https://sana.sy/en/economic/2353691/",
+      "source": "SANA 经济",
+      "summary": "国际民航组织撤销对叙利亚领空长达13年的安全警告，叙方表示欢迎，认为这将推动航班恢复并降低航空保险成本。",
+      "importance": 8
+    },
+    {
+      "title": "叙巴林推进银行结算与贸易合作",
+      "url": "https://sana.sy/en/politics/2353599/",
+      "source": "SANA 主站",
+      "summary": "叙利亚与巴林推进银行结算和贸易合作，叙外长谢巴尼访问麦纳麦并会见巴林国王，双方讨论重启双边经贸与金融渠道。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚在多哈论坛寻求投资伙伴",
+      "url": "https://sana.sy/en/economic/2353758/",
+      "source": "SANA 经济",
+      "summary": "叙利亚代表团在世界投资论坛上推介投资项目，并寻求外资伙伴；同期与卡塔尔方面讨论扩大贸易与投资往来。",
+      "importance": 6
+    },
+    {
+      "title": "叙北部柴油短缺，能源部增派油罐车",
+      "url": "https://levant24.com/en/article/fuel-shortages-expose-supply-chain-weaknesses",
+      "source": "Levant24",
+      "summary": "叙利亚能源部向北部省份调派数百辆油罐车，应对反复出现的柴油短缺；供应中断推高黑市价格，反映供应链依然薄弱。",
+      "importance": 7
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "约旦空袭德拉乡村致5名平民死亡",
+      "url": "https://sana.sy/en/syria/2353795/",
+      "source": "SANA 经济",
+      "summary": "约旦对德拉乡村发动空袭，造成5名平民死亡，叙利亚政府就此发表官方声明；这一事件令南部边境局势再度紧张。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "以军在叙行动升温并进入选战议题",
+      "url": "https://levant24.com/en/article/israeli-military-operations-and-activity-intensify-ahead-of-elections",
+      "source": "Levant24",
+      "summary": "以色列在叙利亚境内的军事行动与演习增多，总理内塔尼亚胡继续以安全需要解释越境行动，相关议题成为选举辩论焦点。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙逮捕14名前政权军政官员",
+      "url": "https://levant24.com/en/article/syria-arrests-former-regime-officials-amid-security-concerns",
+      "source": "Levant24",
+      "summary": "叙利亚当局逮捕14名前军方与安全官员，其中包括前政权领导人的亲属；另有消息称抓获涉战争罪人员，当局称此举基于安全审查。（多家报道）",
+      "importance": 7
+    }
+  ],
+  "editor_note": "今日信息集中于叙外交破冰与经济重建，安全与能源短板仍是主要变量；单一信源条目较多，细节需谨慎对待。",
+  "keywords": [
+    "叙利亚",
+    "领空解禁",
+    "燃油短缺",
+    "约旦空袭",
+    "经济重建",
+    "外资合作",
+    "以色列选举"
+  ]
+}
