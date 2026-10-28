@@ -1,0 +1,62 @@
+{
+  "hero_headline": "约旦空袭叙南部致平民伤亡，叙方提议联合安全机制",
+  "daily_overview": "时政层面，约旦对叙利亚德拉的越境空袭造成平民伤亡，叙方对此予以谴责，并提出由双方共同组成联合安全委员会开展调查；两国同时强调继续保持沟通。叙总统则就叙伊关系释放合作信号。财经层面，袭击直接波及叙约之间的陆路通道，纳西卜口岸因此临时关闭；与此同时，阿曼的 SalamAir 计划开通飞往叙利亚的航线，大马士革的安防展也如期举行。这些情况显示，叙利亚的对外连通需求与重建需求并行。科技领域当日无重要新增信号，仅有医疗技术合作层面的讨论。整体来看，南部安全事件正与陆路口岸通行、航线开通和重建议程相互牵动。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "叙约边境纳西卜口岸因德拉局势关闭一日",
+      "url": "https://sana.sy/en/syria/2353822/",
+      "source": "SANA 经济",
+      "summary": "叙利亚方面宣布，因南部德拉地区遭空袭后的安全形势，叙约交界的纳西卜口岸关闭一天。该口岸是两国间主要的陆路客货通道，其临时停摆将影响人员与货物往来。",
+      "importance": 6
+    },
+    {
+      "title": "阿曼 SalamAir 将开通直飞叙利亚航班",
+      "url": "https://sana.sy/en/syria/2354023/",
+      "source": "SANA 主站",
+      "summary": "阿曼廉价航空 SalamAir 宣布将开通飞往叙利亚的定期航班，被视为叙利亚恢复对外航空联系、吸引海湾地区旅客与商务往来的又一步。",
+      "importance": 5
+    },
+    {
+      "title": "大马士革举办 FORTIX 2026 国际安防展",
+      "url": "https://levant24.com/en/article/fortix-2026-highlights-syrias-security-sector-growth",
+      "source": "Levant24",
+      "summary": "叙利亚国际安全与安防展 FORTIX 2026 在大马士革展览中心开幕，集中展出安防装备与解决方案。主办方称，展会反映出叙安全部门及相关产业的重建需求。",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "约旦空袭叙南部致平民死亡，叙方提议联合安全委员会",
+      "url": "https://syrianobserver.com/foreign-actors/syria-condemns-jordanian-airstrikes-on-daraa-and-proposes-joint-security-committee-to-prevent-further-violations.html",
+      "source": "Syrian Observer",
+      "summary": "约旦对德拉多处目标发动越境空袭，叙方称造成包括妇女儿童在内的平民死亡并予以谴责，提议设立联合安全委员会与联合调查；约方称行动针对走私，平民伤亡系冲击波波及附近帐篷所致。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "叙总统称叙伊迎来共建强国的历史机遇",
+      "url": "https://sana.sy/en/presidency/2354055/",
+      "source": "SANA 经济",
+      "summary": "叙利亚总统沙拉表示，叙利亚与伊拉克面临建立两个强国的历史性机遇，双方应在安全、经济与重建领域加强协调。",
+      "importance": 6
+    },
+    {
+      "title": "疑似美军主导联军空袭叙境内车辆致三人死亡",
+      "url": "https://levant24.com/en/article/suspected-us-coalition-strike-kills-three-in-syria",
+      "source": "Levant24",
+      "summary": "叙利亚哈西亚镇附近 M5 公路一辆汽车被击中，造成三人死亡。当地报道称，这起袭击疑似由美国主导的国际联盟无人机实施，死者身份与打击目标尚未确认。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "南部安全事件与口岸关闭、航线开通等通道议题高度联动，后续可关注叙约联合安全机制能否真正落地。",
+  "keywords": [
+    "约旦空袭",
+    "叙利亚德拉",
+    "纳西卜口岸",
+    "叙伊关系",
+    "SalamAir",
+    "联合安全委员会",
+    "FORTIX 2026",
+    "平民伤亡"
+  ]
+}
