@@ -10,7 +10,7 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "叙利亚官方媒体「十月报」报道，德拉空袭事件令叙约关系面临考验。约旦国内舆论压力上升，并出现对情报误导的质疑，要求展开透明调查、维护叙利亚主权并保护两国伙伴关系的呼声增多。"
+      "summary": "德拉空袭事件令叙利亚与约旦关系面临考验。据叙利亚国营《革命报》报道，在约旦国内压力和对情报误导的疑虑下，要求进行透明调查的呼声上升，以维护叙利亚主权并保护两国伙伴关系。"
     },
     {
       "sourceId": "syrian-observer",
@@ -21,7 +21,7 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "政治分析师阿卜杜拉·哈马德认为，大马士革正认真推动加入「麦加联盟」，该议题在总统沙拉与王储穆罕默德·本·萨勒曼的会晤中占据重要位置，并涉及叙方可能获得的战略收益与角色。"
+      "summary": "政治分析人士阿卜杜拉·哈马德认为，大马士革正认真推动加入「麦加联盟」，该议题在叙利亚总统沙拉与沙特王储穆罕默德·本·萨勒曼的会晤中占有突出位置，涉及战略收益与潜在角色。"
     },
     {
       "sourceId": "syrian-observer",
@@ -32,7 +32,7 @@
       "category": "politics",
       "source": "Syrian Observer",
       "subcategory": "world",
-      "summary": "一名法国籍武装分子在哈雷姆被击毙，事件发生之际，当地与叙利亚当局的紧张关系持续升温。叙利亚方面尚未就相关动向发布任何官方说明。"
+      "summary": "一名法国籍圣战分子在哈雷姆被击毙，事件发生之际其与叙利亚当局的紧张关系不断升级。报道称，叙利亚当局尚未就相关动向发布任何官方说明。"
     },
     {
       "sourceId": "syrian-observer",
@@ -43,7 +43,7 @@
       "category": "finance",
       "source": "Syrian Observer",
       "subcategory": "investment",
-      "summary": "叙利亚能源交易引发关于新建电厂主权归属的争论。能源专家指出，采用「建设-拥有-经营」（BOO）模式并不必然削弱国家权力。"
+      "summary": "叙利亚能源领域相关交易引发争论，焦点是新建电站的主权所有权归属问题。能源专家指出，采用BOO（建设—拥有—运营）模式并不必然削弱国家权力。"
     },
     {
       "sourceId": "sana-economy",
@@ -52,8 +52,8 @@
       "publishedAt": "2026-10-28T00:00:00.000Z",
       "category": "finance",
       "source": "SANA 经济",
-      "subcategory": "news",
-      "summary": "叙利亚航空（Syrian Airlines）宣布将于11月12日开通直飞德国慕尼黑的新航线。"
+      "subcategory": "investment",
+      "summary": "据叙利亚国家通讯社报道，叙利亚航空计划于11月12日开通直飞德国慕尼黑的航线，报道未提及航班频次、执飞机型或票价等细节。"
     },
     {
       "sourceId": "sana-economy",
@@ -63,7 +63,7 @@
       "category": "finance",
       "source": "SANA 经济",
       "subcategory": "news",
-      "summary": "叙利亚与约旦之间的纳西卜（Nassib）边境口岸恢复通行，往来交通重新启动。"
+      "summary": "叙利亚与约旦之间的纳西卜（Nassib）边境口岸恢复通行，往来交通重新开放。"
     },
     {
       "sourceId": "sana-economy",
@@ -73,7 +73,7 @@
       "category": "finance",
       "source": "SANA 经济",
       "subcategory": "investment",
-      "summary": "叙利亚与联合国工业发展组织（UNIDO）就工业复苏项目的资金支持进行讨论，双方聚焦为该项目的落实筹措资金。"
+      "summary": "叙利亚与联合国工业发展组织（UNIDO）举行会谈，讨论叙利亚工业复苏项目的资金筹措问题，会谈由叙通社经济频道报道。"
     },
     {
       "sourceId": "sana-economy",
@@ -83,7 +83,7 @@
       "category": "finance",
       "source": "SANA 经济",
       "subcategory": "news",
-      "summary": "叙利亚本地市场黄金价格下跌200叙利亚镑。"
+      "summary": "叙利亚本地市场金价下跌200叙利亚镑。"
     },
     {
       "sourceId": "sana-economy",
@@ -93,7 +93,7 @@
       "category": "politics",
       "source": "SANA 经济",
       "subcategory": "world",
-      "summary": "叙利亚一家法院判处一名与伊朗伊斯兰革命卫队有关联的民兵组织成员终身监禁。"
+      "summary": "据叙利亚国家通讯社报道，一名与伊朗伊斯兰革命卫队有关联的民兵组织成员被判处终身监禁。"
     },
     {
       "sourceId": "sana-economy",
@@ -103,7 +103,7 @@
       "category": "politics",
       "source": "SANA 经济",
       "subcategory": "world",
-      "summary": "叙利亚国防部两名人员在伊德利卜乡村地区遇难身亡。"
+      "summary": "据叙利亚国家通讯社报道，两名叙利亚国防部人员在伊德利卜乡村身亡。"
     },
     {
       "sourceId": "levant24",
@@ -114,7 +114,7 @@
       "category": "politics",
       "source": "Levant24",
       "subcategory": "world",
-      "summary": "约旦空袭致平民死亡，遇难者家属参加葬礼，事件引发外界质疑。约旦与叙利亚已同意就其展开联合调查。"
+      "summary": "约旦空袭造成平民死亡引发质疑，约旦与叙利亚已同意展开联合调查。报道配图为遇难平民的葬礼现场，事件责任与情报依据仍待查明。"
     },
     {
       "sourceId": "levant24",
@@ -125,7 +125,7 @@
       "category": "finance",
       "source": "Levant24",
       "subcategory": "news",
-      "summary": "叙利亚总统艾哈迈德·沙拉在接受伊拉克「底格里斯电视台」首次长篇专访时表示，叙伊两国面临历史性的合作机遇，并提出以经济一体化为核心的设想。该专访于周二晚间播出。"
+      "summary": "叙利亚总统艾哈迈德·沙拉接受伊拉克Dijlah电视台首次长篇专访，提出以经济一体化为核心的设想，并表示叙利亚与伊拉克面临建立伙伴关系的历史性机遇。专访于周二晚间播出。"
     },
     {
       "sourceId": "sana-investment",
@@ -135,7 +135,7 @@
       "category": "finance",
       "source": "SANA 投资",
       "subcategory": "investment",
-      "summary": "叙利亚与世界银行就产权保障和土地登记相关支持展开讨论，涉及产权制度建设与土地登记领域的合作。"
+      "summary": "叙利亚与世界银行就产权保障和土地登记方面的支持进行讨论，相关内容由叙利亚国家通讯社投资频道报道，未披露具体支持金额或时间安排。"
     },
     {
       "sourceId": "sana-en",
@@ -145,7 +145,7 @@
       "category": "politics",
       "source": "SANA 主站",
       "subcategory": "world",
-      "summary": "以色列占领军炮击库奈特拉省赛达乔兰镇外围地区。"
+      "summary": "据叙利亚国家通讯社报道，以色列军队炮击了库奈特拉省赛达贾兰（Saida al-Jolan）郊区。"
     },
     {
       "sourceId": "sana-en",
@@ -155,7 +155,7 @@
       "category": "politics",
       "source": "SANA 主站",
       "subcategory": "world",
-      "summary": "叙利亚与英国就领事事务合作举行会谈，双方讨论相关领域的协作事宜。"
+      "summary": "据叙利亚国家通讯社报道，叙利亚与英国就领事事务领域的合作举行会谈。"
     },
     {
       "sourceId": "sana-en",
@@ -165,7 +165,7 @@
       "category": "politics",
       "source": "SANA 主站",
       "subcategory": "world",
-      "summary": "叙利亚就德拉平民地点遭空袭一事召见约旦驻叙大使，提出交涉。"
+      "summary": "据叙利亚国家通讯社报道，叙利亚就德拉平民地点遭空袭一事召见约旦驻叙大使，提出交涉。"
     },
     {
       "sourceId": "sana-en",
@@ -175,7 +175,7 @@
       "category": "politics",
       "source": "SANA 主站",
       "subcategory": "world",
-      "summary": "叙利亚参加在巴库举行的伊斯兰合作组织反腐败执法机构会议。"
+      "summary": "据叙利亚国家通讯社报道，叙利亚参加在阿塞拜疆巴库举行的伊斯兰合作组织反腐败执法会议。"
     },
     {
       "sourceId": "sana-en",
@@ -185,27 +185,27 @@
       "category": "politics",
       "source": "SANA 主站",
       "subcategory": "world",
-      "summary": "以色列占领军突袭库奈特拉南部一处民宅，并拘留一名平民。"
+      "summary": "据叙利亚国家通讯社报道，以色列军队突袭库奈特拉南部一处住宅，并拘留一名平民。"
     },
     {
       "sourceId": "sana-en",
       "title": "Syria, Cyprus discuss strengthening political and economic ties",
       "url": "https://sana.sy/en/politics/2354263/",
       "publishedAt": "2026-10-28T00:00:00.000Z",
-      "category": "finance",
+      "category": "politics",
       "source": "SANA 主站",
-      "subcategory": "news",
-      "summary": "叙利亚与塞浦路斯就加强双边政治与经济关系举行磋商。"
+      "subcategory": "world",
+      "summary": "据叙利亚国家通讯社报道，叙利亚与塞浦路斯就加强政治与经济领域关系举行讨论。"
     },
     {
       "sourceId": "sana-syria",
       "title": "President al-Sharaa, Iraqi PM discuss border security and trade corridors",
       "url": "https://sana.sy/en/presidency/2354254/",
       "publishedAt": "2026-10-28T00:00:00.000Z",
-      "category": "finance",
+      "category": "politics",
       "source": "SANA 时政",
-      "subcategory": "news",
-      "summary": "叙利亚总统沙拉与伊拉克总理讨论边境安全与贸易走廊议题。"
+      "subcategory": "world",
+      "summary": "据叙利亚国家通讯社报道，叙利亚总统沙拉与伊拉克总理讨论边境安全与贸易走廊问题。"
     },
     {
       "sourceId": "sana-syria",
@@ -215,17 +215,26 @@
       "category": "politics",
       "source": "SANA 时政",
       "subcategory": "world",
-      "summary": "叙利亚与英国举行会谈，讨论加强两国双边关系。"
+      "summary": "据叙利亚国家通讯社报道，叙利亚与英国举行会谈，旨在加强两国双边关系。"
     },
     {
       "sourceId": "sana-syria",
       "title": "President al-Sharaa, PM al-Zaidi discuss security, economic and trade cooperation",
       "url": "https://sana.sy/en/presidency/2354215/",
       "publishedAt": "2026-10-28T00:00:00.000Z",
-      "category": "finance",
+      "category": "politics",
       "source": "SANA 时政",
-      "subcategory": "news",
-      "summary": "叙利亚总统沙拉与伊拉克总理扎伊迪就安全、经济与贸易合作进行讨论。"
+      "subcategory": "world",
+      "summary": "据叙利亚国家通讯社报道，叙利亚总统沙拉与总理扎伊迪讨论安全、经济与贸易领域的合作。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Unstable weather continues across Syria as temperatures drop below average",
+      "url": "https://sana.sy/en/syria/2354210/",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world"
     },
     {
       "sourceId": "sana-syria",
@@ -234,8 +243,7 @@
       "publishedAt": "2026-10-28T00:00:00.000Z",
       "category": "politics",
       "source": "SANA 时政",
-      "subcategory": "world",
-      "summary": "叙利亚总统沙拉在大马士革与伊拉克总理会谈，双方讨论双边关系及地区问题。"
+      "subcategory": "world"
     },
     {
       "sourceId": "sana-syria",
@@ -244,8 +252,7 @@
       "publishedAt": "2026-10-28T00:00:00.000Z",
       "category": "politics",
       "source": "SANA 时政",
-      "subcategory": "world",
-      "summary": "叙利亚各地发生火灾和道路交通事故，造成1人死亡、12人受伤。"
+      "subcategory": "world"
     },
     {
       "sourceId": "sana-syria",
@@ -254,8 +261,7 @@
       "publishedAt": "2026-10-28T00:00:00.000Z",
       "category": "politics",
       "source": "SANA 时政",
-      "subcategory": "world",
-      "summary": "叙利亚总统沙拉在大马士革迎接伊拉克总理，双方举行双边会谈。"
+      "subcategory": "world"
     }
   ]
 }
