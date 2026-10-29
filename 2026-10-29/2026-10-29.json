@@ -1,0 +1,76 @@
+{
+  "hero_headline": "叙利亚与伊拉克推进经济一体化，南部边境局势趋紧",
+  "daily_overview": "叙利亚当日呈现「外联加速、南线紧张」的双轨局面。财经层面，伊拉克总理访问大马士革，双方把经济一体化、边境安全与贸易走廊打包推进；纳西卜口岸恢复通行，世界银行与工发组织分别介入产权登记和工业复苏融资，叙航亦将开通直飞慕尼黑航线。时政层面，约旦对德拉省的空袭造成伤亡，叙方召见大使并启动联合调查；以军在同日炮击并突入库奈特拉。另有分析指大马士革正推动加入「麦加联盟」。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "叙伊推进经济一体化与贸易走廊建设",
+      "url": "https://levant24.com/en/article/sharaa-syria-and-iraq-face-historic-opportunity-for-partnership",
+      "source": "Levant24",
+      "summary": "叙总统沙拉在接受伊拉克电视台采访时提出以经济一体化为核心的双边愿景；伊拉克总理随后访问大马士革，双方讨论边境安全、贸易走廊与经贸合作（多家报道）。",
+      "importance": 8
+    },
+    {
+      "title": "叙约纳西卜口岸恢复车辆通行",
+      "url": "https://sana.sy/en/economic/2354196/",
+      "source": "SANA 经济",
+      "summary": "叙利亚与约旦之间的纳西卜边境口岸恢复通行，该口岸是两国陆路贸易与人员往来的主要通道，此前受南部安全局势影响。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚与世界银行商讨土地登记与产权",
+      "url": "https://sana.sy/en/investment/2354144/",
+      "source": "SANA 投资",
+      "summary": "双方讨论世界银行在产权保障与土地登记领域提供支持的方案，为重建阶段的不动产确权与投资准入建立制度基础。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚与工发组织商讨工业复苏融资",
+      "url": "https://sana.sy/en/economic/2354169/",
+      "source": "SANA 经济",
+      "summary": "双方就工业复苏项目的资金来源磋商，涉及受冲突影响制造业的产能恢复、设备更新与技术支持安排。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚航空将于11月12日直飞慕尼黑",
+      "url": "https://sana.sy/en/economic/2354272/",
+      "source": "SANA 经济",
+      "summary": "叙利亚航空宣布11月12日开通直飞慕尼黑航线，为其逐步恢复欧洲航线网络、承接侨民与商务客流的一步。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "约旦空袭德拉致伤亡，叙方召见约旦大使",
+      "url": "https://sana.sy/en/syria/2354236/",
+      "source": "SANA 主站",
+      "summary": "约旦对德拉省民用目标实施空袭造成人员伤亡，叙方召见约旦驻叙大使并提出抗议，双方同意启动联合调查；约旦国内亦出现要求透明追责的呼声（多家报道）。",
+      "importance": 9
+    },
+    {
+      "title": "叙利亚寻求加入「麦加联盟」",
+      "url": "https://syrianobserver.com/foreign-actors/syria-and-accession-to-the-mecca-alliance-strategic-gains-and-potential-roles.html",
+      "source": "Syrian Observer",
+      "summary": "分析人士称大马士革正认真推动加入该联盟，议题在沙拉与沙特王储会晤中占据重要位置，涉及战略收益与叙方可能承担的角色。",
+      "importance": 7
+    },
+    {
+      "title": "以军炮击库奈特拉并突入民宅拘人",
+      "url": "https://sana.sy/en/syria/2354259/",
+      "source": "SANA 主站",
+      "summary": "以色列军队炮击库奈特拉省赛达贾兰郊区，并在南部地区突入民宅拘押一名平民，叙方媒体对此作出报道。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "南部边境摩擦与对外经济合作同步推进，重建资金与安全安排仍是决定叙利亚走向的两条主线。",
+  "keywords": [
+    "叙利亚",
+    "伊拉克",
+    "约旦",
+    "德拉空袭",
+    "经济一体化",
+    "纳西卜口岸",
+    "世界银行",
+    "麦加联盟"
+  ]
+}
