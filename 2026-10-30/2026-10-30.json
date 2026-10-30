@@ -1,0 +1,75 @@
+{
+  "hero_headline": "叙伊推进能源与安全合作，东部洪灾阻断交通",
+  "daily_overview": "10月29日资讯集中于叙利亚战后重建。在外交与能源层面，伊拉克总理访问叙利亚，双方讨论重启基尔库克—巴尼亚斯输油管道并扩大安全合作；大马士革同时与世界银行、联合国工发组织、阿联酋、荷兰对接融资、产业恢复与医疗基建。时政层面，东部六省突发山洪，桥梁垮塌导致交通与通信中断，救援疏散数百人；约旦空袭德拉后，叙方召见其大使并派团慰问；人权报告指出过渡司法存在问责缺口。当日科技类条目缺失。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "叙伊讨论重启基尔库克—巴尼亚斯输油管道",
+      "url": "https://syrianobserver.com/foreign-actors/damascus-and-baghdad-discuss-reviving-the-kirkuk-baniyas-pipeline-and-expanding-security-cooperation.html",
+      "source": "Syrian Observer",
+      "summary": "伊拉克总理扎伊迪访问大马士革，与叙总统沙拉会谈，双方讨论重启基尔库克—巴尼亚斯输油管道，并称经济纽带是两国关系支柱，同时推进边境管理与反恐合作。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚与世界银行磋商基础设施融资",
+      "url": "https://sana.sy/en/investment/2354412/",
+      "source": "SANA 经济",
+      "summary": "叙方与世界银行就基础设施融资和重建计划交换意见，涉及项目优先顺序与资金渠道安排，具体金额与时间表尚未公布。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚与工发组织讨论工业复苏战略",
+      "url": "https://sana.sy/en/investment/2354409/",
+      "source": "SANA 投资",
+      "summary": "双方就工业复苏战略与统计口径对接进行磋商，内容包括战损产能评估框架与产业统计合作机制，未披露具体项目清单。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚与阿联酋拓展医疗与基建合作",
+      "url": "https://sana.sy/en/syria/2354515/",
+      "source": "SANA 主站",
+      "summary": "双方讨论在医疗卫生服务和基础设施领域扩大合作，涉及医院建设与项目对接，具体协议内容与规模暂未公开。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚与荷兰讨论调整重建融资机制",
+      "url": "https://sana.sy/en/syria/2354536/",
+      "source": "SANA 经济",
+      "summary": "双方就重新设计和改进对叙资金机制进行讨论，聚焦援助渠道与项目落地方式，未公布具体额度。",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙利亚东部六省洪灾致桥梁垮塌交通中断",
+      "url": "https://syrianobserver.com/society/deadly-flash-floods-paralyze-eastern-syria-15-rescued-hundreds-evacuated-across-six-provinces.html",
+      "source": "Syrian Observer",
+      "summary": "阿勒颇、拉卡、代尔祖尔等六省遭遇山洪，救援队完成165次现场处置，救出15人、疏散数百人；代尔祖尔道路与通信中断，拉卡—阿勒颇公路因桥梁垮塌断行。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "约旦空袭德拉后叙方召见其大使并派团",
+      "url": "https://levant24.com/en/article/jordanian-ambassador-summoned-and-delegation-visits-daraa-following-airstrikes",
+      "source": "Levant24",
+      "summary": "约旦对德拉发动空袭后，叙利亚外交部召见约旦驻叙大使，由政府官员与议员组成的代表团赴德拉访问，当地举行悼念活动。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "报告指叙利亚过渡司法存在问责缺口",
+      "url": "https://syrianobserver.com/syrian-actors/rights-report-transitional-justice-in-syria-faces-accountability-gaps-and-excludes-victims-of-islamist-groups.html",
+      "source": "Syrian Observer",
+      "summary": "人权报告称，2025年5月设立的过渡司法委员会虽在12省开展实地咨询，但问责机制仍存缺口，且未涵盖伊斯兰武装团体受害者的诉求。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "当日信源高度集中于叙利亚重建进程，经济外交与灾害应对并行，科技类信息缺位。",
+  "keywords": [
+    "叙利亚重建",
+    "基尔库克—巴尼亚斯管道",
+    "世界银行",
+    "东部洪灾",
+    "约旦空袭",
+    "过渡司法",
+    "外资合作"
+  ]
+}
