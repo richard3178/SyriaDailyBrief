@@ -1,0 +1,62 @@
+{
+  "hero_headline": "约旦空袭叙境内目标 叙财政改革设半年期限",
+  "daily_overview": "本期资讯高度集中于叙利亚及其周边。财经方面，叙沙能源会谈聚焦维持石油供应，叙财政部与国际货币基金组织讨论财政改革并设定六个月期限，同时推进数字纳税以减少现金依赖。时政方面，约旦在教堂袭击后对叙境内目标发动空袭，叙约关系面临德拉考验；安卡拉宣言重申支持叙统一与重建；苏韦达武装派别冲突加剧安全危机。科技领域本期无新增高置信度条目，暂不单列。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "叙沙会谈聚焦能源合作与石油供应",
+      "url": "https://sana.sy/en/economic/2354741/",
+      "source": "SANA 经济",
+      "summary": "叙利亚与沙特举行会谈，重点讨论加强能源领域合作、维持对叙石油供应，具体数量与执行机制未在报道中披露。",
+      "importance": 7
+    },
+    {
+      "title": "叙与国际货币基金组织讨论财政改革",
+      "url": "https://sana.sy/en/economic/2354634/",
+      "source": "SANA 经济",
+      "summary": "叙财政部长与国际货币基金组织代表讨论财政改革，并设定六个月推进期限，涉及预算、税收与支出管理，具体方案仍待公布。",
+      "importance": 8
+    },
+    {
+      "title": "叙扩大数字纳税 降低现金依赖",
+      "url": "https://sana.sy/en/economic/2354649/",
+      "source": "SANA 经济",
+      "summary": "叙政府推动扩大数字纳税支付渠道，以减少对现金的依赖，报道未说明覆盖范围、实施时间表及配套技术方案。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "约旦对叙境内目标发动空袭",
+      "url": "https://syrianobserver.com/youtube/jordan-launches-strikes-in-syria-after-deadly-church-attack.html",
+      "source": "Syrian Observer",
+      "summary": "约旦在叙境内一座教堂遭致命袭击后对叙境内目标发动空袭，叙约关系面临德拉方向考验，相关伤亡与打击范围说法不一。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "安卡拉宣言重申支持叙统一与重建",
+      "url": "https://sana.sy/en/politics/2354753/",
+      "source": "SANA 经济",
+      "summary": "安卡拉宣言重申支持叙利亚统一、稳定与重建，强调政治解决路径，未披露具体资金承诺或执行机制。",
+      "importance": 7
+    },
+    {
+      "title": "苏韦达武装派别冲突加剧安全危机",
+      "url": "https://levant24.com/en/article/armed-faction-rivalries-deepen-security-crisis-in-suwayda",
+      "source": "Levant24",
+      "summary": "苏韦达省国民警卫队相关武装团体间爆发冲突，地方安全危机加深，报道未给出完整伤亡数字，局势仍待核实。",
+      "importance": 8
+    }
+  ],
+  "editor_note": "本期信源以叙利亚官方媒体为主，冲突与安全事件的具体说法宜交叉核实；科技类条目缺失，未强行填充。",
+  "keywords": [
+    "叙利亚",
+    "财政改革",
+    "国际货币基金组织",
+    "能源合作",
+    "约旦空袭",
+    "安卡拉宣言",
+    "苏韦达",
+    "数字纳税"
+  ]
+}
