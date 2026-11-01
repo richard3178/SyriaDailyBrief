@@ -1,0 +1,75 @@
+{
+  "hero_headline": "叙利亚央行赴巴黎磋商重返欧洲银行体系",
+  "daily_overview": "10月31日，叙利亚的经济与外交议程同步推进。金融层面，央行行长在巴黎磋商重返欧洲银行体系，反洗钱机构出席FATF会议，区域金融监管会议在突尼斯举行，重建对外金融通道成为主线。国内经济仍受重建迟滞拖累，大马士革乔巴尔居民抗议投资方案，舆论呼吁从原材料出口转向成品制造。时政方面，外长沙伊巴尼借麦纳麦对话与美、英、德及空客密集会谈，强调叙安全与海湾稳定不可分割；联合国扩大在援助、司法与妇女参与和平建设上的介入。北部山洪致七人死亡。本期候选信源集中于叙利亚，科技类暂无可用条目。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "叙央行行长赴巴黎磋商重返欧洲银行体系",
+      "url": "https://sana.sy/en/economic/2354876/",
+      "source": "SANA 经济",
+      "summary": "叙利亚央行行长在巴黎与欧洲方面讨论重新接入欧洲银行体系的路径，涉及结算与代理行安排，具体时间表尚未公布。",
+      "importance": 8
+    },
+    {
+      "title": "叙反洗钱机构出席巴黎FATF会议",
+      "url": "https://sana.sy/en/economic/2354765/",
+      "source": "SANA 经济",
+      "summary": "叙利亚反洗钱主管部门参加在巴黎举行的金融行动特别工作组会议，议题涉及反洗钱与反恐融资评估方面的合作。",
+      "importance": 7
+    },
+    {
+      "title": "大马士革乔巴尔重建迟滞引发居民抗议",
+      "url": "https://levant24.com/en/article/jobar-reconstruction-dispute-fuels-protests-in-damascus",
+      "source": "Levant24",
+      "summary": "大马士革乔巴尔区居民抗议重建计划长期停滞，并拒绝现有多项投资提案，要求先明确回迁与产权安排。",
+      "importance": 6
+    },
+    {
+      "title": "叙媒：出口回升但需转向成品制造",
+      "url": "https://levant24.com/en/article/why-syria-must-turn-raw-materials-into-finished-products",
+      "source": "Levant24",
+      "summary": "报道指出叙利亚2025年出口额超过20亿美元，但仅凭出口收入难以判断经济是否真正复苏，主张发展本地加工与成品制造。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚参加突尼斯区域金融监管会议",
+      "url": "https://sana.sy/en/economic/2354832/",
+      "source": "SANA 经济",
+      "summary": "叙利亚代表出席在突尼斯举行的区域金融监管会议，议题涉及监管标准对接与跨境金融合作。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙外长在麦纳麦对话期间与多国会谈",
+      "url": "https://sana.sy/en/politics/2354824/",
+      "source": "SANA 时政",
+      "summary": "叙利亚外长沙伊巴尼在麦纳麦对话期间先后会见美国官员、英国中东事务大臣、德国国家安全顾问及空客代表团，并称叙安全与海湾稳定不可分割。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "联合国扩大对叙援助、司法与和平建设参与",
+      "url": "https://levant24.com/en/article/un-expands-syria-engagement-on-aid-justice-and-peace",
+      "source": "Levant24",
+      "summary": "叙方在联合国场合就推动女性参与和平建设与决策的国家行动计划开展磋商，联合国同步扩大在援助与司法领域的介入。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚北部山洪致七人死亡",
+      "url": "https://levant24.com/en/article/flash-floods-kill-seven-and-displace-families-across-syria",
+      "source": "Levant24",
+      "summary": "叙利亚北部突发山洪造成七人死亡、多个家庭流离失所，政府调动资源恢复公共服务并安置受灾社区。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "本期信源高度集中于叙利亚本地媒体，缺少交叉验证，金融与外交进展宜视作方向性信号而非定论。",
+  "keywords": [
+    "叙利亚",
+    "央行",
+    "反洗钱",
+    "麦纳麦对话",
+    "联合国",
+    "经济重建",
+    "洪灾"
+  ]
+}

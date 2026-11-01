@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-01",
+  "articles": [
+    {
+      "sourceId": "sana-economy",
+      "title": "Central Bank governor discusses reconnecting Syria to European banking system in Paris",
+      "url": "https://sana.sy/en/economic/2354876/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news",
+      "summary": "叙利亚央行行长在巴黎讨论如何让叙利亚重新接入欧洲银行体系。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Syria takes part in regional financial oversight conference in Tunisia",
+      "url": "https://sana.sy/en/economic/2354832/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news",
+      "summary": "叙利亚参加在突尼斯举行的地区金融监管会议。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Anti-Money Laundering Authority participates in FATF meeting of Paris",
+      "url": "https://sana.sy/en/economic/2354765/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "finance",
+      "source": "SANA 经济",
+      "subcategory": "news",
+      "summary": "叙利亚反洗钱管理局参加在巴黎举行的反洗钱金融行动特别工作组（FATF）会议。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Al-Shaibani meets Airbus delegation on sidelines of Manama Dialogue 2026",
+      "url": "https://sana.sy/en/politics/2354929/",
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 经济",
+      "subcategory": "world",
+      "summary": "叙利亚外长希巴尼在麦纳麦对话2026会议期间会见空中客车公司代表团，双方就相关合作议题交换意见。"
+    },
+    {
+      "sourceId": "sana-economy",
+      "title": "Syrian, Turkish Health ministers discuss advancing medical projects",
+      "url": "https://sana.sy/en/health/2354907/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 经济",
+      "subcategory": "world",
+      "summary": "叙利亚与土耳其卫生部长举行会谈，讨论推进两国医疗合作项目的落实。"
+    },
+    {
+      "sourceId": "levant24",
+      "title": "Jobar Reconstruction Dispute Fuels Protests in Damascus",
+      "url": "https://levant24.com/en/article/jobar-reconstruction-dispute-fuels-protests-in-damascus",
+      "excerpt": "Jobar, Damascus. (UNDP) Residents of Damascus’ Jobar neighborhood intensified protests over stalled reconstruction plans, rejecting investment proposals they…",
+      "publishedAt": "2026-10-31T14:39:00.000Z",
+      "category": "finance",
+      "source": "Levant24",
+      "subcategory": "investment",
+      "summary": "叙利亚大马士革乔巴尔区居民因重建计划停滞而升级抗议，并拒绝接受相关投资方案。报道未披露抗议规模、方案金额及提出方等具体信息。"
+    },
+    {
+      "sourceId": "levant24",
+      "title": "UN Expands Syria Engagement on Aid, Justice and Peace",
+      "url": "https://levant24.com/en/article/un-expands-syria-engagement-on-aid-justice-and-peace",
+      "excerpt": "Syria is consulting on a national action plan to advance women's participation in peacebuilding and decision-making, Nahla Othman says at a UN Security…",
+      "publishedAt": "2026-10-31T10:10:00.000Z",
+      "category": "politics",
+      "source": "Levant24",
+      "subcategory": "world",
+      "summary": "联合国安理会会议上，纳赫拉·奥斯曼表示叙利亚正就一项国家行动计划进行磋商，以推动女性参与和平建设与决策进程，联合国同时扩大在援助、司法与和平领域的对叙接触。"
+    },
+    {
+      "sourceId": "levant24",
+      "title": "Flash Floods Kill Seven and Displace Families Across Syria",
+      "url": "https://levant24.com/en/article/flash-floods-kill-seven-and-displace-families-across-syria",
+      "excerpt": "Flooding in Syria's north have left seven dead as Syrian government mobilizes to restore services and protects effected communities. (SANA) Flash floods…",
+      "publishedAt": "2026-10-31T09:47:00.000Z",
+      "category": "politics",
+      "source": "Levant24",
+      "subcategory": "world",
+      "summary": "叙利亚北部突发洪水已造成7人死亡，多个家庭流离失所。叙利亚政府动员力量恢复公共服务，并保护受影响社区。"
+    },
+    {
+      "sourceId": "levant24",
+      "title": "Why Syria Must Turn Raw Materials Into Finished Products",
+      "url": "https://levant24.com/en/article/why-syria-must-turn-raw-materials-into-finished-products",
+      "excerpt": "Syria’s exports exceeded $2 billion in 2025, offering a potential sign of recovery. Yet export revenues alone cannot establish whether the economy is regaining…",
+      "publishedAt": "2026-10-31T08:36:00.000Z",
+      "category": "finance",
+      "source": "Levant24",
+      "subcategory": "news",
+      "summary": "叙利亚2025年出口额超过20亿美元，被视为经济复苏的潜在信号；但文章指出，仅凭出口收入无法判断经济是否真正恢复，叙利亚需从出口原材料转向生产制成品以提升附加值。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Syria’s security and Gulf stability are inseparable, says Foreign Minister al-Shaibani",
+      "url": "https://sana.sy/en/politics/2354900/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "叙利亚外长希巴尼表示，叙利亚的安全与海湾地区稳定不可分割，双方在安全议题上利益相连。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Israeli occupation forces detain five civilians in northern Quneitra incursions",
+      "url": "https://sana.sy/en/syria/2354870/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "以色列占领军在叙利亚库奈特拉省北部多次越境进入，扣押5名平民。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Al-Shaibani meets UK minister for Middle East affairs in Bahrain",
+      "url": "https://sana.sy/en/politics/2354861/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "叙利亚外长希巴尼在巴林会见英国中东事务大臣，双方就地区局势与双边关系交换意见。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Syrian foreign minister holds talks with German national security advisor",
+      "url": "https://sana.sy/en/politics/2354850/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "叙利亚外长与德国国家安全顾问举行会谈，讨论共同关心的安全与地区问题。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "3.8-magnitude earthquake recorded on Syria-Iraq border",
+      "url": "https://sana.sy/en/syria/2354845/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "叙利亚与伊拉克边境地区记录到一次3.8级地震，目前暂无人员伤亡和损失报告。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "Al-Shaibani meets Bahrain’s National Security Advisor in Manama",
+      "url": "https://sana.sy/en/politics/2354839/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "叙利亚外长希巴尼在麦纳麦会见巴林国家安全顾问，就双边及地区安全议题进行磋商。"
+    },
+    {
+      "sourceId": "sana-en",
+      "title": "GCC reaffirms support for stability and sovereignty of Syria, Iraq and Lebanon",
+      "url": "https://sana.sy/en/politics/2354898/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 主站",
+      "subcategory": "world",
+      "summary": "海湾合作委员会重申支持叙利亚、伊拉克和黎巴嫩的稳定与主权，强调维护地区安全。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Israeli occupation forces detain civilian during incursion in northern Quneitra",
+      "url": "https://sana.sy/en/syria/2354829/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "以色列占领军在库奈特拉省北部越境行动中扣押一名叙利亚平民。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Al-Shaibani: Syria turned the page on legacy of the deposed regime, Pledges Stability",
+      "url": "https://sana.sy/en/syria/2354800/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "叙利亚外长希巴尼表示，叙利亚已翻过被推翻政权遗留问题的一页，并承诺维护国家稳定。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Al-Shaibani meets U.S. official on Manama Dialogue 2026 sidelines",
+      "url": "https://sana.sy/en/politics/2354824/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "叙利亚外长希巴尼在麦纳麦对话2026会议期间会见一名美国官员，双方就相关议题交换意见。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Syrian-British talks on cooperation in early recovery and sustainable development",
+      "url": "https://sana.sy/en/syria/2354811/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world",
+      "summary": "叙利亚与英国举行会谈，讨论在早期恢复与可持续发展领域开展合作。"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "16 people injured in road accidents and fires across Syria in past 24 hours",
+      "url": "https://sana.sy/en/syria/2354805/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world"
+    },
+    {
+      "sourceId": "sana-syria",
+      "title": "Israeli occupation force advances into Wadi al-Raqad in western Daraa countryside",
+      "url": "https://sana.sy/en/syria/2354785/",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "politics",
+      "source": "SANA 时政",
+      "subcategory": "world"
+    }
+  ]
+}
