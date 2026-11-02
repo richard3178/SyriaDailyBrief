@@ -1,0 +1,68 @@
+{
+  "hero_headline": "叙利亚推进金融改革与区域外交，南部安全局势趋紧",
+  "daily_overview": "今日候选资讯集中于叙利亚的重建与对外关系修复。财经层面，叙反洗钱与反恐融资机构推进改革以退出 FATF 灰名单，并重申遵守国际标准；当局同步启动商业注册数字化以简化投资手续，大马士革至吉达定期航线开通，显示对外联通正在恢复。政治层面，以色列在叙南部的军事渗透持续，外长在麦纳麦对话上表态参与地区安全合作，大马士革同时探索加入「麦加协定」并与约旦推进争端化解。科技领域本日无高价值条目，暂付空缺，简报以财经与地缘政治为主线。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "叙推进反洗钱改革，争取退出 FATF 灰名单",
+      "url": "https://levant24.com/en/article/syria-advances-reforms-to-exit-fatf-gray-list",
+      "source": "Levant24",
+      "summary": "叙利亚反洗钱与反恐融资机构表示正推进合规改革，以争取退出金融行动特别工作组灰名单，并在金融体系评估前重申遵守国际标准。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙启动商业注册数字化，简化投资者手续",
+      "url": "https://sana.sy/en/economic/2355201/",
+      "source": "SANA 经济",
+      "summary": "叙利亚启动企业商业注册电子化项目，旨在压缩审批环节、统一登记流程，降低外资与本地投资者面临的行政成本。",
+      "importance": 7
+    },
+    {
+      "title": "Fly Cham 开通大马士革至吉达定期航班",
+      "url": "https://sana.sy/en/syria/2355173/",
+      "source": "SANA 经济",
+      "summary": "叙利亚 Fly Cham 航空开通大马士革至沙特吉达的定期航班，为两地人员往来、朝觐与商务出行增加通道。",
+      "importance": 5
+    },
+    {
+      "title": "叙经济界回应投资环境「几乎不可能」论断",
+      "url": "https://syrianobserver.com/society/barracks-warning-on-syrian-investment-economic-reality-or-political-messaging.html",
+      "source": "Syrian Observer",
+      "summary": "针对 Barrack 称对叙投资「几乎不可能」的说法，叙经济研究者认为不应将其视为确定的市场评估，需结合改革进展与政治语境判断。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "以色列在叙南部军事渗透持续，记者记录影响",
+      "url": "https://levant24.com/en/article/israeli-incursions-intensify-across-southern-syria",
+      "source": "Levant24",
+      "summary": "10 月以来以色列军队在库奈特拉等叙南部省份的越境行动持续；西班牙记者赴当地记录相关行动对居民与设施的影响。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "大马士革探索加入「麦加协定」并接触约旦",
+      "url": "https://syrianobserver.com/syrian-actors/damascus-explores-joining-the-mecca-pact-and-moves-to-resolve-disputes-with-jordan.html",
+      "source": "Syrian Observer",
+      "summary": "叙方表示正研究加入「麦加协定」的可能性，同时与约旦就争端化解展开接触；外长希巴尼呼吁以色列将叙利亚视为稳定的主权国家。",
+      "importance": 7
+    },
+    {
+      "title": "叙外长在麦纳麦对话表态参与地区安全合作",
+      "url": "https://levant24.com/en/article/shaibani-at-manama-dialogue-syria-joins-regional-security-efforts",
+      "source": "Levant24",
+      "summary": "叙利亚外长阿萨德·希巴尼在麦纳麦对话上表示，真正的地区安全取决于各国能否保护本国人民、尊重主权并保持协作。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "本日信源高度集中于叙利亚，样本单一，宜与区域其他媒体交叉核验；投资开放信号与南部安全风险并存，需区分官方表态与市场实际进展。",
+  "keywords": [
+    "叙利亚",
+    "FATF灰名单",
+    "商业注册数字化",
+    "麦加协定",
+    "以色列渗透",
+    "麦纳麦对话",
+    "区域安全"
+  ]
+}
