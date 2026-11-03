@@ -1,0 +1,83 @@
+{
+  "hero_headline": "叙利亚推进公司注册数字化与大马士革投资展会",
+  "daily_overview": "11月2日，叙利亚在政务、经济与安全三条线上同步推进。在技术治理方面，公司注册流程启动全流程数字化，央行在停办两年后重启培训中心，并将其定位为区域银行学院；欧洲遥感制图显示全国土壤湿度整体偏高，山洪风险随之上升。经济方面，Project Syria 2026 展会在大马士革开幕，150家企业参展；伊拉克简化签证手续，便利叙利亚商人往来；沙特大使与叙利亚部长对接投资与联合项目。时政方面，叙利亚与黎巴嫩围绕边境安全、难民返乡与劳务组织继续磋商；反毒部门10月开展157次行动；应急部门承认近期洪灾应对存在缺口。",
+  "tech_briefs": [
+    {
+      "title": "叙利亚推动公司注册流程全面数字化",
+      "url": "https://sana.sy/en/syria/2355241/",
+      "source": "SANA 经济",
+      "summary": "叙利亚官员海卡尔表示，将把公司注册各环节迁移至线上系统，作为数字化转型的一部分，意在压缩审批链条、降低企业设立成本，并提升注册信息可追溯性。",
+      "importance": 6
+    },
+    {
+      "title": "遥感制图显示叙利亚土壤湿度升高、山洪风险抬头",
+      "url": "https://syrianobserver.com/society/european-maps-show-rising-soil-moisture-across-syria-heightening-flash-flood-concerns.html",
+      "source": "Syrian Observer",
+      "summary": "基于11月1日数据的欧洲卫星遥感制图显示，叙利亚各省土壤湿度差异明显且整体偏高，主管部门据此提示低洼地区警惕山洪，为预警提供数据支撑。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚央行重启培训中心，升级为区域银行学院",
+      "url": "https://sana.sy/en/economic/2355355/",
+      "source": "SANA 经济",
+      "summary": "停办两年后，叙利亚央行重新开放银行业培训中心，并将其定位为面向地区的银行人才培养机构，课程覆盖现代银行实务，为金融业重建补充人力。（多家报道）",
+      "importance": 5
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "Project Syria 2026 展会在大马士革开幕，150家企业参展",
+      "url": "https://sana.sy/en/economic/2355491/",
+      "source": "SANA 经济",
+      "summary": "Project Syria 2026 展会在大马士革启动，约150家本地与外资企业参展，展区聚焦工业、建材与消费类产品，主办方希望借此对接重建阶段采购需求。",
+      "importance": 6
+    },
+    {
+      "title": "伊拉克简化签证手续，便利叙利亚商人往来",
+      "url": "https://sana.sy/en/syria/2355399/",
+      "source": "SANA 主站",
+      "summary": "伊拉克方面简化对叙利亚商人的签证办理程序，缩短审批时间、减少所需材料，叙方认为这将降低跨境贸易的时间成本，带动双边货物与人员流动。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚部长与沙特大使商讨投资机会与联合项目",
+      "url": "https://sana.sy/en/economic/2355376/",
+      "source": "SANA 经济",
+      "summary": "叙利亚一名部长与沙特驻叙大使会谈，梳理可对接的投资领域与联合项目清单，涉及产业合作与资金进入渠道，双方同意继续就具体方案保持沟通。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙利亚与黎巴嫩在大马士革磋商边境安全与人员返乡",
+      "url": "https://sana.sy/en/politics/2355459/",
+      "source": "SANA 主站",
+      "summary": "叙黎官员在大马士革举行会谈，议题包括边境安全协作、叙利亚 displaced 人员返乡安排以及叙利亚劳工在黎巴嫩的用工组织方式，双方同意继续技术层面对接。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚反毒部门10月开展157次行动",
+      "url": "https://levant24.com/en/article/syria-conducts-over-150-operations-on-drug-trafficking-networks",
+      "source": "Levant24",
+      "summary": "叙利亚反毒总局通报，10月针对贩毒网络开展157次安全行动，行动数量较此前上升，查获物品与涉案人员情况由该局统一发布。",
+      "importance": 6
+    },
+    {
+      "title": "应急部长承认近期洪灾应对存在缺口",
+      "url": "https://sana.sy/en/syria/2355387/",
+      "source": "SANA 时政",
+      "summary": "叙利亚应急事务部长在评估近期洪灾处置时表示，预警传递与救援调度环节存在不足，将梳理薄弱点并调整应急流程，同时与驻叙外交使团讨论灾害管理能力建设。",
+      "importance": 5
+    }
+  ],
+  "editor_note": "当日信息多来自叙利亚官方通讯社，重建与投资议题密集，但项目落地节奏与资金到位情况仍待后续数据验证。",
+  "keywords": [
+    "叙利亚重建",
+    "公司注册数字化",
+    "区域银行学院",
+    "投资展会",
+    "叙黎关系",
+    "反毒行动",
+    "山洪风险"
+  ]
+}
