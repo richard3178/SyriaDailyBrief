@@ -1,0 +1,98 @@
+{
+  "hero_headline": "叙利亚重建提速：中叙论坛、金融接轨与安全警戒并行",
+  "daily_overview": "今日叙利亚信息集中在战后重建的三条主线。科技方面，公司注册与不动产登记的数字化项目相继启动，叙德高校科研合作同步推进。财经方面，大马士革举办叙中经济发展论坛，叙央行赴巴黎洽谈重返欧洲银行体系，并寻求与IMF、世界银行阿拉伯集团及沙特工业城项目接轨。时政方面，叙方称挫败针对霍姆斯炼油厂的袭击图谋，伊拉克代表团来访聚焦油气管道与边境安全，叙南部10月记录近400起以色列违约。重建推进与安全压力并行，仍是当前主线。",
+  "tech_briefs": [
+    {
+      "title": "叙启动六个月公司注册数字化项目",
+      "url": "https://sana.sy/en/economic/2355571/",
+      "source": "SANA 经济",
+      "summary": "叙利亚启动为期六个月的公司注册数字化项目，获美方支持，旨在减少审批环节、改善营商环境以吸引投资。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙签署美资资助不动产登记数字化备忘录",
+      "url": "https://levant24.com/en/article/syria-signs-us-funded-deal-to-digitize-property-records",
+      "source": "Levant24",
+      "summary": "叙地方政府与环境部与 Creative Associates International 签署谅解备忘录，由美方出资推动不动产登记记录数字化，以厘清产权、支撑重建与投资。",
+      "importance": 6
+    },
+    {
+      "title": "叙德探讨高校伙伴与科研合作",
+      "url": "https://sana.sy/en/education/2355822/",
+      "source": "SANA 主站",
+      "summary": "叙利亚与德国官员在洪堡大学相关活动上讨论学术合作，双方另就高校伙伴关系与科学研究签署方向交换意见。（多家报道）",
+      "importance": 4
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "大马士革举办叙中经济论坛 聚焦投资合作",
+      "url": "https://syrianobserver.com/society/syria-seeks-strategic-partnerships-with-china-and-a-private-sector-led-economy.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚-中国经济发展论坛在大马士革举行，沙拉总统会见中国商界代表团，双方讨论投资机会与私营部门主导的经济合作路径。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙央行赴巴黎洽谈重返欧洲银行体系",
+      "url": "https://syrianobserver.com/society/central-bank-governor-discusses-reconnecting-syria-to-the-european-banking-system-in-paris.html",
+      "source": "Syrian Observer",
+      "summary": "叙央行行长拉斯兰在巴黎讨论叙重返欧洲银行体系，强调建设透明、合规的金融体系；同期叙方与IFC磋商私人投资与金融部门改革。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙财长称重返IMF与世行阿拉伯集团有助复苏",
+      "url": "https://sana.sy/en/economic/2355739/",
+      "source": "SANA 经济",
+      "summary": "叙财政部长表示，叙利亚重返国际货币基金组织与世界银行的阿拉伯集团，将为恢复经济、争取外部融资与技术支持提供渠道。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚与沙特磋商工业城及农产品出口合作",
+      "url": "https://sana.sy/en/economic/2355782/",
+      "source": "SANA 经济",
+      "summary": "叙沙双方讨论发展工业城的谅解备忘录草案；叙农业部与叙沙商务理事会同时就扩大农产品出口进行磋商。（多家报道）",
+      "importance": 6
+    },
+    {
+      "title": "叙加强黄金市场监管并警示交易欺诈",
+      "url": "https://sana.sy/en/economic/2355720/",
+      "source": "SANA 经济",
+      "summary": "叙利亚警告黄金交易欺诈并收紧市场监管；同期随国际金价回落1%，叙国内金价出现下跌。（多家报道）",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙称挫败霍姆斯炼油厂袭击图谋",
+      "url": "https://syrianobserver.com/security/syria-foils-plot-targeting-homs-refinery-accuses-hezbollah.html",
+      "source": "Syrian Observer",
+      "summary": "叙内安全部队称挫败一起针对霍姆斯炼油厂的爆炸图谋，指认涉案团伙与黎巴嫩真主党有关联；安全部门同期宣布破获一个ISIS小组。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "伊拉克代表团访叙 油气与边境安全受关注",
+      "url": "https://syrianobserver.com/foreign-actors/oil-pipelines-and-border-fire-zaidis-visit-tests-the-iraqi-syrian-partnership.html",
+      "source": "Syrian Observer",
+      "summary": "沙拉在大马士革国际机场接待伊拉克外长扎伊迪一行，访问议题涉及油气管线合作与边境交火，被视为对两国伙伴关系的检验。",
+      "importance": 7
+    },
+    {
+      "title": "叙南部10月记录近400起以色列违约",
+      "url": "https://levant24.com/en/article/nearly-400-israeli-violations-in-southern-syria-in-october",
+      "source": "Levant24",
+      "summary": "监测显示，以色列军方在叙南部活动升至2026年单月最高水平，10月记录近400起违约行为，集中在库奈特拉一带。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "多条消息源自叙官方通讯社，重建叙事偏积极；安全事件与外部违约仍频，读者宜留意项目落地进度与数据核实。",
+  "keywords": [
+    "叙利亚",
+    "经济重建",
+    "中叙经济论坛",
+    "银行体系接轨",
+    "公司注册数字化",
+    "霍姆斯炼油厂",
+    "以色列违约",
+    "沙特合作"
+  ]
+}
