@@ -1,0 +1,98 @@
+{
+  "hero_headline": "叙利亚与沙特深化合作，重建融资逾4亿美元",
+  "daily_overview": "当日资讯高度集中于叙利亚：政治上，沙拉阿一个月内二度访问利雅得会见王储本·萨勒曼，双方签署多项双边协议并公布峰会成果；叙国内霍姆斯挫败针对炼油设施的袭击图谋，塔尔卡拉赫的教派和解仍显脆弱。财经方面，沙特提供逾4.03亿美元优惠融资，十项协议覆盖基建与卫生，大马士革举办首届重建展「叙利亚项目2026」，国际金融公司洽谈能源投资，但柑橘、石榴等农产品丰产却遭遇成本与外销压力。科技与产业侧以对外科研合作、能源开发融资和拉塔基亚金属木材厂复产为主，未出现独立的重大技术突破型新闻。（多家报道）",
+  "tech_briefs": [
+    {
+      "title": "叙利亚与德国推进科研学术合作",
+      "url": "https://sana.sy/en/syria/2356098/",
+      "source": "SANA 主站",
+      "summary": "叙德双方就高校结对、科研人员交流与联合资助机制举行会谈，试图以教育与科研合作弥补战后人才与实验室设备缺口，具体项目清单尚未公布。",
+      "importance": 5
+    },
+    {
+      "title": "能源部与国际金融公司谈电力投资",
+      "url": "https://sana.sy/en/economic/2356002/",
+      "source": "SANA 经济",
+      "summary": "叙利亚能源部长会见国际金融公司代表团，讨论发电、输配电与可再生能源项目的准入条件与融资安排。此类多边机构介入通常意味着项目需先建立透明的电价与结算机制。",
+      "importance": 6
+    },
+    {
+      "title": "拉塔基亚金属与木材厂复产",
+      "url": "https://sana.sy/en/economic/2356023/",
+      "source": "SANA 经济",
+      "summary": "经设备修复后，拉塔基亚的金属加工与木材加工厂重新投产，官方称将优先供应重建所需的建材与家具，并召回原有技术工人恢复本地就业。",
+      "importance": 5
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "沙特向叙利亚提供逾4亿美元优惠融资",
+      "url": "https://levant24.com/en/article/4036-million-in-saudi-financing-targets-syrias-reconstruction",
+      "source": "Levant24",
+      "summary": "沙特与叙利亚签署10项协议与谅解备忘录，覆盖基础设施、卫生等领域，配套逾4.03亿美元优惠贷款；叙财政部同期签署六笔同类贷款协议。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "首届叙利亚重建国际展在大马士革开幕",
+      "url": "https://levant24.com/en/article/project-syria-2026-draws-international-reconstruction-investors",
+      "source": "Levant24",
+      "summary": "「叙利亚项目2026」是首个专门面向叙重建与基础设施的国际展会，本周一在大马士革开幕，多国建筑、能源与物流企业到场洽谈，被视为投资意向的试探性窗口。",
+      "importance": 7
+    },
+    {
+      "title": "分析称外交突破尚待转化为经济复苏",
+      "url": "https://syrianobserver.com/syrian-actors/can-syria-turn-diplomatic-breakthroughs-into-economic-recovery.html",
+      "source": "Syrian Observer",
+      "summary": "文章指出，大马士革恢复关键国际关系后为投资与融资创造了入口，但资金能否落地仍取决于制裁解除进度、汇率稳定与项目执行能力。",
+      "importance": 6
+    },
+    {
+      "title": "柑橘石榴丰产但农户面临成本与销售压力",
+      "url": "https://sana.sy/en/economic/2355881/",
+      "source": "SANA 经济",
+      "summary": "沿海地区柑橘丰产、塔尔图斯石榴产量上升，但化肥、燃料与运输成本走高，外销渠道不畅，收购价格承压，农户收益改善有限。（多家报道）",
+      "importance": 5
+    },
+    {
+      "title": "高金价压制黄金消费需求",
+      "url": "https://sana.sy/en/economic/2355594/",
+      "source": "SANA 经济",
+      "summary": "金价维持高位，首饰类与投资性实物金需求同步走弱，市场人士预计消费端短期内难有明显回升，交易更多转向小额与回购业务。",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "沙拉阿一月内二度访沙特并签署协议",
+      "url": "https://syrianobserver.com/foreign-actors/for-the-second-time-in-a-month-sharaa-meets-bin-salman-in-riyadh-to-advance-bilateral-cooperation",
+      "source": "Syrian Observer",
+      "summary": "叙总统沙拉阿在利雅得会见王储本·萨勒曼，两国多名部长与高级官员出席，双方共同见证双边协议签署，叙方随后公布峰会成果。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "霍姆斯炼油厂袭击图谋被挫败",
+      "url": "https://levant24.com/en/article/syria-arrests-alleged-hezbollah-members-in-homs-refinery-plot",
+      "source": "Levant24",
+      "summary": "叙情报总局与内部安全部队合作逮捕数名被指与真主党有关联的嫌疑人，缴获爆炸物与装备，指其计划袭击霍姆斯炼油设施，案件仍在调查中。",
+      "importance": 8
+    },
+    {
+      "title": "土耳其驻叙军事基地去向受关注",
+      "url": "https://syrianobserver.com/foreign-actors/what-will-become-of-turkeys-military-bases-and-observation-posts-in-syria.html",
+      "source": "Syrian Observer",
+      "summary": "调查报道称在阿勒颇、伊德利卜、哈马与拉塔基亚乡村共识别出37处土耳其军事基地与观察点，其撤留与整编安排成为叙土谈判的敏感议题。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "叙利亚的重建叙事正从外交场面转入融资与项目落地，但资金规模仍远低于需求；安全事件与教派和解进度将决定投资能否持续。",
+  "keywords": [
+    "叙利亚重建",
+    "沙特融资",
+    "沙拉阿",
+    "霍姆斯袭击",
+    "国际金融公司",
+    "土耳其军事基地",
+    "拉塔基亚工业",
+    "黄金需求"
+  ]
+}
