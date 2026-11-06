@@ -1,0 +1,98 @@
+{
+  "hero_headline": "叙利亚与沙特、土耳其、欧盟密集推进经贸对接",
+  "daily_overview": "当日资讯集中于叙利亚重建进程。财经方面，大马士革与利雅得签署工业合作文件，并与欧盟商讨发展与银行业合作、与土耳其工商界密集对接；10月货运量逾220万吨，金价随国际行情上行。科技与科研层面，叙德推进学术科研合作，叙土联合实地勘测活动断层，帕尔米拉绿洲修复聚焦200公顷灌溉。时政方面，联合国呼吁改革国籍法中的歧视条款，塞浦路斯启动遣返叙利亚人，超4000户流离失所家庭返回拉斯艾因。对外关系修复与内部民生修复同步推进，但制度性改革与难民保护仍存在张力。",
+  "tech_briefs": [
+    {
+      "title": "叙土联合勘测更新活动断层图",
+      "url": "https://sana.sy/en/syria/2356381/",
+      "source": "SANA 主站",
+      "summary": "叙利亚与土耳其团队开展野外地质调查，复核并更新活动断层分布图，用于地震危险性评估与建筑抗震设防；相关区域近年多次发生强震。",
+      "importance": 6
+    },
+    {
+      "title": "叙德商讨扩大学术与科研合作",
+      "url": "https://sana.sy/en/syria/2356138/",
+      "source": "SANA 时政",
+      "summary": "叙利亚与德国代表就高校交流、联合研究与奖学金机制举行会谈，讨论为在德叙利亚学生与学者提供便利，并推动两国科研机构对接。",
+      "importance": 4
+    },
+    {
+      "title": "帕尔米拉绿洲修复瞄准200公顷灌溉",
+      "url": "https://sana.sy/en/syria/2356178/",
+      "source": "SANA 时政",
+      "summary": "该修复项目以恢复帕尔米拉绿洲灌溉系统为目标，覆盖约200公顷农地，涉及水源、渠系与本地农户用水安排，兼顾文化遗产与农业生产。",
+      "importance": 4
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "叙利亚与沙特签署工业合作文件",
+      "url": "https://sana.sy/en/economic/2356237/",
+      "source": "SANA 经济",
+      "summary": "叙利亚与沙特签署工业领域合作文件，涉及产能、投资与项目对接；双方同期还就以发展项目扩大合作举行会谈。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚与欧盟商讨银行业与发展合作",
+      "url": "https://sana.sy/en/politics/2356371/",
+      "source": "SANA 主站",
+      "summary": "双方就发展项目融资、银行监管与结算渠道等议题交换意见，叙方寻求恢复金融往来并争取外部资金支持。",
+      "importance": 7
+    },
+    {
+      "title": "叙土就扩大贸易与投资举行磋商",
+      "url": "https://sana.sy/en/economic/2356220/",
+      "source": "SANA 经济",
+      "summary": "叙利亚与土耳其讨论提升双边贸易额与投资便利化；叙财政部长、工业部与边境管理部门也分别会见了土叙工商理事会代表团。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚10月货运量超220万吨",
+      "url": "https://sana.sy/en/syria/2356251/",
+      "source": "SANA 主站",
+      "summary": "官方统计显示，10月经叙境内运输的货物逾220万吨，反映口岸与公路物流逐步恢复，报道未详列具体统计方式。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚金价随国际行情上行",
+      "url": "https://sana.sy/en/economic/2356278/",
+      "source": "SANA 经济",
+      "summary": "受全球金价持续上涨带动，叙本地市场黄金报价走高，民众与商户对保值资产的需求有所增加。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "联合国促叙改革歧视性国籍法",
+      "url": "https://levant24.com/en/article/un-urges-syria-to-reform-discriminatory-nationality-laws",
+      "source": "Levant24",
+      "summary": "联合国一委员会呼吁叙当局修订国籍与民事法律中的歧视条款，指其影响妇女与子女取得国籍及财产继承等权利。",
+      "importance": 7
+    },
+    {
+      "title": "塞浦路斯启动对叙利亚人遣返",
+      "url": "https://levant24.com/en/article/refugee-returns-accelerate-as-cyprus-begins-deportations",
+      "source": "Levant24",
+      "summary": "有报道称塞浦路斯已开始遣返庇护申请被拒的叙利亚人，返乡人数随之上升，相关程序的合法性与安全保障受到关注。",
+      "importance": 7
+    },
+    {
+      "title": "逾4000户流离家庭返回拉斯艾因",
+      "url": "https://sana.sy/en/syria/2356224/",
+      "source": "SANA 时政",
+      "summary": "叙官方称，在自愿返乡计划下已有超过4000户流离失所家庭回到拉斯艾因地区，当地住房、水电与治安条件仍待恢复。",
+      "importance": 5
+    }
+  ],
+  "editor_note": "候选信源高度单一，多为叙官方通稿；经贸数据与外交表述宜与第三方信息交叉核对。",
+  "keywords": [
+    "叙利亚重建",
+    "叙沙合作",
+    "叙土经贸",
+    "欧盟银行业合作",
+    "难民遣返",
+    "国籍法改革",
+    "活动断层测绘",
+    "黄金价格"
+  ]
+}
