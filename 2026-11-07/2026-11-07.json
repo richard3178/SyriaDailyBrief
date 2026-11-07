@@ -1,0 +1,83 @@
+{
+  "hero_headline": "叙利亚重建提速：外资入场与安全整合并行",
+  "daily_overview": "11 月 6 日，叙利亚相关消息集中在重建与安全两条主线。技术方面，通信部宣布将搭建支持科技初创企业的综合框架，政府同期表彰创业者，为商业部门复元造势，Project Syria 2026 也吸引国际企业赴会。财经方面，沙特以优惠贷款形式向六个项目注入 4.03 亿美元，大马士革向中国投资者推介自贸区；民调显示失业、贫困与服务价格上涨仍是民众最关切。时政方面，以色列在南部靠近水源地带扩大存在，叙政府与 SDF 的整合在教育与安全议题上出现新摩擦，安全部队在阿勒颇拆除一个疑似 ISIS 小组。",
+  "tech_briefs": [
+    {
+      "title": "叙通信部筹建支持科技初创的综合框架",
+      "url": "https://sana.sy/en/syria/2356623/",
+      "source": "SANA 经济",
+      "summary": "叙利亚通信部长表示，正在构建一体化框架以支持科技初创企业，涉及政策与配套服务，具体措施与时间表尚未披露。",
+      "importance": 6
+    },
+    {
+      "title": "叙表彰初创企业与创业者以重振商业部门",
+      "url": "https://sana.sy/en/economic/2356439/",
+      "source": "SANA 经济",
+      "summary": "叙利亚对初创企业和创业者进行表彰，官方称此举意在推动商业部门复苏，与通信部支持科技初创的框架同日发布。",
+      "importance": 5
+    },
+    {
+      "title": "Project Syria 2026 吸引国际企业参与",
+      "url": "https://sana.sy/en/economic/2356394/",
+      "source": "SANA 经济",
+      "summary": "Project Syria 2026 活动吸引国际企业参加，叙方将其作为争取外资的窗口，具体参会企业与签约项目细节尚未公布。",
+      "importance": 5
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "沙特向叙六个项目提供 4.03 亿美元优惠贷款",
+      "url": "https://syrianobserver.com/society/saudi-arabia-injects-usd-403-million-into-syrian-projects-why-are-the-loans-concessional.html",
+      "source": "Syrian Observer",
+      "summary": "沙特向叙利亚六个主要项目注入 4.03 亿美元资金，以优惠贷款形式提供，报道同时解释了贷款条件为何偏向让利。",
+      "importance": 7
+    },
+    {
+      "title": "叙向中国投资者推介自贸区以配合重建",
+      "url": "https://sana.sy/en/investment/2356456/",
+      "source": "SANA 投资",
+      "summary": "叙利亚在重建推进中寻求中国对自贸区的投资，官方渠道发布了相关招商信息，具体项目与投资规模未披露。",
+      "importance": 6
+    },
+    {
+      "title": "调查显示失业、贫困与物价为叙民众首要关切",
+      "url": "https://syrianobserver.com/society/unemployment-poverty-and-rising-prices-syrians-top-concerns-in-a-new-survey.html",
+      "source": "Syrian Observer",
+      "summary": "一项新调查显示，失业、贫困、服务成本上升与价格管控是叙利亚民众列出的主要问题，数据引自 Shaam 的报道。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "以色列在叙南部靠近水源地扩大存在",
+      "url": "https://syrianobserver.com/foreign-actors/israel-expands-footprints-in-south-near-water-sources.html",
+      "source": "Syrian Observer",
+      "summary": "报道称以色列在叙利亚南部邻近水源的区域扩大布局，水资源正被纳入地区影响力的计算之中。",
+      "importance": 7
+    },
+    {
+      "title": "叙政府与 SDF 整合在教育与安全上现新摩擦",
+      "url": "https://levant24.com/en/article/sdf-integration-faces-new-strains-over-education-and-security",
+      "source": "Levant24",
+      "summary": "哈塞克学生示威要求增加库尔德语课时，叙利亚政府与叙利亚民主力量在教育与安全安排上的整合出现新的紧张。",
+      "importance": 6
+    },
+    {
+      "title": "叙安全部队在阿勒颇拆除涉 ISIS 小组",
+      "url": "https://levant24.com/en/article/syria-disrupts-isis-operations-amidst-ongoing-security-challenges",
+      "source": "Levant24",
+      "summary": "叙利亚安全部队在阿勒颇捣毁一个疑似 ISIS 小组，该小组被指与多起袭击和暗杀有关，行动细节未完全公开。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "本期以叙利亚重建进程为主线，外资流入与安全整合互为条件；部分条目细节有限，仍有待官方披露核验。",
+  "keywords": [
+    "叙利亚重建",
+    "科技初创",
+    "沙特贷款",
+    "自贸区投资",
+    "SDF 整合",
+    "反恐行动",
+    "外资流入"
+  ]
+}
