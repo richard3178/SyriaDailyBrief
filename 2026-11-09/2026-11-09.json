@@ -1,0 +1,97 @@
+{
+  "hero_headline": "叙利亚多线外交推进，境内通报两例脊灰病例",
+  "daily_overview": "11月8日的叙利亚消息面呈现「重建驱动」特征：技术上，大马士革与中国企业签下650万只预付费电表合同，电商在欺诈与基础设施短板中扩张，干旱与气候变化则威胁2.18亿棵果树；财经层面，叙捷商务论坛在大马士革开幕、央行赴德参加投资会议、金价单日跳涨，官方正以展会和外资渠道修补经济；时政上，叙沙军事合作与「不向也门派兵」的表态同步释出，法叙拟共同监管阿萨德资产，代尔祖尔通报两例脊灰病例并启动应急响应。多条消息仍由单一信源发布，需后续交叉验证。",
+  "tech_briefs": [
+    {
+      "title": "叙利亚签约中企采购650万只预付费电表",
+      "url": "https://sana.sy/en/economic/2357054/",
+      "source": "SANA 经济",
+      "summary": "叙方与中国企业签署协议，采购650万只预付费电表，用于替换老旧机械表、抑制窃电与欠费，被视为电力系统恢复计量与收费能力的基础工程。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚电商扩张，欺诈与基础设施成短板",
+      "url": "https://sana.sy/en/economic/2357053/",
+      "source": "SANA 经济",
+      "summary": "报道称叙利亚电子商务规模持续增长，但网络欺诈风险高、支付与物流基础设施薄弱、消费者保护机制缺位，仍是行业扩张的主要瓶颈。",
+      "importance": 5
+    },
+    {
+      "title": "干旱与气候变化威胁叙利亚2.18亿棵果树",
+      "url": "https://sana.sy/en/economic/2357077/",
+      "source": "SANA 经济",
+      "summary": "叙境内约2.18亿棵果树受降水减少与气温升高影响，灌溉成本上升、产量与农户收入承压；报道未给出具体减产幅度数据。",
+      "importance": 5
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "叙利亚-捷克商务论坛在大马士革开幕",
+      "url": "https://sana.sy/en/economic/2357172/",
+      "source": "SANA 经济",
+      "summary": "叙捷商务论坛在大马士革举行，双方企业就贸易、投资与设备供应对接，叙方希望借此引入重建所需的外部资本与技术。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚央行赴德国参加投资会议",
+      "url": "https://sana.sy/en/economic/2357135/",
+      "source": "SANA 经济",
+      "summary": "叙利亚央行代表团在德国出席投资会议，就金融往来、重建项目融资与外部投资渠道进行接触，具体成果尚未披露。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚21K金价单日上涨150叙镑",
+      "url": "https://sana.sy/en/economic/2357105/",
+      "source": "SANA 经济",
+      "summary": "叙利亚黄金市场21K金价单日上涨150叙镑，报道将其归因于本地需求与汇率波动，未提供更长期的价格走势数据。",
+      "importance": 4
+    },
+    {
+      "title": "大马士革展会汇集50家叙本土企业",
+      "url": "https://sana.sy/en/economic/2357005/",
+      "source": "SANA 经济",
+      "summary": "大马士革举办消费品展会，约50家叙利亚本土企业参展，主办方称旨在缩短生产商与消费者之间的距离、提振本地销售。",
+      "importance": 4
+    },
+    {
+      "title": "叙伊加强安全合作并拓展贸易能源通道",
+      "url": "https://sana.sy/en/economic/2357170/",
+      "source": "SANA 经济",
+      "summary": "叙利亚与伊拉克商定提升安全协作水平，并借此为双边贸易与能源运输打开空间，涉及边境口岸与过境通道的协调安排。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙沙扩大军事合作，大马士革否认向也门派兵",
+      "url": "https://syrianobserver.com/foreign-actors/damascus-outlines-military-cooperation-with-saudi-arabia-and-denies-troop-deployment-to-yemen.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚与沙特在叙总统沙拉阿访问利雅得期间签署的防务安排下扩大军事合作，重点为经验交流以支持叙军重组；大马士革否认有关向也门派兵的说法。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "法叙拟共同监管阿萨德时期资产",
+      "url": "https://levant24.com/en/article/france-and-syria-plan-joint-oversight-of-assad-assets",
+      "source": "Levant24",
+      "summary": "叙外交部国际合作部门负责人与法国特使会面，双方讨论对阿萨德时期海外资产建立共同监管机制，涉及资产追索与法律协作。",
+      "importance": 6
+    },
+    {
+      "title": "代尔祖尔现两例脊灰病例，叙启动应急响应",
+      "url": "https://sana.sy/en/health/2357176/",
+      "source": "SANA 主站",
+      "summary": "叙利亚卫生部长宣布代尔祖尔发现两例脊髓灰质炎病例，已启动紧急应对，包括病例监测、接触者排查与补充疫苗接种。",
+      "importance": 7
+    }
+  ],
+  "editor_note": "本期条目多源自叙利亚官方通讯社，单一信源色彩较浓，读者宜将其视为当地官方口径而非独立核实结论。",
+  "keywords": [
+    "叙利亚重建",
+    "叙沙军事合作",
+    "预付费电表",
+    "脊灰疫情",
+    "叙利亚金价",
+    "叙捷商务论坛",
+    "阿萨德资产"
+  ]
+}

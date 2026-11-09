@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Syria Daily Brief 叙利亚每日新闻简报 · 2026-11-09</title>
+<style>
+  :root {
+    --bg: #fafaf9;
+    --bg-elevated: #ffffff;
+    --fg: #18181b;
+    --fg-soft: #3f3f46;
+    --muted: #71717a;
+    --rule: #e4e4e7;
+    --card: #f4f4f5;
+    --link: #1d4ed8;
+    --accent: #18181b;
+    --accent-fg: #fafaf9;
+    --rank-high-bg: #fee2e2;
+    --rank-high-fg: #991b1b;
+    --rank-mid-bg: #fef3c7;
+    --rank-mid-fg: #92400e;
+    --rank-low-bg: #e0e7ff;
+    --rank-low-fg: #3730a3;
+    --hero-grad-from: #fafaf9;
+    --hero-grad-to: #f4f4f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0a0a0a;
+      --bg-elevated: #18181b;
+      --fg: #fafafa;
+      --fg-soft: #d4d4d8;
+      --muted: #a1a1aa;
+      --rule: #27272a;
+      --card: #18181b;
+      --link: #93c5fd;
+      --accent: #fafafa;
+      --accent-fg: #0a0a0a;
+      --rank-high-bg: rgba(239,68,68,0.18);
+      --rank-high-fg: #fca5a5;
+      --rank-mid-bg: rgba(245,158,11,0.18);
+      --rank-mid-fg: #fcd34d;
+      --rank-low-bg: rgba(99,102,241,0.18);
+      --rank-low-fg: #a5b4fc;
+      --hero-grad-from: #18181b;
+      --hero-grad-to: #0a0a0a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 960px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+  /* ===== header ===== */
+  header.report-header { margin-bottom: 1.25rem; }
+  .eyebrow {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--muted);
+    font-weight: 500;
+  }
+  /* 只放大顶部眉线，其余页面眉线保持原样 */
+header.report-header .eyebrow {
+    display: block;
+    font-size: 1.5rem;
+    margin: 0 0 1.2rem;
+  }
+  h1.report-title {
+    font-size: 2.0rem;
+    font-weight: 700;
+    margin: 0.4rem 0 1.2rem;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+  }
+  .archive-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--rule);
+    padding-bottom: 1px;
+  }
+  .archive-link:hover { color: var(--accent); border-bottom-style: solid; }
+  .hero-card {
+    background: linear-gradient(135deg, var(--hero-grad-from) 0%, var(--hero-grad-to) 100%);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--accent);
+    padding: 1rem 1.4rem;
+    border-radius: 0.6rem;
+  }
+  .hero-eyebrow {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 500;
+  }
+  .hero-headline {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.35rem 0 0;
+    line-height: 1.45;
+    color: var(--fg);
+  }
+  .overview-card {
+    margin: 0.7rem 0 0;
+    padding: 0.7rem 1.1rem;
+    background: var(--card);
+    border-radius: 0.5rem;
+    border-left: 3px solid var(--muted);
+  }
+  .overview-card .eyebrow { display: block; margin-bottom: 0.3rem; }
+  .overview-text {
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: var(--fg-soft);
+  }
+
+  /* ===== primary tabs ===== */
+  .tabs {
+    display: flex;
+    gap: 0.25rem;
+    margin: 1.25rem 0 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    flex-wrap: wrap;
+  }
+  .tab {
+    background: none;
+    border: none;
+    padding: 0.7rem 1.1rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    font-family: inherit;
+    transition: color 0.15s;
+  }
+  .tab:hover { color: var(--fg); }
+  .tab.active {
+    color: var(--fg);
+    border-bottom-color: var(--accent);
+  }
+  .tab .count {
+    font-size: 0.72rem;
+    color: var(--muted);
+    margin-left: 0.4rem;
+    font-weight: 400;
+  }
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  /* ===== digest (AI 简报) — compact ===== */
+  .digest-category { margin-bottom: 1.1rem; }
+  .category-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    margin: 0 0 0.55rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .category-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--fg);
+    margin: 0;
+    letter-spacing: 0.05em;
+  }
+  .category-count {
+    font-size: 0.7rem;
+    color: var(--muted);
+    background: var(--card);
+    padding: 0.12rem 0.45rem;
+    border-radius: 999px;
+  }
+  .brief-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  @media (min-width: 720px) {
+    .brief-list { grid-template-columns: 1fr 1fr; }
+  }
+  .brief {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-radius: 0.5rem;
+    padding: 0.7rem 0.95rem;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .brief:hover {
+    border-color: var(--muted);
+    transform: translateY(-1px);
+  }
+  .brief-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+  .brief-source {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+  }
+  .brief-rank {
+    font-size: 0.7rem;
+    padding: 0.12rem 0.5rem;
+    border-radius: 999px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .brief-rank.high { background: var(--rank-high-bg); color: var(--rank-high-fg); }
+  .brief-rank.mid  { background: var(--rank-mid-bg);  color: var(--rank-mid-fg); }
+  .brief-rank.low  { background: var(--rank-low-bg);  color: var(--rank-low-fg); }
+  .brief-title {
+    font-size: 0.98rem;
+    font-weight: 600;
+    margin: 0 0 0.3rem;
+    line-height: 1.35;
+  }
+  .brief-title a { color: var(--fg); text-decoration: none; }
+  .brief-title a:hover { color: var(--link); text-decoration: underline; }
+  .brief-summary {
+    margin: 0;
+    color: var(--fg-soft);
+    font-size: 0.86rem;
+    line-height: 1.55;
+  }
+
+  .editor-card {
+    background: var(--card);
+    border-left: 3px solid var(--muted);
+    border-radius: 0.5rem;
+    padding: 1rem 1.3rem;
+    margin: 1.5rem 0 1.2rem;
+  }
+  .editor-card .eyebrow { display: block; margin-bottom: 0.4rem; }
+  .editor-text {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--fg);
+  }
+  .keywords { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 1.5rem; }
+  .keyword {
+    background: var(--card);
+    color: var(--fg-soft);
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+  }
+
+  /* ===== L2 sub-tabs ===== */
+  .sub-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 1rem 0;
+  }
+  .sub-tab {
+    background: var(--card);
+    border: 1px solid transparent;
+    padding: 0.5rem 1.05rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--fg-soft);
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .sub-tab:hover { border-color: var(--muted); color: var(--fg); }
+  .sub-tab.active {
+    background: var(--accent);
+    color: var(--accent-fg);
+  }
+  .sub-tab .count {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    margin-left: 0.4rem;
+    font-weight: 400;
+  }
+  .sub-content { display: none; }
+  .sub-content.active { display: block; }
+
+  /* ===== L3 source-tabs ===== */
+  .source-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0.9rem 0 1.3rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .source-tab {
+    background: none;
+    border: 1px solid var(--rule);
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    font-size: 0.83rem;
+    color: var(--fg-soft);
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .source-tab:hover { border-color: var(--muted); color: var(--fg); }
+  .source-tab.active {
+    background: var(--fg);
+    color: var(--bg);
+    border-color: var(--fg);
+  }
+  .source-tab .count {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    margin-left: 0.3rem;
+  }
+  .source-content { display: none; }
+  .source-content.active { display: block; }
+
+  /* ===== article cards in raw panels ===== */
+  .article {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .article:first-child { padding-top: 0; }
+  .article:last-child { border-bottom: none; }
+  .article-title {
+    font-size: 1rem;
+    margin: 0 0 0.3rem;
+    font-weight: 500;
+    line-height: 1.45;
+  }
+  .article-title a { color: var(--fg); text-decoration: none; }
+  .article-title a:hover { color: var(--link); text-decoration: underline; }
+  .article-meta { color: var(--muted); font-size: 0.76rem; margin: 0 0 0.35rem; }
+  .article-stats {
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin: 0 0 0.4rem;
+    font-feature-settings: "tnum";
+  }
+  .article-excerpt {
+    margin: 0;
+    color: var(--fg-soft);
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  .article-summary {
+    margin: 0.55rem 0 0;
+    padding: 0.6rem 0.85rem;
+    background: var(--card);
+    border-left: 2px solid var(--link);
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--fg);
+  }
+  .summary-label {
+    display: inline-block;
+    font-size: 0.68rem;
+    color: var(--link);
+    margin-right: 0.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .empty {
+    color: var(--muted);
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+  }
+
+  /* ===== trading panel ===== */
+  .crypto-widgets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.55rem;
+    margin: 0.4rem 0 1.2rem;
+  }
+  @media (min-width: 720px) {
+    .crypto-widgets { grid-template-columns: repeat(4, 1fr); }
+  }
+  .crypto-widget {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-radius: 0.5rem;
+    padding: 0.7rem 0.85rem;
+    text-align: center;
+  }
+  .widget-label {
+    font-size: 0.7rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.3rem;
+  }
+  .widget-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--fg);
+    line-height: 1.1;
+  }
+  .widget-sub {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 0.25rem;
+  }
+  .widget-sub.positive { color: #16a34a; }
+  .widget-sub.negative { color: #dc2626; }
+  @media (prefers-color-scheme: dark) {
+    .widget-sub.positive { color: #4ade80; }
+    .widget-sub.negative { color: #fca5a5; }
+  }
+  .crypto-widget.fg-fear-extreme { border-left: 4px solid #b91c1c; }
+  .crypto-widget.fg-fear-extreme .widget-value { color: #b91c1c; }
+  .crypto-widget.fg-fear { border-left: 4px solid #d97706; }
+  .crypto-widget.fg-fear .widget-value { color: #d97706; }
+  .crypto-widget.fg-neutral { border-left: 4px solid var(--muted); }
+  .crypto-widget.fg-greed { border-left: 4px solid #65a30d; }
+  .crypto-widget.fg-greed .widget-value { color: #65a30d; }
+  .crypto-widget.fg-greed-extreme { border-left: 4px solid #16a34a; }
+  .crypto-widget.fg-greed-extreme .widget-value { color: #16a34a; }
+  @media (prefers-color-scheme: dark) {
+    .crypto-widget.fg-fear-extreme .widget-value,
+    .crypto-widget.fg-fear .widget-value { color: #fca5a5; }
+    .crypto-widget.fg-greed .widget-value,
+    .crypto-widget.fg-greed-extreme .widget-value { color: #4ade80; }
+  }
+
+  .trading-overview-card {
+    margin: 0 0 1.5rem;
+    padding: 1rem 1.3rem;
+    background: var(--card);
+    border-radius: 0.5rem;
+    border-left: 3px solid var(--accent);
+  }
+  .trading-overview-card .eyebrow { display: block; margin-bottom: 0.4rem; }
+  .trading-overview-text { font-size: 0.92rem; line-height: 1.75; color: var(--fg-soft); margin: 0; }
+
+  .trading-section-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+    color: var(--fg);
+    letter-spacing: 0.05em;
+  }
+
+  /* picks (Sonnet's watchlist) */
+  .trading-picks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+  @media (min-width: 720px) {
+    .trading-picks { grid-template-columns: 1fr 1fr; }
+  }
+  .trading-pick {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--muted);
+    border-radius: 0.5rem;
+    padding: 0.8rem 1rem;
+  }
+  .trading-pick.stance-bull { border-left-color: #16a34a; }
+  .trading-pick.stance-bear { border-left-color: #dc2626; }
+  .trading-pick.stance-neutral { border-left-color: var(--muted); }
+  .pick-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    margin-bottom: 0.45rem;
+  }
+  .pick-symbol-block {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .pick-symbol { font-weight: 700; font-size: 1rem; color: var(--fg); }
+  .pick-name { color: var(--muted); font-size: 0.82rem; }
+  .pick-stance {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .pick-stance-bull { background: rgba(22,163,74,0.12); color: #16a34a; }
+  .pick-stance-bear { background: rgba(220,38,38,0.12); color: #dc2626; }
+  .pick-stance-neutral { background: var(--card); color: var(--muted); }
+  .pick-rationale { margin: 0; font-size: 0.88rem; line-height: 1.65; color: var(--fg-soft); }
+
+  /* asset-group tabs */
+  .trading-group-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.6rem 0 1.2rem;
+  }
+  .trading-group-tab {
+    background: var(--card);
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--fg-soft);
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .trading-group-tab:hover { border-color: var(--muted); color: var(--fg); }
+  .trading-group-tab.active {
+    background: var(--accent);
+    color: var(--accent-fg);
+  }
+  .trading-group-tab .count {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    margin-left: 0.4rem;
+    font-weight: 400;
+  }
+  .trading-group-content { display: none; }
+  .trading-group-content.active { display: block; }
+
+  /* ticker cards */
+  .ticker-card {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-radius: 0.55rem;
+    padding: 0.85rem 1.1rem;
+    margin-bottom: 0.7rem;
+  }
+  .ticker-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.65rem;
+  }
+  .ticker-id { min-width: 0; }
+  .ticker-symbol { margin: 0; font-size: 1rem; font-weight: 700; font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; }
+  .ticker-name { margin: 0.15rem 0 0; font-size: 0.82rem; color: var(--muted); }
+  .ticker-price-block { text-align: right; flex-shrink: 0; }
+  .ticker-price { display: block; font-size: 1.05rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ticker-pct { display: inline-block; font-size: 0.82rem; font-weight: 500; margin-top: 0.15rem; font-variant-numeric: tabular-nums; }
+  .ticker-pct.positive, .positive { color: #16a34a; }
+  .ticker-pct.negative, .negative { color: #dc2626; }
+
+  .ticker-indicators {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.35rem 0.9rem;
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--fg-soft);
+  }
+  @media (min-width: 720px) {
+    .ticker-indicators { grid-template-columns: repeat(3, 1fr); }
+  }
+  .ticker-indicators > div { display: flex; gap: 0.4rem; align-items: baseline; min-width: 0; }
+  .ticker-indicators dt { color: var(--muted); font-size: 0.74rem; margin: 0; white-space: nowrap; }
+  .ticker-indicators dd { margin: 0; font-variant-numeric: tabular-nums; font-weight: 500; color: var(--fg); }
+  .trend-bullish { color: #16a34a; }
+  .trend-bearish { color: #dc2626; }
+  .trend-neutral { color: var(--muted); }
+  .rsi-overbought { color: #d97706; }
+  .rsi-oversold { color: #2563eb; }
+
+  .ticker-signals {
+    margin-top: 0.65rem;
+    padding-top: 0.55rem;
+    border-top: 1px dashed var(--rule);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+  .signal-pill {
+    font-size: 0.72rem;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    font-weight: 500;
+  }
+  .signal-pill.tone-bull { background: rgba(22,163,74,0.13); color: #166534; }
+  .signal-pill.tone-bear { background: rgba(220,38,38,0.13); color: #991b1b; }
+  .signal-pill.tone-caution { background: rgba(217,119,6,0.15); color: #92400e; }
+  @media (prefers-color-scheme: dark) {
+    .signal-pill.tone-bull { color: #4ade80; }
+    .signal-pill.tone-bear { color: #fca5a5; }
+    .signal-pill.tone-caution { color: #fcd34d; }
+    .trend-bullish, .positive, .ticker-pct.positive { color: #4ade80; }
+    .trend-bearish, .negative, .ticker-pct.negative { color: #fca5a5; }
+    .rsi-overbought { color: #fcd34d; }
+    .rsi-oversold { color: #93c5fd; }
+    .trading-pick.stance-bull { border-left-color: #4ade80; }
+    .trading-pick.stance-bear { border-left-color: #fca5a5; }
+    .pick-stance-bull { background: rgba(74,222,128,0.15); color: #4ade80; }
+    .pick-stance-bear { background: rgba(252,165,165,0.15); color: #fca5a5; }
+  }
+  .signal-age { opacity: 0.7; font-weight: 400; }
+
+  .trading-risk {
+    margin: 1.5rem 0 0;
+    padding: 0.9rem 1.2rem;
+    background: var(--card);
+    border-radius: 0.45rem;
+    border-left: 3px solid #d97706;
+  }
+  .trading-risk .eyebrow { display: block; margin-bottom: 0.35rem; }
+  .trading-risk p { margin: 0; font-size: 0.82rem; line-height: 1.65; color: var(--fg-soft); }
+
+  footer {
+    margin-top: 2.5rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 1.1rem;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="report-header">
+    <h1 class="report-title">Syria Daily Brief 叙利亚每日新闻简报</h1>
+    <span class="eyebrow">2026-11-09</span>
+    <a class="archive-link" href="../archive.html">← 历史归档</a>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="politics">时政观察<span class="count">15</span></button>
+    <button class="tab" data-tab="finance">财经要点<span class="count">2</span></button>
+    <button class="tab" data-tab="investment">投资动态<span class="count">4</span></button>
+    <button class="tab" data-tab="china-syria">中叙合作<span class="count">1</span></button>
+  </nav>
+
+  <section class="panel active" data-panel="politics">
+    <div class="sub-content active" data-sub-content="world" data-cat="politics">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="world" data-cat="politics">
+    <article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/foreign-actors/damascus-outlines-military-cooperation-with-saudi-arabia-and-denies-troop-deployment-to-yemen.html" target="_blank" rel="noopener noreferrer">Damascus Outlines Military Cooperation With Saudi Arabia and Denies Troop Deployment to Yemen</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 11/09 05:01</p>
+  <p class="article-excerpt">A senior Saudi official told the agency that the exchange of expertise is intended to support the restructuring of Syria’s armed forces. The post Damascus Outlines Military Cooperation With Saudi Arabia and Denies Troop Deployment to Yemen first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚方面阐述与沙特阿拉伯的军事合作安排，一名沙特高级官员表示，双方交流经验意在支持叙利亚武装力量重组；叙方同时否认向也门部署军队。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/society/syria-and-the-ordeal-of-citizenship.html" target="_blank" rel="noopener noreferrer">Syria and the Ordeal of Citizenship</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 11/09 05:01</p>
+  <p class="article-excerpt">What meaning can a new Syria claim if women are expected to share equally in its sacrifices and obligations, only to find themselves treated as second‑class citizens when it comes to their rights? The post Syria and the Ordeal of Citizenship first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚媒体刊发评论，质疑新叙利亚的公民身份意义：如果女性被要求平等承担牺牲与义务，却在权利层面被视为二等公民，新国家的承诺将难以成立。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/syrian-actors/disinformation-campaigns-target-syria-with-rumors-of-relocating-the-capital-and-evacuating-state-institutions.html" target="_blank" rel="noopener noreferrer">Disinformation Campaigns Target Syria With Rumors of Relocating the Capital and Evacuating State Institutions</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 11/09 05:00</p>
+  <p class="article-excerpt">Shaam News Network has recently tracked a surge in social media activity promoting misleading claims about Syria’s military, security and administrative affairs. The post Disinformation Campaigns Target Syria With Rumors of Relocating the Capital and Evacuating State Institutions first appeared on T</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 沙姆新闻网络称，近期社交媒体上针对叙利亚军事、安全和行政事务的误导性内容激增，其中包括有关迁都以及撤离国家机构等传言。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/foreign-actors/damascus-fears-the-fallout-from-trumps-electoral-defeat.html" target="_blank" rel="noopener noreferrer">Damascus Fears the Fallout from Trump’s Electoral Defeat</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 11/09 05:00</p>
+  <p class="article-excerpt">Should the Democrats eventually regain the White House, they are unlikely to reverse course entirely in their dealings with Sharaa. The post Damascus Fears the Fallout from Trump’s Electoral Defeat first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 有分析指出，大马士革担忧特朗普在选举中失利所带来的影响；但即便民主党重新入主白宫，其对沙拉阿的接触政策也不太可能完全转向。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://syrianobserver.com/foreign-actors/from-quneitra-to-the-yarmouk-basin-how-israeli-incursions-are-reshaping-daily-life-in-southern-syria.html" target="_blank" rel="noopener noreferrer">From Quneitra to the Yarmouk Basin: How Israeli Incursions Are Reshaping Daily Life in Southern Syria</a></h3>
+  
+  <p class="article-meta">Syrian Observer · 11/09 05:00</p>
+  <p class="article-excerpt">Data compiled by the Sijill Center highlight the expanding scope of Israeli activity in southern Syria in recent months. The post From Quneitra to the Yarmouk Basin: How Israeli Incursions Are Reshaping Daily Life in Southern Syria first appeared on The Syrian Observer.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> Sijill中心汇总的数据显示，近几个月以色列在叙利亚南部的活动范围持续扩大，从库奈特拉延伸至耶尔穆克盆地，正在改变当地民众的日常生活。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/damascus-rejects-claims-of-yemen-deployment-amid-syria-saudi-defense-ties" target="_blank" rel="noopener noreferrer">Damascus Rejects Claims of Yemen Deployment Amid Syria-Saudi Defense Ties</a></h3>
+  
+  <p class="article-meta">Levant24 · 11/09 02:11</p>
+  <p class="article-excerpt">Syria and Saudi Arabia expanded military cooperation under a defense agreement signed during Syrian President Ahmad al-Sharaa’s visit to Riyadh, but Damascus…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚总统沙拉阿访问利雅得期间，叙沙双方签署防务协议、扩大军事合作；大马士革否认有关向也门派驻军队的说法。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/france-and-syria-plan-joint-oversight-of-assad-assets" target="_blank" rel="noopener noreferrer">France and Syria Plan Joint Oversight of Assad Assets</a></h3>
+  
+  <p class="article-meta">Levant24 · 11/09 02:00</p>
+  <p class="article-excerpt">Meeting between Qutaiba Qadish, Director of the International Cooperation Department at the Ministry of Foreign Affairs and Expatriates, and French Special…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚外交部国际合作司司长卡迪什与法国特别代表举行会晤，双方计划对阿萨德政权相关资产实施联合监管。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://levant24.com/en/article/sharaa-highlights-fraternal-bonds-between-syria-and-uae" target="_blank" rel="noopener noreferrer">Sharaa Highlights Fraternal Bonds Between Syria and UAE</a></h3>
+  
+  <p class="article-meta">Levant24 · 11/08 23:27</p>
+  <p class="article-excerpt">President Ahmad al-Sharaa affirmed the depth of fraternal relations between Syria and the UAE, stressing that feelings of love and solidarity among the peoples…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚总统艾哈迈德·沙拉阿强调叙利亚与阿联酋之间兄弟关系的深度，并表示两国人民之间的友爱与团结感情牢固。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2357170/" target="_blank" rel="noopener noreferrer">Syria and Iraq enhance security cooperation, open prospects for trade and energy ties</a></h3>
+  
+  <p class="article-meta">SANA 经济 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚与伊拉克加强安全领域合作，并为双边贸易和能源关系的发展开辟前景。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/syria/2357190/" target="_blank" rel="noopener noreferrer">Syria congratulates Azerbaijan on Victory Day, affirms kenness to enhance cooperation</a></h3>
+  
+  <p class="article-meta">SANA 主站 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚就阿塞拜疆「胜利日」向阿方致贺，并表示重视加强与阿塞拜疆的合作。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/politics/2357189/" target="_blank" rel="noopener noreferrer">Syrian, Jordanian delegations hold preparatory meetings for Higher Coordination Council</a></h3>
+  
+  <p class="article-meta">SANA 主站 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚与约旦代表团举行筹备会议，为两国最高协调委员会的相关会议作准备。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/health/2357176/" target="_blank" rel="noopener noreferrer">Health Minister announces two polio cases in Deir Ezzor, launches emergency response</a></h3>
+  
+  <p class="article-meta">SANA 主站 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚卫生部长宣布，代尔祖尔发现两例脊髓灰质炎病例，并已启动紧急应对措施。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/education/2357143/" target="_blank" rel="noopener noreferrer">Syria’s new university decrees aim to expand access to higher education, minister says</a></h3>
+  
+  <p class="article-meta">SANA 主站 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚部长表示，新颁布的大学法令旨在扩大高等教育入学机会，让更多人能够接受高等教育。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/politics/2357132/" target="_blank" rel="noopener noreferrer">Syria condemns Houthi militia attacks on facilities in Saudi capital Riyadh</a></h3>
+  
+  <p class="article-meta">SANA 时政 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚谴责胡塞武装对沙特阿拉伯首都利雅得多处设施的袭击。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/presidency/2357117/" target="_blank" rel="noopener noreferrer">President al-Sharaa establishes 11 university faculties across five Syrian provinces</a></h3>
+  
+  <p class="article-meta">SANA 时政 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚总统沙拉阿决定在五个省份设立11个大学院系，以扩充高等教育机构布局。</p>
+</article>
+  </div>
+    </div>
+  </div>
+  </section>
+  <section class="panel" data-panel="finance">
+    <div class="sub-content active" data-sub-content="news" data-cat="finance">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="news" data-cat="finance">
+    <article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2357105/" target="_blank" rel="noopener noreferrer">Syrian gold market records 150-pound increase in 21-karat gold</a></h3>
+  
+  <p class="article-meta">SANA 经济 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 据叙利亚阿拉伯通讯社（SANA）经济频道报道，叙利亚黄金市场21K金价格上涨150叙利亚镑。报道未提及具体金价水平或上涨原因。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2357053/" target="_blank" rel="noopener noreferrer">E-commerce grows in Syria despite fraud risks and infrastructure challenges</a></h3>
+  
+  <p class="article-meta">SANA 经济 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚电子商务持续发展，但同时面临欺诈风险和基础设施不足等挑战。报道未披露具体交易规模或增长数据。</p>
+</article>
+  </div>
+    </div>
+  </div>
+  </section>
+  <section class="panel" data-panel="investment">
+    <div class="sub-content active" data-sub-content="investment" data-cat="finance">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="investment" data-cat="finance">
+    <article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2357172/" target="_blank" rel="noopener noreferrer">Syrian-Czech Business Forum kicks off in Damascus</a></h3>
+  
+  <p class="article-meta">SANA 经济 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚-捷克商业论坛在大马士革开幕，叙方与捷克企业界代表出席，商讨双边经贸合作机会。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2357135/" target="_blank" rel="noopener noreferrer">Central Bank of Syria participates in investment conference in Germany</a></h3>
+  
+  <p class="article-meta">SANA 经济 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚中央银行参加在德国举行的投资会议，参与讨论投资议题。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2357077/" target="_blank" rel="noopener noreferrer">Syria’s 218 million fruit trees face challenges from drought and climate change</a></h3>
+  
+  <p class="article-meta">SANA 经济 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚全国果树约2.18亿棵，正面临干旱与气候变化带来的挑战。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2357005/" target="_blank" rel="noopener noreferrer">Damascus festival brings 50 Syrian companies closer to consumers</a></h3>
+  
+  <p class="article-meta">SANA 经济 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 大马士革举办节庆展会活动，约50家叙利亚企业参展，以更直接接触消费者。</p>
+</article>
+  </div>
+    </div>
+  </div>
+  </section>
+  <section class="panel" data-panel="china-syria">
+    <div class="sub-content active" data-sub-content="china-syria" data-cat="finance">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="china-syria" data-cat="finance">
+    <article class="article">
+  <h3 class="article-title"><a href="https://sana.sy/en/economic/2357054/" target="_blank" rel="noopener noreferrer">Syria signs deal with Chinese firm for 6.5 million prepaid electricity meters</a></h3>
+  
+  <p class="article-meta">SANA 经济 · 11/08 08:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 叙利亚与一家中国公司签署协议，采购650万台预付费电表，以推进电力计量与收费管理。报道未披露合同金额、承建企业名称及交付时间等细节。</p>
+</article>
+  </div>
+    </div>
+  </div>
+  </section>
+
+  <footer>
+    内容均来自原媒体，本站仅作摘要整理与回链。
+  </footer>
+</main>
+<script>
+  document.querySelectorAll('.tabs > .tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var target = btn.dataset.tab;
+      document.querySelectorAll('.tabs > .tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      document.querySelectorAll('.panel').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.panel === target);
+      });
+    });
+  });
+  // Scope sub-tab / source-tab toggles to the parent .panel so two L1 panels
+  // can share the same data-cat (e.g. tech main + community both data-cat=tech)
+  // without stomping on each other's active state.
+  document.querySelectorAll('.sub-tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var panel = btn.closest('.panel');
+      if (!panel) return;
+      var sub = btn.dataset.sub;
+      panel.querySelectorAll('.sub-tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      panel.querySelectorAll('.sub-content').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.subContent === sub);
+      });
+    });
+  });
+  document.querySelectorAll('.source-tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var subContent = btn.closest('.sub-content');
+      if (!subContent) return;
+      var src = btn.dataset.source;
+      subContent.querySelectorAll('.source-tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      subContent.querySelectorAll('.source-content').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.sourceContent === src);
+      });
+    });
+  });
+  // Trading panel: asset-group sub-tabs (US/crypto/china/commodity)
+  document.querySelectorAll('.trading-group-tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var grp = btn.dataset.group;
+      document.querySelectorAll('.trading-group-tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      document.querySelectorAll('.trading-group-content').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.group === grp);
+      });
+    });
+  });
+</script>
+</body>
+</html>
