@@ -1,0 +1,98 @@
+{
+  "hero_headline": "沙特逾4亿美元贷款助力叙利亚复苏与多边融资",
+  "daily_overview": "财经层面，沙特逾4亿美元贷款、IMF财政改革审议、欧洲投资银行住房项目融资与欧盟粮食及烘焙业支持同步推进，叙利亚重建的外部资金渠道明显拓宽。时政层面，叙总统赴土耳其出席COP31气候峰会，一份称逾18.1万叙利亚人仍失踪的新报告与跨境缉毒行动，凸显人道与安全议题并存。技术与农业层面，酵母生物制剂研究、塔尔图斯热带水果扩种和养蜂业扩张计划显示，叙方正尝试以低成本农业技术稳住粮食生产与乡村生计。",
+  "tech_briefs": [
+    {
+      "title": "叙利亚研究用面包酵母提升作物产量",
+      "url": "https://sana.sy/en/economic/2357937/",
+      "source": "SANA 经济",
+      "summary": "叙利亚科研人员探索以面包酵母制备生物制剂用于作物栽培，希望用低成本微生物方案改善土壤与单产，减少对进口化肥的依赖。（多家报道）",
+      "importance": 5
+    },
+    {
+      "title": "塔尔图斯扩种热带水果，气候与市场风险并存",
+      "url": "https://sana.sy/en/economic/2357975/",
+      "source": "SANA 经济",
+      "summary": "尽管面临气候变化与销路不稳，塔尔图斯省仍扩大热带水果种植面积，农户希望以多元品种提高收益，但灌溉与冷链配套仍是主要瓶颈。",
+      "importance": 4
+    },
+    {
+      "title": "叙利亚规划扩大养蜂规模提升蜂蜜产量",
+      "url": "https://sana.sy/en/economic/2357809/",
+      "source": "SANA 经济",
+      "summary": "叙农业部门公布养蜂业扩张方案，拟通过蜂群改良、疫病防控与产品品牌化提高蜂蜜产量，为乡村地区提供替代性生计来源。",
+      "importance": 4
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "沙特逾4亿美元贷款或助推叙利亚复苏",
+      "url": "https://sana.sy/en/economic/2357820/",
+      "source": "SANA 经济",
+      "summary": "报道称沙特提供的逾4.03亿美元贷款将用于支持叙利亚战后经济恢复，涉及基础设施与民生领域，具体拨付节奏尚待双方确认。",
+      "importance": 8
+    },
+    {
+      "title": "叙财长与IMF审议经济财政改革进展",
+      "url": "https://sana.sy/en/economic/2358053/",
+      "source": "SANA 经济",
+      "summary": "叙利亚财政部长与IMF方面就经济与财政改革进度进行审议，议题涉及预算透明度、税制调整与汇率安排，后续评估结果尚未公布。",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚与欧洲投资银行洽谈住房融资",
+      "url": "https://sana.sy/en/syria/2358058/",
+      "source": "SANA 主站",
+      "summary": "双方讨论为叙利亚住房重建项目提供融资，重点在住宅建设与长期资金安排，贷款规模与条件暂未披露。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚与欧盟磋商粮食与烘焙业支持",
+      "url": "https://sana.sy/en/economic/2357866/",
+      "source": "SANA 经济",
+      "summary": "双方就小麦供应、面粉加工与面包补贴体系进行磋商，欧盟方面可能提供技术与资金支持，以稳定主食供应与价格。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚参加阿拉伯-奥地利经济论坛寻投资",
+      "url": "https://sana.sy/en/economic/2358037/",
+      "source": "SANA 经济",
+      "summary": "叙方在论坛上推介投资机会，涉及能源、农业与重建承包等领域，寻求奥地利及欧洲企业参与项目对接。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙总统赴土耳其出席COP31气候峰会",
+      "url": "https://sana.sy/en/syria/2357857/",
+      "source": "SANA 时政",
+      "summary": "叙利亚总统抵达土耳其参加COP31气候峰会，预计就气候融资、干旱与水资源议题发言，并在会议期间开展双边接触。",
+      "importance": 8
+    },
+    {
+      "title": "新报告称逾18.1万叙利亚人仍失踪",
+      "url": "https://levant24.com/en/article/new-report-over-181000-syrians-remain-lost",
+      "source": "Levant24",
+      "summary": "一份新报告指出，超过18.1万名叙利亚人仍下落不明，涉及战场失踪者与被拘留人员，呼吁建立档案与追责机制。",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚加大打击跨境毒品走私力度",
+      "url": "https://levant24.com/en/article/syria-intensifies-campaign-against-cross-border-drug-trafficking",
+      "source": "Levant24",
+      "summary": "叙禁毒部门在两次行动中逮捕3名从黎巴嫩向叙境内走私毒品的人员，并表示将持续加强边境查缉与区域协作。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "叙利亚当前把外交重心放在融资与气候议题上，但资金能否落地、失踪者问题能否追责，仍是检验重建成色的关键。",
+  "keywords": [
+    "叙利亚重建",
+    "沙特贷款",
+    "IMF改革审议",
+    "COP31",
+    "粮食安全",
+    "失踪人员",
+    "农业技术",
+    "住房融资"
+  ]
+}
