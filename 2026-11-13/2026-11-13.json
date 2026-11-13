@@ -1,0 +1,98 @@
+{
+  "hero_headline": "叙利亚重建提速：15亿美元投资包与欧盟关系升温",
+  "daily_overview": "11月12日，叙利亚重建进入密集推进期。财经方面，哈马省公布约15亿美元投资包，欧洲投资银行就6.7亿美元公路与铁路升级展开磋商；叙黎重开达布西亚口岸，叙航首开慕尼黑直飞大马士革航线，物流与资本通道同步恢复。科技与基础设施方面，叙方在多哈参与国际电信联盟选举，并在COP31与伊拉克讨论水资源与环境合作。时政方面，欧盟筹备深化与叙在安全改革、投资贸易上的合作，叙防长会见美军指挥官，叙安全机构首次加入国际刑警组织16国海上行动。",
+  "tech_briefs": [
+    {
+      "title": "叙参加国际电信联盟多哈大会选举",
+      "url": "https://sana.sy/en/politics/2358215/",
+      "source": "SANA 时政",
+      "summary": "叙利亚代表团出席在卡塔尔多哈举行的国际电信联盟会议，参与该组织相关职位与议程的选举表决，涉及频谱与通信治理事务。",
+      "importance": 4
+    },
+    {
+      "title": "叙伊在COP31磋商水资源与环境合作",
+      "url": "https://sana.sy/en/syria/2358299/",
+      "source": "SANA 主站",
+      "summary": "叙利亚与伊拉克在COP31会议期间讨论水资源管理、环境保护与气候融资，涉及跨境水量协调与联合监测等技术性安排。",
+      "importance": 4
+    },
+    {
+      "title": "叙利亚收回滞留班加西的伊留申运输机",
+      "url": "https://sana.sy/en/syria/2358287/",
+      "source": "SANA 主站",
+      "summary": "叙方从利比亚班加西机场收回一架伊留申飞机，属海外航空资产追索进展，将补充国内紧张的运输运力。",
+      "importance": 3
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "哈马省推出约15亿美元投资包",
+      "url": "https://levant24.com/en/article/hama-unveils-15-billion-investment-package",
+      "source": "Levant24",
+      "summary": "哈马省与叙利亚投资局公布总规模约15亿美元的投资包，覆盖11个住房等领域项目，叙官方通讯社同日发布同一消息。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚与欧洲投资银行磋商6.7亿美元路网升级",
+      "url": "https://sana.sy/en/economic/2358278/",
+      "source": "SANA 经济",
+      "summary": "叙方与欧洲投资银行讨论约6.7亿美元公路升级计划及铁路建设方案，内容涉及融资结构与项目优先次序。",
+      "importance": 7
+    },
+    {
+      "title": "叙黎重开达布西亚口岸恢复过境贸易",
+      "url": "https://levant24.com/en/article/syria-and-lebanon-reopen-dabousah-crossing-for-trade",
+      "source": "Levant24",
+      "summary": "叙利亚与黎巴嫩正式重开达布西亚边境口岸，恢复过境与商业往来，被视为双边经贸联系修复的关键节点。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚航空首开慕尼黑至大马士革直航",
+      "url": "https://sana.sy/en/syria/2358337/",
+      "source": "SANA 经济",
+      "summary": "首班直飞航班由慕尼黑起飞前往大马士革，标志叙欧航空联系部分恢复，报道未披露班期与实际载客情况。",
+      "importance": 6
+    },
+    {
+      "title": "叙财政部与伊斯兰开发银行磋商复苏优先项",
+      "url": "https://sana.sy/en/economic/2358079/",
+      "source": "SANA 经济",
+      "summary": "双方就叙利亚重建阶段的融资重点交换意见，聚焦民生与基础设施领域的项目安排与资金渠道。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "欧盟筹备深化与叙利亚安全与投资合作",
+      "url": "https://levant24.com/en/article/eu-moves-to-deepen-ties-with-syria",
+      "source": "Levant24",
+      "summary": "欧盟正考虑在安全部门改革、投资与贸易领域扩大对叙合作，以深化双边关系，具体方案仍在准备阶段。",
+      "importance": 8
+    },
+    {
+      "title": "叙防长与美军指挥官讨论地区局势与合作",
+      "url": "https://sana.sy/en/politics/2358261/",
+      "source": "SANA 时政",
+      "summary": "叙利亚国防部长与美军指挥官就地区形势发展和双方合作交换意见，报道未披露会谈具体成果。",
+      "importance": 7
+    },
+    {
+      "title": "叙首次加入国际刑警组织16国海上联合行动",
+      "url": "https://levant24.com/en/article/syria-among-16-countries-in-interpol-operation-against-mediterranean-smugglers",
+      "source": "Levant24",
+      "summary": "叙安全机构在阿萨德政权倒台后首次参与国际刑警组织牵头的海上执法行动，共16国参加，针对地中海走私网络。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "本轮消息多出自叙利亚官方通讯社，投资规模与开放信号突出，但资金到位与项目落地进度仍待后续数据验证。",
+  "keywords": [
+    "叙利亚重建",
+    "哈马投资包",
+    "欧洲投资银行",
+    "达布西亚口岸",
+    "欧盟对叙关系",
+    "国际刑警组织",
+    "COP31",
+    "叙利亚航空"
+  ]
+}
