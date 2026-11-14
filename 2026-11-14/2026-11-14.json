@@ -1,0 +1,76 @@
+{
+  "hero_headline": "叙利亚多边融资与地区外交同步推进",
+  "daily_overview": "今日候选信源集中于叙利亚本地媒体，科技类暂无可用条目，简报以财经与地区时政为主。财经层面，叙财政部与伊斯兰开发银行集团磋商2027—2029年伙伴框架；叙土同意激活环境合作与重建备忘录；SunExpress开通安塔利亚、伊兹密尔直飞大马士革航线；叙时隔15年重返地中海邮政联盟。时政层面，叙外长在锡尔巴尼亚斯论坛期间与伊拉克、埃及、阿联酋外长密集会晤；以军自戈兰高地新修公路通往德拉农村；阿勒颇安全部队捣毁ISIS小组并解救人质。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "叙财政部与伊斯兰开发银行磋商三年伙伴框架",
+      "url": "https://sana.sy/en/economic/2358492/",
+      "source": "SANA 经济",
+      "summary": "叙利亚财政部与伊斯兰开发银行集团就2027至2029年合作框架举行会谈，讨论多边融资安排与重建项目支持方向。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚时隔15年重返地中海邮政联盟",
+      "url": "https://sana.sy/en/economic/2358349/",
+      "source": "SANA 经济",
+      "summary": "叙利亚在中断15年后重新加入地中海邮政联盟，恢复区域邮政网络成员资格，有助于跨境邮件与物流联通。",
+      "importance": 6
+    },
+    {
+      "title": "叙土同意激活环境合作与重建谅解备忘录",
+      "url": "https://sana.sy/en/syria/2358497/",
+      "source": "SANA 主站",
+      "summary": "叙土双方同意启动环境领域合作，并激活此前签署的重建相关谅解备忘录，涉及基础设施与项目落地安排。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚开始向各省供应补贴取暖柴油",
+      "url": "https://sana.sy/en/syria/2358457/",
+      "source": "SANA 时政",
+      "summary": "叙政府启动补贴取暖柴油发放，按省分配以应对冬季能源需求，缓解居民取暖成本压力。",
+      "importance": 5
+    },
+    {
+      "title": "SunExpress开通两城直飞大马士革航线",
+      "url": "https://sana.sy/en/syria/2358422/",
+      "source": "SANA 时政",
+      "summary": "土耳其SunExpress航空开通安塔利亚、伊兹密尔至大马士革的直飞航线，恢复两地人员往来与商务通道。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "以军自戈兰高地新修公路通往德拉农村",
+      "url": "https://sana.sy/en/syria/2358469/",
+      "source": "SANA 时政",
+      "summary": "以色列方面自被占领的戈兰高地一侧开辟新道路，通向德拉省农村地区，当地对其安全与主权影响保持关注。",
+      "importance": 8
+    },
+    {
+      "title": "叙外长在锡尔巴尼亚斯论坛期间密集会晤三国外长",
+      "url": "https://sana.sy/en/politics/2358506/",
+      "source": "SANA 主站",
+      "summary": "叙利亚外长在锡尔巴尼亚斯论坛期间分别与伊拉克、埃及、阿联酋外长会晤，讨论双边合作与地区局势。",
+      "importance": 7
+    },
+    {
+      "title": "阿勒颇安全部队捣毁ISIS小组并解救人质",
+      "url": "https://levant24.com/en/article/aleppo-security-forces-free-hostage-and-dismantle-isis-cell",
+      "source": "Levant24",
+      "summary": "阿勒颇安全部队宣布捣毁一个ISIS小组，逮捕四名嫌疑人，解救一名人质，并缴获武器与爆炸物。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "本期候选信源高度集中于叙利亚本地媒体，缺少科技与全球财经条目，宜作为单一地区的阶段性观察，而非全局判断。",
+  "keywords": [
+    "叙利亚",
+    "伊斯兰开发银行",
+    "叙土合作",
+    "大马士革航线",
+    "地中海邮政联盟",
+    "锡尔巴尼亚斯论坛",
+    "戈兰高地",
+    "反恐行动"
+  ]
+}
