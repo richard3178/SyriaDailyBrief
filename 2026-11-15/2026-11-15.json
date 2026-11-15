@@ -1,0 +1,90 @@
+{
+  "hero_headline": "叙利亚军队启动重组 电信与投资合作同步推进",
+  "daily_overview": "11月14日，叙利亚议题占据当日资讯主线。时政方面，叙军方正推进由师级制向六军团体制的结构性重组；以方在库奈特拉省的突入行动与叙方对美英护照持有者入境新规的快速撤回，显示过渡期治理与外部压力双向拉扯。财经层面，土耳其纺织企业赴叙考察投资，伊斯兰开发银行项目洽谈与本地金价上行并行，MTN 纠纷了结为 Zain 2027 年入场铺路。科技与数据侧，世界粮食计划署支持的家庭收支调查启动，为战后经济决策补上基础数据缺口。",
+  "tech_briefs": [
+    {
+      "title": "叙利亚了结 MTN 纠纷 为 Zain 2027 年运营铺路",
+      "url": "https://sana.sy/en/syria/2358710/",
+      "source": "SANA 主站",
+      "summary": "叙方宣布解决与运营商 MTN 的既有纠纷，为 Zain 按计划于 2027 年启动运营扫清障碍，通报未披露具体条款与补偿安排。",
+      "importance": 7
+    },
+    {
+      "title": "世界粮食计划署支持叙利亚启动家庭收支调查",
+      "url": "https://syrianobserver.com/society/world-food-programme-backs-new-survey-to-measure-household-income-and-spending-in-syria.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚计划与统计机构同世界粮食计划署商讨启动全国家庭收入、支出与消费综合调查，为贫困测算与政策评估建立基准数据。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚与阿曼筹备教育合作备忘录",
+      "url": "https://sana.sy/en/education/2358693/",
+      "source": "SANA 主站",
+      "summary": "叙方与阿曼同意就教育领域合作筹备谅解备忘录，双方将继续磋商合作范围与执行机制，签署时间尚未公布。",
+      "importance": 4
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "报道称伊朗战事与核武议题将列入中美俄会谈",
+      "url": "https://sana.sy/en/international/2358628/",
+      "source": "SANA 主站",
+      "summary": "据报伊朗战事与核武器问题将列入特朗普、普京与习近平在中国举行的会谈议程，三方尚未公布具体日程与议题清单。",
+      "importance": 7
+    },
+    {
+      "title": "土耳其纺织企业赴叙考察投资与合作机会",
+      "url": "https://sana.sy/en/economic/2358656/",
+      "source": "SANA 经济",
+      "summary": "土耳其纺织企业赴叙利亚考察，探讨建立合资与投资渠道，涉及生产环节与贸易往来的对接，具体项目尚未公布。",
+      "importance": 6
+    },
+    {
+      "title": "叙投资局与伊斯兰开发银行磋商项目融资",
+      "url": "https://sana.sy/en/economic/2358550/",
+      "source": "SANA 经济",
+      "summary": "叙利亚投资局与伊斯兰开发银行就叙境内多个投资项目进行讨论，涉及融资结构与落地安排，双方未公布项目清单。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚本地金价单日上涨150叙镑",
+      "url": "https://sana.sy/en/economic/2358621/",
+      "source": "SANA 经济",
+      "summary": "叙利亚本地市场黄金价格单日上涨 150 叙利亚镑，市场关注金价与本地汇率走势之间的联动效应。",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙军拟由师级制改为六军团体制",
+      "url": "https://syrianobserver.com/security/sources-syrian-army-restructuring-underway-as-security-and-administrative-changes-loom.html",
+      "source": "Syrian Observer",
+      "summary": "据报叙军方正推进结构重组，现有师级建制将逐步改为六个军团、每军团下辖两个师，配套安全与行政人事调整亦将展开。",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚撤销美英护照持有者入境新规",
+      "url": "https://levant24.com/en/article/syria-reverses-abrupt-visa-changes-following-public-backlash",
+      "source": "Levant24",
+      "summary": "叙当局在实施不足 24 小时后撤销针对美国与英国护照持有者的新入境要求，该措施此前引发公开反对。",
+      "importance": 7
+    },
+    {
+      "title": "以军突入库奈特拉省一镇 拘留3名居民",
+      "url": "https://levant24.com/en/article/israeli-incursions-deepen-pressure-on-southern-syria",
+      "source": "Levant24",
+      "summary": "以色列部队进入库奈特拉省北部贾巴塔哈沙卜镇，搜查 20 余户民宅并拘留 3 名居民，其后释放；叙方媒体亦有报道。（多家报道）",
+      "importance": 7
+    }
+  ],
+  "editor_note": "当日资讯高度集中于叙利亚，纯科技条目稀少，电信与数据基建是少数可追踪的产业信号，建议结合后续官方数据交叉核验。",
+  "keywords": [
+    "叙利亚",
+    "军队重组",
+    "电信运营",
+    "家庭收支调查",
+    "纺织投资",
+    "库奈特拉",
+    "入境新规"
+  ]
+}
