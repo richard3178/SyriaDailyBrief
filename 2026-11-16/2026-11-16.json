@@ -1,0 +1,91 @@
+{
+  "hero_headline": "叙利亚下调柴油价格逾14%，司法审查新法推进",
+  "daily_overview": "11月15日，叙利亚经济信号密集：能源部将一级柴油价格下调逾14%至每升150叙镑，叙镑双轨汇率价差走阔令进口企业承压；阿勒颇机场扩建开工、639兆瓦电厂修复签约，电信与能源基建成为外资切入点，Zain 集团进入叙利亚市场的准备也在提速。时政方面，议会推动司法审查新法以打通挑战政府决定的渠道，叙方在COP31提升气候参与度，并与约旦、黎巴嫩推进边境与安全合作；贾拉马纳汽车炸弹造成人员伤亡，安全形势仍存变数。",
+  "tech_briefs": [
+    {
+      "title": "Zain 集团加速进入叙利亚电信市场",
+      "url": "https://syrianobserver.com/society/preparations-accelerate-for-zain-groups-entry-into-syria-following-mtn-settlement.html",
+      "source": "Syrian Observer",
+      "summary": "在叙方与 MTN 集团达成和解次日，通信与信息技术部长确认相关安排，Zain 集团进入叙利亚的准备工作提速，涉及移动网络运营与牌照事宜。",
+      "importance": 7
+    },
+    {
+      "title": "阿勒颇电厂639兆瓦修复签约捷克企业",
+      "url": "https://sana.sy/en/investment/2358892/",
+      "source": "SANA 经济",
+      "summary": "叙利亚与捷克公司签署协议，修复阿勒颇电厂639兆瓦发电能力，用于缓解北部电力短缺，并恢复工业与居民供电。",
+      "importance": 7
+    },
+    {
+      "title": "阿勒颇机场扩建开工，目标年吞吐200万人次",
+      "url": "https://sana.sy/en/syria/2359017/",
+      "source": "SANA 经济",
+      "summary": "阿勒颇国际机场扩建工程启动，完工后年旅客吞吐能力将提升至200万人次，航站与配套货运设施同步升级。",
+      "importance": 6
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "叙利亚下调柴油价格逾14%",
+      "url": "https://syrianobserver.com/society/syrian-ministry-of-energy-cuts-diesel-prices-by-more-than-14.html",
+      "source": "Syrian Observer",
+      "summary": "叙能源部宣布一级柴油价格下调逾14%，降至每升150叙镑，自当日午夜起生效，新燃料定价公报同步调整其他油品价格。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙镑双轨汇率价差扩大，进口企业承压",
+      "url": "https://syrianobserver.com/society/syrian-pound-comes-under-pressure-as-exchange-rate-gap-widens.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚双轨汇率制度下官方价与市场价差距走阔，依赖进口货物与美元计价投入的企业财务规划难度上升。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚柑橘产量增18%，产值5.88亿美元",
+      "url": "https://sana.sy/en/economic/2358874/",
+      "source": "SANA 经济",
+      "summary": "本季叙利亚柑橘产量同比增长18%，总产值约5.88亿美元，是农产品出口与农户收入的重要来源。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚国际纺织展在大马士革闭幕",
+      "url": "https://sana.sy/en/economic/2358791/",
+      "source": "SANA 经济",
+      "summary": "叙利亚国际纺织展览会在大马士革结束，展会聚焦纺织原料、设备与成衣订单对接，被视为出口行业重启的窗口。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙利亚新司法审查法：可挑战政府决定",
+      "url": "https://syrianobserver.com/syrian-actors/syrias-new-law-on-judicial-review-what-it-changes-and-why-it-matters.html",
+      "source": "Syrian Observer",
+      "summary": "叙议会推进新司法审查法，移除挑战政府决定的程序障碍，扩大法院对行政行为的审查范围；议长称此举有助落实宪法权利。",
+      "importance": 8
+    },
+    {
+      "title": "贾拉马纳汽车炸弹致人员死伤",
+      "url": "https://syrianobserver.com/syrian-actors/one-killed-three-injured-in-jaramana-car-bombing.html",
+      "source": "Syrian Observer",
+      "summary": "大马士革郊区贾拉马纳一辆车内简易爆炸装置被引爆，造成人员死亡与受伤，叙国家电视台称爆炸发生在电池制造设施附近。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚连续第二年高规格参与COP31",
+      "url": "https://levant24.com/en/article/syria-deepens-climate-engagement-at-cop31",
+      "source": "Levant24",
+      "summary": "叙利亚参加在土耳其安塔利亚举行的COP31气候大会，为连续第二年派出高层代表，并与联合国官员讨论环境与气候合作。（多家报道）",
+      "importance": 6
+    }
+  ],
+  "editor_note": "柴油降价与基建签约释放开放信号，但汇率双轨与街头暴力提醒：经济修复与安全治理需同步推进。",
+  "keywords": [
+    "叙利亚",
+    "柴油降价",
+    "叙镑汇率",
+    "阿勒颇机场",
+    "司法审查法",
+    "COP31",
+    "电信投资",
+    "汽车炸弹"
+  ]
+}
