@@ -1,0 +1,75 @@
+{
+  "hero_headline": "叙利亚镑承压下行，欧盟与海湾资本加快布局重建",
+  "daily_overview": "11月16日资讯集中于叙利亚战后经济与外交。金融层面，叙利亚镑在贸易逆差、生产疲弱与财政压力叠加下继续走低，燃料成本高企令民生承压；同时，伊斯兰银行获批、沙特企业勘探阿勒颇油页岩、欧洲伙伴洽谈能源与水利投资，显示重建资本正通过多种渠道进入。外交上，欧盟表态寻求提升对叙关系并称叙稳定关乎地区安全，联合国难民署推动难民可持续返乡，而以色列在叙南部军事存在扩张引发当地巴勒斯坦家庭担忧。立法与改革推进仍受内部程序制约。今日候选资讯中未见科技类条目，科技简报暂缺。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "经济学家：叙镑贬值源于贸易逆差与生产疲弱",
+      "url": "https://syrianobserver.com/society/trade-deficits-weak-production-and-fiscal-strains-drive-syrian-pound-lower.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚电视台采访的经济学家认为，叙镑贬值不能仅归因于短期货币因素，贸易逆差、生产疲弱与财政压力是主要拖累。",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚批准一家伊斯兰银行，资本1.5亿美元",
+      "url": "https://sana.sy/en/economic/2359345/",
+      "source": "SANA 经济",
+      "summary": "叙利亚批准设立Al-Etihad伊斯兰银行，注册资本1.5亿美元，为战后金融体系引入新的持牌机构。",
+      "importance": 7
+    },
+    {
+      "title": "沙特企业签约勘探阿勒颇油页岩",
+      "url": "https://sana.sy/en/economic/2359156/",
+      "source": "SANA 经济",
+      "summary": "一家沙特企业与叙方签署协议，将在阿勒颇省勘探油页岩矿床，被视为海湾资本进入叙能源上游的最新动作。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚与欧洲伙伴磋商能源、水利投资",
+      "url": "https://sana.sy/en/syria/2359249/",
+      "source": "SANA 时政",
+      "summary": "叙方与欧洲伙伴就能源和水利领域投资举行磋商，并与捷克讨论能源部门合作开发（多家报道）。",
+      "importance": 7
+    },
+    {
+      "title": "燃料成本高企，叙利亚家庭寒冬承压",
+      "url": "https://levant24.com/en/article/fuel-costs-leave-syrian-families-facing-a-cold-winter",
+      "source": "Levant24",
+      "summary": "报道显示，取暖燃料价格高企使叙利亚多地家庭冬季取暖困难，部分家庭改用橄榄核压制的燃料。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "欧盟称寻求提升对叙关系并推动投资",
+      "url": "https://syrianobserver.com/foreign-actors/kallas-eu-seeks-to-elevate-relations-with-syria.html",
+      "source": "Syrian Observer",
+      "summary": "欧盟外交与安全政策高级代表卡拉斯表示，欧盟寻求加强对叙伙伴关系并动员更多投资；欧盟专员同时称叙稳定关乎地区安全（多家报道）。",
+      "importance": 8
+    },
+    {
+      "title": "以色列在叙南部扩张引发巴勒斯坦人担忧",
+      "url": "https://syriadirect.org/a-second-nakba-palestinians-in-southern-syria-fear-israeli-expansion/",
+      "source": "Syria Direct",
+      "summary": "以色列在叙南部扩大军事存在，令1948年流离失所的巴勒斯坦家庭担忧再次失去住所，当地人担心出现「第二次纳克巴」。",
+      "importance": 7
+    },
+    {
+      "title": "联合国难民署访叙推进难民可持续返乡",
+      "url": "https://levant24.com/en/article/unhcr-visits-syria-to-advance-sustainable-returns",
+      "source": "Levant24",
+      "summary": "联合国难民署负责行动事务的助理高级专员访问叙利亚，跟进难民返乡与可持续安置相关工作。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "资本与外交同步升温，但叙镑贬值与燃料短缺提示：重建能否落地，取决于生产恢复与制度效率，而非仅靠外部承诺。",
+  "keywords": [
+    "叙利亚镑",
+    "欧盟对叙关系",
+    "能源投资",
+    "伊斯兰银行",
+    "油页岩",
+    "难民返乡",
+    "以色列军事存在"
+  ]
+}
