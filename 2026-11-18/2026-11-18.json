@@ -1,0 +1,68 @@
+{
+  "hero_headline": "欧盟升级对叙关系，叙利亚多线推进重建与外交",
+  "daily_overview": "11月17日资讯集中于叙利亚重建与地区局势。财经方面，大马士革穆凡皮克酒店与 al-Arab 商场项目开工，沙特企业承接关键公路修复，伊斯兰开发银行出资290万美元支持道路研究，欧盟拟推出1.75亿欧元支持包，欧洲之翼获批开通大马士革至德国四城航线。时政方面，欧盟将对叙关系提升至新层级，多国使节重申支持叙恢复；叙利亚与土耳其重申主权与双边合作；约旦、埃及谴责以色列在叙南部德拉、库奈特拉的军事行动及由此造成的平民流离。科技领域本期候选资讯无相关条目，暂缺。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "欧盟拟推1.75亿欧元对叙支持包",
+      "url": "https://sana.sy/en/investment/2359462/",
+      "source": "SANA 投资",
+      "summary": "欧盟计划为叙利亚提供约1.75亿欧元支持包，同时呼吁私营部门加大对叙投资，配合其对叙关系整体升级的安排。",
+      "importance": 8
+    },
+    {
+      "title": "沙特企业与伊斯兰开发银行介入叙公路修复",
+      "url": "https://sana.sy/en/investment/2359500/",
+      "source": "SANA 投资",
+      "summary": "叙利亚与沙特公司签署协议，由后者监督关键公路修复项目；伊斯兰开发银行另提供290万美元用于道路研究，干线修复资金呈多渠道推进。（多家报道）",
+      "importance": 6
+    },
+    {
+      "title": "欧洲之翼获批开通大马士革至德国四城航线",
+      "url": "https://sana.sy/en/economic/2359516/",
+      "source": "SANA 经济",
+      "summary": "德国欧洲之翼航空获准开通从大马士革飞往德国四座城市的航班，叙利亚与外部的航空连通在多年中断后继续恢复。",
+      "importance": 6
+    },
+    {
+      "title": "大马士革穆凡皮克酒店与 al-Arab 商场项目开工",
+      "url": "https://sana.sy/en/economic/2359539/",
+      "source": "SANA 经济",
+      "summary": "叙利亚方面宣布大马士革穆凡皮克（Mövenpick）酒店与 al-Arab 商场项目进入施工阶段，属首都酒店与商业设施重启的重点工程。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "以色列在叙南部升级行动，约旦埃及表态谴责",
+      "url": "https://levant24.com/en/article/israeli-escalation-displaces-civilians-from-western-daraa",
+      "source": "Levant24",
+      "summary": "以色列军队本周在德拉西部加强袭击，突入民居并向居民区与农田开火，造成平民流离；约旦与埃及谴责以方在叙南部军事行动，叙方亦就库奈特拉与德拉乡村的渗透表示谴责。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "欧盟将对叙关系提升至新层级",
+      "url": "https://levant24.com/en/article/eu-moves-to-take-ties-with-syria-to-a-new-level",
+      "source": "Levant24",
+      "summary": "2024年12月阿萨德政权倒台后，欧盟对叙政策明显转变；欧盟中东事务负责人称支持以叙国家优先事项为基础，多国使节亦在叙重申合作与支持重建。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙土外长防长在安卡拉会晤，重申主权与合作",
+      "url": "https://sana.sy/en/politics/2359531/",
+      "source": "SANA 时政",
+      "summary": "叙利亚与土耳其外长、防长在安卡拉举行会谈，双方重申尊重叙利亚主权与领土完整，并强调加强双边关系、协调地区稳定事务。（多家报道）",
+      "importance": 7
+    }
+  ],
+  "editor_note": "本期信源高度集中于叙利亚：财经主线是重建融资与交通联通，时政主线是欧盟及地区国家关系升温，叙南部安全风险仍需跟踪。",
+  "keywords": [
+    "叙利亚重建",
+    "欧盟对叙援助",
+    "叙南部局势",
+    "大马士革航线复航",
+    "公路修复",
+    "叙土关系",
+    "外资投资"
+  ]
+}
