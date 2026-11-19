@@ -1,0 +1,97 @@
+{
+  "hero_headline": "世界银行与欧盟密集介入，叙利亚重建进入实质阶段",
+  "daily_overview": "叙利亚重建进入密集外交与融资周：世界银行代表团在大马士革获总统接见，并与多部门会谈、考察乔巴尔战区；欧盟主持的伙伴协调论坛开幕，叙方承诺启动普惠制与REX出口登记系统；约旦资本获批以1.5亿美元设银行。技术上，大马士革寻求电信现代化投资，波音洽谈民航重建，美方出口管制被指可能把叙推向中国技术。政治上，沙雷改组经济团队，联合国安理会则警告政治进程停滞、复苏脆弱。",
+  "tech_briefs": [
+    {
+      "title": "叙利亚寻求投资升级电信基础设施",
+      "url": "https://sana.sy/en/economic/2359625/",
+      "source": "SANA 经济",
+      "summary": "叙利亚通信部门表示正寻求外部投资，用于电信网络与服务的现代化改造，以支撑战后重建与数字服务恢复。",
+      "importance": 6
+    },
+    {
+      "title": "美出口管制或推动叙利亚采用中国技术",
+      "url": "https://syrianobserver.com/foreign-actors/us-export-restrictions-risk-pushing-syria-towards-chinese-technology.html",
+      "source": "Syrian Observer",
+      "summary": "美国国会议员威尔逊警告，维持对叙出口管制将削弱美企在重建中的份额，反而让中国技术在通信等关键领域站稳脚跟。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚与波音洽谈重建民航体系",
+      "url": "https://syrianobserver.com/society/syria-boeing-talks-signal-push-to-rebuild-civil-aviation-sector.html",
+      "source": "Syrian Observer",
+      "summary": "双方磋商不止于购机，还涉及维修、人员培训与适航标准等能力建设，意在恢复被战争严重削弱的民航运输与航空产业链。",
+      "importance": 7
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "世界银行代表团访叙，考察多处重建项目",
+      "url": "https://sana.sy/en/presidency/2359845/",
+      "source": "SANA 经济",
+      "summary": "世界银行代表团在大马士革获总统沙雷接见，并与多个部委商谈联合项目，还实地考察受损的乔巴尔区，聚焦重建融资与机构能力建设。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "约旦资本获批在叙设银行，投资1.5亿美元",
+      "url": "https://levant24.com/en/article/jordanian-bank-to-enter-syria-in-major-150-million-deal",
+      "source": "Levant24",
+      "summary": "叙利亚央行批准设立由约旦方面战略合作支持的私营银行「联合银行」，投资规模约1.5亿美元，为战后较大规模的外资金融准入之一。",
+      "importance": 8
+    },
+    {
+      "title": "欧盟—叙利亚伙伴协调论坛在大马士革开幕",
+      "url": "https://levant24.com/en/article/eu-backs-syrias-recovery-through-partnership-forum",
+      "source": "Levant24",
+      "summary": "叙利亚伙伴协调论坛在大马士革开幕，叙方同时承诺启动欧盟普惠制与REX出口登记系统，双方还就医院修复、基础设施与金融改革展开磋商。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙金价每克下跌400叙镑，跟随国际行情回落",
+      "url": "https://sana.sy/en/economic/2359725/",
+      "source": "SANA 经济",
+      "summary": "受国际金价下行带动，叙利亚市场黄金每克价格下跌400叙镑，显示本地贵金属价格对全球行情的直接联动。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚主权财富基金仍需先补齐制度基础",
+      "url": "https://syrianobserver.com/uncategorized/the-syrian-sovereign-wealth-fund-and-the-santiago-principles.html",
+      "source": "Syrian Observer",
+      "summary": "评论指出，主权财富基金要对接《圣地亚哥原则》，除资金外更需治理架构、透明度与投资决策机制，叙利亚目前仍处起步阶段。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "沙雷任命新经济部长，前任转任总统顾问",
+      "url": "https://syrianobserver.com/syrian-actors/sharaa-appoints-new-economy-minister-moves-shaar-to-presidential-advisory-role.html",
+      "source": "Syrian Observer",
+      "summary": "新任经济部长将继续兼任叙利亚投资局局长，原部长沙尔转任总统府顾问，被视为经济决策团队的一次重组。",
+      "importance": 8
+    },
+    {
+      "title": "安理会审议叙利亚局势，联合国称政治进程停滞",
+      "url": "https://syrianobserver.com/syrian-actors/security-council-examines-syrian-developments-as-un-warns-recovery-remains-fragile-and-political-track-stalled.html",
+      "source": "Syrian Observer",
+      "summary": "联合国副特使科尔多内通报过渡人民议会等制度建设进展，同时警告复苏仍脆弱、政治轨道停滞，呼吁推进包容性政治安排。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "叙外长称愿在地区安全中承担更大角色",
+      "url": "https://syrianobserver.com/syrian-actors/syria-seeks-a-larger-security-role-as-it-courts-europe-fm.html",
+      "source": "Syrian Observer",
+      "summary": "示巴尼在布鲁塞尔会见联合国反恐官员及前美方叙利亚事务顾问霍夫等，强调重建民政、安全与军事机构，称叙利亚是地区安全与反恐的关键伙伴。（多家报道）",
+      "importance": 7
+    }
+  ],
+  "editor_note": "叙利亚议题正从战场转向融资与制度：外援与邻国资本能否真正转化为民生改善，仍取决于治理能力与政治进程。",
+  "keywords": [
+    "叙利亚重建",
+    "世界银行",
+    "欧盟普惠制",
+    "REX系统",
+    "电信现代化",
+    "沙雷改组",
+    "联合国安理会"
+  ]
+}
