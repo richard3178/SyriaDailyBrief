@@ -1,0 +1,105 @@
+{
+  "hero_headline": "叙利亚改组经济团队，电力重建与外资同步推进",
+  "daily_overview": "11月19日叙利亚资讯集中释放重建信号：财政与信息部门就新税制协调对外沟通，总统改组经济领导层，经济与外贸部长留任并推动石油、电力领域对外合作；雪佛龙海上备忘录有望转为执行协议，大马士革在欧盟-约旦论坛推出约150亿美元项目。基础设施方面，全国电力以8000兆瓦为稳定供应基准，欧盟技术援助中心与航空安全监管机制同步落地。外交上，外长赴利雅得磋商并推动欧盟安全与投资伙伴关系，联合国关于戈兰的投票成为焦点。",
+  "tech_briefs": [
+    {
+      "title": "叙电力稳定供应需约8000兆瓦装机",
+      "url": "https://sana.sy/en/economic/2360084/",
+      "source": "SANA 经济",
+      "summary": "叙能源部门表示，全国电力系统实现稳定供应需约8000兆瓦装机，多座电站仍待修复重启，短期供电能力与需求之间存在明显缺口。",
+      "importance": 7
+    },
+    {
+      "title": "叙与欧洲复兴开发银行谈能源水务融资",
+      "url": "https://sana.sy/en/economic/2360137/",
+      "source": "SANA 经济",
+      "summary": "叙能源部长与欧洲复兴开发银行代表团会谈，讨论对该国能源与水务项目的支持方案，涉及融资渠道与技术合作方向。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚与欧盟启动技术援助中心",
+      "url": "https://sana.sy/en/investment/2359901/",
+      "source": "SANA 投资",
+      "summary": "叙利亚与欧盟启动技术援助中心，目标是提升叙方机构在治理、行政与项目管理方面的能力，属双方合作框架下的机制性安排。",
+      "importance": 7
+    },
+    {
+      "title": "叙利亚加入中东航空安全监督机构",
+      "url": "https://sana.sy/en/syria/2360107/",
+      "source": "SANA 主站",
+      "summary": "叙利亚加入中东和北非地区航空安全监督组织，意味着其民航监管将对接区域安全审查与信息共享机制。",
+      "importance": 5
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "叙利亚改组经济领导层，经济部长留任",
+      "url": "https://levant24.com/en/article/syria-reshuffles-economic-leadership",
+      "source": "Levant24",
+      "summary": "叙利亚总统沙拉改组经济要职，任命艾哈迈德·拉马丹为经济与外贸部长，并保留其原有职务，涉及多个经济岗位调整。",
+      "importance": 8
+    },
+    {
+      "title": "叙石油公司与雪佛龙推进海上协议落地",
+      "url": "https://sana.sy/en/economic/2360129/",
+      "source": "SANA 经济",
+      "summary": "叙利亚石油公司与雪佛龙正把此前签署的海上合作谅解备忘录推进为可执行协议，涉及地中海近海油气勘探与开发安排。",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚在欧盟-约旦论坛推介150亿美元项目",
+      "url": "https://sana.sy/en/investment/2360045/",
+      "source": "SANA 经济",
+      "summary": "叙利亚参加欧盟-约旦投资论坛，推介总额约150亿美元的项目清单，并就地产业与商贸合作机会与各方接触（多家报道）。",
+      "importance": 7
+    },
+    {
+      "title": "叙外长访布鲁塞尔，寻求欧盟安全与投资合作",
+      "url": "https://levant24.com/en/article/syria-seeks-eu-partnership-on-security-and-investment",
+      "source": "Levant24",
+      "summary": "叙外长沙伊巴尼访问布鲁塞尔，与欧盟方面就安全合作与投资展开高层磋商，试图将大马士革定位为区域合作伙伴。",
+      "importance": 7
+    },
+    {
+      "title": "叙财政与信息部门协调新税制对外沟通",
+      "url": "https://sana.sy/en/economic/2360151/",
+      "source": "SANA 经济",
+      "summary": "叙利亚财政部长与信息部长讨论新税制的媒体协调安排，涉及政策解读与对外发布口径的统一。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙外长称联合国涉戈兰投票否定占领合法性",
+      "url": "https://syrianobserver.com/foreign-actors/shibani-un-vote-on-golan-reaffirms-that-occupation-does-not-confer-legitimacy.html",
+      "source": "Syrian Observer",
+      "summary": "沙伊巴尼就联合国大会涉戈兰投票表态，称结果说明占领不能赋予合法性，也不能消除相关权利。",
+      "importance": 8
+    },
+    {
+      "title": "叙外长在利雅得会见沙特外长",
+      "url": "https://sana.sy/en/politics/2360101/",
+      "source": "SANA 时政",
+      "summary": "叙外长沙伊巴尼在利雅得会见沙特外长，讨论双边关系与地区局势，此行延续其10月的访问行程（多家报道）。",
+      "importance": 7
+    },
+    {
+      "title": "叙内政部宣布抓获2014年袭击案主谋",
+      "url": "https://sana.sy/en/syria/2360143/",
+      "source": "SANA 主站",
+      "summary": "叙内政部长宣布抓获2014年al-Otaiba屠杀事件的主谋，该案为叙利亚内战期间的重大袭击事件之一。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "今日信源高度集中于叙利亚，重建资金与电力短板是主线；技术类条目多为基础设施与机制建设，需与产业技术区分看待。",
+  "keywords": [
+    "叙利亚重建",
+    "经济改组",
+    "电力缺口",
+    "雪佛龙",
+    "欧盟合作",
+    "戈兰高地",
+    "沙特关系",
+    "投资论坛"
+  ]
+}
