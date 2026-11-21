@@ -1,0 +1,98 @@
+{
+  "hero_headline": "叙利亚战后重建提速：外资入场、追责并行",
+  "daily_overview": "11月20日，叙利亚战后重建在多条线上同步推进。经济上，财政部与国际货币基金组织磋商2026年经济表现与2027年预算，法国企业赴叙考察投资，大马士革纺织展汇集114家企业寻找出口，叙约推动联合商业项目；但自由化带来的代价逐渐显现，本土果农正承受进口冲击。政治上，叙方评估加入「麦加联盟」，联合国与欧盟讨论支持重建，过渡司法与追责继续推进。技术上，叙埃磋商数字基础设施与电信合作，边境部门赴阿布扎比讨论旅客数据系统，代尔祖尔管道爆炸暴露关键基础设施安全短板。",
+  "tech_briefs": [
+    {
+      "title": "叙埃磋商数字基础设施与电信合作",
+      "url": "https://sana.sy/en/economic/2360166/",
+      "source": "SANA 经济",
+      "summary": "叙利亚与埃及就数字基础设施项目和电信领域合作进行磋商，议题涉及网络建设、通信服务与跨境互联，具体项目清单与投资规模尚未公布。",
+      "importance": 6
+    },
+    {
+      "title": "叙边境部门赴阿布扎比讨论旅客数据系统",
+      "url": "https://sana.sy/en/syria/2360338/",
+      "source": "SANA 主站",
+      "summary": "叙利亚边境与海关总局参加在阿布扎比举行的旅客数据系统会议，议题涉及出入境数据交换标准与边境管理数字化，属于海关流程现代化的技术合作。",
+      "importance": 5
+    },
+    {
+      "title": "代尔祖尔天然气管道爆炸引发破坏担忧",
+      "url": "https://levant24.com/en/article/gas-pipeline-explosion-raises-sabotage-concerns-in-deir-ezzor",
+      "source": "Levant24",
+      "summary": "代尔祖尔一处天然气管道发生爆炸并起火，消防与救援力量到场处置。当地对事故是否属人为破坏存在担忧，能源设施的安全防护短板再次受到关注。",
+      "importance": 6
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "叙财政部与国际货币基金组织磋商预算",
+      "url": "https://sana.sy/en/economic/2360287/",
+      "source": "SANA 经济",
+      "summary": "叙利亚财政部与国际货币基金组织就2026年经济运行情况和2027年预算框架进行讨论，涉及财政收支安排与宏观经济稳定等议题。",
+      "importance": 8
+    },
+    {
+      "title": "法国企业赴叙考察投资机会",
+      "url": "https://sana.sy/en/investment/2360264/",
+      "source": "SANA 投资",
+      "summary": "法国企业代表团访问叙利亚考察投资机会，与叙方就战后重建项目和营商环境交换意见，具体投资领域与金额尚未公开。",
+      "importance": 7
+    },
+    {
+      "title": "大马士革纺织展开幕，114家企业寻出口",
+      "url": "https://sana.sy/en/economic/2360255/",
+      "source": "SANA 经济",
+      "summary": "叙利亚纺织展（SyriaTex Expo）在大马士革开幕，共有114家企业参展，主办方希望借此开拓新的出口市场，重振纺织业的外销渠道。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚与约旦推动联合商业项目",
+      "url": "https://sana.sy/en/economic/2360226/",
+      "source": "SANA 经济",
+      "summary": "叙利亚寻求加强与约旦的投资联系，双方探讨建立联合商业项目，议题涉及跨境贸易便利化与产业合作对接。",
+      "importance": 6
+    },
+    {
+      "title": "经济自由化代价显现：果农遭遇进口冲击",
+      "url": "https://syriadirect.org/bad-apples-the-bitter-cost-of-syrias-economic-liberalization/",
+      "source": "Syria Direct",
+      "summary": "战争摧毁马达亚果园后，当地苹果种植户又面临廉价进口、生产成本上升与国家支持减少的三重压力，反映叙利亚经济自由化转型中的结构性阵痛。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙利亚评估加入「麦加联盟」可能性",
+      "url": "https://levant24.com/en/article/the-mecca-pact-a-strategic-gamble-for-syria",
+      "source": "Levant24",
+      "summary": "叙利亚外长表示正就加入「麦加联盟」进行评估与讨论，分析人士认为这将是叙利亚重塑地区站位的一次战略押注，最终取舍取决于地区各方的接纳程度。",
+      "importance": 8
+    },
+    {
+      "title": "联合国与欧盟讨论支持叙重建",
+      "url": "https://sana.sy/en/politics/2360315/",
+      "source": "SANA 主站",
+      "summary": "联合国与欧盟就支持叙利亚恢复与重建进行讨论，重点涉及人道援助、基础设施修复及重建资金筹措渠道。",
+      "importance": 7
+    },
+    {
+      "title": "过渡司法推进，叙官员承诺全面追责",
+      "url": "https://levant24.com/en/article/syrias-transitional-justice-process-continues-amid-challenges",
+      "source": "Levant24",
+      "summary": "叙利亚过渡司法进程在阻力中继续推进，阿勒颇等地民众要求追究与阿萨德政权相关的责任；叙官员安纳斯·哈塔卜表态将追究所有犯罪责任人，但机制与时间表仍不明晰。（多家报道）",
+      "importance": 7
+    }
+  ],
+  "editor_note": "重建叙事之下，叙利亚的开放红利与本土产业承压并存；司法追责的进度与地区站位选择，将决定外部资本实际入场的节奏。",
+  "keywords": [
+    "叙利亚重建",
+    "外资投资",
+    "国际货币基金组织",
+    "过渡司法",
+    "麦加联盟",
+    "数字基础设施",
+    "能源安全",
+    "纺织出口"
+  ]
+}
