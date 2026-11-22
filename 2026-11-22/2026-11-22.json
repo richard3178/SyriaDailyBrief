@@ -1,0 +1,83 @@
+{
+  "hero_headline": "叙利亚重建提速：水泥厂落地、制裁松动与航线复飞",
+  "daily_overview": "11月21日，叙利亚重建信号集中释放：伊德利卜开工2.3亿美元私营水泥厂，叙德磋商住房修复，叙航将复飞开罗，叙石油公司与道达尔加快海上3号区块合同。外交上，叙外长连访利雅得、安卡拉与布鲁塞尔并与美方接触，叙欧讨论解除剩余制裁，联合国决议草案被视为对重建的支持。技术侧仅有伊斯坦布尔生物识别与身份管理研讨会，显示证件与身份体系数字化起步。总体看，资金、制裁与航空连通三线并进，但返乡安置与建材、电力瓶颈仍在。",
+  "tech_briefs": [
+    {
+      "title": "叙利亚参加伊斯坦布尔生物识别与身份管理研讨",
+      "url": "https://sana.sy/en/syria/2360443/",
+      "source": "SANA 主站",
+      "summary": "叙方代表出席伊斯坦布尔生物识别与身份管理研讨会，议题涉及证件数字化、身份核验与数据库建设。此类基础设施是恢复金融、边检与公共服务的前置条件。",
+      "importance": 4
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "伊德利卜开工2.3亿美元私营水泥厂",
+      "url": "https://levant24.com/en/article/230-million-cement-plant-investment-signals-syrias-reconstruction-push",
+      "source": "Levant24",
+      "summary": "私营投资的2.3亿美元水泥厂在伊德利卜吉斯尔舒古尔开工，被视为重建启动的具体信号，投产后有望缓解建材短缺并压低建筑成本。",
+      "importance": 8
+    },
+    {
+      "title": "叙德磋商住房领域修复与重建",
+      "url": "https://sana.sy/en/syria/2360574/",
+      "source": "SANA 主站",
+      "summary": "叙利亚与德国就住房部门修复、恢复与重建举行磋商，涉及技术援助与融资渠道。住房缺口是返乡安置与城市恢复的核心瓶颈。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚航空将开通大马士革、阿勒颇至开罗直航",
+      "url": "https://sana.sy/en/syria/2360570/",
+      "source": "SANA 主站",
+      "summary": "叙利亚航空宣布开通大马士革与阿勒颇至开罗的直飞航班，恢复与地区主要首都的航空连通，便利商务往来与侨民探亲。",
+      "importance": 6
+    },
+    {
+      "title": "叙石油公司与道达尔磋商加速3号海上区块合同",
+      "url": "https://sana.sy/en/economic/2360456/",
+      "source": "SANA 经济",
+      "summary": "叙利亚石油公司与道达尔讨论加快签署海上3号区块勘探合同，涉及地震资料评估与产量分成安排，反映能源领域外资参与的试探性回归。",
+      "importance": 7
+    },
+    {
+      "title": "阿勒颇扎布拉塔尼纺织区聚集500家设施",
+      "url": "https://sana.sy/en/economic/2360471/",
+      "source": "SANA 经济",
+      "summary": "扎布拉塔尼工业区现有约500家生产设施、6000名工人，是叙纺织业主要聚集地；产能恢复仍受电力供应与原料进口制约。",
+      "importance": 5
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "叙外长连续走访利雅得、安卡拉与布鲁塞尔",
+      "url": "https://levant24.com/en/article/shaibanis-diplomatic-push-spans-riyadh-ankara-and-brussels",
+      "source": "Levant24",
+      "summary": "叙利亚外长希巴尼接连访问利雅得、安卡拉与布鲁塞尔，并在安卡拉会见美方官员巴拉克，讨论叙美关系与协调机制，外交回旋空间有所扩大。",
+      "importance": 8
+    },
+    {
+      "title": "叙欧讨论解除剩余欧洲制裁",
+      "url": "https://sana.sy/en/politics/2360599/",
+      "source": "SANA 时政",
+      "summary": "叙利亚与欧盟就解除剩余欧洲制裁展开讨论，重点涉及金融与能源领域限制。解除进度直接影响重建资金与设备能否进入。",
+      "importance": 9
+    },
+    {
+      "title": "苏韦达流离失所者集会要求返乡",
+      "url": "https://levant24.com/en/article/displaced-syrians-press-for-return-as-government-pledges-action",
+      "source": "Levant24",
+      "summary": "苏韦达省流离失所民众在欧姆兰环岛集会，要求返回政府控制区内的村庄；政府承诺推进安置与住房修复，但落实进度待观察。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "重建叙事正从表态转向具体项目与航班，但制裁解除节奏与返乡安置落实，才是决定资金能否真正落地的关键变量。",
+  "keywords": [
+    "叙利亚重建",
+    "欧盟制裁",
+    "水泥投资",
+    "航空复航",
+    "海上油气",
+    "身份管理",
+    "流离失所者"
+  ]
+}
