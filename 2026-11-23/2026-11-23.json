@@ -1,0 +1,90 @@
+{
+  "hero_headline": "土耳其警告以色列或在叙动武，叙重建与经济承压",
+  "daily_overview": "当日资讯集中于叙利亚的战后重建与地区安全。技术上，大马士革与德国就水资源管理与水质标准展开合作，哈塞克南部水坝闸门恢复运行，可灌溉约1.2万公顷农田。财经方面，法媒披露里法特·阿萨德约7700万欧元资金网络，中海油以8亿美元开发卡塔尔油田，叙商会与土耳其代表团商讨扩大贸易，航运企业助推纺织出口。时政主线是外部军事风险：土耳其外长警告以色列或以保护德鲁兹人为由对叙动武，大马士革则对约旦越境空袭保持沉默，以换取安全合作。",
+  "tech_briefs": [
+    {
+      "title": "叙德商讨水管理与水质标准合作",
+      "url": "https://sana.sy/en/syria/2360963/",
+      "source": "SANA 主站",
+      "summary": "叙利亚与德国就改善水资源管理、提升水质标准展开磋商，涉及供水体系运行与监测规范，具体合作规模与时间表尚未公布。",
+      "importance": 5
+    },
+    {
+      "title": "哈塞克南部水坝闸门恢复运行",
+      "url": "https://sana.sy/en/syria/2360917/",
+      "source": "SANA 主站",
+      "summary": "该闸门复运后可为约1.2万公顷农田提供灌溉，缓解当地农业用水紧张，被视为叙水利设施修复的阶段性进展。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚推进沙漠绿洲修复应对干旱",
+      "url": "https://sana.sy/en/economic/2360824/",
+      "source": "SANA 经济",
+      "summary": "在干旱威胁农村生计的背景下，叙方推进绿洲与水源修复，重点恢复传统灌溉方式与植被覆盖，官方未披露资金规模与实施范围。",
+      "importance": 4
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "法媒披露里法特·阿萨德7700万欧元资金网络",
+      "url": "https://levant24.com/en/article/le-monde-details-rifaat-assads-77-million-euro-financial-network",
+      "source": "Levant24",
+      "summary": "法国《世界报》调查称，阿萨德家族成员里法特通过欧洲多家银行流转约7700万欧元资产，涉及洗钱审查；叙观察机构亦称其资金借助欧洲银行体系隐匿。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "中海油拟以8亿美元开发卡塔尔油田",
+      "url": "https://sana.sy/en/economic/2360937/",
+      "source": "SANA 经济",
+      "summary": "报道称中国海洋石油集团与卡塔尔方面达成约8亿美元协议，参与开发一处卡塔尔油田，具体权益比例与投产时间未予披露。",
+      "importance": 7
+    },
+    {
+      "title": "叙商会与土耳其代表团商讨扩大贸易",
+      "url": "https://sana.sy/en/economic/2360953/",
+      "source": "SANA 经济",
+      "summary": "大马士革商会与来访土耳其代表团举行会谈，讨论拓宽双边贸易与投资渠道，议题细节和后续安排尚未公开。",
+      "importance": 5
+    },
+    {
+      "title": "航运企业助推叙纺织出口阿拉伯市场",
+      "url": "https://sana.sy/en/economic/2360809/",
+      "source": "SANA 经济",
+      "summary": "多家航运企业与叙纺织业界合作，扩展通往阿拉伯国家的运输线路，以降低出口物流成本、缩短交付周期。",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "土耳其外长警告以色列或对叙动武",
+      "url": "https://syrianobserver.com/foreign-actors/fidan-warns-of-possible-israeli-military-action-against-syria-under-pretext-of-protecting-druze.html",
+      "source": "Syrian Observer",
+      "summary": "土耳其外长费丹称，以色列可能以保护德鲁兹人为由在叙南部采取军事行动，并警告局势可能升级为更大范围对抗。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "大马士革对约旦越境空袭保持沉默",
+      "url": "https://syriadirect.org/the-bloody-price-of-partnership-why-damascus-is-overlooking-jordans-deadly-strikes/",
+      "source": "Syria Direct",
+      "summary": "叙南部遭约旦致命空袭后，大马士革未公开谴责，而是优先推进与安曼的安全合作、贸易与外交，主权与地区融入的代价引发讨论。",
+      "importance": 7
+    },
+    {
+      "title": "国际特赦组织呼吁德国停止遣返叙利亚人",
+      "url": "https://syrianobserver.com/refugees/amnesty-international-urges-germany-not-to-deport-syrians.html",
+      "source": "Syrian Observer",
+      "summary": "国际特赦组织德国分部致函各州内政部长与参议员，要求暂停向叙利亚遣返，理由是当地安全与人权状况尚不稳定。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "当日信息多来自叙官方通讯社与境外媒体，口径差异明显，涉安全指控与资金流向的条目宜交叉核对后再引用。",
+  "keywords": [
+    "叙利亚重建",
+    "里法特·阿萨德",
+    "中海油卡塔尔",
+    "土耳其警告以色列",
+    "水资源合作",
+    "纺织出口",
+    "约旦空袭"
+  ]
+}
