@@ -1,0 +1,97 @@
+{
+  "hero_headline": "叙利亚重建提速：电信复通、保险改革与外交松动",
+  "daily_overview": "11月23日，叙利亚重建在多条战线同步推进。技术层面，代尔祖尔中断14年后恢复固定电话服务，国际民航组织与世粮署投入105万美元升级航空导航系统，交通基础设施对外寻求投资。财经方面，财政部与粮农组织讨论农业融资，政府发布保险业现代化战略，叙土经贸工业合作升温，金价每克上涨200叙镑。时政上，美方考虑为叙军提供排雷培训，澳大利亚将沙姆解放组织移出恐怖名单，库尔德语首次进入大马士革课堂。",
+  "tech_briefs": [
+    {
+      "title": "代尔祖尔中断14年后恢复固定电话服务",
+      "url": "https://sana.sy/en/syria/2361210/",
+      "source": "SANA 时政",
+      "summary": "叙利亚东部代尔祖尔省在中断14年后重新开通固定电话服务，工程涉及骨干线路与交换设备修复，被视为当地通信基础设施恢复的第一步。",
+      "importance": 6
+    },
+    {
+      "title": "国际民航组织与世粮署投入105万美元升级叙利亚航空导航系统",
+      "url": "https://sana.sy/en/investment/2361215/",
+      "source": "SANA 投资",
+      "summary": "国际民航组织与联合国世界粮食计划署签署105万美元协议，用于更新叙利亚航空导航设备，以提升航班运行安全与空域管理能力。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚寻求国际投资更新交通基础设施",
+      "url": "https://sana.sy/en/economic/2361192/",
+      "source": "SANA 经济",
+      "summary": "叙方对外招商，计划以国际投资改造公路、港口与铁路等交通资产，将其列为战后物流与贸易恢复的优先事项。",
+      "importance": 5
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "财政部与粮农组织商讨农业融资与环境合作",
+      "url": "https://sana.sy/en/economic/2361326/",
+      "source": "SANA 经济",
+      "summary": "叙财政部长与联合国粮农组织代表会谈，讨论农业信贷与农村融资渠道，并涉及环境合作及灾后恢复优先事项。（多家报道）",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚发布保险业现代化国家战略",
+      "url": "https://sana.sy/en/economic/2361156/",
+      "source": "SANA 经济",
+      "summary": "叙政府公布保险业现代化国家战略，拟完善监管框架、扩大险种覆盖，官员称做强保险业可为经济复苏提供长期资金。（多家报道）",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚与土耳其磋商深化经贸与工业合作",
+      "url": "https://sana.sy/en/economic/2361303/",
+      "source": "SANA 经济",
+      "summary": "两国官员就扩大双边贸易、工业配套与投资便利化举行磋商，边境口岸通行与运输通道是重点议题。",
+      "importance": 6
+    },
+    {
+      "title": "叙利亚市场金价每克上涨200叙镑",
+      "url": "https://sana.sy/en/economic/2361250/",
+      "source": "SANA 经济",
+      "summary": "叙利亚本地市场黄金价格每克上调200叙镑，交易商称本币贬值压力与避险需求同时推高报价，成交以小额为主。",
+      "importance": 4
+    },
+    {
+      "title": "叙利亚开心果减产但仍维持出口",
+      "url": "https://sana.sy/en/economic/2361197/",
+      "source": "SANA 经济",
+      "summary": "叙利亚开心果在干旱与灌溉不足导致减产的情况下仍保持出口渠道，加工能力有限制约产业恢复。",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "美方评估为叙利亚军队提供排雷培训",
+      "url": "https://syrianobserver.com/foreign-actors/washington-considers-demining-training-program-for-syrian-military.html",
+      "source": "Syrian Observer",
+      "summary": "路透援引消息人士称，华盛顿正考虑为叙利亚军队设立排雷与爆炸物处置培训项目，若落地或为更广泛的军事合作提供路径。",
+      "importance": 7
+    },
+    {
+      "title": "澳大利亚将沙姆解放组织移出恐怖组织名单",
+      "url": "https://syrianobserver.com/foreign-actors/australia-removes-hts-from-sanctions-lists-but-retains-restrictions-on-syrian-sovereign-fund-figure.html",
+      "source": "Syrian Observer",
+      "summary": "澳大利亚政府发布决定，将沙姆解放组织从恐怖组织名单中移除并解除相关金融制裁，同时对一名叙利亚主权基金相关人物保留限制。",
+      "importance": 7
+    },
+    {
+      "title": "库尔德语首次进入大马士革学校课堂",
+      "url": "https://levant24.com/en/article/kurdish-language-enters-damascus-schools-for-first-time",
+      "source": "Levant24",
+      "summary": "2026至2027学年，库尔德语首次在全国范围内进入叙利亚正规教育体系，大马士革学校已开课，被视为语言与少数群体政策的调整信号。",
+      "importance": 6
+    }
+  ],
+  "editor_note": "当日信息集中于重建与外交换取，通信、保险等基础制度进展值得跟踪，但排雷合作与制裁松动仍处早期阶段。",
+  "keywords": [
+    "叙利亚重建",
+    "电信恢复",
+    "保险业改革",
+    "叙土经贸",
+    "排雷培训",
+    "制裁松动",
+    "库尔德语教育"
+  ]
+}
