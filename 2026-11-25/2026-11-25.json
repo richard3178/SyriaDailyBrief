@@ -1,0 +1,97 @@
+{
+  "hero_headline": "欧洲收紧中国混动车进口，叙利亚推进融资与外交重建",
+  "daily_overview": "11月24日资讯几乎全部围绕叙利亚展开，另有一条牵动中欧贸易的汽车议题。财经方面，欧洲对中国混合动力汽车设限、北京警告贸易升级，是当日外溢效应最强的信号；叙利亚同时评估外债、在阿斯旺论坛争取重建资金与制裁松绑。产业侧，大马士革发布可再生能源总体规划，农业合作银行扩大数字支付，央行推动银行业灵活度与监管并进，构成重建的技术底座。时政上，外交部酝酿涉57人的驻外人事调整，美方评估对叙军排雷培训，化武调查因出资不足面临停滞。",
+  "tech_briefs": [
+    {
+      "title": "叙利亚发布可再生能源总体规划，扩大清洁能源投资",
+      "url": "https://sana.sy/en/economic/2361434/",
+      "source": "SANA 经济",
+      "summary": "叙利亚启动可再生能源总体规划，意在为清洁能源项目引入投资，明确装机与并网路线，缓解长期缺电对工业与民生的制约。",
+      "importance": 6
+    },
+    {
+      "title": "叙央行推动银行业灵活度与监管同步升级",
+      "url": "https://sana.sy/en/economic/2361471/",
+      "source": "SANA 经济",
+      "summary": "叙利亚央行出台措施扩大银行业经营灵活度，同时强化审慎监管，指向战后金融体系重建与合规接轨，具体细则尚未公布。",
+      "importance": 6
+    },
+    {
+      "title": "叙农业合作银行签约扩大数字支付服务",
+      "url": "https://sana.sy/en/syria/2361426/",
+      "source": "SANA 经济",
+      "summary": "叙利亚农业合作银行与相关方签署协议扩大数字支付覆盖，便利农户补贴发放、信贷与农产品结算，减少对现金的依赖。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚扩展1500公顷土地修复项目以遏制荒漠化",
+      "url": "https://sana.sy/en/economic/2361474/",
+      "source": "SANA 经济",
+      "summary": "叙利亚将1500公顷退化土地纳入修复范围，通过植被恢复与耕作方式调整应对荒漠化，属跨年度的农业生态工程。",
+      "importance": 5
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "欧洲限制中国混动车进口，北京警告贸易升级",
+      "url": "https://sana.sy/en/economic/2361603/",
+      "source": "SANA 经济",
+      "summary": "欧洲对中国混合动力汽车进口设限，中方回应称此举可能推动贸易摩擦升级，涉及双方汽车产业链与出口安排。",
+      "importance": 9
+    },
+    {
+      "title": "经济承压，叙利亚考虑对外举债",
+      "url": "https://levant24.com/en/article/syria-weighs-foreign-borrowing-as-economic-pressures-mount",
+      "source": "Levant24",
+      "summary": "在重建资金缺口与外汇短缺背景下，叙利亚释放对外借款信号，具体规模、渠道与偿债安排尚未公开。",
+      "importance": 8
+    },
+    {
+      "title": "叙部长在阿斯旺论坛呼吁重建融资与解除制裁",
+      "url": "https://sana.sy/en/syria/2361552/",
+      "source": "SANA 时政",
+      "summary": "叙利亚官员在阿斯旺论坛呼吁国际社会提供重建资金并放宽制裁，称现行限制仍制约银行结算与设备进口。",
+      "importance": 7
+    },
+    {
+      "title": "叙财长磋商滞留阿拉伯国家的叙利亚存款",
+      "url": "https://sana.sy/en/economic/2361554/",
+      "source": "SANA 经济",
+      "summary": "叙利亚财政部长与阿拉伯事务顾问讨论存放于多国银行的叙利亚资金，涉及资产解冻、汇回及用于重建的可能路径。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "美方评估为叙军提供排雷培训，Leahy法构成制约",
+      "url": "https://levant24.com/en/article/us-weighs-mine-clearance-training-for-syrian-forces",
+      "source": "Levant24",
+      "summary": "美方讨论为叙利亚部队提供排雷培训，同时Leahy法限制对涉侵权部队的援助，合作范围取决于审查结果。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙外交部酝酿涉57人驻外人事调整",
+      "url": "https://syrianobserver.com/syrian-actors/sources-to-al-quds-al-arabi-upcoming-syrian-diplomatic-shakeup-includes-57-names-amid-secrecy-and-leak-warnings.html",
+      "source": "Syrian Observer",
+      "summary": "叙利亚外交部准备对驻外使馆与领事机构进行涉及57人的任命与轮换，过程处于保密状态，并出现泄露警告。",
+      "importance": 7
+    },
+    {
+      "title": "化武调查资金短缺，八个场址仍未说明",
+      "url": "https://syrianobserver.com/foreign-actors/eight-sites-still-unaccounted-for-financial-crisis-threatens-completion-of-chemical-weapons-investigations-in-syria.html",
+      "source": "Syrian Observer",
+      "summary": "禁化武组织肯定叙方合作，但美方2026年摊款仅缴纳两成，八个场址仍未交代，调查完成面临资金风险。（多家报道）",
+      "importance": 8
+    }
+  ],
+  "editor_note": "候选信源高度集中于叙利亚一地，缺乏跨地区交叉印证，部分人事与安全议题仍属单一媒体转述，宜谨慎解读。",
+  "keywords": [
+    "中欧汽车贸易",
+    "叙利亚重建",
+    "可再生能源规划",
+    "数字支付",
+    "外债与制裁",
+    "排雷培训",
+    "化学武器调查"
+  ]
+}
