@@ -1,0 +1,98 @@
+{
+  "hero_headline": "叙利亚多线承压：汇率调整、沙特合作与南部安全升级",
+  "daily_overview": "叙利亚当日资讯以经济重建与安全风险两条主线展开。财经方面，当局调整叙镑对美元汇率以贴近市场价，主权基金提出将哈马炼油产能提升约五成，南哈塞克大坝在停运14年后重启，叙沙商务理事会签署发展合作备忘录并磋商扩大小额信贷。科技与民生方面，百年小麦种质筛选、潜水泵机组安装、金饰加工现代化与雨水收集，均指向设备与技术的现实短板。时政方面，苏韦达检查站遭无人机袭击致4人受伤，改革派人物里亚德·赛义夫逝世，叙国防部长与中国方面讨论军事合作，安全与外交议题交织。",
+  "tech_briefs": [
+    {
+      "title": "百年小麦种质或为叙利亚提供抗旱作物选项",
+      "url": "https://sana.sy/en/economic/2361769/",
+      "source": "SANA 经济",
+      "summary": "叙利亚研究人员从长期保存的百年小麦种子中筛选适应性状，探索在干旱与气候波动条件下培育更稳定的小麦品种，以降低对进口种子的依赖。",
+      "importance": 6
+    },
+    {
+      "title": "哈塞克Nafasha水利项目安装潜水泵机组",
+      "url": "https://sana.sy/en/syria/2361841/",
+      "source": "SANA 时政",
+      "summary": "哈塞克省Nafasha供水项目安装潜水泵机组，用于提升取水与输水能力；该类设备可在地下水水位下降时维持供水，缓解灌溉与饮用水的季节性缺口。",
+      "importance": 5
+    },
+    {
+      "title": "叙利亚金饰加工业面临设备与工艺升级压力",
+      "url": "https://sana.sy/en/economic/2361845/",
+      "source": "SANA 经济",
+      "summary": "业内反映，多数金饰作坊仍使用老旧设备与手工工艺，缺乏标准化加工与成色检测能力，制约产品附加值提升，行业呼吁引入现代加工与设计技术。",
+      "importance": 5
+    },
+    {
+      "title": "代尔祖尔推广雨水收集，缓解畜牧用水压力",
+      "url": "https://sana.sy/en/syria/2361759/",
+      "source": "SANA 时政",
+      "summary": "当地畜牧户通过修建集雨设施收集降水，用于牲畜饮水，降低远距离运水成本；该做法成本低、易维护，但实际效果受年降水量波动制约。",
+      "importance": 4
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "叙利亚调整叙镑对美元汇率，向市场价靠拢",
+      "url": "https://syrianobserver.com/syrian-actors/closer-to-market-reality-what-syrias-dollar-adjustment-means-for-the-economy.html",
+      "source": "Syrian Observer",
+      "summary": "叙当局调整叙镑对美元汇率，报道认为此举意在缩小官方价与市场价差距；文章同时指出，货币能否稳定仍取决于生产、财政与经济基本面的持续改善。",
+      "importance": 8
+    },
+    {
+      "title": "叙利亚与沙特签署发展合作备忘录并磋商扩大小额信贷",
+      "url": "https://sana.sy/en/politics/2361859/",
+      "source": "SANA 时政",
+      "summary": "叙利亚与沙特商务理事会签署发展合作框架备忘录；双方同期讨论扩大「Tamkeen」小额信贷倡议的覆盖范围与融资安排，具体金额与时间表尚未公布。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙主权基金拟将哈马炼油产能提升50%",
+      "url": "https://sana.sy/en/economic/2361762/",
+      "source": "SANA 经济",
+      "summary": "叙利亚主权基金提出目标，计划把哈马炼油厂加工能力提高约五成，以缓解成品油供应压力、减少进口依赖，项目资金来源与工期未予披露。",
+      "importance": 7
+    },
+    {
+      "title": "南哈塞克大坝主闸门停运14年后重启",
+      "url": "https://levant24.com/en/article/south-hasakah-dam-reopens-after-14-year-shutdown",
+      "source": "Levant24",
+      "summary": "能源部11月22日宣布重启南哈塞克大坝主闸门，该闸门停运已逾14年；重启将改善下游供水与灌溉调度，发电与供水实际效益仍待评估。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [
+    {
+      "title": "苏韦达安全局势升级，无人机袭击致4人受伤",
+      "url": "https://levant24.com/en/article/suwayda-escalation-raises-risk-of-wider-regional-conflict",
+      "source": "Levant24",
+      "summary": "苏韦达省里马哈齐姆村一处安全检查站遭无人机袭击，4名内务安全部队人员受伤；当地紧张态势加剧，外界担忧冲突外溢至更广区域。",
+      "importance": 9
+    },
+    {
+      "title": "叙利亚改革派人物里亚德·赛义夫逝世",
+      "url": "https://sana.sy/en/syria/2361894/",
+      "source": "SANA 主站",
+      "summary": "长期从事民主运动的叙利亚反对派人物里亚德·赛义夫去世，各界回顾其在政治抗争与公共事务中的角色，叙官员与民间人士先后致哀。（多家报道）",
+      "importance": 7
+    },
+    {
+      "title": "叙国防部长与中国方面讨论军事合作",
+      "url": "https://sana.sy/en/syria/2361831/",
+      "source": "SANA 时政",
+      "summary": "叙利亚国防部长与中国方面就军事合作交换意见，涉及双边防务交流与能力建设等议题；官方未披露合作的具体内容、规模与时间安排。",
+      "importance": 8
+    }
+  ],
+  "editor_note": "本期信息集中于叙利亚战后经济修复与安全治理，单一信源条目偏多，汇率水平与炼油扩能数据仍待后续官方口径印证。",
+  "keywords": [
+    "叙利亚",
+    "汇率调整",
+    "哈马炼油",
+    "南哈塞克大坝",
+    "苏韦达安全",
+    "里亚德·赛义夫",
+    "小麦种质",
+    "叙沙合作"
+  ]
+}
