@@ -1,0 +1,40 @@
+{
+  "hero_headline": "叙「威慑侵略」两周年纪念之际 东部安全机构连遭袭击",
+  "daily_overview": "本期候选资讯高度集中于叙利亚时政。11月27日，哈塞克与代尔祖尔接连发生针对内务安全机构的袭击，「伊斯兰国」被指为幕后，造成多名安全人员死伤，科威特等方予以谴责。同期，大马士革、伊德利卜等地举行「威慑侵略」战役两周年与「解放日」纪念活动，过渡政府部长与省长分赴各地出席。总统沙拉任命库尔德领导人伊勒哈姆·艾哈迈德进入人民议会，女性席位略有增加，议会对外互动亦趋活跃。科技与财经领域本期无可用信源，相关简报留空，不以不实链接充数。读者可将本日简报视作叙利亚安全局势与政治重建进程的一个切片。",
+  "tech_briefs": [],
+  "finance_briefs": [],
+  "politics_briefs": [
+    {
+      "title": "叙东部安全机构连遭袭 伊斯兰国被指为幕后",
+      "url": "https://levant24.com/en/article/isis-attack-in-hasakah-raises-security-concerns-amid-civilian-death",
+      "source": "Levant24",
+      "summary": "11月27日，哈塞克省内务安全总部遭袭，两名安全人员死亡、五人受伤；代尔祖尔另有两名内务安全人员遇袭身亡。科威特对袭击表示谴责。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "叙多地纪念「威慑侵略」战役两周年",
+      "url": "https://levant24.com/en/article/damascus-begins-liberation-day-events-with-citywide-march",
+      "source": "Levant24",
+      "summary": "11月27日起，大马士革、伊德利卜等地举行「威慑侵略」战役两周年与「解放日」纪念活动，从伍麦叶广场出发的游行启动系列活动，多名部长与省长出席。（多家报道）",
+      "importance": 6
+    },
+    {
+      "title": "沙拉任命库尔德领导人艾哈迈德进入人民议会",
+      "url": "https://syrianobserver.com/syrian-actors/president-sharaa-appoints-kurdish-leader-ilham-ahmad-to-syrias-parliament.html",
+      "source": "Syrian Observer",
+      "summary": "叙总统沙拉任命库尔德领导人伊勒哈姆·艾哈迈德为人民议会议员，女性席位略有增加；人民议会近期加强与民众会面等对外活动。（多家报道）",
+      "importance": 6
+    }
+  ],
+  "editor_note": "信源集中于叙利亚一地，安全遇袭与纪念叙事并行；科技、财经暂无可用条目，宁可留白，也不补虚稿。",
+  "keywords": [
+    "叙利亚",
+    "伊斯兰国",
+    "哈塞克",
+    "威慑侵略战役",
+    "人民议会",
+    "库尔德",
+    "反恐",
+    "大马士革"
+  ]
+}
